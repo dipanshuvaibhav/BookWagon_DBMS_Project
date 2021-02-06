@@ -1,0 +1,240 @@
+
+
+mysql> desc bookdb;
++-----------------+--------------+------+-----+---------+-------+
+| Field           | Type         | Null | Key | Default | Extra |
++-----------------+--------------+------+-----+---------+-------+
+| BookID          | varchar(10)  | NO   | PRI | NULL    |       |
+| BookName        | varchar(20)  | NO   |     | NULL    |       |
+| ISBN            | varchar(10)  | YES  | UNI | NULL    |       |
+| Price           | float        | YES  |     | NULL    |       |
+| BookYear        | year         | YES  |     | NULL    |       |
+| PurchaseDate    | date         | YES  |     | NULL    |       |
+| TimesIssued     | int          | YES  |     | NULL    |       |
+| BookRating      | decimal(2,1) | YES  |     | NULL    |       |
+| AuthorFirstName | varchar(20)  | YES  |     | NULL    |       |
+| AuthorLastName  | varchar(20)  | YES  |     | NULL    |       |
+| AuthorID        | varchar(10)  | YES  |     | NULL    |       |
+| ClubNo          | varchar(10)  | YES  |     | NULL    |       |
+| Remark          | varchar(45)  | YES  |     | NULL    |       |
++-----------------+--------------+------+-----+---------+-------+
+13 rows in set (0.01 sec)
+
+
+
+mysql> desc authordb;
++-----------------+-------------+------+-----+---------+-------+
+| Field           | Type        | Null | Key | Default | Extra |
++-----------------+-------------+------+-----+---------+-------+
+| AuthorID        | varchar(10) | NO   | PRI | NULL    |       |
+| AuthorFirstName | varchar(20) | YES  |     | NULL    |       |
+| AuthorLastName  | varchar(20) | YES  |     | NULL    |       |
+| AuthorMobile    | varchar(10) | YES  | UNI | NULL    |       |
+| AuthorEmail     | varchar(50) | YES  | UNI | NULL    |       |
+| AuthorCity      | varchar(5)  | YES  |     | NULL    |       |
+| NBooksWritten   | int         | YES  |     | NULL    |       |
+| AuthorCountry   | varchar(5)  | YES  |     | NULL    |       |
+| Remark          | varchar(20) | YES  |     | NULL    |       |
++-----------------+-------------+------+-----+---------+-------+
+9 rows in set (0.01 sec)
+
+CREATE TABLE `bookwagondb`.`publisherdb` (
+  `PublisherID` VARCHAR(10) NOT NULL,
+  `PublisherName` VARCHAR(45) NULL,
+  `PublisherMobile` VARCHAR(10) NULL,
+  `PublisherEmail` VARCHAR(45) NULL,
+  `PublisherHQCity` VARCHAR(5) NULL,
+  `NTitlesPublished` INT NULL,
+  `PublisherHQCountry` VARCHAR(10) NULL,
+  `Remark` VARCHAR(45) NULL,
+  PRIMARY KEY (`PublisherID`),
+  UNIQUE INDEX `PublisherMobile_UNIQUE` (`PublisherMobile` ASC) VISIBLE,
+  UNIQUE INDEX `PublisherEmail_UNIQUE` (`PublisherEmail` ASC) VISIBLE);
+
+mysql> desc publisherdb;
++--------------------+-------------+------+-----+---------+-------+
+| Field              | Type        | Null | Key | Default | Extra |
++--------------------+-------------+------+-----+---------+-------+
+| PublisherID        | varchar(10) | NO   | PRI | NULL    |       |
+| PublisherName      | varchar(45) | YES  |     | NULL    |       |
+| PublisherMobile    | varchar(10) | YES  | UNI | NULL    |       |
+| PublisherEmail     | varchar(45) | YES  | UNI | NULL    |       |
+| PublisherHQCity    | varchar(5)  | YES  |     | NULL    |       |
+| NTitlesPublished   | int         | YES  |     | NULL    |       |
+| PublisherHQCountry | varchar(10) | YES  |     | NULL    |       |
+| Remark             | varchar(45) | YES  |     | NULL    |       |
++--------------------+-------------+------+-----+---------+-------+
+8 rows in set (0.00 sec)
+
+CREATE TABLE `bookwagondb`.`customerdb` (
+  `CustomerID` VARCHAR(10) NOT NULL,
+  `CustomerFirstName` VARCHAR(20) NULL,
+  `CustomerLastName` VARCHAR(20) NULL,
+  `CustomerMobile` VARCHAR(10) NULL,
+  `CustomerEmail` VARCHAR(45) NULL,
+  `City` VARCHAR(5) NULL,
+  `ClubNo` VARCHAR(5) NULL,
+  `MembershipDate` DATE NULL,
+  `MembershipExpiry` DATE NULL,
+  `ValidYear` INT NULL,
+  `NTitlesIssued` INT NULL,
+  PRIMARY KEY (`CustomerID`),
+  UNIQUE INDEX `CustomerMobile_UNIQUE` (`CustomerMobile` ASC) VISIBLE,
+  UNIQUE INDEX `CustomerEmail_UNIQUE` (`CustomerEmail` ASC) VISIBLE);
+
+mysql> desc customerdb;
++-------------------+-------------+------+-----+---------+-------+
+| Field             | Type        | Null | Key | Default | Extra |
++-------------------+-------------+------+-----+---------+-------+
+| CustomerID        | varchar(10) | NO   | PRI | NULL    |       |
+| CustomerFirstName | varchar(20) | YES  |     | NULL    |       |
+| CustomerLastName  | varchar(20) | YES  |     | NULL    |       |
+| CustomerMobile    | varchar(10) | YES  | UNI | NULL    |       |
+| CustomerEmail     | varchar(45) | YES  | UNI | NULL    |       |
+| City              | varchar(5)  | YES  |     | NULL    |       |
+| ClubNo            | varchar(5)  | YES  |     | NULL    |       |
+| MembershipDate    | date        | YES  |     | NULL    |       |
+| MembershipExpiry  | date        | YES  |     | NULL    |       |
+| ValidYear         | int         | YES  |     | NULL    |       |
+| NTitlesIssued     | int         | YES  |     | NULL    |       |
++-------------------+-------------+------+-----+---------+-------+
+11 rows in set (0.00 sec)
+
+CREATE TABLE `bookwagondb`.`guestdb` (
+  `GuestID` VARCHAR(10) NOT NULL,
+  `GuestFirstName` VARCHAR(20) NULL,
+  `GuestLastName` VARCHAR(20) NULL,
+  `GuestMobile` VARCHAR(10) NULL,
+  `GuestEmail` VARCHAR(45) NULL,
+  `City` VARCHAR(5) NULL,
+  `ClubNo` VARCHAR(5) NULL,
+  `VisitDate` DATE NULL,
+  `LastVisit` DATE NULL,
+  `Remark` VARCHAR(45) NULL,
+  PRIMARY KEY (`GuestID`),
+  UNIQUE INDEX `GuestMobile_UNIQUE` (`GuestMobile` ASC) VISIBLE,
+  UNIQUE INDEX `GuestEmail_UNIQUE` (`GuestEmail` ASC) VISIBLE);
+
+
+mysql> desc guestdb;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| GuestID        | varchar(10) | NO   | PRI | NULL    |       |
+| GuestFirstName | varchar(20) | YES  |     | NULL    |       |
+| GuestLastName  | varchar(20) | YES  |     | NULL    |       |
+| GuestMobile    | varchar(10) | YES  | UNI | NULL    |       |
+| GuestEmail     | varchar(45) | YES  | UNI | NULL    |       |
+| City           | varchar(5)  | YES  |     | NULL    |       |
+| ClubNo         | varchar(5)  | YES  |     | NULL    |       |
+| VisitDate      | date        | YES  |     | NULL    |       |
+| LastVisit      | date        | YES  |     | NULL    |       |
+| Remark         | varchar(45) | YES  |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+10 rows in set (0.01 sec)
+
+CREATE TABLE `bookwagondb`.`employeedb` (
+  `EmployeeID` VARCHAR(10) NOT NULL,
+  `EmployeeFirstName` VARCHAR(20) NOT NULL,
+  `EmployeeLastName` VARCHAR(20) NOT NULL,
+  `EmployeeMobile` VARCHAR(10) NOT NULL,
+  `EmployeeEmail` VARCHAR(45) NOT NULL,
+  `City` VARCHAR(5) NOT NULL,
+  `ClubNo` VARCHAR(5) NOT NULL,
+  `Remarks` VARCHAR(45) NULL,
+  PRIMARY KEY (`EmployeeID`),
+  UNIQUE INDEX `EmployeeMobile_UNIQUE` (`EmployeeMobile` ASC) VISIBLE,
+  UNIQUE INDEX `EmployeeEmail_UNIQUE` (`EmployeeEmail` ASC) VISIBLE);
+
+
+mysql> desc employeedb;
++-------------------+-------------+------+-----+---------+-------+
+| Field             | Type        | Null | Key | Default | Extra |
++-------------------+-------------+------+-----+---------+-------+
+| EmployeeID        | varchar(10) | NO   | PRI | NULL    |       |
+| EmployeeFirstName | varchar(20) | NO   |     | NULL    |       |
+| EmployeeLastName  | varchar(20) | NO   |     | NULL    |       |
+| EmployeeMobile    | varchar(10) | NO   | UNI | NULL    |       |
+| EmployeeEmail     | varchar(45) | NO   | UNI | NULL    |       |
+| City              | varchar(5)  | NO   |     | NULL    |       |
+| ClubNo            | varchar(5)  | NO   |     | NULL    |       |
+| Remarks           | varchar(45) | YES  |     | NULL    |       |
++-------------------+-------------+------+-----+---------+-------+
+8 rows in set (0.01 sec)
+
+mysql> desc bookavailability;
++--------------------+-------------+------+-----+---------+-------+
+| Field              | Type        | Null | Key | Default | Extra |
++--------------------+-------------+------+-----+---------+-------+
+| BookID             | varchar(10) | NO   | PRI | NULL    |       |
+| BookName           | varchar(45) | NO   |     | NULL    |       |
+| Status             | varchar(2)  | NO   |     | NULL    |       |
+| CustomerType       | varchar(2)  | NO   |     | NULL    |       |
+| MG_ID              | varchar(2)  | NO   |     | NULL    |       |
+| LatestAvailability | date        | NO   |     | NULL    |       |
+| Remark             | varchar(45) | YES  |     | NULL    |       |
++--------------------+-------------+------+-----+---------+-------+
+7 rows in set (0.01 sec)
+
+mysql> desc admindb;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| AdminID        | varchar(10) | NO   | PRI | NULL    |       |
+| AdminUsername  | varchar(45) | NO   | UNI | NULL    |       |
+| AdminFirstName | varchar(20) | NO   |     | NULL    |       |
+| AdminLastName  | varchar(20) | NO   |     | NULL    |       |
+| AdminPassword  | varchar(45) | NO   |     | NULL    |       |
+| Remark         | varchar(45) | YES  |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> desc clubdb;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| ClubNo    | varchar(5)  | NO   | PRI | NULL    |       |
+| ClubName  | varchar(20) | NO   |     | NULL    |       |
+| City      | varchar(5)  | NO   |     | NULL    |       |
+| Location  | varchar(45) | NO   |     | NULL    |       |
+| NEmployee | int         | NO   |     | NULL    |       |
+| Remark    | varchar(45) | YES  |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> desc issuedbookdb;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| BookID     | varchar(10) | NO   | PRI | NULL    |       |
+| BookName   | varchar(45) | NO   |     | NULL    |       |
+| IssueDate  | date        | NO   |     | NULL    |       |
+| CustomerID | varchar(10) | NO   | UNI | NULL    |       |
+| ClubNo     | varchar(5)  | NO   |     | NULL    |       |
+| DaysIssued | int         | NO   |     | NULL    |       |
+| DueDate    | date        | NO   |     | NULL    |       |
+| Remark     | varchar(45) | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+8 rows in set (0.00 sec)
+
+mysql> desc lendersdb;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| LenderID    | varchar(10) | NO   | PRI | NULL    |       |
+| CustomerID  | varchar(10) | NO   | UNI | NULL    |       |
+| NTitlesLent | int         | NO   |     | NULL    |       |
+| Remark      | varchar(45) | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+mysql> desc citydb;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| CityCode | varchar(5)  | NO   | PRI | NULL    |       |
+| CityName | varchar(45) | NO   |     | NULL    |       |
+| Remark   | varchar(45) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+3 rows in set (0.01 sec)
+
