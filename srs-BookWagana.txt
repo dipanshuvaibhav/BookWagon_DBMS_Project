@@ -1,0 +1,34 @@
+1.Identification of needs:
+requirements for making the project:
+- a good functional team which will be able to distribute the work and complete tasks efficiently
+- book suppliers which will partner with us 
+- good logistics system for efficient delivery of product.
+- initial members to start the cycle of the business.
+ 
+2.premliminary investigation:
+-existing software systems that exists are:
++DoorstepBooks
++Justbooks
++Booklender
+these sites provide a smooth renting service in specific locations depending on their collection of books which they buy from certain publishing houses. 
+
+Downsides of the current book renting system:
+-The current systems lack the formation of the reader community.
+-The reviews are mostly from the point of view of a client unlike the intellectual analysis in the form of a blog that we aim to create.
+-The User experience is rather uninteresting and complicated.
+-The current systems do not give the members of the community the option to lend their books and earn.
+Our system also puts together features to ensure better service in the basis of security. 
+
+why is our system a little better than them:
+-we aim on having a good reader community by having a blog base
+-the blog system helps clients to share their views on different books which will help share other people's views.
+-better ui
+-helping everyone earn a little.
+
+3.Feasibility study:
+-project scope: scope of the project is to give the reader community a platform where they can rent books and form a freindly community where the members can share their views on other books and also provide everyone a mode to earn a little.
+- factors needed to make the project possible:
+ + good planning and team work
+ + book publishers and small lenders that will partner with the business
+ + good logistics system that will make the delivery of the books smooth.
+-
