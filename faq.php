@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Pustok - Book Store HTML Template</title>
+	<title>BookWagon - Why buy if you can rent!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Use Minified Plugins Version For Fast Page Load -->
 	<link rel="stylesheet" type="text/css" media="screen" href="css/plugins.css" />
@@ -782,11 +782,11 @@
 					</div>
 				</div>
 				<div class="row mbn-30">
-					
+
 					<div class="col-lg-6 col-12">
 						<!--FAQ (Accordion) Start-->
 						<div class="accordion" id="gq-faqs-1">
-							
+
 							<!--Cart Start-->
 							<div class="card">
 								<div class="card-header">
@@ -798,7 +798,7 @@
 									</div>
 								</div>
 							</div><!--Cart End-->
-							
+
 							<!--Cart Start-->
 							<div class="card">
 								<div class="card-header">
@@ -810,7 +810,7 @@
 									</div>
 								</div>
 							</div><!--Cart End-->
-							
+
 							<!--Cart Start-->
 							<div class="card">
 								<div class="card-header">
@@ -822,7 +822,7 @@
 									</div>
 								</div>
 							</div><!--Cart End-->
-							
+
 							<!--Cart Start-->
 							<div class="card">
 								<div class="card-header">
@@ -834,14 +834,14 @@
 									</div>
 								</div>
 							</div><!--Cart End-->
-							
+
 						</div><!--FAQ (Accordion) End-->
 					</div>
-					
+
 					<div class="col-lg-6 col-12 accordion-2">
 						<!--FAQ (Accordion) Start-->
 						<div class="accordion" id="gq-faqs-2">
-							
+
 							<!--Cart Start-->
 							<div class="card">
 								<div class="card-header">
@@ -853,7 +853,7 @@
 									</div>
 								</div>
 							</div><!--Cart End-->
-							
+
 							<!--Cart Start-->
 							<div class="card">
 								<div class="card-header">
@@ -865,7 +865,7 @@
 									</div>
 								</div>
 							</div><!--Cart End-->
-							
+
 							<!--Cart Start-->
 							<div class="card">
 								<div class="card-header">
@@ -877,7 +877,7 @@
 									</div>
 								</div>
 							</div><!--Cart End-->
-							
+
 							<!--Cart Start-->
 							<div class="card">
 								<div class="card-header">
@@ -889,10 +889,10 @@
 									</div>
 								</div>
 							</div><!--Cart End-->
-							
+
 						</div><!--FAQ (Accordion) End-->
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
