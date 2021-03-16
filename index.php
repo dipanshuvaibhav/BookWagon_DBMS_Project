@@ -19,7 +19,7 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-3 ">
-                            <a href="index.html" class="site-brand">
+                            <a href="index.php" class="site-brand">
                                 <img src="image/logo.png" alt="">
                             </a>
                         </div>
@@ -41,11 +41,11 @@
                                         <a href="javascript:void(0)">Home <i
                                                 class="fas fa-chevron-down dropdown-arrow"></i></a>
                                         <ul class="sub-menu">
-                                            <li> <a href="index.html">Home One</a></li>
-                                            <li> <a href="index-2.html">Home Two</a></li>
-                                            <li> <a href="index-3.html">Home Three</a></li>
-                                            <li> <a href="index-4.html">Home Four</a></li>
-                                            <li> <a href="index-5.html">Home Five</a></li>
+                                            <li> <a href="index.php">Home One</a></li>
+                                            <li> <a href="index-2.php">Home Two</a></li>
+                                            <li> <a href="index-3.php">Home Three</a></li>
+                                            <li> <a href="index-4.php">Home Four</a></li>
+                                            <li> <a href="index-5.php">Home Five</a></li>
                                         </ul>
                                     </li>
                                     <!-- Shop -->
@@ -56,29 +56,29 @@
                                             <li class="cus-col-25">
                                                 <h3 class="menu-title"><a href="javascript:void(0)">Shop Grid </a></h3>
                                                 <ul class="mega-single-block">
-                                                    <li><a href="shop-grid.html">Fullwidth</a></li>
-                                                    <li><a href="shop-grid-left-sidebar.html">left Sidebar</a></li>
-                                                    <li><a href="shop-grid-right-sidebar.html">Right Sidebar</a></li>
+                                                    <li><a href="shop-grid.php">Fullwidth</a></li>
+                                                    <li><a href="shop-grid-left-sidebar.php">left Sidebar</a></li>
+                                                    <li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li>
                                                 </ul>
                                             </li>
                                             <li class="cus-col-25">
                                                 <h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
                                                 <ul class="mega-single-block">
-                                                    <li><a href="shop-list.html">Fullwidth</a></li>
-                                                    <li><a href="shop-list-left-sidebar.html">left Sidebar</a></li>
-                                                    <li><a href="shop-list-right-sidebar.html">Right Sidebar</a></li>
+                                                    <li><a href="shop-list.php">Fullwidth</a></li>
+                                                    <li><a href="shop-list-left-sidebar.php">left Sidebar</a></li>
+                                                    <li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
                                                 </ul>
                                             </li>
                                             <li class="cus-col-25">
                                                 <h3 class="menu-title"> <a href="javascript:void(0)">Product Details
                                                         1</a></h3>
                                                 <ul class="mega-single-block">
-                                                    <li><a href="product-details.html">Product Details Page</a></li>
-                                                    <li><a href="product-details-affiliate.html">Product Details
+                                                    <li><a href="product-details.php">Product Details Page</a></li>
+                                                    <li><a href="product-details-affiliate.php">Product Details
                                                             Affiliate</a></li>
-                                                    <li><a href="product-details-group.html">Product Details Group</a>
+                                                    <li><a href="product-details-group.php">Product Details Group</a>
                                                     </li>
-                                                    <li><a href="product-details-variable.html">Product Details
+                                                    <li><a href="product-details-variable.php">Product Details
                                                             Variables</a></li>
                                                 </ul>
                                             </li>
@@ -86,13 +86,13 @@
                                                 <h3 class="menu-title"><a href="javascript:void(0)">Product Details
                                                         2</a></h3>
                                                 <ul class="mega-single-block">
-                                                    <li><a href="product-details-left-thumbnail.html">left Thumbnail</a>
+                                                    <li><a href="product-details-left-thumbnail.php">left Thumbnail</a>
                                                     </li>
-                                                    <li><a href="product-details-right-thumbnail.html">Right
+                                                    <li><a href="product-details-right-thumbnail.php">Right
                                                             Thumbnail</a></li>
-                                                    <li><a href="product-details-left-gallery.html">Left Gallery</a>
+                                                    <li><a href="product-details-left-gallery.php">Left Gallery</a>
                                                     </li>
-                                                    <li><a href="product-details-right-gallery.html">Right Gallery</a>
+                                                    <li><a href="product-details-right-gallery.php">Right Gallery</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -103,15 +103,15 @@
                                         <a href="javascript:void(0)">Pages <i
                                                 class="fas fa-chevron-down dropdown-arrow"></i></a>
                                         <ul class="sub-menu">
-                                            <li><a href="cart.html">Cart</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
-                                            <li><a href="compare.html">Compare</a></li>
-                                            <li><a href="wishlist.html">Wishlist</a></li>
-                                            <li><a href="login-register.html">Login Register</a></li>
-                                            <li><a href="my-account.html">My Account</a></li>
-                                            <li><a href="order-complete.html">Order Complete</a></li>
-                                            <li><a href="faq.html">Faq</a></li>
-                                            <li><a href="contact-2.html">contact 02</a></li>
+                                            <li><a href="cart.php">Cart</a></li>
+                                            <li><a href="checkout.php">Checkout</a></li>
+                                            <li><a href="compare.php">Compare</a></li>
+                                            <li><a href="wishlist.php">Wishlist</a></li>
+                                            <li><a href="login-register.php">Login Register</a></li>
+                                            <li><a href="my-account.php">My Account</a></li>
+                                            <li><a href="order-complete.php">Order Complete</a></li>
+                                            <li><a href="faq.php">Faq</a></li>
+                                            <li><a href="contact-2.php">contact 02</a></li>
                                         </ul>
                                     </li>
                                     <!-- Blog -->
@@ -122,34 +122,34 @@
                                             <li class="cus-col-33">
                                                 <h3 class="menu-title"><a href="javascript:void(0)">Blog Grid</a></h3>
                                                 <ul class="mega-single-block">
-                                                    <li><a href="blog.html">Full Widh (Default)</a></li>
-                                                    <li><a href="blog-left-sidebar.html">left Sidebar</a></li>
-                                                    <li><a href="blog-right-sidebar.html">Right Sidebar</a></li>
+                                                    <li><a href="blog.php">Full Widh (Default)</a></li>
+                                                    <li><a href="blog-left-sidebar.php">left Sidebar</a></li>
+                                                    <li><a href="blog-right-sidebar.php">Right Sidebar</a></li>
                                                 </ul>
                                             </li>
                                             <li class="cus-col-33">
                                                 <h3 class="menu-title"><a href="javascript:void(0)">Blog List </a></h3>
                                                 <ul class="mega-single-block">
-                                                    <!-- <li><a href="blog-list.html">Full Widh (Default)</a></li> -->
-                                                    <li><a href="blog-list-left-sidebar.html">left Sidebar</a></li>
-                                                    <li><a href="blog-list-right-sidebar.html">Right Sidebar</a></li>
+                                                    <!-- <li><a href="blog-list.php">Full Widh (Default)</a></li> -->
+                                                    <li><a href="blog-list-left-sidebar.php">left Sidebar</a></li>
+                                                    <li><a href="blog-list-right-sidebar.php">Right Sidebar</a></li>
                                                 </ul>
                                             </li>
                                             <li class="cus-col-33">
                                                 <h3 class="menu-title"><a href="javascript:void(0)">Blog Details</a>
                                                 </h3>
                                                 <ul class="mega-single-block">
-                                                    <li><a href="blog-details.html">Image Format (Default)</a></li>
-                                                    <li><a href="blog-details-gallery.html">Gallery Format</a></li>
-                                                    <li><a href="blog-details-audio.html">Audio Format</a></li>
-                                                    <li><a href="blog-details-video.html">Video Format</a></li>
-                                                    <li><a href="blog-details-left-sidebar.html">left Sidebar</a></li>
+                                                    <li><a href="blog-details.php">Image Format (Default)</a></li>
+                                                    <li><a href="blog-details-gallery.php">Gallery Format</a></li>
+                                                    <li><a href="blog-details-audio.php">Audio Format</a></li>
+                                                    <li><a href="blog-details-video.php">Video Format</a></li>
+                                                    <li><a href="blog-details-left-sidebar.php">left Sidebar</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="contact.html">Contact</a>
+                                        <a href="contact.php">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -281,8 +281,8 @@
                             <div class="main-navigation flex-lg-right">
                                 <div class="cart-widget">
                                     <div class="login-block">
-                                        <a href="login-register.html" class="font-weight-bold">Login</a> <br>
-                                        <span>or</span><a href="login-register.html">Register</a>
+                                        <a href="login-register.php" class="font-weight-bold">Login</a> <br>
+                                        <span>or</span><a href="login-register.php">Register</a>
                                     </div>
                                     <div class="cart-block">
                                         <div class="cart-total">
@@ -300,11 +300,11 @@
                                         <div class="cart-dropdown-block">
                                             <div class=" single-cart-block ">
                                                 <div class="cart-product">
-                                                    <a href="product-details.html" class="image">
+                                                    <a href="product-details.php" class="image">
                                                         <img src="image/products/cart-product-1.jpg" alt="">
                                                     </a>
                                                     <div class="content">
-                                                        <h3 class="title"><a href="product-details.html">Kodak PIXPRO
+                                                        <h3 class="title"><a href="product-details.php">Kodak PIXPRO
                                                                 Astro Zoom AZ421 16 MP</a>
                                                         </h3>
                                                         <p class="price"><span class="qty">1 ×</span> £87.34</p>
@@ -314,9 +314,9 @@
                                             </div>
                                             <div class=" single-cart-block ">
                                                 <div class="btn-block">
-                                                    <a href="cart.html" class="btn">View Cart <i
+                                                    <a href="cart.php" class="btn">View Cart <i
                                                             class="fas fa-chevron-right"></i></a>
-                                                    <a href="checkout.html" class="btn btn--primary">Check Out <i
+                                                    <a href="checkout.php" class="btn btn--primary">Check Out <i
                                                             class="fas fa-chevron-right"></i></a>
                                                 </div>
                                             </div>
@@ -334,7 +334,7 @@
                 <div class="container">
                     <div class="row align-items-sm-end align-items-center">
                         <div class="col-md-4 col-7">
-                            <a href="index.html" class="site-brand">
+                            <a href="index.php" class="site-brand">
                                 <img src="image/logo.png" alt="">
                             </a>
                         </div>
@@ -453,7 +453,7 @@
                             <div class="mobile-header-btns header-top-widget">
                                 <ul class="header-links">
                                     <li class="sin-link">
-                                        <a href="cart.html" class="cart-link link-icon"><i class="ion-bag"></i></a>
+                                        <a href="cart.php" class="cart-link link-icon"><i class="ion-bag"></i></a>
                                     </li>
                                     <li class="sin-link">
                                         <a href="javascript:" class="link-icon hamburgur-icon off-canvas-btn"><i
@@ -487,11 +487,11 @@
                                 <li class="menu-item-has-children">
                                     <a href="#">Home</a>
                                     <ul class="sub-menu">
-                                        <li> <a href="index.html">Home One</a></li>
-                                        <li> <a href="index-2.html">Home Two</a></li>
-                                        <li> <a href="index-3.html">Home Three</a></li>
-                                        <li> <a href="index-4.html">Home Four</a></li>
-                                        <li> <a href="index-5.html">Home Five</a></li>
+                                        <li> <a href="index.php">Home One</a></li>
+                                        <li> <a href="index-2.php">Home Two</a></li>
+                                        <li> <a href="index-3.php">Home Three</a></li>
+                                        <li> <a href="index-4.php">Home Four</a></li>
+                                        <li> <a href="index-5.php">Home Five</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">
@@ -500,27 +500,27 @@
                                         <li class="menu-item-has-children">
                                             <a href="#">Blog Grid</a>
                                             <ul class="sub-menu">
-                                                <li><a href="blog.html">Full Widh (Default)</a></li>
-                                                <li><a href="blog-left-sidebar.html">left Sidebar</a></li>
-                                                <li><a href="blog-right-sidebar.html">Right Sidebar</a></li>
+                                                <li><a href="blog.php">Full Widh (Default)</a></li>
+                                                <li><a href="blog-left-sidebar.php">left Sidebar</a></li>
+                                                <li><a href="blog-right-sidebar.php">Right Sidebar</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="#">Blog List</a>
                                             <ul class="sub-menu">
-                                                <li><a href="blog-list.html">Full Widh (Default)</a></li>
-                                                <li><a href="blog-list-left-sidebar.html">left Sidebar</a></li>
-                                                <li><a href="blog-list-right-sidebar.html">Right Sidebar</a></li>
+                                                <li><a href="blog-list.php">Full Widh (Default)</a></li>
+                                                <li><a href="blog-list-left-sidebar.php">left Sidebar</a></li>
+                                                <li><a href="blog-list-right-sidebar.php">Right Sidebar</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="#">Blog Details</a>
                                             <ul class="sub-menu">
-                                                <li><a href="blog-details.html">Image Format (Default)</a></li>
-                                                <li><a href="blog-details-gallery.html">Gallery Format</a></li>
-                                                <li><a href="blog-details-audio.html">Audio Format</a></li>
-                                                <li><a href="blog-details-video.html">Video Format</a></li>
-                                                <li><a href="blog-details-left-sidebar.html">left Sidebar</a></li>
+                                                <li><a href="blog-details.php">Image Format (Default)</a></li>
+                                                <li><a href="blog-details-gallery.php">Gallery Format</a></li>
+                                                <li><a href="blog-details-audio.php">Audio Format</a></li>
+                                                <li><a href="blog-details-video.php">Video Format</a></li>
+                                                <li><a href="blog-details-left-sidebar.php">left Sidebar</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -531,39 +531,39 @@
                                         <li class="menu-item-has-children">
                                             <a href="#">Shop Grid</a>
                                             <ul class="sub-menu">
-                                                <li><a href="shop-grid.html">Fullwidth</a></li>
-                                                <li><a href="shop-grid-left-sidebar.html">left Sidebar</a></li>
-                                                <li><a href="shop-grid-right-sidebar.html">Right Sidebar</a></li>
+                                                <li><a href="shop-grid.php">Fullwidth</a></li>
+                                                <li><a href="shop-grid-left-sidebar.php">left Sidebar</a></li>
+                                                <li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="#">Shop List</a>
                                             <ul class="sub-menu">
-                                                <li><a href="shop-list.html">Fullwidth</a></li>
-                                                <li><a href="shop-list-left-sidebar.html">left Sidebar</a></li>
-                                                <li><a href="shop-list-right-sidebar.html">Right Sidebar</a></li>
+                                                <li><a href="shop-list.php">Fullwidth</a></li>
+                                                <li><a href="shop-list-left-sidebar.php">left Sidebar</a></li>
+                                                <li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="#">Product Details 1</a>
                                             <ul class="sub-menu">
-                                                <li><a href="product-details.html">Product Details Page</a></li>
-                                                <li><a href="product-details-affiliate.html">Product Details
+                                                <li><a href="product-details.php">Product Details Page</a></li>
+                                                <li><a href="product-details-affiliate.php">Product Details
                                                         Affiliate</a></li>
-                                                <li><a href="product-details-group.html">Product Details Group</a></li>
-                                                <li><a href="product-details-variable.html">Product Details
+                                                <li><a href="product-details-group.php">Product Details Group</a></li>
+                                                <li><a href="product-details-variable.php">Product Details
                                                         Variables</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="#">Product Details 2</a>
                                             <ul class="sub-menu">
-                                                <li><a href="product-details-left-thumbnail.html">left Thumbnail</a>
+                                                <li><a href="product-details-left-thumbnail.php">left Thumbnail</a>
                                                 </li>
-                                                <li><a href="product-details-right-thumbnail.html">Right Thumbnail</a>
+                                                <li><a href="product-details-right-thumbnail.php">Right Thumbnail</a>
                                                 </li>
-                                                <li><a href="product-details-left-gallery.html">Left Gallery</a></li>
-                                                <li><a href="product-details-right-gallery.html">Right Gallery</a></li>
+                                                <li><a href="product-details-left-gallery.php">Left Gallery</a></li>
+                                                <li><a href="product-details-right-gallery.php">Right Gallery</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -571,18 +571,18 @@
                                 <li class="menu-item-has-children">
                                     <a href="#">Pages</a>
                                     <ul class="sub-menu">
-                                        <li><a href="cart.html">Cart</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                        <li><a href="compare.html">Compare</a></li>
-                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                        <li><a href="login-register.html">Login Register</a></li>
-                                        <li><a href="my-account.html">My Account</a></li>
-                                        <li><a href="order-complete.html">Order Complete</a></li>
-                                        <li><a href="faq.html">Faq</a></li>
-                                        <li><a href="contact-2.html">contact 02</a></li>
+                                        <li><a href="cart.php">Cart</a></li>
+                                        <li><a href="checkout.php">Checkout</a></li>
+                                        <li><a href="compare.php">Compare</a></li>
+                                        <li><a href="wishlist.php">Wishlist</a></li>
+                                        <li><a href="login-register.php">Login Register</a></li>
+                                        <li><a href="my-account.php">My Account</a></li>
+                                        <li><a href="order-complete.php">Order Complete</a></li>
+                                        <li><a href="faq.php">Faq</a></li>
+                                        <li><a href="contact-2.php">contact 02</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </nav>
                         <!-- mobile menu navigation end -->
@@ -593,8 +593,8 @@
                             <li class="menu-item-has-children">
                                 <a href="#">Currency - USD $ <i class="fas fa-angle-down"></i></a>
                                 <ul class="sub-menu">
-                                    <li> <a href="cart.html">USD $</a></li>
-                                    <li> <a href="checkout.html">EUR €</a></li>
+                                    <li> <a href="cart.php">USD $</a></li>
+                                    <li> <a href="checkout.php">EUR €</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
@@ -637,7 +637,7 @@
             <div class="container d-none d-lg-block">
                 <div class="row align-items-center">
                     <div class="col-lg-4">
-                        <a href="index.html" class="site-brand">
+                        <a href="index.php" class="site-brand">
                             <img src="image/logo.png" alt="">
                         </a>
                     </div>
@@ -648,11 +648,11 @@
                                     <a href="javascript:void(0)">Home <i
                                             class="fas fa-chevron-down dropdown-arrow"></i></a>
                                     <ul class="sub-menu">
-                                        <li> <a href="index.html">Home One</a></li>
-                                        <li> <a href="index-2.html">Home Two</a></li>
-                                        <li> <a href="index-3.html">Home Three</a></li>
-                                        <li> <a href="index-4.html">Home Four</a></li>
-                                        <li> <a href="index-5.html">Home Five</a></li>
+                                        <li> <a href="index.php">Home One</a></li>
+                                        <li> <a href="index-2.php">Home Two</a></li>
+                                        <li> <a href="index-3.php">Home Three</a></li>
+                                        <li> <a href="index-4.php">Home Four</a></li>
+                                        <li> <a href="index-5.php">Home Five</a></li>
                                     </ul>
                                 </li>
                                 <!-- Shop -->
@@ -663,28 +663,28 @@
                                         <li class="cus-col-25">
                                             <h3 class="menu-title"><a href="javascript:void(0)">Shop Grid </a></h3>
                                             <ul class="mega-single-block">
-                                                <li><a href="shop-grid.html">Fullwidth</a></li>
-                                                <li><a href="shop-grid-left-sidebar.html">left Sidebar</a></li>
-                                                <li><a href="shop-grid-right-sidebar.html">Right Sidebar</a></li>
+                                                <li><a href="shop-grid.php">Fullwidth</a></li>
+                                                <li><a href="shop-grid-left-sidebar.php">left Sidebar</a></li>
+                                                <li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li>
                                             </ul>
                                         </li>
                                         <li class="cus-col-25">
                                             <h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
                                             <ul class="mega-single-block">
-                                                <li><a href="shop-list.html">Fullwidth</a></li>
-                                                <li><a href="shop-list-left-sidebar.html">left Sidebar</a></li>
-                                                <li><a href="shop-list-right-sidebar.html">Right Sidebar</a></li>
+                                                <li><a href="shop-list.php">Fullwidth</a></li>
+                                                <li><a href="shop-list-left-sidebar.php">left Sidebar</a></li>
+                                                <li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
                                             </ul>
                                         </li>
                                         <li class="cus-col-25">
                                             <h3 class="menu-title"> <a href="javascript:void(0)">Product Details 1</a>
                                             </h3>
                                             <ul class="mega-single-block">
-                                                <li><a href="product-details.html">Product Details Page</a></li>
-                                                <li><a href="product-details-affiliate.html">Product Details
+                                                <li><a href="product-details.php">Product Details Page</a></li>
+                                                <li><a href="product-details-affiliate.php">Product Details
                                                         Affiliate</a></li>
-                                                <li><a href="product-details-group.html">Product Details Group</a></li>
-                                                <li><a href="product-details-variable.html">Product Details
+                                                <li><a href="product-details-group.php">Product Details Group</a></li>
+                                                <li><a href="product-details-variable.php">Product Details
                                                         Variables</a></li>
                                             </ul>
                                         </li>
@@ -692,12 +692,12 @@
                                             <h3 class="menu-title"><a href="javascript:void(0)">Product Details 2</a>
                                             </h3>
                                             <ul class="mega-single-block">
-                                                <li><a href="product-details-left-thumbnail.html">left Thumbnail</a>
+                                                <li><a href="product-details-left-thumbnail.php">left Thumbnail</a>
                                                 </li>
-                                                <li><a href="product-details-right-thumbnail.html">Right Thumbnail</a>
+                                                <li><a href="product-details-right-thumbnail.php">Right Thumbnail</a>
                                                 </li>
-                                                <li><a href="product-details-left-gallery.html">Left Gallery</a></li>
-                                                <li><a href="product-details-right-gallery.html">Right Gallery</a></li>
+                                                <li><a href="product-details-left-gallery.php">Left Gallery</a></li>
+                                                <li><a href="product-details-right-gallery.php">Right Gallery</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -707,15 +707,15 @@
                                     <a href="javascript:void(0)">Pages <i
                                             class="fas fa-chevron-down dropdown-arrow"></i></a>
                                     <ul class="sub-menu">
-                                        <li><a href="cart.html">Cart</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                        <li><a href="compare.html">Compare</a></li>
-                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                        <li><a href="login-register.html">Login Register</a></li>
-                                        <li><a href="my-account.html">My Account</a></li>
-                                        <li><a href="order-complete.html">Order Complete</a></li>
-                                        <li><a href="faq.html">Faq</a></li>
-                                        <li><a href="contact-2.html">contact 02</a></li>
+                                        <li><a href="cart.php">Cart</a></li>
+                                        <li><a href="checkout.php">Checkout</a></li>
+                                        <li><a href="compare.php">Compare</a></li>
+                                        <li><a href="wishlist.php">Wishlist</a></li>
+                                        <li><a href="login-register.php">Login Register</a></li>
+                                        <li><a href="my-account.php">My Account</a></li>
+                                        <li><a href="order-complete.php">Order Complete</a></li>
+                                        <li><a href="faq.php">Faq</a></li>
+                                        <li><a href="contact-2.php">contact 02</a></li>
                                     </ul>
                                 </li>
                                 <!-- Blog -->
@@ -726,33 +726,33 @@
                                         <li class="cus-col-33">
                                             <h3 class="menu-title"><a href="javascript:void(0)">Blog Grid</a></h3>
                                             <ul class="mega-single-block">
-                                                <li><a href="blog.html">Full Widh (Default)</a></li>
-                                                <li><a href="blog-left-sidebar.html">left Sidebar</a></li>
-                                                <li><a href="blog-right-sidebar.html">Right Sidebar</a></li>
+                                                <li><a href="blog.php">Full Widh (Default)</a></li>
+                                                <li><a href="blog-left-sidebar.php">left Sidebar</a></li>
+                                                <li><a href="blog-right-sidebar.php">Right Sidebar</a></li>
                                             </ul>
                                         </li>
                                         <li class="cus-col-33">
                                             <h3 class="menu-title"><a href="javascript:void(0)">Blog List </a></h3>
                                             <ul class="mega-single-block">
-                                                <!-- <li><a href="blog-list.html">Full Widh (Default)</a></li> -->
-                                                <li><a href="blog-list-left-sidebar.html">left Sidebar</a></li>
-                                                <li><a href="blog-list-right-sidebar.html">Right Sidebar</a></li>
+                                                <!-- <li><a href="blog-list.php">Full Widh (Default)</a></li> -->
+                                                <li><a href="blog-list-left-sidebar.php">left Sidebar</a></li>
+                                                <li><a href="blog-list-right-sidebar.php">Right Sidebar</a></li>
                                             </ul>
                                         </li>
                                         <li class="cus-col-33">
                                             <h3 class="menu-title"><a href="javascript:void(0)">Blog Details</a></h3>
                                             <ul class="mega-single-block">
-                                                <li><a href="blog-details.html">Image Format (Default)</a></li>
-                                                <li><a href="blog-details-gallery.html">Gallery Format</a></li>
-                                                <li><a href="blog-details-audio.html">Audio Format</a></li>
-                                                <li><a href="blog-details-video.html">Video Format</a></li>
-                                                <li><a href="blog-details-left-sidebar.html">left Sidebar</a></li>
+                                                <li><a href="blog-details.php">Image Format (Default)</a></li>
+                                                <li><a href="blog-details-gallery.php">Gallery Format</a></li>
+                                                <li><a href="blog-details-audio.php">Audio Format</a></li>
+                                                <li><a href="blog-details-video.php">Video Format</a></li>
+                                                <li><a href="blog-details-left-sidebar.php">left Sidebar</a></li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="contact.html">Contact</a>
+                                    <a href="contact.php">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -784,7 +784,7 @@
                                         <h1>H.G. Wells<br>
                                             De Vengeance</h1>
                                         <h2>Cover Up Front Of Books and Leave Summary</h2>
-                                        <a href="shop-grid.html" class="btn btn-outlined--primary">
+                                        <a href="shop-grid.php" class="btn btn-outlined--primary">
                                             $78.09 - Order Now!
                                         </a>
                                     </div>
@@ -805,7 +805,7 @@
                                         <h1>J.D. Kurtness <br>
                                             De Vengeance</h1>
                                         <h2>Cover Up Front Of Books and Leave Summary</h2>
-                                        <a href="shop-grid.html" class="btn btn-outlined--primary">
+                                        <a href="shop-grid.php" class="btn btn-outlined--primary">
                                             $78.09 - Learn More
                                         </a>
                                     </div>
@@ -940,24 +940,24 @@
                                             <a href="" class="author">
                                                 jpple
                                             </a>
-                                            <h3><a href="product-details.html">Rpple iPad with Retina Display
+                                            <h3><a href="product-details.php">Rpple iPad with Retina Display
                                                     MD510LL/A</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-1.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-1.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -981,24 +981,24 @@
                                             <a href="" class="author">
                                                 Bpple
                                             </a>
-                                            <h3><a href="product-details.html">Koss KPH7 Lightweight Portable
+                                            <h3><a href="product-details.php">Koss KPH7 Lightweight Portable
                                                     Headphone</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-2.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-3.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1022,24 +1022,24 @@
                                             <a href="" class="author">
                                                 Cpple
                                             </a>
-                                            <h3><a href="product-details.html">Beats EP Wired On-Ear Headphone-Black</a>
+                                            <h3><a href="product-details.php">Beats EP Wired On-Ear Headphone-Black</a>
                                             </h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-3.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-2.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1063,24 +1063,24 @@
                                             <a href="" class="author">
                                                 Dpple
                                             </a>
-                                            <h3><a href="product-details.html">Beats Solo2 Solo 2 Wired On-Ear
+                                            <h3><a href="product-details.php">Beats Solo2 Solo 2 Wired On-Ear
                                                     Headphone</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-4.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-5.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1104,24 +1104,24 @@
                                             <a href="" class="author">
                                                 Lpple
                                             </a>
-                                            <h3><a href="product-details.html">Beats Solo3 Wireless On-Ear Headphones
+                                            <h3><a href="product-details.php">Beats Solo3 Wireless On-Ear Headphones
                                                     2</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-5.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-4.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1145,24 +1145,24 @@
                                             <a href="" class="author">
                                                 Fpple
                                             </a>
-                                            <h3><a href="product-details.html">3 Ways To Have (A) More Appealing
+                                            <h3><a href="product-details.php">3 Ways To Have (A) More Appealing
                                                     BOOK</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-6.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-7.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1186,24 +1186,24 @@
                                             <a href="" class="author">
                                                 Epple
                                             </a>
-                                            <h3><a href="product-details.html">In 10 Minutes, I'll Give You The Truth
+                                            <h3><a href="product-details.php">In 10 Minutes, I'll Give You The Truth
                                                     About</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-7.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-6.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1227,24 +1227,24 @@
                                             <a href="" class="author">
                                                 Fpple
                                             </a>
-                                            <h3><a href="product-details.html">5 Ways To Get Through To Your BOOK</a>
+                                            <h3><a href="product-details.php">5 Ways To Get Through To Your BOOK</a>
                                             </h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-8.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-9.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1268,24 +1268,24 @@
                                             <a href="" class="author">
                                                 Gpple
                                             </a>
-                                            <h3><a href="product-details.html">What Can You Do To Save Your BOOK</a>
+                                            <h3><a href="product-details.php">What Can You Do To Save Your BOOK</a>
                                             </h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-9.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-8.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1309,24 +1309,24 @@
                                             <a href="#" class="author">
                                                 Hpple
                                             </a>
-                                            <h3><a href="product-details.html">From Destruction By Social Media?</a>
+                                            <h3><a href="product-details.php">From Destruction By Social Media?</a>
                                             </h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-10.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-11.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1350,24 +1350,24 @@
                                             <a href="" class="author">
                                                 Gpple
                                             </a>
-                                            <h3><a href="product-details.html">Find Out More About BOOK By Social
+                                            <h3><a href="product-details.php">Find Out More About BOOK By Social
                                                     Media?</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-11.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-10.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1391,24 +1391,24 @@
                                             <a href="" class="author">
                                                 Vpple
                                             </a>
-                                            <h3><a href="product-details.html">Read This Controversial BOOK By
+                                            <h3><a href="product-details.php">Read This Controversial BOOK By
                                                     Social Media?</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-12.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-11.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1448,24 +1448,24 @@
                                             <a href="" class="author">
                                                 jpple
                                             </a>
-                                                <h3><a href="product-details.html">Bpple iPad with Retina Display
+                                                <h3><a href="product-details.php">Bpple iPad with Retina Display
                                                         MD510LL/A</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-3.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-1.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1489,24 +1489,24 @@
                                             <a href="" class="author">
                                                 Bpple
                                             </a>
-                                            <h3><a href="product-details.html">Koss KPH7 Lightweight Portable
+                                            <h3><a href="product-details.php">Koss KPH7 Lightweight Portable
                                                     Headphone</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-2.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-3.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1530,24 +1530,24 @@
                                             <a href="" class="author">
                                                 Cpple
                                             </a>
-                                            <h3><a href="product-details.html">Beats EP Wired On-Ear
+                                            <h3><a href="product-details.php">Beats EP Wired On-Ear
                                                     Headphone-Black</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-1.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-2.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1571,24 +1571,24 @@
                                             <a href="" class="author">
                                                 Dpple
                                             </a>
-                                            <h3><a href="product-details.html">Beats Solo2 Solo 2 Wired On-Ear
+                                            <h3><a href="product-details.php">Beats Solo2 Solo 2 Wired On-Ear
                                                     Headphone</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-4.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-5.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1612,24 +1612,24 @@
                                             <a href="" class="author">
                                                 Lpple
                                             </a>
-                                            <h3><a href="product-details.html">Beats Solo3 Wireless On-Ear
+                                            <h3><a href="product-details.php">Beats Solo3 Wireless On-Ear
                                                     Headphones 2</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-7.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-4.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1653,24 +1653,24 @@
                                             <a href="" class="author">
                                                 Fpple
                                             </a>
-                                            <h3><a href="product-details.html">3 Ways To Have (A) More Appealing
+                                            <h3><a href="product-details.php">3 Ways To Have (A) More Appealing
                                                     BOOK</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-6.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-7.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1694,24 +1694,24 @@
                                             <a href="" class="author">
                                                 Epple
                                             </a>
-                                            <h3><a href="product-details.html">In 10 Minutes, I'll Give You The
+                                            <h3><a href="product-details.php">In 10 Minutes, I'll Give You The
                                                     Truth About</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-5.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-6.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1735,24 +1735,24 @@
                                             <a href="" class="author">
                                                 Fpple
                                             </a>
-                                            <h3><a href="product-details.html">5 Ways To Get Through To Your
+                                            <h3><a href="product-details.php">5 Ways To Get Through To Your
                                                     BOOK</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-8.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-9.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1776,24 +1776,24 @@
                                             <a href="" class="author">
                                                 Gpple
                                             </a>
-                                            <h3><a href="product-details.html">What Can You Do To Save Your BOOK</a>
+                                            <h3><a href="product-details.php">What Can You Do To Save Your BOOK</a>
                                             </h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-3.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-8.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1817,24 +1817,24 @@
                                             <a href="" class="author">
                                                 Hpple
                                             </a>
-                                            <h3><a href="product-details.html">From Destruction By Social Media?</a>
+                                            <h3><a href="product-details.php">From Destruction By Social Media?</a>
                                             </h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-9.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-11.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1858,24 +1858,24 @@
                                             <a href="" class="author">
                                                 Gpple
                                             </a>
-                                            <h3><a href="product-details.html">Find Out More About BOOK By Social
+                                            <h3><a href="product-details.php">Find Out More About BOOK By Social
                                                     Media?</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-10.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-10.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1899,24 +1899,24 @@
                                             <a href="" class="author">
                                                 Apple
                                             </a>
-                                            <h3><a href="product-details.html">Read This Controversial BOOK By
+                                            <h3><a href="product-details.php">Read This Controversial BOOK By
                                                     Social Media?</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-9.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-11.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1956,24 +1956,24 @@
                                             <a href="" class="author">
                                                 jpple
                                                 </a>
-                                                <h3><a href="product-details.html">Zpple fPad with Retina Display
+                                                <h3><a href="product-details.php">Zpple fPad with Retina Display
                                                         MD510LL/A</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-1.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-1.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -1997,24 +1997,24 @@
                                             <a href="" class="author">
                                                 Bpple
                                             </a>
-                                            <h3><a href="product-details.html">Koss KPH7 Lightweight Portable
+                                            <h3><a href="product-details.php">Koss KPH7 Lightweight Portable
                                                     Headphone</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-4.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-3.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2038,24 +2038,24 @@
                                             <a href="" class="author">
                                                 Cpple
                                             </a>
-                                            <h3><a href="product-details.html">Beats EP Wired On-Ear
+                                            <h3><a href="product-details.php">Beats EP Wired On-Ear
                                                     Headphone-Black</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-3.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-2.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2079,24 +2079,24 @@
                                             <a href="" class="author">
                                                 Dpple
                                             </a>
-                                            <h3><a href="product-details.html">Beats Solo2 Solo 2 Wired On-Ear
+                                            <h3><a href="product-details.php">Beats Solo2 Solo 2 Wired On-Ear
                                                     Headphone</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-1.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-5.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2120,24 +2120,24 @@
                                             <a href="" class="author">
                                                 Lpple
                                             </a>
-                                            <h3><a href="product-details.html">Beats Solo3 Wireless On-Ear
+                                            <h3><a href="product-details.php">Beats Solo3 Wireless On-Ear
                                                     Headphones 2</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-11.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-4.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2161,24 +2161,24 @@
                                             <a href="" class="author">
                                                 Fpple
                                             </a>
-                                            <h3><a href="product-details.html">3 Ways To Have (A) More Appealing
+                                            <h3><a href="product-details.php">3 Ways To Have (A) More Appealing
                                                     BOOK</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-10.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-7.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2202,24 +2202,24 @@
                                             <a href="" class="author">
                                                 Epple
                                             </a>
-                                            <h3><a href="product-details.html">In 10 Minutes, I'll Give You The
+                                            <h3><a href="product-details.php">In 10 Minutes, I'll Give You The
                                                     Truth About</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-9.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-6.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2243,24 +2243,24 @@
                                             <a href="" class="author">
                                                 Fpple
                                             </a>
-                                            <h3><a href="product-details.html">5 Ways To Get Through To Your
+                                            <h3><a href="product-details.php">5 Ways To Get Through To Your
                                                     BOOK</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-8.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-9.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2284,24 +2284,24 @@
                                             <a href="" class="author">
                                                 Gpple
                                             </a>
-                                            <h3><a href="product-details.html">What Can You Do To Save Your BOOK</a>
+                                            <h3><a href="product-details.php">What Can You Do To Save Your BOOK</a>
                                             </h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-5.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-8.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2325,24 +2325,24 @@
                                             <a href="" class="author">
                                                 Hpple
                                             </a>
-                                            <h3><a href="product-details.html">From Destruction By Social Media?</a>
+                                            <h3><a href="product-details.php">From Destruction By Social Media?</a>
                                             </h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-3.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-11.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2366,24 +2366,24 @@
                                             <a href="" class="author">
                                                 Gpple
                                             </a>
-                                            <h3><a href="product-details.html">Find Out More About BOOK By Social
+                                            <h3><a href="product-details.php">Find Out More About BOOK By Social
                                                     Media?</a></h3>
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
                                                 <img src="image/products/product-11.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-10.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2407,7 +2407,7 @@
                                             <a href="" class="author">
                                                 Apple
                                             </a>
-                                            <h3><a href="product-details.html">Read This Controversial BOOK By
+                                            <h3><a href="product-details.php">Read This Controversial BOOK By
                                                     Social Media? Out More</a>
                                             </h3>
                                         </div>
@@ -2415,17 +2415,17 @@
                                             <div class="card-image">
                                                 <img src="image/products/product-12.jpg" alt="">
                                                 <div class="hover-contents">
-                                                    <a href="product-details.html" class="hover-image">
+                                                    <a href="product-details.php" class="hover-image">
                                                         <img src="image/products/product-11.jpg" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a href="cart.php" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
-                                                        <a href="wishlist.html" class="single-btn">
+                                                        <a href="wishlist.php" class="single-btn">
                                                             <i class="fas fa-heart"></i>
                                                         </a>
-                                                        <a href="compare.html" class="single-btn">
+                                                        <a href="compare.php" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
                                                         <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2475,7 +2475,7 @@
                                 <a href="" class="author">
                                     Ypple
                                 </a>
-                                <h3><a href="product-details.html">Do You Really Need It? This Will Help You
+                                <h3><a href="product-details.php">Do You Really Need It? This Will Help You
                                   </a>
                                 </h3>
                             </div>
@@ -2483,17 +2483,17 @@
                                 <div class="card-image">
                                     <img src="image/products/product-2.jpg" alt="">
                                     <div class="hover-contents">
-                                        <a href="product-details.html" class="hover-image">
+                                        <a href="product-details.php" class="hover-image">
                                             <img src="image/products/product-1.jpg" alt="">
                                         </a>
                                         <div class="hover-btns">
-                                            <a href="cart.html" class="single-btn">
+                                            <a href="cart.php" class="single-btn">
                                                 <i class="fas fa-shopping-basket"></i>
                                             </a>
-                                            <a href="wishlist.html" class="single-btn">
+                                            <a href="wishlist.php" class="single-btn">
                                                 <i class="fas fa-heart"></i>
                                             </a>
-                                            <a href="compare.html" class="single-btn">
+                                            <a href="compare.php" class="single-btn">
                                                 <i class="fas fa-random"></i>
                                             </a>
                                             <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2520,23 +2520,23 @@
                                 <a href="#" class="author">
                                     Upple
                                 </a>
-                                <h3><a href="product-details.html">Here Is A Quick Cure For Book</a></h3>
+                                <h3><a href="product-details.php">Here Is A Quick Cure For Book</a></h3>
                             </div>
                             <div class="product-card--body">
                                 <div class="card-image">
                                     <img src="image/products/product-1.jpg" alt="">
                                     <div class="hover-contents">
-                                        <a href="product-details.html" class="hover-image">
+                                        <a href="product-details.php" class="hover-image">
                                             <img src="image/products/product-1.jpg" alt="">
                                         </a>
                                         <div class="hover-btns">
-                                            <a href="cart.html" class="single-btn">
+                                            <a href="cart.php" class="single-btn">
                                                 <i class="fas fa-shopping-basket"></i>
                                             </a>
-                                            <a href="wishlist.html" class="single-btn">
+                                            <a href="wishlist.php" class="single-btn">
                                                 <i class="fas fa-heart"></i>
                                             </a>
-                                            <a href="compare.html" class="single-btn">
+                                            <a href="compare.php" class="single-btn">
                                                 <i class="fas fa-random"></i>
                                             </a>
                                             <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2563,23 +2563,23 @@
                                 <a href="#" class="author">
                                     Ypple
                                 </a>
-                                <h3><a href="product-details.html">a Half Very Simple Things You To Save</a></h3>
+                                <h3><a href="product-details.php">a Half Very Simple Things You To Save</a></h3>
                             </div>
                             <div class="product-card--body">
                                 <div class="card-image">
                                     <img src="image/products/product-3.jpg" alt="">
                                     <div class="hover-contents">
-                                        <a href="product-details.html" class="hover-image">
+                                        <a href="product-details.php" class="hover-image">
                                             <img src="image/products/product-2.jpg" alt="">
                                         </a>
                                         <div class="hover-btns">
-                                            <a href="cart.html" class="single-btn">
+                                            <a href="cart.php" class="single-btn">
                                                 <i class="fas fa-shopping-basket"></i>
                                             </a>
-                                            <a href="wishlist.html" class="single-btn">
+                                            <a href="wishlist.php" class="single-btn">
                                                 <i class="fas fa-heart"></i>
                                             </a>
-                                            <a href="compare.html" class="single-btn">
+                                            <a href="compare.php" class="single-btn">
                                                 <i class="fas fa-random"></i>
                                             </a>
                                             <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2606,24 +2606,24 @@
                                 <a href="#" class="author">
                                     Epple
                                 </a>
-                                <h3><a href="product-details.html">What You Can Learn From Bill Gates</a>
+                                <h3><a href="product-details.php">What You Can Learn From Bill Gates</a>
                                 </h3>
                             </div>
                             <div class="product-card--body">
                                 <div class="card-image">
                                     <img src="image/products/product-5.jpg" alt="">
                                     <div class="hover-contents">
-                                        <a href="product-details.html" class="hover-image">
+                                        <a href="product-details.php" class="hover-image">
                                             <img src="image/products/product-4.jpg" alt="">
                                         </a>
                                         <div class="hover-btns">
-                                            <a href="cart.html" class="single-btn">
+                                            <a href="cart.php" class="single-btn">
                                                 <i class="fas fa-shopping-basket"></i>
                                             </a>
-                                            <a href="wishlist.html" class="single-btn">
+                                            <a href="wishlist.php" class="single-btn">
                                                 <i class="fas fa-heart"></i>
                                             </a>
-                                            <a href="compare.html" class="single-btn">
+                                            <a href="compare.php" class="single-btn">
                                                 <i class="fas fa-random"></i>
                                             </a>
                                             <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2650,23 +2650,23 @@
                                 <a href="#" class="author">
                                     Rpple
                                 </a>
-                                <h3><a href="product-details.html">Create Better BOOK With The Help Of Your</a></h3>
+                                <h3><a href="product-details.php">Create Better BOOK With The Help Of Your</a></h3>
                             </div>
                             <div class="product-card--body">
                                 <div class="card-image">
                                     <img src="image/products/product-6.jpg" alt="">
                                     <div class="hover-contents">
-                                        <a href="product-details.html" class="hover-image">
+                                        <a href="product-details.php" class="hover-image">
                                             <img src="image/products/product-4.jpg" alt="">
                                         </a>
                                         <div class="hover-btns">
-                                            <a href="cart.html" class="single-btn">
+                                            <a href="cart.php" class="single-btn">
                                                 <i class="fas fa-shopping-basket"></i>
                                             </a>
-                                            <a href="wishlist.html" class="single-btn">
+                                            <a href="wishlist.php" class="single-btn">
                                                 <i class="fas fa-heart"></i>
                                             </a>
-                                            <a href="compare.html" class="single-btn">
+                                            <a href="compare.php" class="single-btn">
                                                 <i class="fas fa-random"></i>
                                             </a>
                                             <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2693,24 +2693,24 @@
                                 <a href="#" class="author">
                                     Tpple
                                 </a>
-                                <h3><a href="product-details.html">Turn Your BOOK Into High Machine</a>
+                                <h3><a href="product-details.php">Turn Your BOOK Into High Machine</a>
                                 </h3>
                             </div>
                             <div class="product-card--body">
                                 <div class="card-image">
                                     <img src="image/products/product-8.jpg" alt="">
                                     <div class="hover-contents">
-                                        <a href="product-details.html" class="hover-image">
+                                        <a href="product-details.php" class="hover-image">
                                             <img src="image/products/product-7.jpg" alt="">
                                         </a>
                                         <div class="hover-btns">
-                                            <a href="cart.html" class="single-btn">
+                                            <a href="cart.php" class="single-btn">
                                                 <i class="fas fa-shopping-basket"></i>
                                             </a>
-                                            <a href="wishlist.html" class="single-btn">
+                                            <a href="wishlist.php" class="single-btn">
                                                 <i class="fas fa-heart"></i>
                                             </a>
-                                            <a href="compare.html" class="single-btn">
+                                            <a href="compare.php" class="single-btn">
                                                 <i class="fas fa-random"></i>
                                             </a>
                                             <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2737,24 +2737,24 @@
                                 <a href="#" class="author">
                                     Mpple
                                 </a>
-                                <h3><a href="product-details.html">Revolutionize Your BOOK With These Easy
+                                <h3><a href="product-details.php">Revolutionize Your BOOK With These Easy
                                   </a></h3>
                             </div>
                             <div class="product-card--body">
                                 <div class="card-image">
                                     <img src="image/products/product-13.jpg" alt="">
                                     <div class="hover-contents">
-                                        <a href="product-details.html" class="hover-image">
+                                        <a href="product-details.php" class="hover-image">
                                             <img src="image/products/product-11.jpg" alt="">
                                         </a>
                                         <div class="hover-btns">
-                                            <a href="cart.html" class="single-btn">
+                                            <a href="cart.php" class="single-btn">
                                                 <i class="fas fa-shopping-basket"></i>
                                             </a>
-                                            <a href="wishlist.html" class="single-btn">
+                                            <a href="wishlist.php" class="single-btn">
                                                 <i class="fas fa-heart"></i>
                                             </a>
-                                            <a href="compare.html" class="single-btn">
+                                            <a href="compare.php" class="single-btn">
                                                 <i class="fas fa-random"></i>
                                             </a>
                                             <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -2819,7 +2819,7 @@
                                                 <a href="#" class="author">
                                                     Rpple
                                                 </a>
-                                                <h3><a href="product-details.html">Do You Really Need It? This
+                                                <h3><a href="product-details.php">Do You Really Need It? This
                                                         Will Help You
                                   </a></h3>
                                             </div>
@@ -2841,7 +2841,7 @@
                                                 <a href="#" class="author">
                                                     Epple
                                                 </a>
-                                                <h3><a href="product-details.html">Here Is Quick Cure BOOK This
+                                                <h3><a href="product-details.php">Here Is Quick Cure BOOK This
                                                         Will Help
                                                        
                                   </a></h3>
@@ -2864,7 +2864,7 @@
                                                 <a href="#" class="author">
                                                     Wpple
                                                 </a>
-                                                <h3><a href="product-details.html">Do You Really Need It? This
+                                                <h3><a href="product-details.php">Do You Really Need It? This
                                                         Will Help You
                                                        
                                   </a></h3>
@@ -2887,7 +2887,7 @@
                                                 <a href="#" class="author">
                                                     Ypple
                                                 </a>
-                                                <h3><a href="product-details.html">Very Simple Things You
+                                                <h3><a href="product-details.php">Very Simple Things You
                                                         Can Save BOOK
                                                        
                                   
@@ -2913,7 +2913,7 @@
                                                 <a href="#" class="author">
                                                     Mople
                                                 </a>
-                                                <h3><a href="product-details.html">What You Can Learn From Bill Gates
+                                                <h3><a href="product-details.php">What You Can Learn From Bill Gates
                                                        
                                   </a></h3>
                                             </div>
@@ -2935,7 +2935,7 @@
                                                 <a href="#" class="author">
                                                     Cpple
                                                 </a>
-                                                <h3><a href="product-details.html">3 Ways Create Better BOOK With
+                                                <h3><a href="product-details.php">3 Ways Create Better BOOK With
                                                         Help
                                                        
                                   </a></h3>
@@ -2986,7 +2986,7 @@
                                     <a href="#" class="author">
                                         Rpple
                                     </a>
-                                    <h3><a href="product-details.html">Revolutionize Your BOOK With</a></h3>
+                                    <h3><a href="product-details.php">Revolutionize Your BOOK With</a></h3>
                                 </div>
                                 <div class="price-block">
                                     <span class="price">£51.20</span>
@@ -3006,7 +3006,7 @@
                                     <a href="#" class="author">
                                         Dpple
                                     </a>
-                                    <h3><a href="product-details.html">Turn Your BOOK Into High Machine</a>
+                                    <h3><a href="product-details.php">Turn Your BOOK Into High Machine</a>
                                     </h3>
                                 </div>
                                 <div class="price-block">
@@ -3027,7 +3027,7 @@
                                     <a href="#" class="author">
                                         Epple
                                     </a>
-                                    <h3><a href="product-details.html">BOOK: Do You Really Need It? This </a></h3>
+                                    <h3><a href="product-details.php">BOOK: Do You Really Need It? This </a></h3>
                                 </div>
                                 <div class="price-block">
                                     <span class="price">£51.20</span>
@@ -3047,7 +3047,7 @@
                                     <a href="#" class="author">
                                         Ppple
                                     </a>
-                                    <h3><a href="product-details.html">Here Is A Quick Cure For Book</a>
+                                    <h3><a href="product-details.php">Here Is A Quick Cure For Book</a>
                                     </h3>
                                 </div>
                                 <div class="price-block">
@@ -3068,7 +3068,7 @@
                                     <a href="#" class="author">
                                         Ypple
                                     </a>
-                                    <h3><a href="product-details.html">What You Can Learn From Bill Gates</a>
+                                    <h3><a href="product-details.php">What You Can Learn From Bill Gates</a>
                                     </h3>
                                 </div>
                                 <div class="price-block">
@@ -3089,7 +3089,7 @@
                                     <a href="#" class="author">
                                         Wpple
                                     </a>
-                                    <h3><a href="product-details.html">3 Ways Create Better BOOK With</a></h3>
+                                    <h3><a href="product-details.php">3 Ways Create Better BOOK With</a></h3>
                                 </div>
                                 <div class="price-block">
                                     <span class="price">£51.20</span>
@@ -3168,24 +3168,24 @@
                                 <a href="#" class="author">
                                     Lpple
                                 </a>
-                                <h3><a href="product-details.html">Revolutionize Your BOOK With These Easy
+                                <h3><a href="product-details.php">Revolutionize Your BOOK With These Easy
                                   </a></h3>
                             </div>
                             <div class="product-card--body">
                                 <div class="card-image">
                                     <img src="image/products/product-2.jpg" alt="">
                                     <div class="hover-contents">
-                                        <a href="product-details.html" class="hover-image">
+                                        <a href="product-details.php" class="hover-image">
                                             <img src="image/products/product-1.jpg" alt="">
                                         </a>
                                         <div class="hover-btns">
-                                            <a href="cart.html" class="single-btn">
+                                            <a href="cart.php" class="single-btn">
                                                 <i class="fas fa-shopping-basket"></i>
                                             </a>
-                                            <a href="wishlist.html" class="single-btn">
+                                            <a href="wishlist.php" class="single-btn">
                                                 <i class="fas fa-heart"></i>
                                             </a>
-                                            <a href="compare.html" class="single-btn">
+                                            <a href="compare.php" class="single-btn">
                                                 <i class="fas fa-random"></i>
                                             </a>
                                             <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -3209,24 +3209,24 @@
                                 <a href="" class="author">
                                     Jpple
                                 </a>
-                                <h3><a href="product-details.html">Turn Your BOOK Into High Machine</a>
+                                <h3><a href="product-details.php">Turn Your BOOK Into High Machine</a>
                                 </h3>
                             </div>
                             <div class="product-card--body">
                                 <div class="card-image">
                                     <img src="image/products/product-2.jpg" alt="">
                                     <div class="hover-contents">
-                                        <a href="product-details.html" class="hover-image">
+                                        <a href="product-details.php" class="hover-image">
                                             <img src="image/products/product-1.jpg" alt="">
                                         </a>
                                         <div class="hover-btns">
-                                            <a href="cart.html" class="single-btn">
+                                            <a href="cart.php" class="single-btn">
                                                 <i class="fas fa-shopping-basket"></i>
                                             </a>
-                                            <a href="wishlist.html" class="single-btn">
+                                            <a href="wishlist.php" class="single-btn">
                                                 <i class="fas fa-heart"></i>
                                             </a>
-                                            <a href="compare.html" class="single-btn">
+                                            <a href="compare.php" class="single-btn">
                                                 <i class="fas fa-random"></i>
                                             </a>
                                             <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -3250,23 +3250,23 @@
                                 <a href="" class="author">
                                     Wpple
                                 </a>
-                                <h3><a href="product-details.html">Create Better BOOK With The Help Of Your</a></h3>
+                                <h3><a href="product-details.php">Create Better BOOK With The Help Of Your</a></h3>
                             </div>
                             <div class="product-card--body">
                                 <div class="card-image">
                                     <img src="image/products/product-3.jpg" alt="">
                                     <div class="hover-contents">
-                                        <a href="product-details.html" class="hover-image">
+                                        <a href="product-details.php" class="hover-image">
                                             <img src="image/products/product-2.jpg" alt="">
                                         </a>
                                         <div class="hover-btns">
-                                            <a href="cart.html" class="single-btn">
+                                            <a href="cart.php" class="single-btn">
                                                 <i class="fas fa-shopping-basket"></i>
                                             </a>
-                                            <a href="wishlist.html" class="single-btn">
+                                            <a href="wishlist.php" class="single-btn">
                                                 <i class="fas fa-heart"></i>
                                             </a>
-                                            <a href="compare.html" class="single-btn">
+                                            <a href="compare.php" class="single-btn">
                                                 <i class="fas fa-random"></i>
                                             </a>
                                             <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -3290,24 +3290,24 @@
                                 <a href="" class="author">
                                     Epple
                                 </a>
-                                <h3><a href="product-details.html">What You Can Learn From Bill Gates</a>
+                                <h3><a href="product-details.php">What You Can Learn From Bill Gates</a>
                                 </h3>
                             </div>
                             <div class="product-card--body">
                                 <div class="card-image">
                                     <img src="image/products/product-5.jpg" alt="">
                                     <div class="hover-contents">
-                                        <a href="product-details.html" class="hover-image">
+                                        <a href="product-details.php" class="hover-image">
                                             <img src="image/products/product-4.jpg" alt="">
                                         </a>
                                         <div class="hover-btns">
-                                            <a href="cart.html" class="single-btn">
+                                            <a href="cart.php" class="single-btn">
                                                 <i class="fas fa-shopping-basket"></i>
                                             </a>
-                                            <a href="wishlist.html" class="single-btn">
+                                            <a href="wishlist.php" class="single-btn">
                                                 <i class="fas fa-heart"></i>
                                             </a>
-                                            <a href="compare.html" class="single-btn">
+                                            <a href="compare.php" class="single-btn">
                                                 <i class="fas fa-random"></i>
                                             </a>
                                             <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -3331,23 +3331,23 @@
                                 <a href="" class="author">
                                     Hpple
                                 </a>
-                                <h3><a href="product-details.html">a Half Very Simple Things You To Save</a></h3>
+                                <h3><a href="product-details.php">a Half Very Simple Things You To Save</a></h3>
                             </div>
                             <div class="product-card--body">
                                 <div class="card-image">
                                     <img src="image/products/product-6.jpg" alt="">
                                     <div class="hover-contents">
-                                        <a href="product-details.html" class="hover-image">
+                                        <a href="product-details.php" class="hover-image">
                                             <img src="image/products/product-4.jpg" alt="">
                                         </a>
                                         <div class="hover-btns">
-                                            <a href="cart.html" class="single-btn">
+                                            <a href="cart.php" class="single-btn">
                                                 <i class="fas fa-shopping-basket"></i>
                                             </a>
-                                            <a href="wishlist.html" class="single-btn">
+                                            <a href="wishlist.php" class="single-btn">
                                                 <i class="fas fa-heart"></i>
                                             </a>
-                                            <a href="compare.html" class="single-btn">
+                                            <a href="compare.php" class="single-btn">
                                                 <i class="fas fa-random"></i>
                                             </a>
                                             <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -3371,23 +3371,23 @@
                                 <a href="#" class="author">
                                     Bpple
                                 </a>
-                                <h3><a href="product-details.html">Here Is A Quick Cure For Book</a></h3>
+                                <h3><a href="product-details.php">Here Is A Quick Cure For Book</a></h3>
                             </div>
                             <div class="product-card--body">
                                 <div class="card-image">
                                     <img src="image/products/product-8.jpg" alt="">
                                     <div class="hover-contents">
-                                        <a href="product-details.html" class="hover-image">
+                                        <a href="product-details.php" class="hover-image">
                                             <img src="image/products/product-7.jpg" alt="">
                                         </a>
                                         <div class="hover-btns">
-                                            <a href="cart.html" class="single-btn">
+                                            <a href="cart.php" class="single-btn">
                                                 <i class="fas fa-shopping-basket"></i>
                                             </a>
-                                            <a href="wishlist.html" class="single-btn">
+                                            <a href="wishlist.php" class="single-btn">
                                                 <i class="fas fa-heart"></i>
                                             </a>
-                                            <a href="compare.html" class="single-btn">
+                                            <a href="compare.php" class="single-btn">
                                                 <i class="fas fa-random"></i>
                                             </a>
                                             <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -3411,7 +3411,7 @@
                                 <a href="#" class="author">
                                     zpple
                                 </a>
-                                <h3><a href="product-details.html">Do You Really Need It? This Will Help You
+                                <h3><a href="product-details.php">Do You Really Need It? This Will Help You
                                   </a>
                                 </h3>
                             </div>
@@ -3419,17 +3419,17 @@
                                 <div class="card-image">
                                     <img src="image/products/product-13.jpg" alt="">
                                     <div class="hover-contents">
-                                        <a href="product-details.html" class="hover-image">
+                                        <a href="product-details.php" class="hover-image">
                                             <img src="image/products/product-11.jpg" alt="">
                                         </a>
                                         <div class="hover-btns">
-                                            <a href="cart.html" class="single-btn">
+                                            <a href="cart.php" class="single-btn">
                                                 <i class="fas fa-shopping-basket"></i>
                                             </a>
-                                            <a href="wishlist.html" class="single-btn">
+                                            <a href="wishlist.php" class="single-btn">
                                                 <i class="fas fa-heart"></i>
                                             </a>
-                                            <a href="compare.html" class="single-btn">
+                                            <a href="compare.php" class="single-btn">
                                                 <i class="fas fa-random"></i>
                                             </a>
                                             <a href="#" data-toggle="modal" data-target="#quickModal"
@@ -3505,7 +3505,7 @@
                                             Aug
                                         </span>
                                     </div>
-                                    <h3 class="title"><a href="blog-details.html">How to Water and Care for Mounted</a>
+                                    <h3 class="title"><a href="blog-details.php">How to Water and Care for Mounted</a>
                                     </h3>
                                 </div>
                                 <p class="meta-para"><i class="fas fa-user-edit"></i>Post by <a href="#">Hastech</a></p>
@@ -3514,7 +3514,7 @@
                                     <p>Virtual reality and 3-D technology are already well-established in the
                                         entertainment...</p>
                                 </article>
-                                <a href="blog-details.html" class="card-link">Read More <i
+                                <a href="blog-details.php" class="card-link">Read More <i
                                         class="fas fa-chevron-circle-right"></i></a>
                             </div>
                         </div>
@@ -3534,7 +3534,7 @@
                                             Jan
                                         </span>
                                     </div>
-                                    <h3 class="title"><a href="blog-details.html">Why You Never See BLOG TITLE That </a>
+                                    <h3 class="title"><a href="blog-details.php">Why You Never See BLOG TITLE That </a>
                                     </h3>
                                 </div>
                                 <p class="meta-para"><i class="fas fa-user-edit"></i>Post by <a href="#">Hastech</a></p>
@@ -3543,7 +3543,7 @@
                                     <p>Virtual reality and 3-D technology are already well-established in the
                                         entertainment...</p>
                                 </article>
-                                <a href="blog-details.html" class="card-link">Read More <i
+                                <a href="blog-details.php" class="card-link">Read More <i
                                         class="fas fa-chevron-circle-right"></i></a>
                             </div>
                         </div>
@@ -3563,7 +3563,7 @@
                                             Aug
                                         </span>
                                     </div>
-                                    <h3 class="title"><a href="blog-details.html">What Everyone Must Know About </a>
+                                    <h3 class="title"><a href="blog-details.php">What Everyone Must Know About </a>
                                     </h3>
                                 </div>
                                 <p class="meta-para"><i class="fas fa-user-edit"></i>Post by <a href="#">Hastech</a></p>
@@ -3572,7 +3572,7 @@
                                     <p>Virtual reality and 3-D technology are already well-established in the
                                         entertainment...</p>
                                 </article>
-                                <a href="blog-details.html" class="card-link">Read More <i
+                                <a href="blog-details.php" class="card-link">Read More <i
                                         class="fas fa-chevron-circle-right"></i></a>
                             </div>
                         </div>
