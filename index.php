@@ -73,7 +73,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-3">
                             <a href="index.php" class="site-brand">
-                                <img src="image/Logo1.PNG" alt="">
+                                <img src="image/Logo1.png" alt="">
                             </a>
                         </div>
                         <div class="col-lg-5">
@@ -4582,7 +4582,7 @@
                 <div class=" col-xl-3 col-lg-4 col-sm-6">
                     <div class="single-footer pb--40">
                         <div class="brand-footer footer-title">
-                            <img src="image/Logo1.PNG" alt="">
+                            <img src="image/Logo1.png" alt="">
                         </div>
                         <div class="footer-contact">
                             <p><span class="label">Address:</span><span class="text">Sg Palya ,Hosur Road,karnataka,Bangalore
