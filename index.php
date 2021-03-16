@@ -336,7 +336,7 @@
                                             <li><a href="order-complete.php">Order Complete</a></li>
                                             <li><a href="faq.php">Faq</a></li>
                                             <!-- made a change here -->
-                                            <li><a href="contact.php">contact</a></li> 
+                                            <li><a href="contact-2.php">contact</a></li> 
                                         </ul>
                                     </li>
                                     <!-- Blog -->
