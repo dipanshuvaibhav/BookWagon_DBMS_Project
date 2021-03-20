@@ -59,7 +59,7 @@
 									</li>
 									<!-- Blog -->
 									<li class="menu-item has-children mega-menu">
-										<a href="blog-list.html">Blog </a>
+										<a href="blog.html">Blog </a>
 									</li>
 									<li class="menu-item">
 										<a href="contact.html">Contact</a>
@@ -591,101 +591,106 @@
 					<nav aria-label="breadcrumb">
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-							<li class="breadcrumb-item active">Wishlist</li>
+							<li class="breadcrumb-item active">Blog</li>
 						</ol>
 					</nav>
 				</div>
 			</div>
 		</section>
-		<!-- Wishlist Page Start -->
-		<div class="cart_area inner-page-sec-padding-bottom">
+		<section class="inner-page-sec-padding-bottom">
 			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<form action="./">
-							<!-- Cart Table -->
-							<div class="cart-table table-responsive">
-								<table class="table">
-									<thead>
-										<tr>
-											<th class="pro-thumbnail">Image</th>
-											<th class="pro-title">Product</th>
-											<th class="pro-price">Price</th>
-											<th class="pro-quantity">Quantity</th>
-											<th class="pro-subtotal">Total</th>
-											<th class="pro-remove">Remove</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td class="pro-thumbnail"><a href="#"><img
-														src="image/products/product-1.jpg" alt="Product"></a></td>
-											<td class="pro-title"><a href="#">Rinosin Glasses</a></td>
-											<td class="pro-price"><span>$395.00</span></td>
-											<td class="pro-quantity">
-												<div class="pro-qty">
-													<div class="count-input-block">
-														<input type="number" class="form-control text-center" value="1">
-													</div>
-												</div>
-											</td>
-											<td class="pro-subtotal"><span>$395.00</span></td>
-											<td class="pro-remove"><a href="#"><i class="far fa-trash-alt"></i></a></td>
-										</tr>
-										<tr>
-											<td class="pro-thumbnail"><a href="#"><img
-														src="image/products/product-2.jpg" alt="Product"></a></td>
-											<td class="pro-title"><a href="#">Silacon Glasses</a></td>
-											<td class="pro-price"><span>$275.00</span></td>
-											<td class="pro-quantity">
-												<div class="pro-qty">
-													<div class="count-input-block">
-														<input type="number" class="form-control text-center" value="1">
-													</div>
-												</div>
-											</td>
-											<td class="pro-subtotal"><span>$550.00</span></td>
-											<td class="pro-remove"><a href="#"><i class="far fa-trash-alt"></i></a></td>
-										</tr>
-										<tr>
-											<td class="pro-thumbnail"><a href="#"><img
-														src="image/products/product-3.jpg" alt="Product"></a></td>
-											<td class="pro-title"><a href="#">Easin Glasses</a></td>
-											<td class="pro-price"><span>$295.00</span></td>
-											<td class="pro-quantity">
-												<div class="pro-qty">
-													<div class="count-input-block">
-														<input type="number" class="form-control text-center" value="1">
-													</div>
-												</div>
-											</td>
-											<td class="pro-subtotal"><span>$295.00</span></td>
-											<td class="pro-remove"><a href="#"><i class="far fa-trash-alt"></i></a></td>
-										</tr>
-										<tr>
-											<td class="pro-thumbnail"><a href="#"><img
-														src="image/products/product-4.jpg" alt="Product"></a></td>
-											<td class="pro-title"><a href="#">Macrox Glasses</a></td>
-											<td class="pro-price"><span>$220.00</span></td>
-											<td class="pro-quantity">
-												<div class="pro-qty">
-													<div class="count-input-block">
-														<input type="number" class="form-control text-center" value="1">
-													</div>
-												</div>
-											</td>
-											<td class="pro-subtotal"><span>$220.00</span></td>
-											<td class="pro-remove"><a href="#"><i class="far fa-trash-alt"></i></a></td>
-										</tr>
-									</tbody>
-								</table>
+				<div class="blog-list-cards">
+					<div class="blog-card card-style-list">
+						<div class="row">
+							<div class="col-md-5">
+								<a href="blog-details.html" class="image d-block">
+									<img src="image/others/blog-grid-3.jpg" alt="">
+								</a>
 							</div>
-						</form>
+							<div class="col-md-6">
+								<div class="card-content">
+									<h3 class="title"><a href="blog-details.html">Blog 1 title</a></h3>
+									<p class="post-meta"><span>13/08/2017 </span> | <a href="#">Hastech</a></p>
+									<article>
+										<h2 class="sr-only">
+											Blog Article
+										</h2>
+										<p>Sample sample sample</p>
+										<a href="blog-details.html" class="blog-link">Read More</a>
+									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="blog-card card-style-list">
+						<div class="row">
+							<div class="col-md-5">
+								<a href="blog-details.html" class="image d-block">
+									<img src="image/others/blog-grid-4.jpg" alt="">
+								</a>
+							</div>
+							<div class="col-md-5">
+								<div class="card-content">
+									<h3 class="title"><a href="blog-details.html">Blog 2 title</a></h3>
+									<p class="post-meta"><span>28/10/2017 </span> | <a href="#">Hastech</a></p>
+									<article>
+										<h2 class="sr-only">
+											Blog Article
+										</h2>
+										<p>Sample sample sample</p>
+										<a href="blog-details.html" class="blog-link">Read More</a>
+									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="blog-card card-style-list">
+						<div class="row">
+							<div class="col-md-5">
+								<a href="blog-details.html" class="image d-block">
+									<img src="image/others/blog-grid-1.jpg" alt="">
+								</a>
+							</div>
+							<div class="col-md-5">
+								<div class="card-content">
+									<h3 class="title"><a href="blog-details.html">Blog 3 title</a></h3>
+									<p class="post-meta"><span>30/10/2017 </span> | <a href="#">Hastech</a></p>
+									<article>
+										<h2 class="sr-only">
+											Blog Article
+										</h2>
+										<p>Sample sample sample</p>
+										<a href="blog-details.html" class="blog-link">Read More</a>
+									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="blog-card card-style-list">
+						<div class="row">
+							<div class="col-md-5">
+								<a href="blog-details.html" class="image d-block">
+									<img src="image/others/blog-grid-2.jpg" alt="">
+								</a>
+							</div>
+							<div class="col-md-5">
+								<div class="card-content">
+									<h3 class="title"><a href="blog-details.html">Blog 4 title</a></h3>
+									<p class="post-meta"><span>22/01/2017 </span> | <a href="#">Hastech</a></p>
+									<article>
+										<h2 class="sr-only">
+											Blog Article
+										</h2>
+										<p>Sample sample sample</p>
+										<a href="blog-details.html" class="blog-link">Read More</a>
+									</article>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<!-- Cart Page End -->
+		</section>
 	</div>
 	<!--=================================
   Brands Slider
