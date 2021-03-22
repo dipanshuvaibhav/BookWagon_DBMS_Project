@@ -98,7 +98,7 @@
                                         
                                     </li>
 											<!-- Pages -->
-											<li class="menu-item">
+											<li class="menu-item has-children">
 													<a href="javascript:void(0)">Pages <i
 																	class="fas fa-chevron-down dropdown-arrow"></i></a>
 													<ul class="sub-menu">
@@ -351,8 +351,8 @@
 																</ul> -->
 														</li>
 														<!-- Shop -->
-														<li class="menu-item has-children mega-menu">
-																<a href="javascript:void(0)">shop <i
+														<li class="menu-item mega-menu">
+																<a href="shop-grid-left-sidebar.php">shop <i
 																				class="fas fa-chevron-down dropdown-arrow"></i></a>
 																<ul class="sub-menu four-column">
 																		<li class="cus-col-25">
