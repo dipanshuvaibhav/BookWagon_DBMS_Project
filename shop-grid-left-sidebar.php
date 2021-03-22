@@ -1410,7 +1410,8 @@
 					<div class="col-lg-3  mt--40 mt-lg--0">
 						<div class="inner-page-sidebar">
 							<!-- Accordion -->
-							<div class="single-block">
+							
+							<!-- <div class="single-block">
 								<h3 class="sidebar-title">Categories</h3>
 								<ul class="sidebar-menu--shop">
 									<li><a href="">Accessories (5)</a></li>
@@ -1428,7 +1429,7 @@
 									<li><a href="">Shop (16)</a>
 									</li>
 								</ul>
-							</div>
+							</div> -->
 							<!-- Price -->
 							<!-- <div class="single-block">
 								<h3 class="sidebar-title">Fillter By Price</h3>
