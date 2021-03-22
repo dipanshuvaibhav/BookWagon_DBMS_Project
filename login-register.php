@@ -37,7 +37,7 @@
 						<div class="col-lg-6">
 							<div class="main-navigation flex-lg-right">
 									<ul class="main-menu menu-right li-last-0">
-											<li class="menu-item has-children">
+											<li class="menu-item ">
 													<!-- <a href="javascript:void(0)">Home <i
 																	class="fas fa-chevron-down dropdown-arrow"></i></a> -->
 																	<a href="index.php">Home</a><!--changes have been made here-->
