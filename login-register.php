@@ -115,7 +115,7 @@
 													</ul>
 											</li>
 											<!-- Blog -->
-											<li class="menu-item has-children mega-menu">
+											<li class="menu-item mega-menu">
 													<a href="blog-list.php">Blog </a>
 													<!-- <ul class="sub-menu three-column">
 															<li class="cus-col-33">
