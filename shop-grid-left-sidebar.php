@@ -49,17 +49,16 @@
 										</ul> -->
 									</li>
 									<!-- Shop -->
-									<li class="menu-item has-children mega-menu">
-                                        <a href="javascript:void(0)">shop <i
-                                                class="fas fa-chevron-down dropdown-arrow"></i></a>
-                                        <ul class="sub-menu four-column">
+									<li class="menu-item  mega-menu">
+                                        <a href="shop-grid-left-sidebar.php">shop </a>
+                                        <!-- <ul class="sub-menu four-column">
                                             <li class="cus-col-25">
                                                 <h3 class="menu-title"><a href="javascript:void(0)">Shop</a></h3>
                                                 <ul class="mega-single-block">
-                                                    <!-- <li><a href="shop-grid.php">Fullwidth</a></li> -->
+                                                    <li><a href="shop-grid.php">Fullwidth</a></li>
                                                     <li><a href="shop-grid-left-sidebar.php">Shop</a></li>
-                                                    <!-- <li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li> -->
-                                                </ul>
+                                                    <li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li>
+                                                </ul> -->
                                             </li>
                                             <!-- <li class="cus-col-25">
                                                 <h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
@@ -69,19 +68,19 @@
                                                 	<li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
                                                 </ul>
                                             </li>-->
-                                            <li class="cus-col-25">
+                                            <!-- <li class="cus-col-25">
                                                 <h3 class="menu-title"> <a href="javascript:void(0)">Product Details
                                                         </a></h3>
                                                 <ul class="mega-single-block">
                                                     <li><a href="product-details.php">Product Details Page</a></li>
-                                                    <!-- <li><a href="product-details-affiliate.php">Product Details
+                                                    <li><a href="product-details-affiliate.php">Product Details
                                                             Affiliate</a></li>
                                                     <li><a href="product-details-group.php">Product Details Group</a>
                                                     </li>
                                                     <li><a href="product-details-variable.php">Product Details
-                                                            Variables</a></li> -->
+                                                            Variables</a></li>
                                                 </ul>
-                                            </li>
+                                            </li> -->
                                             <!-- <li class="cus-col-25">
                                                 <h3 class="menu-title"><a href="javascript:void(0)">Product Details
                                                         2</a></h3>
