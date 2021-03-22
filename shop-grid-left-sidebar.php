@@ -94,7 +94,7 @@
                                                     </li> -->
                                                 <!-- </ul>
                                             </li> -->
-                                        </ul>
+                                        
                                     </li>
                                     <!-- Pages -->
                                     <li class="menu-item has-children">
