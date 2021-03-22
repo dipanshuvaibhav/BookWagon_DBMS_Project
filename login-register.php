@@ -50,54 +50,53 @@
 													</ul> -->
 											</li>
 											<!-- Shop -->
-											<li class="menu-item has-children mega-menu">
-													<a href="javascript:void(0)">shop <i
-																	class="fas fa-chevron-down dropdown-arrow"></i></a>
-													<ul class="sub-menu four-column">
-															<li class="cus-col-25">
-																	<h3 class="menu-title"><a href="javascript:void(0)">Shop</a></h3>
-																	<ul class="mega-single-block">
-																			<!-- <li><a href="shop-grid.php">Fullwidth</a></li> -->
-																			<li><a href="shop-grid-left-sidebar.php">Shop</a></li>
-																			<!-- <li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li> -->
-																	</ul>
-															</li>
-															<!-- <li class="cus-col-25">
-																	<h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
-																	<ul class="mega-single-block">
-																			 <li><a href="shop-list.php">Fullwidth</a></li>
-																			<li><a href="shop-list-left-sidebar.php">List</a></li>
-																			<li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
-																	</ul>
-															</li> -->
-															<li class="cus-col-25">
-																	<h3 class="menu-title"> <a href="javascript:void(0)">Product Details
-																					</a></h3>
-																	<ul class="mega-single-block">
-																			<li><a href="product-details.php">Product Details Page</a></li>
-																			<!-- <li><a href="product-details-affiliate.php">Product Details
-																							Affiliate</a></li>
-																			<li><a href="product-details-group.php">Product Details Group</a>
-																			</li>
-																			<li><a href="product-details-variable.php">Product Details
-																							Variables</a></li> -->
-																	</ul>
-															</li>
-															<!-- <li class="cus-col-25">
-																	<h3 class="menu-title"><a href="javascript:void(0)">Product Details
-																					2</a></h3>
-																	<ul class="mega-single-block">
-																			<li><a href="product-details-left-thumbnail.php">Thumbnail</a>
-																			</li> -->
-																			<!-- <li><a href="product-details-right-thumbnail.php">Right Thumbnail</a></li> -->
-																			<!-- <li><a href="product-details-left-gallery.php">Gallery</a>
-																			</li> -->
-																			<!-- <li><a href="product-details-right-gallery.php">Right Gallery</a>
-																			</li> -->
-																	<!-- </ul>
-															</li> -->
-													</ul>
-											</li>
+											<li class="menu-item  mega-menu">
+                                        <a href="shop-grid-left-sidebar.php">shop </a>
+                                        <!-- <ul class="sub-menu four-column">
+                                            <li class="cus-col-25">
+                                                <h3 class="menu-title"><a href="javascript:void(0)">Shop</a></h3>
+                                                <ul class="mega-single-block">
+                                                    <li><a href="shop-grid.php">Fullwidth</a></li>
+                                                    <li><a href="shop-grid-left-sidebar.php">Shop</a></li>
+                                                    <li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li>
+                                                </ul> -->
+                                            </li>
+                                            <!-- <li class="cus-col-25">
+                                                <h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
+                                                <ul class="mega-single-block">
+                                                    <li><a href="shop-list.php">Fullwidth</a></li>
+                                                    <li><a href="shop-list-left-sidebar.php">List</a></li>
+                                                	<li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
+                                                </ul>
+                                            </li>-->
+                                            <!-- <li class="cus-col-25">
+                                                <h3 class="menu-title"> <a href="javascript:void(0)">Product Details
+                                                        </a></h3>
+                                                <ul class="mega-single-block">
+                                                    <li><a href="product-details.php">Product Details Page</a></li>
+                                                    <li><a href="product-details-affiliate.php">Product Details
+                                                            Affiliate</a></li>
+                                                    <li><a href="product-details-group.php">Product Details Group</a>
+                                                    </li>
+                                                    <li><a href="product-details-variable.php">Product Details
+                                                            Variables</a></li>
+                                                </ul>
+                                            </li> -->
+                                            <!-- <li class="cus-col-25">
+                                                <h3 class="menu-title"><a href="javascript:void(0)">Product Details
+                                                        2</a></h3>
+                                                <ul class="mega-single-block">
+                                                    <li><a href="product-details-left-thumbnail.php">Thumbnail</a>
+                                                    </li> -->
+                                                    <!-- <li><a href="product-details-right-thumbnail.php">Right Thumbnail</a></li> -->
+                                                    <!-- <li><a href="product-details-left-gallery.php">Gallery</a>
+                                                    </li> -->
+                                                    <!-- <li><a href="product-details-right-gallery.php">Right Gallery</a>
+                                                    </li> -->
+                                                <!-- </ul>
+                                            </li> -->
+                                        
+                                    </li>
 											<!-- Pages -->
 											<li class="menu-item has-children">
 													<a href="javascript:void(0)">Pages <i
