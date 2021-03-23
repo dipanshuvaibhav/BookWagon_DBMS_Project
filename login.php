@@ -14,9 +14,10 @@ $result = mysqli_query($con, $s);
 $num = mysqli_num_rows($result);
 
 if($num==1){
-    header('location:my-account.php');
+    //header('location:my-account.php');
+    echo"Login Successful";
 }else{
-    header('location:login-register.php');
+    //header('location:login-register.php');
     echo"Wrong information please try again!";
 }
 
