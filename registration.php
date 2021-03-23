@@ -17,7 +17,7 @@ if($num ==1){
   $reg = "insert into heroku_adaaf59afa8e08a.customer_table(cust_name,cust_email,cust_pass) values ('$name','$mail','$pass');";
   mysqli_query($con,$reg);
 
-  echo '<script>alert("Registration Successfull!")</script>;
+  echo '<script>alert("Registration Successfull!")</script>';
 }
 
  ?>
