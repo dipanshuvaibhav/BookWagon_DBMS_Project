@@ -9,7 +9,7 @@ mysqli_select_db($con,'heroku_adaaf59afa8e08a');
 $password = $_POST['login-password'];
 $email = $_POST['email1'];
 
-$s = "select * from customer_table where cust_email = '$email' && cust_pass = '$password'";
+$s = "select * from customer_table where cust_email = '$email' && cust_pass = '$password';";
 
 $result = mysqli_query($con, $s);
 
