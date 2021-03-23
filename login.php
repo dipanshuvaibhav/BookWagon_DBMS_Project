@@ -7,16 +7,17 @@ mysqli_select_db($con,'heroku_adaaf59afa8e08a');
 $password = $_POST['login-password'];
 $email = $_POST['email1'];
 
-$s = "select * from customer_table where cust_email = '$email' && cust_pass = '$password';";
+$s = "select * from heroku_adaaf59afa8e08a.customer_table where cust_email = '$email' && cust_pass = '$password';";
 
 $result = mysqli_query($con, $s);
 
 $num = mysqli_num_rows($result);
 
 if($num==1){
-    header('location:my-account.php');
+    //header('location:my-account.php');
+    echo"Login Successful";
 }else{
-    header('location:login-register.php');
+    //header('location:login-register.php');
     echo"Wrong information please try again!";
 }
 
