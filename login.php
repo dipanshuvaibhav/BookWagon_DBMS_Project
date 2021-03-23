@@ -15,7 +15,7 @@ $num = mysqli_num_rows($result);
 
 if($num==1){
     //header('location:my-account.php');
-    echo "<script type='text/javascript'>alert('Registration done successfully');
+    echo "<script type='text/javascript'>alert('Logged In successfully');
   window.location='my-account.php';
   </script>";
 }else{
