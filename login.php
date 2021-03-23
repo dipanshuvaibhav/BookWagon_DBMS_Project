@@ -15,10 +15,14 @@ $num = mysqli_num_rows($result);
 
 if($num==1){
     //header('location:my-account.php');
-    echo"Login Successful";
+    echo "<script type='text/javascript'>alert('Registration done successfully');
+  window.location='my-account.php';
+  </script>";
 }else{
     //header('location:login-register.php');
-    echo"Wrong information please try again!";
+    echo "<script type='text/javascript'>alert('Wrong Information please try again!');
+  window.location='login-register.php';
+  </script>";
 }
 
 ?>
