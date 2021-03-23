@@ -509,7 +509,7 @@
 						</form>
 					</div>
 					<div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
-						<form action="./">
+						<form action="login.php" method="post">
 							<div class="login-form">
 								<h4 class="login-title">Returning Customer</h4>
 								<p><span class="font-weight-bold">I am a returning customer</span></p>
@@ -524,7 +524,7 @@
 										<input class="mb-0 form-control" type="password" id="login-password" placeholder="Enter your password" required>
 									</div>
 									<div class="col-md-12">
-										<a href="#" class="btn btn-outlined">Login</a>
+										<button type="submit" class="btn btn-outlined">Login</button>
 									</div>
 								</div>
 							</div>
