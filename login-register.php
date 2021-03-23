@@ -521,7 +521,7 @@
 									</div>
 									<div class="col-12 mb--20">
 										<label for="password">Password</label>
-										<input class="mb-0 form-control" type="password" id="login-password" name = "login-password" placeholder="Enter your password" required>
+										<input class="mb-0 form-control" type="password" id="password" name = "password" placeholder="Enter your password" required>
 									</div>
 									<div class="col-md-12">
 										<button type="submit" class="btn btn-outlined">Login</button>

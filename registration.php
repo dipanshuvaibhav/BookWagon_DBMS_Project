@@ -7,7 +7,7 @@ $name = $_POST['name'];
 $mail = $_POST['email'];
 $pass = $_POST['password'];
 
-$s = "select * from heroku_adaaf59afa8e08a.customer_table where cust_name = '$name'";
+$s = "select * from heroku_adaaf59afa8e08a.customer_table where cust_email = '$mail';";
 $result = mysqli_query($con,$s);
 $num = mysqli_num_rows($result);
 
