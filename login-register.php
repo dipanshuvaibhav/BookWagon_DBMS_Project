@@ -95,7 +95,7 @@
                                                     </li> -->
                                                 <!-- </ul>
                                             </li> -->
-                                        
+
                                     </li>
 											<!-- Pages -->
 											<li class="menu-item has-children">
@@ -486,19 +486,19 @@
 									<div class="col-md-12 col-12 mb--15">
 										<label for="email">Full Name</label>
 										<input class="mb-0 form-control" type="text" id="name"
-											placeholder="Enter your full name">
+											placeholder="Enter your full name" required>
 									</div>
 									<div class="col-12 mb--20">
 										<label for="email">Email</label>
-										<input class="mb-0 form-control" type="email" id="email" placeholder="Enter Your Email Address Here..">
+										<input class="mb-0 form-control" type="email" id="email" placeholder="Enter Your Email Address Here.." required>
 									</div>
 									<div class="col-lg-6 mb--20">
 										<label for="password">Password</label>
-										<input class="mb-0 form-control" type="password" id="password" placeholder="Enter your password">
+										<input class="mb-0 form-control" type="password" id="password" placeholder="Enter your password" required>
 									</div>
 									<div class="col-lg-6 mb--20">
 										<label for="password">Repeat Password</label>
-										<input class="mb-0 form-control" type="password" id="repeat-password" placeholder="Repeat your password">
+										<input class="mb-0 form-control" type="password" id="repeat-password" placeholder="Repeat your password" required>
 									</div>
 									<div class="col-md-12">
 										<a href="#" class="btn btn-outlined">Register</a>
@@ -516,11 +516,11 @@
 									<div class="col-md-12 col-12 mb--15">
 										<label for="email">Enter your email address here...</label>
 										<input class="mb-0 form-control" type="email" id="email1"
-											placeholder="Enter you email address here...">
+											placeholder="Enter you email address here..." required>
 									</div>
 									<div class="col-12 mb--20">
 										<label for="password">Password</label>
-										<input class="mb-0 form-control" type="password" id="login-password" placeholder="Enter your password">
+										<input class="mb-0 form-control" type="password" id="login-password" placeholder="Enter your password" required>
 									</div>
 									<div class="col-md-12">
 										<a href="#" class="btn btn-outlined">Login</a>
