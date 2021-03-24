@@ -20,7 +20,7 @@
 					<div class="row align-items-center">
 						<div class="col-lg-3">
 							<a href="index.php" class="site-brand">
-								<img src="image/logo.png" alt="">
+								<img src="image/Logo1.png" alt="">
 							</a>
 						</div>
 						<div class="col-lg-5">
@@ -84,117 +84,6 @@
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-lg-3">
-							<nav class="category-nav white-nav  ">
-								<div>
-									<a href="javascript:void(0)" class="category-trigger"><i
-											class="fa fa-bars"></i>Browse
-										categories</a>
-									<ul class="category-menu">
-										<li class="cat-item has-children">
-											<a href="#">Arts & Photography</a>
-											<ul class="sub-menu">
-												<li><a href="#">Bags & Cases</a></li>
-												<li><a href="#">Binoculars & Scopes</a></li>
-												<li><a href="#">Digital Cameras</a></li>
-												<li><a href="#">Film Photography</a></li>
-												<li><a href="#">Lighting & Studio</a></li>
-											</ul>
-										</li>
-										<li class="cat-item has-children mega-menu"><a href="#">Biographies</a>
-											<ul class="sub-menu">
-												<li class="single-block">
-													<h3 class="title">WHEEL SIMULATORS</h3>
-													<ul>
-														<li><a href="#">Bags & Cases</a></li>
-														<li><a href="#">Binoculars & Scopes</a></li>
-														<li><a href="#">Digital Cameras</a></li>
-														<li><a href="#">Film Photography</a></li>
-														<li><a href="#">Lighting & Studio</a></li>
-													</ul>
-												</li>
-												<li class="single-block">
-													<h3 class="title">WHEEL SIMULATORS</h3>
-													<ul>
-														<li><a href="#">Bags & Cases</a></li>
-														<li><a href="#">Binoculars & Scopes</a></li>
-														<li><a href="#">Digital Cameras</a></li>
-														<li><a href="#">Film Photography</a></li>
-														<li><a href="#">Lighting & Studio</a></li>
-													</ul>
-												</li>
-												<li class="single-block">
-													<h3 class="title">WHEEL SIMULATORS</h3>
-													<ul>
-														<li><a href="#">Bags & Cases</a></li>
-														<li><a href="#">Binoculars & Scopes</a></li>
-														<li><a href="#">Digital Cameras</a></li>
-														<li><a href="#">Film Photography</a></li>
-														<li><a href="#">Lighting & Studio</a></li>
-													</ul>
-												</li>
-												<li class="single-block">
-													<h3 class="title">WHEEL SIMULATORS</h3>
-													<ul>
-														<li><a href="#">Bags & Cases</a></li>
-														<li><a href="#">Binoculars & Scopes</a></li>
-														<li><a href="#">Digital Cameras</a></li>
-														<li><a href="#">Film Photography</a></li>
-														<li><a href="#">Lighting & Studio</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li class="cat-item has-children"><a href="#">Business & Money</a>
-											<ul class="sub-menu">
-												<li><a href="">Brake Tools</a></li>
-												<li><a href="">Driveshafts</a></li>
-												<li><a href="">Emergency Brake</a></li>
-												<li><a href="">Spools</a></li>
-											</ul>
-										</li>
-										<li class="cat-item has-children"><a href="#">Calendars</a>
-											<ul class="sub-menu">
-												<li><a href="">Brake Tools</a></li>
-												<li><a href="">Driveshafts</a></li>
-												<li><a href="">Emergency Brake</a></li>
-												<li><a href="">Spools</a></li>
-											</ul>
-										</li>
-										<li class="cat-item has-children"><a href="#">Children's Books</a>
-											<ul class="sub-menu">
-												<li><a href="">Brake Tools</a></li>
-												<li><a href="">Driveshafts</a></li>
-												<li><a href="">Emergency Brake</a></li>
-												<li><a href="">Spools</a></li>
-											</ul>
-										</li>
-										<li class="cat-item has-children"><a href="#">Comics</a>
-											<ul class="sub-menu">
-												<li><a href="">Brake Tools</a></li>
-												<li><a href="">Driveshafts</a></li>
-												<li><a href="">Emergency Brake</a></li>
-												<li><a href="">Spools</a></li>
-											</ul>
-										</li>
-										<li class="cat-item"><a href="#">Perfomance Filters</a></li>
-										<li class="cat-item has-children"><a href="#">Cookbooks</a>
-											<ul class="sub-menu">
-												<li><a href="">Brake Tools</a></li>
-												<li><a href="">Driveshafts</a></li>
-												<li><a href="">Emergency Brake</a></li>
-												<li><a href="">Spools</a></li>
-											</ul>
-										</li>
-										<li class="cat-item "><a href="#">Accessories</a></li>
-										<li class="cat-item "><a href="#">Education</a></li>
-										<li class="cat-item hidden-menu-item"><a href="#">Indoor Living</a></li>
-										<li class="cat-item"><a href="#" class="js-expand-hidden-menu">More
-												Categories</a></li>
-									</ul>
-								</div>
-							</nav>
-						</div>
-						<div class="col-lg-3">
 							<div class="header-phone color-white">
 								<div class="icon">
 									<i class="fas fa-headphones-alt"></i>
@@ -207,121 +96,121 @@
 						</div>
 						<div class="col-lg-6">
 							<div class="main-navigation flex-lg-right">
-								<ul class="main-menu menu-right main-menu--white li-last-0">
-									<li class="menu-item has-children">
-										<a href="javascript:void(0)">Home <i
-												class="fas fa-chevron-down dropdown-arrow"></i></a>
-										<ul class="sub-menu">
-											<li> <a href="index.php">Home One</a></li>
-											<li> <a href="index-2.php">Home Two</a></li>
-											<li> <a href="index-3.php">Home Three</a></li>
-											<li> <a href="index-4.php">Home Four</a></li>
-										</ul>
-									</li>
-									<!-- Shop -->
-									<li class="menu-item has-children mega-menu">
-										<a href="javascript:void(0)">shop <i
-												class="fas fa-chevron-down dropdown-arrow"></i></a>
-										<ul class="sub-menu four-column">
-											<li class="cus-col-25">
-												<h3 class="menu-title"><a href="javascript:void(0)">Shop Grid </a></h3>
-												<ul class="mega-single-block">
-													<li><a href="shop-grid.php">Fullwidth</a></li>
-													<li><a href="shop-grid-left-sidebar.php">left Sidebar</a></li>
-													<li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li>
-												</ul>
+									<ul class="main-menu menu-right li-last-0">
+											<li class="menu-item ">
+													<!-- <a href="javascript:void(0)">Home <i
+																	class="fas fa-chevron-down dropdown-arrow"></i></a> -->
+																	<a href="index.php">Home</a><!--changes have been made here-->
+													<!-- <ul class="sub-menu">
+															<li> <a href="index.php">Home One</a></li>
+															<li> <a href="index-2.php">Home Two</a></li>
+															<li> <a href="index-3.php">Home Three</a></li>
+															<li> <a href="index.php">Home Four</a></li>
+															<li> <a href="index-5.php">Home Five</a></li>
+													</ul> -->
 											</li>
-											<li class="cus-col-25">
-												<h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
-												<ul class="mega-single-block">
-													<li><a href="shop-list.php">Fullwidth</a></li>
-													<li><a href="shop-list-left-sidebar.php">left Sidebar</a></li>
-													<li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
-												</ul>
+											<!-- Shop -->
+											<li class="menu-item  mega-menu">
+																				<a href="shop-grid-left-sidebar.php">shop </a>
+																				<!-- <ul class="sub-menu four-column">
+																						<li class="cus-col-25">
+																								<h3 class="menu-title"><a href="javascript:void(0)">Shop</a></h3>
+																								<ul class="mega-single-block">
+																										<li><a href="shop-grid.php">Fullwidth</a></li>
+																										<li><a href="shop-grid-left-sidebar.php">Shop</a></li>
+																										<li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li>
+																								</ul> -->
+																						</li>
+																						<!-- <li class="cus-col-25">
+																								<h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
+																								<ul class="mega-single-block">
+																										<li><a href="shop-list.php">Fullwidth</a></li>
+																										<li><a href="shop-list-left-sidebar.php">List</a></li>
+																									<li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
+																								</ul>
+																						</li>-->
+																						<!-- <li class="cus-col-25">
+																								<h3 class="menu-title"> <a href="javascript:void(0)">Product Details
+																												</a></h3>
+																								<ul class="mega-single-block">
+																										<li><a href="product-details.php">Product Details Page</a></li>
+																										<li><a href="product-details-affiliate.php">Product Details
+																														Affiliate</a></li>
+																										<li><a href="product-details-group.php">Product Details Group</a>
+																										</li>
+																										<li><a href="product-details-variable.php">Product Details
+																														Variables</a></li>
+																								</ul>
+																						</li> -->
+																						<!-- <li class="cus-col-25">
+																								<h3 class="menu-title"><a href="javascript:void(0)">Product Details
+																												2</a></h3>
+																								<ul class="mega-single-block">
+																										<li><a href="product-details-left-thumbnail.php">Thumbnail</a>
+																										</li> -->
+																										<!-- <li><a href="product-details-right-thumbnail.php">Right Thumbnail</a></li> -->
+																										<!-- <li><a href="product-details-left-gallery.php">Gallery</a>
+																										</li> -->
+																										<!-- <li><a href="product-details-right-gallery.php">Right Gallery</a>
+																										</li> -->
+																								<!-- </ul>
+																						</li> -->
+
+																		</li>
+											<!-- Pages -->
+											<li class="menu-item has-children">
+													<a href="javascript:void(0)">Pages <i
+																	class="fas fa-chevron-down dropdown-arrow"></i></a>
+													<ul class="sub-menu">
+															<li><a href="cart.php">Cart</a></li>
+															<li><a href="checkout.php">Checkout</a></li>
+															<!-- <li><a href="compare.php">Compare</a></li> -->
+															<li><a href="wishlist.php">Wishlist</a></li>
+															<li><a href="login-register.php">Login Register</a></li>
+															<li><a href="my-account.php">My Account</a></li>
+															<li><a href="order-complete.php">Order Complete</a></li>
+															<li><a href="faq.php">Faq</a></li>
+															<!-- made a change here -->
+															<li><a href="contact.php">contact</a></li>
+													</ul>
 											</li>
-											<li class="cus-col-25">
-												<h3 class="menu-title"> <a href="javascript:void(0)">Product Details
-														1</a></h3>
-												<ul class="mega-single-block">
-													<li><a href="product-details.php">Product Details Page</a></li>
-													<li><a href="product-details-affiliate.php">Product Details
-															Affiliate</a></li>
-													<li><a href="product-details-group.php">Product Details Group</a>
-													</li>
-													<li><a href="product-details-variable.php">Product Details
-															Variables</a></li>
-												</ul>
+											<!-- Blog -->
+											<li class="menu-item mega-menu">
+													<a href="blog-list.php">Blog </a>
+													<!-- <ul class="sub-menu three-column">
+															<li class="cus-col-33">
+																	<h3 class="menu-title"><a href="javascript:void(0)">Blog Grid</a></h3>
+																	<ul class="mega-single-block">
+																			<li><a href="blog.php">Full Widh (Default)</a></li>
+																			<li><a href="blog-left-sidebar.php">left Sidebar</a></li>
+																			<li><a href="blog-right-sidebar.php">Right Sidebar</a></li>
+																	</ul>
+															</li>
+															<li class="cus-col-33">
+																	<h3 class="menu-title"><a href="javascript:void(0)">Blog List </a></h3>
+																	<ul class="mega-single-block">
+																			<li><a href="blog-list.php">Full Widh (Default)</a></li>
+																			<li><a href="blog-list-left-sidebar.php">left Sidebar</a></li>
+																			<li><a href="blog-list-right-sidebar.php">Right Sidebar</a></li>
+																	</ul>
+															</li>
+															<li class="cus-col-33">
+																	<h3 class="menu-title"><a href="javascript:void(0)">Blog Details</a>
+																	</h3>
+																	<ul class="mega-single-block">
+																			<li><a href="blog-details.php">Image Format (Default)</a></li>
+																			<li><a href="blog-details-gallery.php">Gallery</a></li>
+																			<li><a href="blog-details-audio.php">Audio Format</a></li>
+																			<li><a href="blog-details-video.php">Video Format</a></li>
+																			<li><a href="blog-details-left-sidebar.php">Blog</a></li>
+																	</ul>
+															</li>
+													</ul> -->
 											</li>
-											<li class="cus-col-25">
-												<h3 class="menu-title"><a href="javascript:void(0)">Product Details
-														2</a></h3>
-												<ul class="mega-single-block">
-													<li><a href="product-details-left-thumbnail.php">left Thumbnail</a>
-													</li>
-													<li><a href="product-details-right-thumbnail.php">Right
-															Thumbnail</a></li>
-													<li><a href="product-details-left-gallery.php">Left Gallery</a>
-													</li>
-													<li><a href="product-details-right-gallery.php">Right Gallery</a>
-													</li>
-												</ul>
+											<li class="menu-item">
+													<a href="contact.php">Contact</a>
 											</li>
-										</ul>
-									</li>
-									<!-- Pages -->
-									<li class="menu-item has-children">
-										<a href="javascript:void(0)">Pages <i
-												class="fas fa-chevron-down dropdown-arrow"></i></a>
-										<ul class="sub-menu">
-											<li><a href="cart.php">Cart</a></li>
-                                            <li><a href="checkout.php">Checkout</a></li>
-                                            <li><a href="compare.php">Compare</a></li>
-                                            <li><a href="wishlist.php">Wishlist</a></li>
-                                            <li><a href="login-register.php">Login Register</a></li>
-                                            <li><a href="my-account.php">My Account</a></li>
-                                            <li><a href="order-complete.php">Order Complete</a></li>
-                                            <li><a href="faq.php">Faq</a></li>
-                                            <li><a href="contact-2.php">contact 02</a></li>
-										</ul>
-									</li>
-									<!-- Blog -->
-									<li class="menu-item has-children mega-menu">
-										<a href="javascript:void(0)">Blog <i
-												class="fas fa-chevron-down dropdown-arrow"></i></a>
-										<ul class="sub-menu three-column">
-											<li class="cus-col-33">
-												<h3 class="menu-title"><a href="javascript:void(0)">Blog Grid</a></h3>
-												<ul class="mega-single-block">
-													<li><a href="blog.php">Full Widh (Default)</a></li>
-													<li><a href="blog-left-sidebar.php">left Sidebar</a></li>
-													<li><a href="blog-right-sidebar.php">Right Sidebar</a></li>
-												</ul>
-											</li>
-											<li class="cus-col-33">
-												<h3 class="menu-title"><a href="javascript:void(0)">Blog List </a></h3>
-												<ul class="mega-single-block">
-													<!-- <li><a href="blog-list.php">Full Widh (Default)</a></li> -->
-													<li><a href="blog-list-left-sidebar.php">left Sidebar</a></li>
-													<li><a href="blog-list-right-sidebar.php">Right Sidebar</a></li>
-												</ul>
-											</li>
-											<li class="cus-col-33">
-												<h3 class="menu-title"><a href="javascript:void(0)">Blog Details</a>
-												</h3>
-												<ul class="mega-single-block">
-													<li><a href="blog-details.php">Image Format (Default)</a></li>
-													<li><a href="blog-details-gallery.php">Gallery Format</a></li>
-													<li><a href="blog-details-audio.php">Audio Format</a></li>
-													<li><a href="blog-details-video.php">Video Format</a></li>
-													<li><a href="blog-details-left-sidebar.php">left Sidebar</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li class="menu-item">
-										<a href="contact.php">Contact</a>
-									</li>
-								</ul>
+									</ul>
 							</div>
 						</div>
 					</div>
@@ -334,122 +223,126 @@
 				<div class="row align-items-center">
 					<div class="col-lg-4">
 						<a href="index.php" class="site-brand">
-							<img src="image/logo.png" alt="">
+							<img src="image/Logo1.png" alt="">
 						</a>
 					</div>
 					<div class="col-lg-8">
 						<div class="main-navigation flex-lg-right">
-							<ul class="main-menu menu-right ">
-								<li class="menu-item has-children">
-									<a href="javascript:void(0)">Home <i
-											class="fas fa-chevron-down dropdown-arrow"></i></a>
-									<ul class="sub-menu">
-										<li> <a href="index.php">Home One</a></li>
-										<li> <a href="index-2.php">Home Two</a></li>
-										<li> <a href="index-3.php">Home Three</a></li>
-										<li> <a href="index-4.php">Home Four</a></li>
-									</ul>
-								</li>
-								<!-- Shop -->
-								<li class="menu-item has-children mega-menu">
-									<a href="javascript:void(0)">shop <i
-											class="fas fa-chevron-down dropdown-arrow"></i></a>
-									<ul class="sub-menu four-column">
-										<li class="cus-col-25">
-											<h3 class="menu-title"><a href="javascript:void(0)">Shop Grid </a></h3>
-											<ul class="mega-single-block">
-												<li><a href="shop-grid.php">Fullwidth</a></li>
-												<li><a href="shop-grid-left-sidebar.php">left Sidebar</a></li>
-												<li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li>
-											</ul>
+								<ul class="main-menu menu-right li-last-0">
+										<li class="menu-item ">
+												<!-- <a href="javascript:void(0)">Home <i
+																class="fas fa-chevron-down dropdown-arrow"></i></a> -->
+																<a href="index.php">Home</a><!--changes have been made here-->
+												<!-- <ul class="sub-menu">
+														<li> <a href="index.php">Home One</a></li>
+														<li> <a href="index-2.php">Home Two</a></li>
+														<li> <a href="index-3.php">Home Three</a></li>
+														<li> <a href="index.php">Home Four</a></li>
+														<li> <a href="index-5.php">Home Five</a></li>
+												</ul> -->
 										</li>
-										<li class="cus-col-25">
-											<h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
-											<ul class="mega-single-block">
-												<li><a href="shop-list.php">Fullwidth</a></li>
-												<li><a href="shop-list-left-sidebar.php">left Sidebar</a></li>
-												<li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
-											</ul>
+										<!-- Shop -->
+										<li class="menu-item  mega-menu">
+																			<a href="shop-grid-left-sidebar.php">shop </a>
+																			<!-- <ul class="sub-menu four-column">
+																					<li class="cus-col-25">
+																							<h3 class="menu-title"><a href="javascript:void(0)">Shop</a></h3>
+																							<ul class="mega-single-block">
+																									<li><a href="shop-grid.php">Fullwidth</a></li>
+																									<li><a href="shop-grid-left-sidebar.php">Shop</a></li>
+																									<li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li>
+																							</ul> -->
+																					</li>
+																					<!-- <li class="cus-col-25">
+																							<h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
+																							<ul class="mega-single-block">
+																									<li><a href="shop-list.php">Fullwidth</a></li>
+																									<li><a href="shop-list-left-sidebar.php">List</a></li>
+																								<li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
+																							</ul>
+																					</li>-->
+																					<!-- <li class="cus-col-25">
+																							<h3 class="menu-title"> <a href="javascript:void(0)">Product Details
+																											</a></h3>
+																							<ul class="mega-single-block">
+																									<li><a href="product-details.php">Product Details Page</a></li>
+																									<li><a href="product-details-affiliate.php">Product Details
+																													Affiliate</a></li>
+																									<li><a href="product-details-group.php">Product Details Group</a>
+																									</li>
+																									<li><a href="product-details-variable.php">Product Details
+																													Variables</a></li>
+																							</ul>
+																					</li> -->
+																					<!-- <li class="cus-col-25">
+																							<h3 class="menu-title"><a href="javascript:void(0)">Product Details
+																											2</a></h3>
+																							<ul class="mega-single-block">
+																									<li><a href="product-details-left-thumbnail.php">Thumbnail</a>
+																									</li> -->
+																									<!-- <li><a href="product-details-right-thumbnail.php">Right Thumbnail</a></li> -->
+																									<!-- <li><a href="product-details-left-gallery.php">Gallery</a>
+																									</li> -->
+																									<!-- <li><a href="product-details-right-gallery.php">Right Gallery</a>
+																									</li> -->
+																							<!-- </ul>
+																					</li> -->
+
+																	</li>
+										<!-- Pages -->
+										<li class="menu-item has-children">
+												<a href="javascript:void(0)">Pages <i
+																class="fas fa-chevron-down dropdown-arrow"></i></a>
+												<ul class="sub-menu">
+														<li><a href="cart.php">Cart</a></li>
+														<li><a href="checkout.php">Checkout</a></li>
+														<!-- <li><a href="compare.php">Compare</a></li> -->
+														<li><a href="wishlist.php">Wishlist</a></li>
+														<li><a href="login-register.php">Login Register</a></li>
+														<li><a href="my-account.php">My Account</a></li>
+														<li><a href="order-complete.php">Order Complete</a></li>
+														<li><a href="faq.php">Faq</a></li>
+														<!-- made a change here -->
+														<li><a href="contact.php">contact</a></li>
+												</ul>
 										</li>
-										<li class="cus-col-25">
-											<h3 class="menu-title"> <a href="javascript:void(0)">Product Details 1</a>
-											</h3>
-											<ul class="mega-single-block">
-												<li><a href="product-details.php">Product Details Page</a></li>
-												<li><a href="product-details-affiliate.php">Product Details
-														Affiliate</a></li>
-												<li><a href="product-details-group.php">Product Details Group</a></li>
-												<li><a href="product-details-variable.php">Product Details
-														Variables</a></li>
-											</ul>
+										<!-- Blog -->
+										<li class="menu-item mega-menu">
+												<a href="blog-list.php">Blog </a>
+												<!-- <ul class="sub-menu three-column">
+														<li class="cus-col-33">
+																<h3 class="menu-title"><a href="javascript:void(0)">Blog Grid</a></h3>
+																<ul class="mega-single-block">
+																		<li><a href="blog.php">Full Widh (Default)</a></li>
+																		<li><a href="blog-left-sidebar.php">left Sidebar</a></li>
+																		<li><a href="blog-right-sidebar.php">Right Sidebar</a></li>
+																</ul>
+														</li>
+														<li class="cus-col-33">
+																<h3 class="menu-title"><a href="javascript:void(0)">Blog List </a></h3>
+																<ul class="mega-single-block">
+																		<li><a href="blog-list.php">Full Widh (Default)</a></li>
+																		<li><a href="blog-list-left-sidebar.php">left Sidebar</a></li>
+																		<li><a href="blog-list-right-sidebar.php">Right Sidebar</a></li>
+																</ul>
+														</li>
+														<li class="cus-col-33">
+																<h3 class="menu-title"><a href="javascript:void(0)">Blog Details</a>
+																</h3>
+																<ul class="mega-single-block">
+																		<li><a href="blog-details.php">Image Format (Default)</a></li>
+																		<li><a href="blog-details-gallery.php">Gallery</a></li>
+																		<li><a href="blog-details-audio.php">Audio Format</a></li>
+																		<li><a href="blog-details-video.php">Video Format</a></li>
+																		<li><a href="blog-details-left-sidebar.php">Blog</a></li>
+																</ul>
+														</li>
+												</ul> -->
 										</li>
-										<li class="cus-col-25">
-											<h3 class="menu-title"><a href="javascript:void(0)">Product Details 2</a>
-											</h3>
-											<ul class="mega-single-block">
-												<li><a href="product-details-left-thumbnail.php">left Thumbnail</a>
-												</li>
-												<li><a href="product-details-right-thumbnail.php">Right Thumbnail</a>
-												</li>
-												<li><a href="product-details-left-gallery.php">Left Gallery</a></li>
-												<li><a href="product-details-right-gallery.php">Right Gallery</a></li>
-											</ul>
+										<li class="menu-item">
+												<a href="contact.php">Contact</a>
 										</li>
-									</ul>
-								</li>
-								<!-- Pages -->
-								<li class="menu-item has-children">
-									<a href="javascript:void(0)">Pages <i
-											class="fas fa-chevron-down dropdown-arrow"></i></a>
-									<ul class="sub-menu">
-										<li><a href="cart.php">Cart</a></li>
-										<li><a href="checkout.php">Checkout</a></li>
-										<li><a href="compare.php">Compare</a></li>
-										<li><a href="wishlist.php">Wishlist</a></li>
-										<li><a href="login-register.php">Login Register</a></li>
-										<li><a href="my-account.php">My Account</a></li>
-										<li><a href="order-complete.php">Order Complete</a></li>
-										<li><a href="faq.php">Faq</a></li>
-										<li><a href="contact-2.php">contact 02</a></li>
-									</ul>
-								</li>
-								<!-- Blog -->
-								<li class="menu-item has-children mega-menu">
-									<a href="javascript:void(0)">Blog <i
-											class="fas fa-chevron-down dropdown-arrow"></i></a>
-									<ul class="sub-menu three-column">
-										<li class="cus-col-33">
-											<h3 class="menu-title"><a href="javascript:void(0)">Blog Grid</a></h3>
-											<ul class="mega-single-block">
-												<li><a href="blog.php">Full Widh (Default)</a></li>
-												<li><a href="blog-left-sidebar.php">left Sidebar</a></li>
-												<li><a href="blog-right-sidebar.php">Right Sidebar</a></li>
-											</ul>
-										</li>
-										<li class="cus-col-33">
-											<h3 class="menu-title"><a href="javascript:void(0)">Blog List </a></h3>
-											<ul class="mega-single-block">
-												<!-- <li><a href="blog-list.php">Full Widh (Default)</a></li> -->
-												<li><a href="blog-list-left-sidebar.php">left Sidebar</a></li>
-												<li><a href="blog-list-right-sidebar.php">Right Sidebar</a></li>
-											</ul>
-										</li>
-										<li class="cus-col-33">
-											<h3 class="menu-title"><a href="javascript:void(0)">Blog Details</a></h3>
-											<ul class="mega-single-block">
-												<li><a href="blog-details.php">Image Format (Default)</a></li>
-												<li><a href="blog-details-gallery.php">Gallery Format</a></li>
-												<li><a href="blog-details-audio.php">Audio Format</a></li>
-												<li><a href="blog-details-video.php">Video Format</a></li>
-												<li><a href="blog-details-left-sidebar.php">left Sidebar</a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li class="menu-item">
-									<a href="contact.php">Contact</a>
-								</li>
-							</ul>
+								</ul>
 						</div>
 					</div>
 				</div>
@@ -501,7 +394,7 @@
                         </div>
 			    </div>
 		    </div>
-		    
+
 			</div>
 		</div>
 		<!-- About Us Page End -->
@@ -626,87 +519,83 @@
 	<!--=================================
     Footer Area
 ===================================== -->
-	<footer class="site-footer">
+<footer class="site-footer">
 		<div class="container">
-			<div class="row justify-content-between  section-padding">
-				<div class=" col-xl-3 col-lg-4 col-sm-6">
-					<div class="single-footer pb--40">
-						<div class="brand-footer footer-title">
-							<img src="image/logo--footer.png" alt="">
+				<div class="row justify-content-between  section-padding">
+						<div class=" col-xl-3 col-lg-4 col-sm-6">
+								<div class="single-footer pb--40">
+										<div class="brand-footer footer-title">
+												<img src="image/Logo1.png" alt="">
+										</div>
+										<div class="footer-contact">
+												<p><span class="label">Address:</span><span class="text">Sg Palya ,Hosur Road,karnataka,Bangalore
+																 India</span></p>
+												<p><span class="label">Phone:</span><span class="text">9887456215</span></p>
+												<p><span class="label">Email:</span><span class="text">suport@bookswagon.com</span></p>
+										</div>
+								</div>
 						</div>
-						<div class="footer-contact">
-							<p><span class="label">Address:</span><span class="text">Example Street 98, HH2 BacHa, New
-									York, USA</span></p>
-							<p><span class="label">Phone:</span><span class="text">+18088 234 5678</span></p>
-							<p><span class="label">Email:</span><span class="text">suport@hastech.com</span></p>
+						<div class=" col-xl-3 col-lg-2 col-sm-6">
+								<div class="single-footer pb--40">
+										<div class="footer-title">
+												<h3>Information</h3>
+										</div>
+										<ul class="footer-list normal-list">
+												<li><a href="">Contact us</a></li>
+												<li><a href="">Sitemap</a></li>
+										</ul>
+								</div>
 						</div>
-					</div>
-				</div>
-				<div class=" col-xl-3 col-lg-2 col-sm-6">
-					<div class="single-footer pb--40">
-						<div class="footer-title">
-							<h3>Information</h3>
+						<div class=" col-xl-3 col-lg-2 col-sm-6">
+								<div class="single-footer pb--40">
+										<div class="footer-title">
+												<h3>Extras</h3>
+										</div>
+										<ul class="footer-list normal-list">
+												<!-- <li><a href="">Delivery</a></li> -->
+												<li><a href="">About Us</a></li>
+												<!-- <li><a href="">Stores</a></li> -->
+												<li><a href="">Contact us</a></li>
+												<li><a href="">Sitemap</a></li>
+										</ul>
+								</div>
 						</div>
-						<ul class="footer-list normal-list">
-							<li><a href="">Prices drop</a></li>
-							<li><a href="">New products</a></li>
-							<li><a href="">Best sales</a></li>
-							<li><a href="">Contact us</a></li>
-							<li><a href="">Sitemap</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class=" col-xl-3 col-lg-2 col-sm-6">
-					<div class="single-footer pb--40">
-						<div class="footer-title">
-							<h3>Extras</h3>
+						<div class=" col-xl-3 col-lg-4 col-sm-6">
+								<div class="footer-title">
+										<h3>Newsletter Subscribe</h3>
+								</div>
+								<div class="newsletter-form mb--30">
+										<form action="./php/mail.php">
+												<input type="email" class="form-control" placeholder="Enter Your Email Address Here...">
+												<button class="btn btn--primary w-100">Subscribe</button>
+										</form>
+								</div>
+								<div class="social-block">
+										<h3 class="title">STAY CONNECTED</h3>
+										<ul class="social-list list-inline">
+												<li class="single-social facebook"><a href=""><i class="ion ion-social-facebook"></i></a>
+												</li>
+												<li class="single-social twitter"><a href=""><i class="ion ion-social-twitter"></i></a></li>
+												<li class="single-social google"><a href=""><i
+																		class="ion ion-social-googleplus-outline"></i></a></li>
+												<li class="single-social youtube"><a href=""><i class="ion ion-social-youtube"></i></a></li>
+										</ul>
+								</div>
 						</div>
-						<ul class="footer-list normal-list">
-							<li><a href="">Delivery</a></li>
-							<li><a href="">About Us</a></li>
-							<li><a href="">Stores</a></li>
-							<li><a href="">Contact us</a></li>
-							<li><a href="">Sitemap</a></li>
-						</ul>
-					</div>
 				</div>
-				<div class=" col-xl-3 col-lg-4 col-sm-6">
-					<div class="footer-title">
-						<h3>Newsletter Subscribe</h3>
-					</div>
-					<div class="newsletter-form mb--30">
-						<form action="./php/mail.php">
-							<input type="email" class="form-control" placeholder="Enter Your Email Address Here...">
-							<button class="btn btn--primary w-100">Subscribe</button>
-						</form>
-					</div>
-					<div class="social-block">
-						<h3 class="title">STAY CONNECTED</h3>
-						<ul class="social-list list-inline">
-							<li class="single-social facebook"><a href=""><i class="ion ion-social-facebook"></i></a>
-							</li>
-							<li class="single-social twitter"><a href=""><i class="ion ion-social-twitter"></i></a></li>
-							<li class="single-social google"><a href=""><i
-										class="ion ion-social-googleplus-outline"></i></a></li>
-							<li class="single-social youtube"><a href=""><i class="ion ion-social-youtube"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
 		</div>
 		<div class="footer-bottom">
-			<div class="container">
-				<p class="copyright-heading">Suspendisse in auctor augue. Cras fermentum est ac fermentum tempor. Etiam
-					vel magna volutpat, posuere eros</p>
-				<a href="#" class="payment-block">
-					<img src="image/icon/payment.png" alt="">
-				</a>
-				<p class="copyright-text">Copyright © 2019 <a href="#" class="author">Pustok</a>. All Right Reserved.
-					<br>
-					Design By Pustok</p>
-			</div>
+				<div class="container">
+						<p class="copyright-heading"></p>
+						<a href="#" class="payment-block">
+								<img src="image/icon/payment.png" alt="">
+						</a>
+						<p class="copyright-text">Copyright © 2019 <a href="#" class="author">BookWagon</a>. All Right Reserved.
+								<br>
+								Design By BookWagon</p>
+				</div>
 		</div>
-	</footer>
+</footer>
 	<!-- Use Minified Plugins Version For Fast Page Load -->
 	<script src="js/plugins.js"></script>
 	<script src="js/ajax-mail.js"></script>
