@@ -391,7 +391,7 @@
 									</div>
 									<div class="col-md-12">
 										<!-- <a href="#" class="btn btn-outlined">Register</a> -->
-                    <button type="submit" class="btn btn-outlined">Register</button>
+                    <button type="submit" name = "registerbtn" class="btn btn-outlined">Register</button>
 									</div>
 								</div>
 							</div>
