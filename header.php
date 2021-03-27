@@ -245,7 +245,7 @@
             <div class="row align-items-sm-end align-items-center">
                 <div class="col-md-4 col-7">
                     <a href="index.html" class="site-brand">
-                        <img src="image/logo.png" alt="">
+                        <img src="image/Logo1.png" alt="">
                     </a>
                 </div>
                 <!--<div class="col-md-5 order-3 order-md-2">
