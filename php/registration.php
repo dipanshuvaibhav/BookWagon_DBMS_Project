@@ -13,14 +13,14 @@ $num = mysqli_num_rows($result);
 
 if($num ==1){
   echo "<script type='text/javascript'>alert('Register with a different email!');
-window.location='login-register.php';
+window.location='../login-register.php';
 </script>";
 }else{
   $reg = "insert into heroku_adaaf59afa8e08a.customer_table(cust_name,cust_email,cust_pass) values ('$name','$mail','$pass');";
   mysqli_query($con,$reg);
 
   echo "<script type='text/javascript'>alert('Registration done successfully');
-window.location='login-register.php';
+window.location='../login-register.php';
 </script>";
 }
 
