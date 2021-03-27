@@ -23,6 +23,7 @@
 // window.location='../login-register.php';
 // </script>";
 // }
+ob_start();
 if(isset($_POST['registerbtn'])){
   require 'dbconnect.php';
 
@@ -93,4 +94,6 @@ else{
   exit();
 
 }
+
+ob_end_flush();
 ?>
