@@ -367,7 +367,7 @@
 				<div class="row">
 					<div class="col-sm-12 col-md-12 col-xs-12 col-lg-6 mb--30 mb-lg--0">
 						<!-- Login Form s-->
-						<form action="registration.php" method="post">
+						<form action="php/registration.php" method="post">
 							<div class="login-form">
 								<h4 class="login-title">New Customer</h4>
 								<p><span class="font-weight-bold">I am a new customer</span></p>
@@ -398,7 +398,7 @@
 						</form>
 					</div>
 					<div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
-						<form action="login.php" method="post">
+						<form action="php/login.php" method="post">
 							<div class="login-form">
 								<h4 class="login-title">Returning Customer</h4>
 								<p><span class="font-weight-bold">I am a returning customer</span></p>
