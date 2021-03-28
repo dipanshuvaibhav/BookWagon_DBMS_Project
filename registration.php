@@ -14,11 +14,11 @@ $num = mysqli_num_rows($result);
 
 if($num ==1){
   echo "<script type='text/javascript'>alert('Register with a different email!');
-window.location='../login-register.php?error=mailalreadyexists';
+window.location='login-register.php?error=mailalreadyexists';
 </script>";
 }else if($pass != $repPass){
   echo "<script type='text/javascript'>alert('Password does not match!');
-window.location='../login-register.php?error=passwordDoesNotMatch';
+window.location='login-register.php?error=passwordDoesNotMatch';
 </script>";
 }
 else{
