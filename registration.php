@@ -32,7 +32,7 @@ $dbName = "heroku_adaaf59afa8e08a";
 
 $data = mysqli_connect($servername,$dbUsername,$dbpwd,$dbName);
 $conn = mysqli_select_db($data,$dbName);
-  require 'dbconnect.php';
+  // require 'dbconnect.php';
 
   $name = $_POST['name'];
   $mail = $_POST['email'];
