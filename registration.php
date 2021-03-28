@@ -25,6 +25,13 @@
 // }
 
 // if(isset($_POST['registerbtn'])){
+$servername = "us-cdbr-east-03.cleardb.com";
+$dbUsername ="b2270625c60d18";
+$dbpwd = "74d05350";
+$dbName = "heroku_adaaf59afa8e08a";
+
+$data = mysqli_connect($servername,$dbUsername,$dbpwd,$dbName);
+$conn = mysqli_select_db($data,$dbName);
   require 'dbconnect.php';
 
   $name = $_POST['name'];
