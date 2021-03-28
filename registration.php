@@ -34,35 +34,35 @@ if(isset($_POST['registerbtn'])){
 
   if(empty($name) || empty($mail) || empty($pass) || empty($repPwd)){
     // header("Location: login-register.php?error=emptyfields&id=".$name."&mail=".$mail);
-    echo "<script>
+    echo "<script type='text/javascript'>
     window.location='login-register.php?error=emptyfields&id=".$name."&mail=".$mail"';
     </script>"
     exit();
   }
   else if(!filter_var($mail,FILTER_VALIDATE_EMAIL) && !preg_match("/^[a-zA-Z0-9]*$/",$name)){
     // header("Location: login-register.php?error=invalidmail&id");
-    echo "<script>
+    echo "<script type='text/javascript'>
     window.location='login-register.php?error=invalidmail&id';
     </script>"
     exit();
   }
   else if(!filter_var($mail,FILTER_VALIDATE_EMAIL)){
     // header("Location: login-register.php?error=invalidmail&id=".$name);
-    echo "<script>
+    echo "<script type='text/javascript'>
     window.location='login-register.php?error=invalidmail&id=".$name"';
     </script>"
     exit();
   }
   else if(!preg_match("/^[a-zA-Z0-9]*$/",$name)){
     // header("Location: login-register.php?error=invalidid&mail=".$mail);
-    echo "<script>
+    echo "<script type='text/javascript'>
     window.location='login-register.php?error=invalidid&mail=".$mail"';
     </script>"
     exit();
   }
   else if($pass !== $repPwd){
     // header("Location: login-register.php?error=checkpassword&id=".$name."mail=".$mail);
-    echo "<script>
+    echo "<script type='text/javascript'>
     window.location='login-register.php?error=checkpassword&id=".$name."mail=".$mail"';
     </script>"
     exit();
@@ -72,7 +72,7 @@ if(isset($_POST['registerbtn'])){
       $stmt = mysqli_stmt_init($conn);
       if(!mysqli_stmt_prepare($stmt,$sql)){
         // header("Location: login-register.php?error=sqlerror");
-        echo "<script>
+        echo "<script type='text/javascript'>
         window.location='login-register.php?error=sqlerror';
         </script>"
         exit();
@@ -84,7 +84,7 @@ if(isset($_POST['registerbtn'])){
         $resultCheck= mysqli_stmt_num_rows($stmt);
         if(resultCheck >0){
           // header("Location: login-register.php?error=usertaken&mail=".$mail);
-          echo "<script>
+          echo "<script type='text/javascript'>
           window.location='login-register.php?error=usertaken&mail=".$mail"';
           </script>"
           exit();
@@ -94,7 +94,7 @@ if(isset($_POST['registerbtn'])){
           $stmt = mysqli_stmt_init($conn);
           if(!mysqli_stmt_prepare($stmt,$sql)){
             // header("Location: login-register.php?error=sqlerror");
-            echo "<script>
+            echo "<script type='text/javascript'>
             window.location='login-register.php?error=sqlerror';
             </script>"
             exit();
@@ -104,7 +104,7 @@ if(isset($_POST['registerbtn'])){
             mysqli_stmt_bind_param($smtp,'sss',$name,$mail,);
             mysqli_stmt_execute($stmt);
 
-           echo "<script>
+           echo "<script type='text/javascript'>
            window.location='login-register.php?signup=success';
            </script>"
             exit();
@@ -117,7 +117,7 @@ mysqli_close($conn);
 }
 else{
   // header("Location: login-register.php");
-  echo "<script>
+  echo "<script type='text/javascript'>
   window.location='login-register.php';
   </script>"
   exit();
