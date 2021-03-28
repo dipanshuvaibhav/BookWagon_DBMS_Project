@@ -1,5 +1,4 @@
 <?php
-session_start();
 $con = mysqli_connect('us-cdbr-east-03.cleardb.com','b2270625c60d18','74d05350');
 
 mysqli_select_db($con,'heroku_adaaf59afa8e08a');
@@ -15,6 +14,7 @@ $num = mysqli_num_rows($result);
 
 if($num==1){
     //header('location:my-account.php');
+    session_start();
     echo "<script type='text/javascript'>alert('Logged In successfully');
   window.location='../my-account.php';
   </script>";

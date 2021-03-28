@@ -20,7 +20,7 @@ window.location='../login-register.php';
   mysqli_query($con,$reg);
 
   echo "<script type='text/javascript'>alert('Registration done successfully');
-window.location='../login-register.php';
+window.location='login-register.php?signup=success';
 </script>";
 }
 // ob_start();
