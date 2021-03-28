@@ -1,8 +1,9 @@
 <?php
 include "dbconnect";
 // $name =$_POST['name'];
-$password = $_POST['password'];
 $email = $_POST['email1'];
+$password = $_POST['password'];
+
 
 $s = "select * from heroku_adaaf59afa8e08a.customer_table where cust_email = '$email' && cust_pass = '$password';";
 
