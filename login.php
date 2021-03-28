@@ -12,16 +12,22 @@ $result = mysqli_query($con, $s);
 
 $num = mysqli_num_rows($result);
 
+$row = mysql_fetch_array($result);
+
 if($num==1){
     //header('location:my-account.php');
     session_start();
+    $row = mysql_fetch_array($result);
+    $_SESSION['id']=$row['customerID'];
+    $_SESSION['name'] = $row['cust_name'];
+    $_SESSION['email'] = $row['cust_mail'];
     echo "<script type='text/javascript'>alert('Logged In successfully');
-  window.location='../my-account.php';
+  window.location='my-account.php';
   </script>";
 }else{
     //header('location:login-register.php');
     echo "<script type='text/javascript'>alert('Wrong Information please try again!');
-  window.location='../login-register.php';
+  window.location='login-register.php';
   </script>";
 }
 

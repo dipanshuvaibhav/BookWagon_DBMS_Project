@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<?php ?>
+<?php
+session_start();
+ ?>
 <html lang="zxx">
 
 <head>

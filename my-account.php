@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+session_start();
+?>
 <html lang="zxx">
 
 <head>
@@ -169,8 +172,14 @@
 							<div class="main-navigation flex-lg-right">
 								<div class="cart-widget">
 									<div class="login-block">
-										<a href="login-register.php" class="font-weight-bold">Login</a> <br>
-										<span>or</span><a href="login-register.php">Register</a>
+                    <?php
+                      if(isset($_SESSION['name'])){
+                        echo "<p class="font-weight-bold">welcome</p>"
+                      }else{
+                        <a href="login-register.php" class="font-weight-bold">Login</a> <br>
+    										<span>or</span><a href="login-register.php">Register</a>
+                      }
+                    ?>
 									</div>
 									<div class="cart-block">
 										<div class="cart-total">
