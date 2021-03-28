@@ -11,11 +11,11 @@ $repPass=$_POST['repeat-password']
 $s = "select * from heroku_adaaf59afa8e08a.customer_table where cust_email = '$mail';";
 $result = mysqli_query($con,$s);
 $num = mysqli_num_rows($result);
-if($pass != $repPass){
-  echo "<script type='text/javascript'>alert('Password does not match!');
-window.location='login-register.php?error=passwordDoesNotMatch';
-</script>";
-}
+// if($pass != $repPass){
+//   echo "<script type='text/javascript'>alert('Password does not match!');
+// window.location='login-register.php?error=passwordDoesNotMatch';
+// </script>";
+// }
 if($num ==1){
   echo "<script type='text/javascript'>alert('Register with a different email!');
 window.location='login-register.php?error=mailalreadyexists';
