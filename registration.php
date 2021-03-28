@@ -8,7 +8,7 @@ $mail = $_POST['email'];
 $pass = $_POST['password'];
 
 $s = "select * from heroku_adaaf59afa8e08a.customer_table where cust_email = '$mail';";
-$result = mysqli_query($con,$s);
+$result = mysqli_query($conn,$s);
 $num = mysqli_num_rows($result);
 
 if($num ==1){
@@ -17,7 +17,7 @@ window.location='login-register.php?error=mailalreadyexist';
 </script>";
 }else{
   $reg = "insert into heroku_adaaf59afa8e08a.customer_table(cust_name,cust_email,cust_pass) values ('$name','$mail','$pass');";
-  mysqli_query($con,$reg);
+  mysqli_query($conn,$reg);
 
   echo "<script type='text/javascript'>alert('Registration done successfully');
 window.location='login-register.php?signup=success';
