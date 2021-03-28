@@ -16,7 +16,7 @@ if($num==1){
     //header('location:my-account.php');
     session_start();
     echo "<script type='text/javascript'>alert('Logged In successfully');
-  window.location='../my-account.php';
+  window.location='my-account.php';
   </script>";
 
   $row = mysql_fetch_array($result);
@@ -26,7 +26,7 @@ if($num==1){
 }else{
     //header('location:login-register.php');
     echo "<script type='text/javascript'>alert('Wrong Information please try again!');
-  window.location='../login-register.php';
+  window.location='login-register.php';
   </script>";
 }
 
