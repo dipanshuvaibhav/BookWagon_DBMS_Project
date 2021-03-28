@@ -33,30 +33,48 @@ if(isset($_POST['registerbtn'])){
   $repPwd = $_POST['repeat-password'];
 
   if(empty($name) || empty($mail) || empty($pass) || empty($repPwd)){
-    header("Location: login-register.php?error=emptyfields&id=".$name."&mail=".$mail);
+    // header("Location: login-register.php?error=emptyfields&id=".$name."&mail=".$mail);
+    echo "<script>
+    window.location='login-register.php?error=emptyfields&id=".$name."&mail=".$mail"';
+    </script>"
     exit();
   }
   else if(!filter_var($mail,FILTER_VALIDATE_EMAIL) && !preg_match("/^[a-zA-Z0-9]*$/",$name)){
-    header("Location: login-register.php?error=invalidmail&id");
+    // header("Location: login-register.php?error=invalidmail&id");
+    echo "<script>
+    window.location='login-register.php?error=invalidmail&id';
+    </script>"
     exit();
   }
   else if(!filter_var($mail,FILTER_VALIDATE_EMAIL)){
-    header("Location: login-register.php?error=invalidmail&id=".$name);
+    // header("Location: login-register.php?error=invalidmail&id=".$name);
+    echo "<script>
+    window.location='login-register.php?error=invalidmail&id=".$name"';
+    </script>"
     exit();
   }
   else if(!preg_match("/^[a-zA-Z0-9]*$/",$name)){
-    header("Location: login-register.php?error=invalidid&mail=".$mail);
+    // header("Location: login-register.php?error=invalidid&mail=".$mail);
+    echo "<script>
+    window.location='login-register.php?error=invalidid&mail=".$mail"';
+    </script>"
     exit();
   }
   else if($pass !== $repPwd){
-    header("Location: login-register.php?error=checkpassword&id=".$name."mail=".$mail);
+    // header("Location: login-register.php?error=checkpassword&id=".$name."mail=".$mail);
+    echo "<script>
+    window.location='login-register.php?error=checkpassword&id=".$name."mail=".$mail"';
+    </script>"
     exit();
   }//checking wether customer already exists
   else {
       $sql = "SELECT customerID FROM heroku_adaaf59afa8e08a.customer_table  WHERE cust_name=?";
       $stmt = mysqli_stmt_init($conn);
       if(!mysqli_stmt_prepare($stmt,$sql)){
-        header("Location: login-register.php?error=sqlerror");
+        // header("Location: login-register.php?error=sqlerror");
+        echo "<script>
+        window.location='login-register.php?error=sqlerror';
+        </script>"
         exit();
       }
       else{
@@ -65,14 +83,20 @@ if(isset($_POST['registerbtn'])){
         mysqli_stmt_store_result($stmt);
         $resultCheck= mysqli_stmt_num_rows($stmt);
         if(resultCheck >0){
-          header("Location: login-register.php?error=usertaken&mail=".$mail);
+          // header("Location: login-register.php?error=usertaken&mail=".$mail);
+          echo "<script>
+          window.location='login-register.php?error=usertaken&mail=".$mail"';
+          </script>"
           exit();
         }//inserting the customer after all the checks
         else{
           $sql = "INSERT INTO heroku_adaaf59afa8e08a.customer_table(cust_name,cust_email,cust_pass) VALUES (?,?,?);";
           $stmt = mysqli_stmt_init($conn);
           if(!mysqli_stmt_prepare($stmt,$sql)){
-            header("Location: login-register.php?error=sqlerror");
+            // header("Location: login-register.php?error=sqlerror");
+            echo "<script>
+            window.location='login-register.php?error=sqlerror';
+            </script>"
             exit();
           }
           else{
@@ -92,7 +116,10 @@ mysqli_stmt_close($stmt);
 mysqli_close($conn);
 }
 else{
-  header("Location: login-register.php");
+  // header("Location: login-register.php");
+  echo "<script>
+  window.location='login-register.php';
+  </script>"
   exit();
 
 }
