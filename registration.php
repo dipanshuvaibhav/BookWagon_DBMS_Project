@@ -1,8 +1,8 @@
 <?php
 // session_start();
-$con = mysqli_connect('us-cdbr-east-03.cleardb.com','b2270625c60d18','74d05350');
-mysqli_select_db($con,'heroku_adaaf59afa8e08a');
-
+// $con = mysqli_connect('us-cdbr-east-03.cleardb.com','b2270625c60d18','74d05350');
+// mysqli_select_db($con,'heroku_adaaf59afa8e08a');
+include "dbconnect.php";
 $name = $_POST['name'];
 $mail = $_POST['email'];
 $pass = $_POST['password'];
@@ -130,3 +130,4 @@ window.location='login-register.php?signup=success';
 //   exit();
 //
 // }
+?>
