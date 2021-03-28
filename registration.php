@@ -24,7 +24,7 @@
 // </script>";
 // }
 
-if(isset($_POST['registerbtn'])){
+// if(isset($_POST['registerbtn'])){
   require 'dbconnect.php';
 
   $name = $_POST['name'];
@@ -114,12 +114,12 @@ if(isset($_POST['registerbtn'])){
   }
 mysqli_stmt_close($stmt);
 mysqli_close($conn);
-}
-else{
-  // header("Location: login-register.php");
-  echo "<script type='text/javascript'>
-  window.location='login-register.php';
-  </script>"
-  exit();
-
-}
+// }
+// else{
+//   // header("Location: login-register.php");
+//   echo "<script type='text/javascript'>
+//   window.location='login-register.php';
+//   </script>"
+//   exit();
+//
+// }
