@@ -22,12 +22,12 @@ if($num==1){
     $_SESSION['name'] = $row['cust_name'];
     $_SESSION['email'] = $row['cust_mail'];
     echo "<script type='text/javascript'>alert('Logged In successfully');
-  window.location='my-account.php';
+  window.location='../my-account.php';
   </script>";
 }else{
     //header('location:login-register.php');
     echo "<script type='text/javascript'>alert('Wrong Information please try again!');
-  window.location='login-register.php';
+  window.location='../login-register.php';
   </script>";
 }
 
