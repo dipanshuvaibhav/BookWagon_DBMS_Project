@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php ?>
 <html lang="zxx">
 
 <head>
