@@ -20,10 +20,11 @@ if($num==1){
   window.location='my-account.php';
   </script>";
 
-  $row = mysql_fetch_array($result);
+  while($row = mysqli_fetch_assoc($result)){
   $_SESSION['id']=$row['customerID'];
   $_SESSION['name'] = $row['cust_name'];
   $_SESSION['email'] = $row['cust_mail'];
+}
 }else{
     //header('location:login-register.php');
     echo "<script type='text/javascript'>alert('Wrong Information please try again!');
