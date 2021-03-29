@@ -35,9 +35,16 @@ session_start();
                         <div class="col-lg-4">
                             <div class="main-navigation flex-lg-right">
                                 <div class="cart-widget">
+                                  <!-- login block -->
                                     <div class="login-block">
-                                        <a href="login-register.php" class="font-weight-bold">Login</a> <br>
-                                        <span>or</span><a href="login-register.php">Register</a>
+                                      <?php
+                                        if(isset($_SESSION['id'])){
+                                        echo  "<p class='font-weight-bold'>Welcome,".$_SESSION['name']."</p>";
+                                        } else {
+                                        echo '<a href="login-register.php" class="font-weight-bold">Login</a> <br>
+                                        <span>or</span><a href="login-register.php">Register</a>';
+                                        }
+                                        ?>
                                     </div>
                                     <div class="cart-block">
                                         <div class="cart-total">
@@ -79,6 +86,17 @@ session_start();
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <!-- logout button -->
+                        <div class="login-block">
+                          <?php
+                          if(isset($_SESSION['id'])){
+                          echo  '<a href="logout.php" class="btn btn--primary font-weight-bold">Logout</a>';
+                          } else {
+                          echo '<button type="button" action="" name="button" class="btn btn--primary" style="display:none;">Logout</button>';
+                          }
+                          ?>
+
                         </div>
                     </div>
                 </div>
