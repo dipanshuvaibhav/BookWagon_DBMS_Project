@@ -32,5 +32,5 @@ exit();
   window.location='login-register.php';
   </script>";
 }
-mysqli_close($conn);
+// mysqli_close($conn);
 ?>
