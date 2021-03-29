@@ -25,7 +25,7 @@ if($num>0){
 //   $_SESSION['name'] = $row['cust_name'];
 //   $_SESSION['email'] = $row['cust_mail'];
 // }
-exit();
+
 }else{
     //header('location:login-register.php');
     echo "<script type='text/javascript'>alert('Wrong Information please try again!');
