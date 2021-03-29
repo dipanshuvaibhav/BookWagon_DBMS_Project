@@ -10,13 +10,12 @@ $s = "select * from heroku_adaaf59afa8e08a.customer_table where cust_email = '$e
 
 $result = mysqli_query($conn, $s);
 
-$num = mysqli_num_rows($result);
+$num = mysql_num_rows($result);
 
 
 
 if($num==1){
     //header('location:my-account.php');
-
     echo "<script type='text/javascript'>alert('Logged In successfully');
   window.location='my-account.php';
   </script>";
