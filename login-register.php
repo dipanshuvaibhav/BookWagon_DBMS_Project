@@ -172,9 +172,17 @@ session_start();
 						<div class="col-lg-4">
 							<div class="main-navigation flex-lg-right">
 								<div class="cart-widget">
-									<div class="login-block">
-										<a href="login-register.php" class="font-weight-bold">Login</a> <br>
-										<span>or</span><a href="login-register.php">Register</a>
+                  <div class="login-block">
+                    <?php
+                      if(isset($_SESSION['id'])){
+                      echo  "<p class='font-weight-bold'>Welcome,".$_SESSION['name']."</p>";
+                      } else {
+                      echo '<a href="login-register.php" class="font-weight-bold">Login</a> <br>
+                      <span>or</span><a href="login-register.php">Register</a>';
+                      }
+                    ?>
+                    <!-- <a href="login-register.php" class="font-weight-bold">Login</a> <br>
+                    <span>or</span><a href="login-register.php">Register</a> -->
 									</div>
 									<div class="cart-block">
 										<div class="cart-total">
