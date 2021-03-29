@@ -585,7 +585,7 @@
 													<label for="accept_terms2">I’ve read and accept the terms &
 														conditions</label>
 												</div>
-												<button class="place-order w-100">Place order</button>
+												<a href="paymentGateway.php class="btn btn--primary>PLACE ORDER</>
 											</div>
 										</div>
 									</div>
