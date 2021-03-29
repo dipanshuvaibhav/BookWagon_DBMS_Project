@@ -226,9 +226,16 @@ session_start();
 							</div>
 						</div>
             <!-- logout button -->
-            <!-- <div class="login-block">
-              <button type="button" action="#" name="button" class="btn btn--primary">Logout</button>
-            </div> -->
+            <div class="login-block">
+              <?php
+              if(isset($_SESSION['id'])){
+              echo  '<button type="button" onclick="logout.php" name="button" class="btn btn--primary">Logout</button>';
+              } else {
+              echo '<button type="button" action="" name="button" class="btn btn--primary" style="display:none;">Logout</button>';
+              }
+              ?>
+
+            </div>
 					</div>
 				</div>
 			</div>
