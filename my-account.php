@@ -178,8 +178,8 @@ session_start();
                       if(isset($_SESSION['id'])){
                       echo  "<p class='font-weight-bold'>Welcome,".$_SESSION['name']."</p>";
                       } else {
-                      echo '"<a href="login-register.php" class="font-weight-bold">Login</a> <br>
-                      <span>or</span><a href="login-register.php">Register</a>"';
+                      echo '<a href="login-register.php" class="font-weight-bold">Login</a> <br>
+                      <span>or</span><a href="login-register.php">Register</a>';
                       }
                     ?>
                     <!-- <a href="login-register.php" class="font-weight-bold">Login</a> <br>
