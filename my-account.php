@@ -229,7 +229,7 @@ session_start();
             <div class="login-block">
               <?php
               if(isset($_SESSION['id'])){
-              echo  '<button type="button" onclick="logout.php" name="button" class="btn btn--primary">Logout</button>';
+              echo  '<a href="logout.php" class="btn btn--primary font-weight-bold">Logout</a>';
               } else {
               echo '<button type="button" action="" name="button" class="btn btn--primary" style="display:none;">Logout</button>';
               }
