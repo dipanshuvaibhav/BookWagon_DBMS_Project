@@ -175,10 +175,10 @@ session_start();
 									<div class="login-block">
                     <?php
                       if(isset($_SESSION['id'])){
-                      echo  "<p>Welcome $_SESSION['name']<p>";
-                      } else{
-                      echo "<a href="login-register.php" class="font-weight-bold">Login</a> <br>
-                      <span>or</span><a href="login-register.php">Register</a>";
+                      echo  "<p>Welcome</p>";
+                      } else {
+                      echo '"<a href="login-register.php" class="font-weight-bold">Login</a> <br>
+                      <span>or</span><a href="login-register.php">Register</a>"';
                       }
                     ?>
                     <!-- <a href="login-register.php" class="font-weight-bold">Login</a> <br>
