@@ -174,15 +174,15 @@ session_start();
 								<div class="cart-widget">
 									<div class="login-block">
                     <?php
-                      if(isset($_SESSION['id'])){
-                      echo  "<script><p>Welcome $_SESSION['name']<p></script>";
-                    }else{
-                      echo "<script><a href="login-register.php" class="font-weight-bold">Login</a> <br>
-                      <span>or</span><a href="login-register.php">Register</a></script>";
-                    }
+                    //   if(isset($_SESSION['id'])){
+                    //   echo  "<script><p>Welcome $_SESSION['name']<p></script>";
+                    // }else{
+                    //   echo "<script><a href="login-register.php" class="font-weight-bold">Login</a> <br>
+                    //   <span>or</span><a href="login-register.php">Register</a></script>";
+                    // }
                     ?>
-                    <!-- <a href="login-register.php" class="font-weight-bold">Login</a> <br>
-                    <span>or</span><a href="login-register.php">Register</a> -->
+                    <a href="login-register.php" class="font-weight-bold">Login</a> <br>
+                    <span>or</span><a href="login-register.php">Register</a>
 									</div>
 									<div class="cart-block">
 										<div class="cart-total">
