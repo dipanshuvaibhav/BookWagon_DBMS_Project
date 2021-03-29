@@ -87,17 +87,7 @@ session_start();
                                 </div>
                             </div>
                         </div>
-                        <!-- logout button -->
-                        <div class="login-block">
-                          <?php
-                          if(isset($_SESSION['id'])){
-                          echo  '<a href="logout.php" class="btn btn--primary font-weight-bold">Logout</a>';
-                          } else {
-                          echo '<button type="button" action="" name="button" class="btn btn--primary" style="display:none;">Logout</button>';
-                          }
-                          ?>
 
-                        </div>
                     </div>
                 </div>
             </div>
@@ -233,6 +223,17 @@ session_start();
                                   </li>
                               </ul>
                           </div>
+                        </div>
+                        <!-- logout button -->
+                        <div class="login-block">
+                          <?php
+                          if(isset($_SESSION['id'])){
+                          echo  '<a href="logout.php" class="btn btn--primary font-weight-bold">Logout</a>';
+                          } else {
+                          echo '<button type="button" action="" name="button" class="btn btn--primary" style="display:none;">Logout</button>';
+                          }
+                          ?>
+
                         </div>
                     </div>
                 </div>
