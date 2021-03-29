@@ -17,7 +17,7 @@ $num = mysqli_num_rows($result);
 if($num>0){
     //header('location:my-account.php');
     echo "<script type='text/javascript'>alert('Logged In successfully');
-  window.location='my-account.php';
+  window.location='/my-account.php';
   </script>";
 
   while($row = mysqli_fetch_assoc($result)){
@@ -30,7 +30,7 @@ exit();
 }else{
     //header('location:login-register.php');
     echo "<script type='text/javascript'>alert('Wrong Information please try again!');
-  window.location='login-register.php';
+  window.location='/login-register.php';
   </script>";
 }
 mysqli_close($conn);
