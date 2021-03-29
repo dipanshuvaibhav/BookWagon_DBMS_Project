@@ -1,5 +1,5 @@
 <?php
-session_start();
+// session_start();
 include "dbconnect";
 // $name =$_POST['name'];
 $email = $_POST['email1'];
@@ -20,12 +20,11 @@ if($num>0){
   window.location='/my-account.php';
   </script>";
 
-  while($row = mysqli_fetch_assoc($result)){
-  $_SESSION['id']=$row['customerID'];
-  $_SESSION['name'] = $row['cust_name'];
-  $_SESSION['email'] = $row['cust_mail'];
-
-}
+//   while($row = mysqli_fetch_assoc($result)){
+//   $_SESSION['id']=$row['customerID'];
+//   $_SESSION['name'] = $row['cust_name'];
+//   $_SESSION['email'] = $row['cust_mail'];
+// }
 exit();
 }else{
     //header('location:login-register.php');
