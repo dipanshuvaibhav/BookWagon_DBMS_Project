@@ -1,4 +1,5 @@
 <?php
+session_start();
 include "dbconnect";
 // $name =$_POST['name'];
 $email = $_POST['email1'];
@@ -15,7 +16,7 @@ $num = mysqli_num_rows($result);
 
 if($num==1){
     //header('location:my-account.php');
-    session_start();
+
     echo "<script type='text/javascript'>alert('Logged In successfully');
   window.location='my-account.php';
   </script>";
@@ -24,6 +25,7 @@ if($num==1){
   $_SESSION['id']=$row['customerID'];
   $_SESSION['name'] = $row['cust_name'];
   $_SESSION['email'] = $row['cust_mail'];
+  exit();
 }
 }else{
     //header('location:login-register.php');
