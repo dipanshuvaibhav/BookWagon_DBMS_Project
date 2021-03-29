@@ -226,9 +226,9 @@ session_start();
 							</div>
 						</div>
             <!-- logout button -->
-            <div class="login-block">
+            <!-- <div class="login-block">
               <button type="button" action="#" name="button" class="btn btn--primary">Logout</button>
-            </div>
+            </div> -->
 					</div>
 				</div>
 			</div>
