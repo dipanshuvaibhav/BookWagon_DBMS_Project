@@ -172,6 +172,7 @@ session_start();
 						<div class="col-lg-4">
 							<div class="main-navigation flex-lg-right">
 								<div class="cart-widget">
+                  <!--user login session -->
 									<div class="login-block">
                     <?php
                       if(isset($_SESSION['id'])){
@@ -220,6 +221,10 @@ session_start();
 												</div>
 											</div>
 										</div>
+									</div>
+                  <!-- logout button -->
+                  <div class="login-block">
+                    <button type="button" action="#" name="button" class="btn btn-primary">Logout</button>
 									</div>
 								</div>
 							</div>
