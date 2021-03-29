@@ -25,8 +25,9 @@ if($num==1){
   $_SESSION['id']=$row['customerID'];
   $_SESSION['name'] = $row['cust_name'];
   $_SESSION['email'] = $row['cust_mail'];
-  exit();
+
 }
+exit();
 }else{
     //header('location:login-register.php');
     echo "<script type='text/javascript'>alert('Wrong Information please try again!');
