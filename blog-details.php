@@ -19,7 +19,7 @@
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-lg-3 ">
-							<a href="index.html" class="site-brand">
+							<a href="index.php" class="site-brand">
 								<img src="image/logo.png" alt="">
 							</a>
 						</div>
@@ -38,31 +38,31 @@
 							<div class="main-navigation flex-lg-right">
 								<ul class="main-menu menu-right ">
 									<li class="menu-item has-children">
-										<a href="index.html">Home </a>
+										<a href="index.php">Home </a>
 									</li>
 									<!-- Shop -->
 									<li class="menu-item has-children mega-menu">
-										<a href="shop-grid-left-sidebar.html">Shop </a>
+										<a href="shop-grid-left-sidebar.php">Shop </a>
 									</li>
 									<!-- Pages -->
 									<li class="menu-item has-children">
 										<a href="javascript:void(0)">Pages <i
 												class="fas fa-chevron-down dropdown-arrow"></i></a>
 										<ul class="sub-menu">
-											<li><a href="cart.html">Cart</a></li>
-											<li><a href="wishlist.html">Wishlist</a></li>
-											<li><a href="login-register.html">Login Register</a></li>
-											<li><a href="my-account.html">My Account</a></li>
-											<li><a href="order-complete.html">Order Complete</a></li>
-											<li><a href="faq.html">Faq</a></li>
+											<li><a href="cart.php">Cart</a></li>
+											<li><a href="wishlist.php">Wishlist</a></li>
+											<li><a href="login-register.php">Login Register</a></li>
+											<li><a href="my-account.php">My Account</a></li>
+											<li><a href="order-complete.php">Order Complete</a></li>
+											<li><a href="faq.php">Faq</a></li>
 										</ul>
 									</li>
 									<!-- Blog -->
 									<li class="menu-item has-children mega-menu">
-										<a href="blog-list.html">Blog </a>
+										<a href="blog-list.php">Blog </a>
 									</li>
 									<li class="menu-item">
-										<a href="contact.html">Contact</a>
+										<a href="contact.php">Contact</a>
 									</li>
 								</ul>
 							</div>
@@ -194,8 +194,8 @@
 							<div class="main-navigation flex-lg-right">
 								<div class="cart-widget">
 									<div class="login-block">
-										<a href="login-register.html" class="font-weight-bold">Login</a> <br>
-										<span>or</span><a href="login-register.html">Register</a>
+										<a href="login-register.php" class="font-weight-bold">Login</a> <br>
+										<span>or</span><a href="login-register.php">Register</a>
 									</div>
 									<!--<div class="cart-block">
 										<div class="cart-total">
@@ -213,11 +213,11 @@
 										<div class="cart-dropdown-block">
 											<div class=" single-cart-block ">
 												<div class="cart-product">
-													<a href="product-details.html" class="image">
+													<a href="product-details.php" class="image">
 														<img src="image/products/cart-product-1.jpg" alt="">
 													</a>
 													<div class="content">
-														<h3 class="title"><a href="product-details.html">Kodak PIXPRO
+														<h3 class="title"><a href="product-details.php">Kodak PIXPRO
 																Astro Zoom AZ421 16 MP</a></h3>
 														<p class="price"><span class="qty">1 ×</span> £87.34</p>
 														<button class="cross-btn"><i class="fas fa-times"></i></button>
@@ -226,9 +226,9 @@
 											</div>
 											<div class=" single-cart-block ">
 												<div class="btn-block">
-													<a href="cart.html" class="btn">View Cart <i
+													<a href="cart.php" class="btn">View Cart <i
 															class="fas fa-chevron-right"></i></a>
-													<a href="checkout.html" class="btn btn--primary">Check Out <i
+													<a href="checkout.php" class="btn btn--primary">Check Out <i
 															class="fas fa-chevron-right"></i></a>
 												</div>
 											</div>
@@ -246,7 +246,7 @@
 				<div class="container">
 					<div class="row align-items-sm-end align-items-center">
 						<div class="col-md-4 col-7">
-							<a href="index.html" class="site-brand">
+							<a href="index.php" class="site-brand">
 								<img src="image/logo.png" alt="">
 							</a>
 						</div>
@@ -365,7 +365,7 @@
 							<div class="mobile-header-btns header-top-widget">
 								<ul class="header-links">
 									<li class="sin-link">
-										<a href="cart.html" class="cart-link link-icon"><i class="ion-bag"></i></a>
+										<a href="cart.php" class="cart-link link-icon"><i class="ion-bag"></i></a>
 									</li>
 									<li class="sin-link">
 										<a href="javascript:" class="link-icon hamburgur-icon off-canvas-btn"><i
@@ -397,37 +397,37 @@
 						<nav class="off-canvas-nav">
 							<ul class="mobile-menu main-mobile-menu">
 								<li class="menu-item-has-children">
-									<a href="index.html">Home</a>
+									<a href="index.php">Home</a>
 								</li>
 								<li class="menu-item-has-children">
-									<a href="blog-list.html">Blog</a>
+									<a href="blog-list.php">Blog</a>
 								</li>
 								<li class="menu-item-has-children">
-									<a href="shop-grid-left-sidebar.html">Shop</a>
+									<a href="shop-grid-left-sidebar.php">Shop</a>
 									<!--<ul class="sub-menu">
 										<li class="menu-item-has-children">
-											<a href="shop-grid-left-sidebar.html">Shop Grid</a>
+											<a href="shop-grid-left-sidebar.php">Shop Grid</a>
 										</li>
 										<li class="menu-item-has-children">
 											<a href="#">Product Details 1</a>
 											<ul class="sub-menu">
-												<li><a href="product-details.html">Product Details Page</a></li>
-												<li><a href="product-details-affiliate.html">Product Details
+												<li><a href="product-details.php">Product Details Page</a></li>
+												<li><a href="product-details-affiliate.php">Product Details
 														Affiliate</a></li>
-												<li><a href="product-details-group.html">Product Details Group</a></li>
-												<li><a href="product-details-variable.html">Product Details
+												<li><a href="product-details-group.php">Product Details Group</a></li>
+												<li><a href="product-details-variable.php">Product Details
 														Variables</a></li>
 											</ul>
 										</li>
 										<li class="menu-item-has-children">
 											<a href="#">Product Details 2</a>
 											<ul class="sub-menu">
-												<li><a href="product-details-left-thumbnail.html">left Thumbnail</a>
+												<li><a href="product-details-left-thumbnail.php">left Thumbnail</a>
 												</li>
-												<li><a href="product-details-right-thumbnail.html">Right Thumbnail</a>
+												<li><a href="product-details-right-thumbnail.php">Right Thumbnail</a>
 												</li>
-												<li><a href="product-details-left-gallery.html">Left Gallery</a></li>
-												<li><a href="product-details-right-gallery.html">Right Gallery</a></li>
+												<li><a href="product-details-left-gallery.php">Left Gallery</a></li>
+												<li><a href="product-details-right-gallery.php">Right Gallery</a></li>
 											</ul>
 										</li>
 									</ul>-->
@@ -435,16 +435,16 @@
 								<li class="menu-item-has-children">
 									<a href="#">Pages</a>
 									<ul class="sub-menu">
-										<li><a href="cart.html">Cart</a></li>
-										<li><a href="wishlist.html">Wishlist</a></li>
-										<li><a href="login-register.html">Login Register</a></li>
-										<li><a href="my-account.html">My Account</a></li>
-										<li><a href="order-complete.html">Order Complete</a></li>
-										<li><a href="faq.html">Faq</a></li>
-										<li><a href="contact-2.html">contact 02</a></li>
+										<li><a href="cart.php">Cart</a></li>
+										<li><a href="wishlist.php">Wishlist</a></li>
+										<li><a href="login-register.php">Login Register</a></li>
+										<li><a href="my-account.php">My Account</a></li>
+										<li><a href="order-complete.php">Order Complete</a></li>
+										<li><a href="faq.php">Faq</a></li>
+										<li><a href="contact-2.php">contact 02</a></li>
 									</ul>
 								</li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="contact.php">Contact</a></li>
 							</ul>
 						</nav>
 						<!-- mobile menu navigation end -->
@@ -455,8 +455,8 @@
 							<li class="menu-item-has-children">
 								<a href="#">Currency - USD $ <i class="fas fa-angle-down"></i></a>
 								<ul class="sub-menu">
-									<li> <a href="cart.html">USD $</a></li>
-									<li> <a href="checkout.html">EUR €</a></li>
+									<li> <a href="cart.php">USD $</a></li>
+									<li> <a href="checkout.php">EUR €</a></li>
 								</ul>
 							</li>
 							<li class="menu-item-has-children">
@@ -499,7 +499,7 @@
 			<div class="container d-none d-lg-block">
 				<div class="row align-items-center">
 					<div class="col-lg-4">
-						<a href="index.html" class="site-brand">
+						<a href="index.php" class="site-brand">
 							<img src="image/logo.png" alt="">
 						</a>
 					</div>
@@ -507,39 +507,39 @@
 						<div class="main-navigation flex-lg-right">
 							<ul class="main-menu menu-right ">
 								<li class="menu-item has-children">
-									<a href="index.html">Home <i
+									<a href="index.php">Home <i
 											class="fas fa-chevron-down dropdown-arrow"></i></a>
 								</li>
 								<!-- Shop -->
 								<li class="menu-item has-children mega-menu">
-									<a href="shop-grid-left-sidebar.html)">shop <i
+									<a href="shop-grid-left-sidebar.php)">shop <i
 											class="fas fa-chevron-down dropdown-arrow"></i></a>
 									<!--<ul class="sub-menu four-column">
 										<li class="cus-col-25">
 											<h3 class="menu-title"><a href="javascript:void(0)">Shop Grid </a></h3>
 											<ul class="mega-single-block">
-												<li><a href="shop-grid.html">Fullwidth</a></li>
-												<li><a href="shop-grid-left-sidebar.html">left Sidebar</a></li>
-												<li><a href="shop-grid-right-sidebar.html">Right Sidebar</a></li>
+												<li><a href="shop-grid.php">Fullwidth</a></li>
+												<li><a href="shop-grid-left-sidebar.php">left Sidebar</a></li>
+												<li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li>
 											</ul>
 										</li>
 										<li class="cus-col-25">
 											<h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
 											<ul class="mega-single-block">
-												<li><a href="shop-list.html">Fullwidth</a></li>
-												<li><a href="shop-list-left-sidebar.html">left Sidebar</a></li>
-												<li><a href="shop-list-right-sidebar.html">Right Sidebar</a></li>
+												<li><a href="shop-list.php">Fullwidth</a></li>
+												<li><a href="shop-list-left-sidebar.php">left Sidebar</a></li>
+												<li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
 											</ul>
 										</li>
 										<li class="cus-col-25">
 											<h3 class="menu-title"> <a href="javascript:void(0)">Product Details 1</a>
 											</h3>
 											<ul class="mega-single-block">
-												<li><a href="product-details.html">Product Details Page</a></li>
-												<li><a href="product-details-affiliate.html">Product Details
+												<li><a href="product-details.php">Product Details Page</a></li>
+												<li><a href="product-details-affiliate.php">Product Details
 														Affiliate</a></li>
-												<li><a href="product-details-group.html">Product Details Group</a></li>
-												<li><a href="product-details-variable.html">Product Details
+												<li><a href="product-details-group.php">Product Details Group</a></li>
+												<li><a href="product-details-variable.php">Product Details
 														Variables</a></li>
 											</ul>
 										</li>
@@ -547,12 +547,12 @@
 											<h3 class="menu-title"><a href="javascript:void(0)">Product Details 2</a>
 											</h3>
 											<ul class="mega-single-block">
-												<li><a href="product-details-left-thumbnail.html">left Thumbnail</a>
+												<li><a href="product-details-left-thumbnail.php">left Thumbnail</a>
 												</li>
-												<li><a href="product-details-right-thumbnail.html">Right Thumbnail</a>
+												<li><a href="product-details-right-thumbnail.php">Right Thumbnail</a>
 												</li>
-												<li><a href="product-details-left-gallery.html">Left Gallery</a></li>
-												<li><a href="product-details-right-gallery.html">Right Gallery</a></li>
+												<li><a href="product-details-left-gallery.php">Left Gallery</a></li>
+												<li><a href="product-details-right-gallery.php">Right Gallery</a></li>
 											</ul>
 										</li>
 									</ul>-->
@@ -562,21 +562,21 @@
 									<a href="javascript:void(0)">Pages <i
 											class="fas fa-chevron-down dropdown-arrow"></i></a>
 									<ul class="sub-menu">
-										<li><a href="cart.html">Cart</a></li>
-										<li><a href="wishlist.html">Wishlist</a></li>
-										<li><a href="login-register.html">Login Register</a></li>
-										<li><a href="my-account.html">My Account</a></li>
-										<li><a href="order-complete.html">Order Complete</a></li>
-										<li><a href="faq.html">Faq</a></li>
-										<li><a href="contact-2.html">contact 02</a></li>
+										<li><a href="cart.php">Cart</a></li>
+										<li><a href="wishlist.php">Wishlist</a></li>
+										<li><a href="login-register.php">Login Register</a></li>
+										<li><a href="my-account.php">My Account</a></li>
+										<li><a href="order-complete.php">Order Complete</a></li>
+										<li><a href="faq.php">Faq</a></li>
+										<li><a href="contact-2.php">contact 02</a></li>
 									</ul>
 								</li>
 								<!-- Blog -->
 								<li class="menu-item has-children mega-menu">
-									<a href="blog-list.html">Blog </a>
+									<a href="blog-list.php">Blog </a>
 								</li>
 								<li class="menu-item">
-									<a href="contact.html">Contact</a>
+									<a href="contact.php">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -590,7 +590,7 @@
                 <div class="breadcrumb-contents">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                             <li class="breadcrumb-item active">Blog Details</li>
                         </ol>
                     </nav>
@@ -602,7 +602,7 @@
                 <div class="blog-post post-details mb--50">
                     <div class="blog-image">
                         <img src="image/others/blog-img-big-1.jpg
-            
+
             " alt="">
                     </div>
                     <div class="blog-content mt--30">
