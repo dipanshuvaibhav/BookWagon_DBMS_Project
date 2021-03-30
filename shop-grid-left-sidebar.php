@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -52,49 +55,8 @@
 											<!-- Shop -->
 											<li class="menu-item  mega-menu">
 																				<a href="shop-grid-left-sidebar.php">shop </a>
-																				<!-- <ul class="sub-menu four-column">
-																						<li class="cus-col-25">
-																								<h3 class="menu-title"><a href="javascript:void(0)">Shop</a></h3>
-																								<ul class="mega-single-block">
-																										<li><a href="shop-grid.php">Fullwidth</a></li>
-																										<li><a href="shop-grid-left-sidebar.php">Shop</a></li>
-																										<li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li>
-																								</ul> -->
 																						</li>
-																						<!-- <li class="cus-col-25">
-																								<h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
-																								<ul class="mega-single-block">
-																										<li><a href="shop-list.php">Fullwidth</a></li>
-																										<li><a href="shop-list-left-sidebar.php">List</a></li>
-																									<li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
-																								</ul>
-																						</li>-->
-																						<!-- <li class="cus-col-25">
-																								<h3 class="menu-title"> <a href="javascript:void(0)">Product Details
-																												</a></h3>
-																								<ul class="mega-single-block">
-																										<li><a href="product-details.php">Product Details Page</a></li>
-																										<li><a href="product-details-affiliate.php">Product Details
-																														Affiliate</a></li>
-																										<li><a href="product-details-group.php">Product Details Group</a>
-																										</li>
-																										<li><a href="product-details-variable.php">Product Details
-																														Variables</a></li>
-																								</ul>
-																						</li> -->
-																						<!-- <li class="cus-col-25">
-																								<h3 class="menu-title"><a href="javascript:void(0)">Product Details
-																												2</a></h3>
-																								<ul class="mega-single-block">
-																										<li><a href="product-details-left-thumbnail.php">Thumbnail</a>
-																										</li> -->
-																										<!-- <li><a href="product-details-right-thumbnail.php">Right Thumbnail</a></li> -->
-																										<!-- <li><a href="product-details-left-gallery.php">Gallery</a>
-																										</li> -->
-																										<!-- <li><a href="product-details-right-gallery.php">Right Gallery</a>
-																										</li> -->
-																								<!-- </ul>
-																						</li> -->
+
 
 																		</li>
 											<!-- Pages -->
@@ -117,35 +79,6 @@
 											<!-- Blog -->
 											<li class="menu-item mega-menu">
 													<a href="blog-list.php">Blog </a>
-													<!-- <ul class="sub-menu three-column">
-															<li class="cus-col-33">
-																	<h3 class="menu-title"><a href="javascript:void(0)">Blog Grid</a></h3>
-																	<ul class="mega-single-block">
-																			<li><a href="blog.php">Full Widh (Default)</a></li>
-																			<li><a href="blog-left-sidebar.php">left Sidebar</a></li>
-																			<li><a href="blog-right-sidebar.php">Right Sidebar</a></li>
-																	</ul>
-															</li>
-															<li class="cus-col-33">
-																	<h3 class="menu-title"><a href="javascript:void(0)">Blog List </a></h3>
-																	<ul class="mega-single-block">
-																			<li><a href="blog-list.php">Full Widh (Default)</a></li>
-																			<li><a href="blog-list-left-sidebar.php">left Sidebar</a></li>
-																			<li><a href="blog-list-right-sidebar.php">Right Sidebar</a></li>
-																	</ul>
-															</li>
-															<li class="cus-col-33">
-																	<h3 class="menu-title"><a href="javascript:void(0)">Blog Details</a>
-																	</h3>
-																	<ul class="mega-single-block">
-																			<li><a href="blog-details.php">Image Format (Default)</a></li>
-																			<li><a href="blog-details-gallery.php">Gallery</a></li>
-																			<li><a href="blog-details-audio.php">Audio Format</a></li>
-																			<li><a href="blog-details-video.php">Video Format</a></li>
-																			<li><a href="blog-details-left-sidebar.php">Blog</a></li>
-																	</ul>
-															</li>
-													</ul> -->
 											</li>
 											<li class="menu-item">
 													<a href="contact.php">Contact</a>
@@ -279,9 +212,18 @@
 						<div class="col-lg-4">
 							<div class="main-navigation flex-lg-right">
 								<div class="cart-widget">
+									<!--user login session -->
 									<div class="login-block">
-										<a href="login-register.php" class="font-weight-bold">Login</a> <br>
-										<span>or</span><a href="login-register.php">Register</a>
+                    <?php
+                      if(isset($_SESSION['id'])){
+                      echo  "<p class='font-weight-bold'>Welcome,".$_SESSION['name']."</p>";
+                      } else {
+                      echo '<a href="login-register.php" class="font-weight-bold">Login</a> <br>
+                      <span>or</span><a href="login-register.php">Register</a>';
+                      }
+                    ?>
+                    <!-- <a href="login-register.php" class="font-weight-bold">Login</a> <br>
+                    <span>or</span><a href="login-register.php">Register</a> -->
 									</div>
 									<div class="cart-block">
 										<div class="cart-total">
@@ -319,6 +261,19 @@
 												</div>
 											</div>
 										</div>
+									</div>
+									<!--user login session -->
+									<div class="login-block">
+                    <?php
+                      if(isset($_SESSION['id'])){
+                      echo  "<p class='font-weight-bold'>Welcome,".$_SESSION['name']."</p>";
+                      } else {
+                      echo '<a href="login-register.php" class="font-weight-bold">Login</a> <br>
+                      <span>or</span><a href="login-register.php">Register</a>';
+                      }
+                    ?>
+                    <!-- <a href="login-register.php" class="font-weight-bold">Login</a> <br>
+                    <span>or</span><a href="login-register.php">Register</a> -->
 									</div>
 								</div>
 							</div>
