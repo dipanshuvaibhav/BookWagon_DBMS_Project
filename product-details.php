@@ -181,7 +181,7 @@
 												Shopping Cart
 											</span>
 											<span class="price">
-												£0.00
+												₹0.00
 												<i class="fas fa-chevron-down"></i>
 											</span>
 										</div>
@@ -194,7 +194,7 @@
 													<div class="content">
 														<h3 class="title"><a href="product-details.php">Kodak PIXPRO
 																Astro Zoom AZ421 16 MP</a></h3>
-														<p class="price"><span class="qty">1 ×</span> £87.34</p>
+														<p class="price"><span class="qty">1 ×</span> ₹87.34</p>
 														<button class="cross-btn"><i class="fas fa-times"></i></button>
 													</div>
 												</div>
@@ -422,15 +422,15 @@
                             <p class="tag-block">Tags: <a href="#">Movado</a>, <a href="#">Omega</a></p>
                             <h3 class="product-title">Beats EP Wired On-Ear Headphone-Black</h3>
                             <ul class="list-unstyled">
-                                <li>Ex Tax: <span class="list-value"> £60.24</span></li>
+                                <li>Ex Tax: <span class="list-value"> ₹60.24</span></li>
                                 <li>Brands: <a href="#" class="list-value font-weight-bold"> Canon</a></li>
                                 <li>Product Code: <span class="list-value"> model1</span></li>
                                 <li>Reward Points: <span class="list-value"> 200</span></li>
                                 <li>Availability: <span class="list-value"> In Stock</span></li>
                             </ul>
                             <div class="price-block">
-                                <span class="price-new">£73.79</span>
-                                <del class="price-old">£91.86</del>
+                                <span class="price-new">₹73.79</span>
+                                <del class="price-old">₹91.86</del>
                             </div>
                             <div class="rating-widget">
                                 <div class="rating-block">
@@ -650,8 +650,8 @@
                                         </div>
                                     </div>
                                     <div class="price-block">
-                                        <span class="price">£51.20</span>
-                                        <del class="price-old">£51.20</del>
+                                        <span class="price">₹51.20</span>
+                                        <del class="price-old">₹51.20</del>
                                         <span class="price-discount">20%</span>
                                     </div>
                                 </div>
@@ -691,8 +691,8 @@
                                         </div>
                                     </div>
                                     <div class="price-block">
-                                        <span class="price">£51.20</span>
-                                        <del class="price-old">£51.20</del>
+                                        <span class="price">₹51.20</span>
+                                        <del class="price-old">₹51.20</del>
                                         <span class="price-discount">20%</span>
                                     </div>
                                 </div>
@@ -731,8 +731,8 @@
                                         </div>
                                     </div>
                                     <div class="price-block">
-                                        <span class="price">£51.20</span>
-                                        <del class="price-old">£51.20</del>
+                                        <span class="price">₹51.20</span>
+                                        <del class="price-old">₹51.20</del>
                                         <span class="price-discount">20%</span>
                                     </div>
                                 </div>
@@ -772,8 +772,8 @@
                                         </div>
                                     </div>
                                     <div class="price-block">
-                                        <span class="price">£51.20</span>
-                                        <del class="price-old">£51.20</del>
+                                        <span class="price">₹51.20</span>
+                                        <del class="price-old">₹51.20</del>
                                         <span class="price-discount">20%</span>
                                     </div>
                                 </div>
@@ -812,8 +812,8 @@
                                         </div>
                                     </div>
                                     <div class="price-block">
-                                        <span class="price">£51.20</span>
-                                        <del class="price-old">£51.20</del>
+                                        <span class="price">₹51.20</span>
+                                        <del class="price-old">₹51.20</del>
                                         <span class="price-discount">20%</span>
                                     </div>
                                 </div>
@@ -895,15 +895,15 @@
                                         <p class="tag-block">Tags: <a href="#">Movado</a>, <a href="#">Omega</a></p>
                                         <h3 class="product-title">Beats EP Wired On-Ear Headphone-Black</h3>
                                         <ul class="list-unstyled">
-                                            <li>Ex Tax: <span class="list-value"> £60.24</span></li>
+                                            <li>Ex Tax: <span class="list-value"> ₹60.24</span></li>
                                             <li>Brands: <a href="#" class="list-value font-weight-bold"> Canon</a></li>
                                             <li>Product Code: <span class="list-value"> model1</span></li>
                                             <li>Reward Points: <span class="list-value"> 200</span></li>
                                             <li>Availability: <span class="list-value"> In Stock</span></li>
                                         </ul>
                                         <div class="price-block">
-                                            <span class="price-new">£73.79</span>
-                                            <del class="price-old">£91.86</del>
+                                            <span class="price-new">₹73.79</span>
+                                            <del class="price-old">₹91.86</del>
                                         </div>
                                         <div class="rating-widget">
                                             <div class="rating-block">

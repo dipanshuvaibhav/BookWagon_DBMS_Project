@@ -222,6 +222,109 @@ session_start();
 																	<a href="contact.php">Contact</a>
 															</li>
 													</ul>
+<<<<<<< Updated upstream
+=======
+												</li>
+											</ul>
+										</li>
+										<li class="cat-item has-children"><a href="#">Business & Money</a>
+											<ul class="sub-menu">
+												<li><a href="">Brake Tools</a></li>
+												<li><a href="">Driveshafts</a></li>
+												<li><a href="">Emergency Brake</a></li>
+												<li><a href="">Spools</a></li>
+											</ul>
+										</li>
+										<li class="cat-item has-children"><a href="#">Calendars</a>
+											<ul class="sub-menu">
+												<li><a href="">Brake Tools</a></li>
+												<li><a href="">Driveshafts</a></li>
+												<li><a href="">Emergency Brake</a></li>
+												<li><a href="">Spools</a></li>
+											</ul>
+										</li>
+										<li class="cat-item has-children"><a href="#">Children's Books</a>
+											<ul class="sub-menu">
+												<li><a href="">Brake Tools</a></li>
+												<li><a href="">Driveshafts</a></li>
+												<li><a href="">Emergency Brake</a></li>
+												<li><a href="">Spools</a></li>
+											</ul>
+										</li>
+										<li class="cat-item has-children"><a href="#">Comics</a>
+											<ul class="sub-menu">
+												<li><a href="">Brake Tools</a></li>
+												<li><a href="">Driveshafts</a></li>
+												<li><a href="">Emergency Brake</a></li>
+												<li><a href="">Spools</a></li>
+											</ul>
+										</li>
+										<li class="cat-item"><a href="#">Perfomance Filters</a></li>
+										<li class="cat-item has-children"><a href="#">Cookbooks</a>
+											<ul class="sub-menu">
+												<li><a href="">Brake Tools</a></li>
+												<li><a href="">Driveshafts</a></li>
+												<li><a href="">Emergency Brake</a></li>
+												<li><a href="">Spools</a></li>
+											</ul>
+										</li>
+										<li class="cat-item "><a href="#">Accessories</a></li>
+										<li class="cat-item "><a href="#">Education</a></li>
+										<li class="cat-item hidden-menu-item"><a href="#">Indoor Living</a></li>
+										<li class="cat-item"><a href="#" class="js-expand-hidden-menu">More
+												Categories</a></li>
+									</ul>
+								</div>
+							</nav>
+						</div>-->
+						<div class="col-lg-5">
+							<div class="header-search-block">
+								<input type="text" placeholder="Search entire store here">
+								<button>Search</button>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="main-navigation flex-lg-right">
+								<div class="cart-widget">
+									<div class="login-block">
+										<a href="login-register.html" class="font-weight-bold">Login</a> <br>
+										<span>or</span><a href="login-register.html">Register</a>
+									</div>
+									<!--<div class="cart-block">
+										<div class="cart-total">
+											<span class="text-number">
+												1
+											</span>
+											<span class="text-item">
+												Shopping Cart
+											</span>
+											<span class="price">
+												₹0.00
+												<i class="fas fa-chevron-down"></i>
+											</span>
+										</div>
+										<div class="cart-dropdown-block">
+											<div class=" single-cart-block ">
+												<div class="cart-product">
+													<a href="product-details.html" class="image">
+														<img src="image/products/cart-product-1.jpg" alt="">
+													</a>
+													<div class="content">
+														<h3 class="title"><a href="product-details.html">Kodak PIXPRO
+																Astro Zoom AZ421 16 MP</a></h3>
+														<p class="price"><span class="qty">1 ×</span> ₹87.34</p>
+														<button class="cross-btn"><i class="fas fa-times"></i></button>
+													</div>
+												</div>
+											</div>
+											<div class=" single-cart-block ">
+												<div class="btn-block">
+													<a href="cart.html" class="btn">View Cart <i
+															class="fas fa-chevron-right"></i></a>
+													<a href="checkout.html" class="btn btn--primary">Check Out <i
+															class="fas fa-chevron-right"></i></a>
+												</div>
+>>>>>>> Stashed changes
 											</div>
 										</div>
 										<!-- logout button -->
