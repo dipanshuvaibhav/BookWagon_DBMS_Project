@@ -400,7 +400,7 @@ session_start();
 									</div>
 									<!-- Slide Down Blox ==> Login Box  -->
 									<div class="checkout-slidedown-box" id="quick-login">
-										<form action="./">
+										<form action="login.php" method="post">
 											<div class="quick-login-form">
 												<p>If you have shopped with us before, please enter your details in the
 													boxes below. If you are a new
@@ -408,44 +408,29 @@ session_start();
 													please
 													proceed to the Billing & Shipping section.</p>
 												<div class="form-group">
-													<label for="quick-user">Username or email *</label>
-													<input type="text" placeholder="" id="quick-user">
+													<label for="email1">Email *</label>
+													<input  type="email" id="email1" name = "email1" placeholder="Enter you email address here..." required>
 												</div>
 												<div class="form-group">
-													<label for="quick-pass">Password *</label>
-													<input type="text" placeholder="" id="quick-pass">
+													<label for="password">Password *</label>
+													<input  type="password" id="password" name = "password" placeholder="Enter your password" required>
 												</div>
 												<div class="form-group">
 													<div class="d-flex align-items-center flex-wrap">
-														<a href="#" class="btn btn-outlined   mr-3">Login</a>
+														<button type="submit" class="btn btn-outlined">Login</button>
 														<div class="d-inline-flex align-items-center">
-															<input type="checkbox" id="accept_terms" class="mb-0 mr-1">
+															<input type="checkbox" id="accept_terms" class="mb-0 mr-1" required>
 															<label for="accept_terms" class="mb-0">I’ve read and accept
 																the terms &amp; conditions</label>
 														</div>
 													</div>
-													<p><a href="javascript:" class="pass-lost mt-3">Lost your
-															password?</a></p>
+													<!-- <p><a href="javascript:" class="pass-lost mt-3">Lost your
+															password?</a></p> -->
 												</div>
 											</div>
 										</form>
 									</div>
-									<!-- Slide Down Trigger  -->
-									<div class="checkout-quick-box">
-										<p><i class="far fa-sticky-note"></i>Have a coupon? <a href="javascript:"
-												class="slide-trigger" data-target="#quick-cupon">
-												Click here to enter your code</a></p>
-									</div>
-									<!-- Slide Down Blox ==> Cupon Box -->
-									<div class="checkout-slidedown-box" id="quick-cupon">
-										<form action="./">
-											<div class="checkout_coupon">
-												<input type="text" class="mb-0" placeholder="Coupon Code">
-												<a href="" class="btn btn-outlined">Apply coupon</a>
-											</div>
-										</form>
-									</div>
-								</div>
+									<!-- coupon code -->
 								<div class="col-lg-7 mb--20">
 									<!-- Billing Address -->
 									<div id="billing-form" class="mb-40">
