@@ -376,7 +376,7 @@ session_start();
 					<nav aria-label="breadcrumb">
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item"><a href="index.php">Home</a></li>
-							<li class="breadcrumb-item active">Order Complete</li>
+							<li class="breadcrumb-item active">FAQ</li>
 						</ol>
 					</nav>
 				</div>
