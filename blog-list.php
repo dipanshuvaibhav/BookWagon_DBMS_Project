@@ -382,9 +382,7 @@ session_start();
 					</nav>
 				</div>
 			</div>
-		</section>
-		<section class="col-lg-4">
-			<div class="flex-lg-right">
+			<div class="flex-lg-right container">
 				<a href="#" class="btn btn--primary">Add Blog</a>
 
 			</div>
