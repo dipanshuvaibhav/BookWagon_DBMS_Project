@@ -48,14 +48,6 @@ $(function() {
 });
 
 
-
-/* 10. Mailchimp Ajax */
-
-/*!
-Mailchimp Ajax Submit
-jQuery Plugin
-Author: Siddharth Doshi
-*/
 (function($) {
     "use strict";
     $.ajaxChimp = {
