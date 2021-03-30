@@ -239,7 +239,7 @@ session_start();
 						</div>
 				</div>
 		</div>
-		
+
 		<div class="sticky-init fixed-header common-sticky">
 			<div class="container d-none d-lg-block">
 				<div class="row align-items-center">
@@ -381,6 +381,12 @@ session_start();
 						</ol>
 					</nav>
 				</div>
+			</div>
+		</section>
+		<section class="col-lg-4">
+			<div class="flex-lg-right">
+				<a href="#" class="btn btn--primary">Add Blog</a>
+
 			</div>
 		</section>
 		<section class="inner-page-sec-padding-bottom">
