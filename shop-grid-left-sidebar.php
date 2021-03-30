@@ -262,19 +262,17 @@ session_start();
 											</div>
 										</div>
 									</div>
-									<!--user login session -->
-									<div class="login-block">
-                    <?php
-                      if(isset($_SESSION['id'])){
-                      echo  "<p class='font-weight-bold'>Welcome,".$_SESSION['name']."</p>";
-                      } else {
-                      echo '<a href="login-register.php" class="font-weight-bold">Login</a> <br>
-                      <span>or</span><a href="login-register.php">Register</a>';
-                      }
-                    ?>
-                    <!-- <a href="login-register.php" class="font-weight-bold">Login</a> <br>
-                    <span>or</span><a href="login-register.php">Register</a> -->
-									</div>
+									<!-- logout button -->
+			            <div class="login-block">
+			              <?php
+			              if(isset($_SESSION['id'])){
+			              echo  '<a href="logout.php" class="btn btn--primary font-weight-bold">Logout</a>';
+			              } else {
+			              echo '<button type="button" action="" name="button" class="btn btn--primary" style="display:none;">Logout</button>';
+			              }
+			              ?>
+
+			            </div>
 								</div>
 							</div>
 						</div>
