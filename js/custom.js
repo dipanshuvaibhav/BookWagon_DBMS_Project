@@ -98,11 +98,11 @@ jQuery(document).ready(function($) {
                 $(".search-wrapper").addClass('open');
             })
             $(".search-dismiss,body").on('click', function(e) {
-                    $(".search-wrapper").removeClass('open')
-                })
-                // $("body").on('click', function () { 
-                // 	$(".search-wrapper").removeClass('open')
-                // })
+                $(".search-wrapper").removeClass('open')
+            })
+            // $("body").on('click', function () { 
+            // 	$(".search-wrapper").removeClass('open')
+            // })
             $(".search-box,.search-trigger").on('click', function(e) {
                 e.stopPropagation();
             })
@@ -263,9 +263,9 @@ jQuery(document).ready(function($) {
 
         }
         stickyHeader()
-            /*-------------------------------------
-            	--> Range Slider
-            ---------------------------------------*/
+        /*-------------------------------------
+        	--> Range Slider
+        ---------------------------------------*/
         $(function() {
             $(".sb-range-slider").slider({
                 range: true,
@@ -273,11 +273,11 @@ jQuery(document).ready(function($) {
                 max: 753,
                 values: [80, 320],
                 slide: function(event, ui) {
-                    $("#amount").val("₹" + ui.values[0] + " - ₹" + ui.values[1]);
+                    $("#amount").val("£" + ui.values[0] + " - £" + ui.values[1]);
                 }
             });
-            $("#amount").val("₹" + $(".sb-range-slider").slider("values", 0) +
-                " - ₹" + $(".sb-range-slider").slider("values", 1));
+            $("#amount").val("£" + $(".sb-range-slider").slider("values", 0) +
+                " - £" + $(".sb-range-slider").slider("values", 1));
         });
 
         /*-------------------------------------
@@ -321,15 +321,15 @@ jQuery(document).ready(function($) {
         	--> Shipping Form Toggle
         ---------------------------------------*/
         $('[data-shipping]').on('click', function() {
-                if ($('[data-shipping]:checked').length > 0) {
-                    $('#shipping-form').slideDown();
-                } else {
-                    $('#shipping-form').slideUp();
-                }
-            })
-            /*-------------------------------------
-            	--> Add To Cart Animation
-            ---------------------------------------*/
+            if ($('[data-shipping]:checked').length > 0) {
+                $('#shipping-form').slideDown();
+            } else {
+                $('#shipping-form').slideUp();
+            }
+        })
+        /*-------------------------------------
+        	--> Add To Cart Animation
+        ---------------------------------------*/
         $('.add-to-cart').on('click', function(e) {
             e.preventDefault();
 
@@ -359,29 +359,29 @@ jQuery(document).ready(function($) {
         	--> NIce Select
         ---------------------------------------*/
         $('.nice-select').niceSelect()
-
+        
 
         /*-------------------------------------
         	--> Product Sorting
         ---------------------------------------*/
         $('.product-view-mode a').on('click', function(e) {
-                e.preventDefault();
+            e.preventDefault();
 
-                var shopProductWrap = $('.shop-product-wrap');
-                var viewMode = $(this).data('target');
+            var shopProductWrap = $('.shop-product-wrap');
+            var viewMode = $(this).data('target');
 
-                $('.product-view-mode a').removeClass('active');
-                $(this).addClass('active');
-                shopProductWrap.removeClass('grid list grid-four').addClass(viewMode);
-                if (shopProductWrap.hasClass('grid') || shopProductWrap.hasClass('grid-four')) {
-                    $('.product-card').removeClass('card-style-list')
-                } else {
-                    $('.product-card').addClass('card-style-list')
-                }
-            })
-            /*-------------------------------------
-            	--> Payment method select
-            ---------------------------------------*/
+            $('.product-view-mode a').removeClass('active');
+            $(this).addClass('active');
+            shopProductWrap.removeClass('grid list grid-four').addClass(viewMode);
+            if (shopProductWrap.hasClass('grid') || shopProductWrap.hasClass('grid-four')) {
+                $('.product-card').removeClass('card-style-list')
+            } else {
+                $('.product-card').addClass('card-style-list')
+            }
+        })
+        /*-------------------------------------
+        	--> Payment method select
+        ---------------------------------------*/
         $('[name="payment-method"]').on('click', function() {
 
             var $value = $(this).attr('value');
@@ -473,18 +473,18 @@ jQuery(document).ready(function($) {
     /*--
         15: Google Map
     ----------------------------------------------------*/
-    // Initialize and add the map
-    if ($('#google-map').length) {
-        function initMap() {
-            // The location of Uluru
-            var uluru = { lat: 21.0277214, lng: 105.8342015 };
-            // The map, centered at Uluru
-            var map = new google.maps.Map(
-                document.getElementById('google-map'), { zoom: 12, center: uluru });
-            // The marker, positioned at Uluru
-            var marker = new google.maps.Marker({ position: uluru, map: map });
-        }
-        initMap();
-    }
+	// Initialize and add the map
+	if($('#google-map').length){
+		function initMap() {
+			// The location of Uluru
+			var uluru = {lat: 21.0277214, lng: 105.8342015};
+			// The map, centered at Uluru
+			var map = new google.maps.Map(
+				document.getElementById('google-map'), {zoom: 12, center: uluru});
+			// The marker, positioned at Uluru
+			var marker = new google.maps.Marker({position: uluru, map: map});
+		}
+		initMap();
+	}
 
 });
