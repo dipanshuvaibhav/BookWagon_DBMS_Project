@@ -46,21 +46,22 @@ session_start();
                                         }
                                         ?>
                                     </div>
+                                    <!-- shopping cart logo  -->
                                     <div class="cart-block">
                                         <div class="cart-total">
-                                            <span class="text-number">
+                                            <span class="text-number" id="cart-item">
                                                 1
                                             </span>
                                             <span class="text-item">
                                                 Shopping Cart
                                             </span>
-                                            <span class="price">
+                                            <span class="price" >
                                                 ₹0.00
                                                 <i class="fas fa-chevron-down"></i>
                                             </span>
                                         </div>
                                         <div class="cart-dropdown-block">
-                                            <div class=" single-cart-block ">
+                                            <!-- <div class=" single-cart-block ">
                                                 <div class="cart-product">
                                                     <a href="product-details.php" class="image">
                                                         <img src="image/products/cart-product-1.jpg" alt="">
@@ -73,7 +74,7 @@ session_start();
                                                         <button class="cross-btn"><i class="fas fa-times"></i></button>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                             <div class=" single-cart-block ">
                                                 <div class="btn-block">
                                                     <a href="cart.php" class="btn">View Cart <i
