@@ -55,7 +55,7 @@ session_start();
 																						Shopping Cart
 																				</span>
 																				<span class="price">
-																						£0.00
+																						₹0.00
 																						<i class="fas fa-chevron-down"></i>
 																				</span>
 																		</div>
@@ -69,7 +69,7 @@ session_start();
 																										<h3 class="title"><a href="product-details.php">Kodak PIXPRO
 																														Astro Zoom AZ421 16 MP</a>
 																										</h3>
-																										<p class="price"><span class="qty">1 ×</span> £87.34</p>
+																										<p class="price"><span class="qty">1 ×</span> ₹87.34</p>
 																										<button class="cross-btn"><i class="fas fa-times"></i></button>
 																								</div>
 																						</div>
