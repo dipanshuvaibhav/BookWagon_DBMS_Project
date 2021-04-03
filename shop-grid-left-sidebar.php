@@ -507,18 +507,27 @@ session_start();
 							</div>
 						</div>
 						<div class="shop-product-wrap grid with-pagination row space-db--30 shop-border">
+							<?php
+								include 'config.php';
+
+								$stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.product;");
+								$stmt->execute();
+								$result = $stmt->get_result();
+								while(row = $result->fetch_assoc()):
+							?>
 							<div class="col-lg-4 col-sm-6">
 								<div class="product-card">
 									<div class="product-grid-content">
 										<div class="product-header">
 											<a href="" class="author">
-												Epple
+												Deep
 											</a>
-											<h3><a href="product-details.php">Here Is A Quick Cure For Book</a></h3>
+											<h3><a href="product-details.php"> Book</a></h3>
 										</div>
 										<div class="product-card--body">
 											<div class="card-image">
-												<img src="image/products/product-2.jpg" alt="">
+												<!-- taking image from database -->
+												<img src="<?= $row['p_image'] ?>" alt="">
 												<div class="hover-contents">
 													<a href="product-details.php" class="hover-image">
 														<img src="image/products/product-1.jpg" alt="">
@@ -547,7 +556,7 @@ session_start();
 											</div>
 										</div>
 									</div>
-									<div class="product-list-content">
+									<!-- <div class="product-list-content">
 										<div class="card-image">
 											<img src="image/products/product-3.jpg" alt="">
 										</div>
@@ -585,9 +594,11 @@ session_start();
 													Cart</a>
 											</div>
 										</div>
-									</div>
+									</div> -->
 								</div>
 							</div>
+						<?php endwhile;?>
+
 							<div class="col-lg-4 col-sm-6">
 								<div class="product-card">
 									<div class="product-grid-content">
