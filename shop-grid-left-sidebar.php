@@ -400,17 +400,20 @@ session_start();
 												<i class="fas fa-grip-vertical"></i><i class="fas fa-grip-vertical"></i>
 											</span>
 										</a>
-										<a href="#" class="sorting-btn" data-target="list "><i
-												class="fas fa-list"></i></a>
+										<!-- to sort by list  -->
+										<!-- <a href="#" class="sorting-btn" data-target="list "><i
+												class="fas fa-list"></i></a> -->
 									</div>
 								</div>
 								<div class="col-xl-4 col-md-4 col-sm-6  mt--10 mt-sm--0">
-									<span class="toolbar-status">
+									<!-- status bar -->
+									<!-- <span class="toolbar-status">
 										Showing 1 to 9 of 14 (2 Pages)
-									</span>
+									</span> -->
 								</div>
 								<div class="col-lg-2 col-md-2 col-sm-6  mt--10 mt-md--0">
-									<div class="sorting-selection">
+									<!-- sorting selection -->
+									<!-- <div class="sorting-selection">
 										<span>Show:</span>
 										<select class="form-control nice-select sort-select">
 											<option value="" selected="selected">3</option>
@@ -419,9 +422,10 @@ session_start();
 											<option value="">10</option>
 											<option value="">12</option>
 										</select>
-									</div>
+									</div> -->
 								</div>
-								<div class="col-lg-4 col-md-4 col-sm-6 mt--10 mt-md--0 ">
+								<!-- sorting panel thing -->
+								<!-- <div class="col-lg-4 col-md-4 col-sm-6 mt--10 mt-md--0 ">
 									<div class="sorting-selection">
 										<span>Sort By:</span>
 										<select class="form-control nice-select sort-select mr-0">
@@ -444,7 +448,7 @@ session_start();
 												By:Model (Z - A)</option>
 										</select>
 									</div>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						<div class="shop-toolbar d-none">
@@ -459,17 +463,17 @@ session_start();
 												<i class="fas fa-grip-vertical"></i><i class="fas fa-grip-vertical"></i>
 											</span>
 										</a>
-										<a href="#" class="sorting-btn" data-target="list "><i
-												class="fas fa-list"></i></a>
+										<!-- <a href="#" class="sorting-btn" data-target="list "><i
+												class="fas fa-list"></i></a> -->
 									</div>
 								</div>
 								<div class="col-xl-5 col-md-4 col-sm-6  mt--10 mt-sm--0">
-									<span class="toolbar-status">
+									<!-- <span class="toolbar-status">
 										Showing 1 to 9 of 14 (2 Pages)
-									</span>
+									</span> -->
 								</div>
 								<div class="col-lg-2 col-md-2 col-sm-6  mt--10 mt-md--0">
-									<div class="sorting-selection">
+									<!-- <div class="sorting-selection">
 										<span>Show:</span>
 										<select class="form-control nice-select sort-select">
 											<option value="" selected="selected">3</option>
@@ -478,11 +482,11 @@ session_start();
 											<option value="">10</option>
 											<option value="">12</option>
 										</select>
-									</div>
+									</div> -->
 								</div>
 								<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mt--10 mt-md--0 ">
 									<div class="sorting-selection">
-										<span>Sort By:</span>
+										<!-- <span>Sort By:</span>
 										<select class="form-control nice-select sort-select mr-0">
 											<option value="" selected="selected">Default Sorting</option>
 											<option value="">Sort
@@ -501,7 +505,7 @@ session_start();
 												By:Model (A - Z)</option>
 											<option value="">Sort
 												By:Model (Z - A)</option>
-										</select>
+										</select> -->
 									</div>
 								</div>
 							</div>
