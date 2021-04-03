@@ -510,10 +510,10 @@ session_start();
 							<?php
 								include 'config.php';
 
-								$stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.product;");
+								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.product;');
 								$stmt->execute();
 								$result = $stmt->get_result();
-								while(row = $result->fetch_assoc()):
+								while($row = $result->fetch_assoc()):
 							?>
 							<div class="col-lg-4 col-sm-6">
 								<div class="product-card">
