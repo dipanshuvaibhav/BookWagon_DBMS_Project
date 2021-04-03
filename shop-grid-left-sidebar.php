@@ -537,19 +537,14 @@ session_start();
 														<img src="<?= $row['p_image'] ?>" alt="">
 													</a>
 													<div class="hover-btns">
-														<a href="cart.php" class="single-btn">
+														<!-- cart button -->
+														<a href="action.php?id=<?= $row['p_id']?>" class="single-btn">
 															<i class="fas fa-shopping-basket"></i>
 														</a>
-														<a href="wishlist.php" class="single-btn">
+														<!-- wishlist button -->
+														<!-- <a href="wishlist.php" class="single-btn">
 															<i class="fas fa-heart"></i>
-														</a>
-														<a href="compare.php" class="single-btn">
-															<i class="fas fa-random"></i>
-														</a>
-														<a href="#" data-toggle="modal" data-target="#quickModal"
-															class="single-btn">
-															<i class="fas fa-eye"></i>
-														</a>
+														</a> -->
 													</div>
 												</div>
 											</div>
@@ -604,7 +599,7 @@ session_start();
 						<?php endwhile;?>
 						</div>
 						<!-- Pagination Block -->
-						<div class="row pt--30">
+						<!-- <div class="row pt--30">
 							<div class="col-md-12">
 								<div class="pagination-block">
 									<ul class="pagination-btns flex-center">
@@ -623,7 +618,7 @@ session_start();
 									</ul>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<!-- Modal -->
 						<div class="modal fade modal-quick-view" id="quickModal" tabindex="-1" role="dialog"
 							aria-labelledby="quickModal" aria-hidden="true">
