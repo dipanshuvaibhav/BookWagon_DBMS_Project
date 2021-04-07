@@ -9,7 +9,7 @@
    $p_code = $_POST['p_code'];
    $p_qty = 1;
 
-   $stmt = $comm->prepare("SELECT p_code FROM heroku_adaaf59afa8e08a.cart WHERE p_code=?");
+   $stmt = $conn->prepare("SELECT p_code FROM heroku_adaaf59afa8e08a.cart WHERE p_code=?");
    $stmt->bind_param("s",$p_code);
    $stmt->execute();
    $res = $stmt->get_result();
