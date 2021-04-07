@@ -672,7 +672,7 @@ session_start();
 
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$(.addItemButton).click(function(e){
+			$(".addItemButton").click(function(e){
 				e.preventDefault();
 				var  $form = %(this).closest(".form-submit");
 				var pid = $form.find(".pid").val();
