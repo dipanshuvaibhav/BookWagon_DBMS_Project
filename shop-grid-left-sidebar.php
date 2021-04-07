@@ -522,12 +522,6 @@ session_start();
 							<div class="col-lg-4 col-sm-6">
 								<div class="product-card">
 									<div class="product-grid-content">
-										<div class="product-header">
-											<a href="" class="author">
-												<!-- Deep -->
-											</a>
-											<h3><a href="product-details.php"><?= $row['p_name']?></a></h3>
-										</div>
 										<div class="product-card--body">
 											<div class="card-image">
 												<!-- taking image from database -->
@@ -547,11 +541,17 @@ session_start();
 														</a> -->
 													</div>
 												</div>
+												<div class="product-header">
+													<a href="" class="author">
+														<!-- Deep -->
+													</a>
+													<h3><a href="product-details.php"><?= $row['p_name']?></a></h3>
+												</div>
 											</div>
 											<div class="price-block">
 												<span class="price">₹<?= $row['p_price']?></span>
 												<del class="price-old">₹151.20</del>
-												<span class="price-discount">₹51.20</span>
+												<span class="price-discount">-₹51.20</span>
 											</div>
 										</div>
 									</div>
