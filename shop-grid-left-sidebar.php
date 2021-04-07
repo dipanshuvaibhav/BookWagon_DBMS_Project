@@ -666,15 +666,15 @@ session_start();
 
 		<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<script src="js/plugins.js"></script>
+	<!-- <script src="js/plugins.js"></script>
 	<script src="js/ajax-mail.js"></script>
-	<script src="js/custom.js"></script>
+	<script src="js/custom.js"></script> -->
 
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$(".addItemButton").click(function(e){
 				e.preventDefault();
-				var  $form = %(this).closest(".form-submit");
+				var  $form = $(this).closest(".form-submit");
 				var pid = $form.find(".pid").val();
 				var p_name = $form.find(".p_name").val();
 				var p_price = $form.find(".p_price").val();
