@@ -50,7 +50,6 @@ session_start();
 																<div class="cart-block">
 																		<div class="cart-total">
 																				<span class="text-number" id="cart-item">
-
 																				</span>
 																				<span class="text-item">
 																						Shopping Cart
@@ -698,7 +697,7 @@ session_start();
 				$.ajax({
 					url :'action.php',
 					method:'get',
-					data: {cartItem:"cart-item"},
+					data: {cartItem:"cart_item"},
 					success:function(response){
 						$("#cart-item").html(response);
 					}
