@@ -423,6 +423,10 @@ session_start();
 											</div>
 										</div>
 									</div>
+									</div>
+							</div>
+						<?php endwhile;?>
+						</div>
 									
 						<!-- Modal -->
 						<div class="modal fade modal-quick-view" id="quickModal" tabindex="-1" role="dialog"
