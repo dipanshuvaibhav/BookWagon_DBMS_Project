@@ -110,64 +110,12 @@ session_start();
 											<div class="main-navigation flex-lg-right">
 													<ul class="main-menu menu-right li-last-0">
 															<li class="menu-item ">
-																	<!-- <a href="javascript:void(0)">Home <i
-																					class="fas fa-chevron-down dropdown-arrow"></i></a> -->
-																					<a href="index.php">Home</a><!--changes have been made here-->
-																	<!-- <ul class="sub-menu">
-																			<li> <a href="index.php">Home One</a></li>
-																			<li> <a href="index-2.php">Home Two</a></li>
-																			<li> <a href="index-3.php">Home Three</a></li>
-																			<li> <a href="index.php">Home Four</a></li>
-																			<li> <a href="index-5.php">Home Five</a></li>
-																	</ul> -->
+																					<a href="index.php">Home</a>
 															</li>
 															<!-- Shop -->
 															<li class="menu-item  mega-menu">
 																								<a href="shop-grid-left-sidebar.php">shop </a>
-																								<!-- <ul class="sub-menu four-column">
-																										<li class="cus-col-25">
-																												<h3 class="menu-title"><a href="javascript:void(0)">Shop</a></h3>
-																												<ul class="mega-single-block">
-																														<li><a href="shop-grid.php">Fullwidth</a></li>
-																														<li><a href="shop-grid-left-sidebar.php">Shop</a></li>
-																														<li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li>
-																												</ul> -->
 																										</li>
-																										<!-- <li class="cus-col-25">
-																												<h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
-																												<ul class="mega-single-block">
-																														<li><a href="shop-list.php">Fullwidth</a></li>
-																														<li><a href="shop-list-left-sidebar.php">List</a></li>
-																													<li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
-																												</ul>
-																										</li>-->
-																										<!-- <li class="cus-col-25">
-																												<h3 class="menu-title"> <a href="javascript:void(0)">Product Details
-																																</a></h3>
-																												<ul class="mega-single-block">
-																														<li><a href="product-details.php">Product Details Page</a></li>
-																														<li><a href="product-details-affiliate.php">Product Details
-																																		Affiliate</a></li>
-																														<li><a href="product-details-group.php">Product Details Group</a>
-																														</li>
-																														<li><a href="product-details-variable.php">Product Details
-																																		Variables</a></li>
-																												</ul>
-																										</li> -->
-																										<!-- <li class="cus-col-25">
-																												<h3 class="menu-title"><a href="javascript:void(0)">Product Details
-																																2</a></h3>
-																												<ul class="mega-single-block">
-																														<li><a href="product-details-left-thumbnail.php">Thumbnail</a>
-																														</li> -->
-																														<!-- <li><a href="product-details-right-thumbnail.php">Right Thumbnail</a></li> -->
-																														<!-- <li><a href="product-details-left-gallery.php">Gallery</a>
-																														</li> -->
-																														<!-- <li><a href="product-details-right-gallery.php">Right Gallery</a>
-																														</li> -->
-																												<!-- </ul>
-																										</li> -->
-
 																						</li>
 															<!-- Pages -->
 															<li class="menu-item has-children">
@@ -189,35 +137,6 @@ session_start();
 															<!-- Blog -->
 															<li class="menu-item mega-menu">
 																	<a href="blog-list.php">Blog </a>
-																	<!-- <ul class="sub-menu three-column">
-																			<li class="cus-col-33">
-																					<h3 class="menu-title"><a href="javascript:void(0)">Blog Grid</a></h3>
-																					<ul class="mega-single-block">
-																							<li><a href="blog.php">Full Widh (Default)</a></li>
-																							<li><a href="blog-left-sidebar.php">left Sidebar</a></li>
-																							<li><a href="blog-right-sidebar.php">Right Sidebar</a></li>
-																					</ul>
-																			</li>
-																			<li class="cus-col-33">
-																					<h3 class="menu-title"><a href="javascript:void(0)">Blog List </a></h3>
-																					<ul class="mega-single-block">
-																							<li><a href="blog-list.php">Full Widh (Default)</a></li>
-																							<li><a href="blog-list-left-sidebar.php">left Sidebar</a></li>
-																							<li><a href="blog-list-right-sidebar.php">Right Sidebar</a></li>
-																					</ul>
-																			</li>
-																			<li class="cus-col-33">
-																					<h3 class="menu-title"><a href="javascript:void(0)">Blog Details</a>
-																					</h3>
-																					<ul class="mega-single-block">
-																							<li><a href="blog-details.php">Image Format (Default)</a></li>
-																							<li><a href="blog-details-gallery.php">Gallery</a></li>
-																							<li><a href="blog-details-audio.php">Audio Format</a></li>
-																							<li><a href="blog-details-video.php">Video Format</a></li>
-																							<li><a href="blog-details-left-sidebar.php">Blog</a></li>
-																					</ul>
-																			</li>
-																	</ul> -->
 															</li>
 															<li class="menu-item">
 																	<a href="contact.php">Contact</a>
@@ -253,64 +172,12 @@ session_start();
 											<div class="main-navigation flex-lg-right">
 													<ul class="main-menu menu-right li-last-0">
 															<li class="menu-item ">
-																	<!-- <a href="javascript:void(0)">Home <i
-																					class="fas fa-chevron-down dropdown-arrow"></i></a> -->
-																					<a href="index.php">Home</a><!--changes have been made here-->
-																	<!-- <ul class="sub-menu">
-																			<li> <a href="index.php">Home One</a></li>
-																			<li> <a href="index-2.php">Home Two</a></li>
-																			<li> <a href="index-3.php">Home Three</a></li>
-																			<li> <a href="index.php">Home Four</a></li>
-																			<li> <a href="index-5.php">Home Five</a></li>
-																	</ul> -->
+																					<a href="index.php">Home</a>
 															</li>
 															<!-- Shop -->
 															<li class="menu-item  mega-menu">
 																								<a href="shop-grid-left-sidebar.php">shop </a>
-																								<!-- <ul class="sub-menu four-column">
-																										<li class="cus-col-25">
-																												<h3 class="menu-title"><a href="javascript:void(0)">Shop</a></h3>
-																												<ul class="mega-single-block">
-																														<li><a href="shop-grid.php">Fullwidth</a></li>
-																														<li><a href="shop-grid-left-sidebar.php">Shop</a></li>
-																														<li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li>
-																												</ul> -->
-																										</li>
-																										<!-- <li class="cus-col-25">
-																												<h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
-																												<ul class="mega-single-block">
-																														<li><a href="shop-list.php">Fullwidth</a></li>
-																														<li><a href="shop-list-left-sidebar.php">List</a></li>
-																													<li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
-																												</ul>
-																										</li>-->
-																										<!-- <li class="cus-col-25">
-																												<h3 class="menu-title"> <a href="javascript:void(0)">Product Details
-																																</a></h3>
-																												<ul class="mega-single-block">
-																														<li><a href="product-details.php">Product Details Page</a></li>
-																														<li><a href="product-details-affiliate.php">Product Details
-																																		Affiliate</a></li>
-																														<li><a href="product-details-group.php">Product Details Group</a>
-																														</li>
-																														<li><a href="product-details-variable.php">Product Details
-																																		Variables</a></li>
-																												</ul>
-																										</li> -->
-																										<!-- <li class="cus-col-25">
-																												<h3 class="menu-title"><a href="javascript:void(0)">Product Details
-																																2</a></h3>
-																												<ul class="mega-single-block">
-																														<li><a href="product-details-left-thumbnail.php">Thumbnail</a>
-																														</li> -->
-																														<!-- <li><a href="product-details-right-thumbnail.php">Right Thumbnail</a></li> -->
-																														<!-- <li><a href="product-details-left-gallery.php">Gallery</a>
-																														</li> -->
-																														<!-- <li><a href="product-details-right-gallery.php">Right Gallery</a>
-																														</li> -->
-																												<!-- </ul>
-																										</li> -->
-
+																							</li>
 																						</li>
 															<!-- Pages -->
 															<li class="menu-item has-children">
@@ -319,7 +186,6 @@ session_start();
 																	<ul class="sub-menu">
 																			<li><a href="cart.php">Cart</a></li>
 																			<li><a href="checkout.php">Checkout</a></li>
-																			<!-- <li><a href="compare.php">Compare</a></li> -->
 																			<li><a href="wishlist.php">Wishlist</a></li>
 																			<li><a href="login-register.php">Login Register</a></li>
 																			<li><a href="my-account.php">My Account</a></li>
@@ -332,35 +198,6 @@ session_start();
 															<!-- Blog -->
 															<li class="menu-item mega-menu">
 																	<a href="blog-list.php">Blog </a>
-																	<!-- <ul class="sub-menu three-column">
-																			<li class="cus-col-33">
-																					<h3 class="menu-title"><a href="javascript:void(0)">Blog Grid</a></h3>
-																					<ul class="mega-single-block">
-																							<li><a href="blog.php">Full Widh (Default)</a></li>
-																							<li><a href="blog-left-sidebar.php">left Sidebar</a></li>
-																							<li><a href="blog-right-sidebar.php">Right Sidebar</a></li>
-																					</ul>
-																			</li>
-																			<li class="cus-col-33">
-																					<h3 class="menu-title"><a href="javascript:void(0)">Blog List </a></h3>
-																					<ul class="mega-single-block">
-																							<li><a href="blog-list.php">Full Widh (Default)</a></li>
-																							<li><a href="blog-list-left-sidebar.php">left Sidebar</a></li>
-																							<li><a href="blog-list-right-sidebar.php">Right Sidebar</a></li>
-																					</ul>
-																			</li>
-																			<li class="cus-col-33">
-																					<h3 class="menu-title"><a href="javascript:void(0)">Blog Details</a>
-																					</h3>
-																					<ul class="mega-single-block">
-																							<li><a href="blog-details.php">Image Format (Default)</a></li>
-																							<li><a href="blog-details-gallery.php">Gallery</a></li>
-																							<li><a href="blog-details-audio.php">Audio Format</a></li>
-																							<li><a href="blog-details-video.php">Video Format</a></li>
-																							<li><a href="blog-details-left-sidebar.php">Blog</a></li>
-																					</ul>
-																			</li>
-																	</ul> -->
 															</li>
 															<li class="menu-item">
 																	<a href="contact.php">Contact</a>
@@ -384,7 +221,11 @@ session_start();
 				</div>
 			</div>
 		</section>
+
 		<main class="inner-page-sec-padding-bottom">
+			<!-- adding success bar if item added to cart -->
+			<div id="message">
+			</div>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-9 order-lg-2">
@@ -400,55 +241,12 @@ session_start();
 												<i class="fas fa-grip-vertical"></i><i class="fas fa-grip-vertical"></i>
 											</span>
 										</a>
-										<!-- to sort by list  -->
-										<!-- <a href="#" class="sorting-btn" data-target="list "><i
-												class="fas fa-list"></i></a> -->
 									</div>
 								</div>
 								<div class="col-xl-4 col-md-4 col-sm-6  mt--10 mt-sm--0">
-									<!-- status bar -->
-									<!-- <span class="toolbar-status">
-										Showing 1 to 9 of 14 (2 Pages)
-									</span> -->
 								</div>
 								<div class="col-lg-2 col-md-2 col-sm-6  mt--10 mt-md--0">
-									<!-- sorting selection -->
-									<!-- <div class="sorting-selection">
-										<span>Show:</span>
-										<select class="form-control nice-select sort-select">
-											<option value="" selected="selected">3</option>
-											<option value="">9</option>
-											<option value="">5</option>
-											<option value="">10</option>
-											<option value="">12</option>
-										</select>
-									</div> -->
 								</div>
-								<!-- sorting panel thing -->
-								<!-- <div class="col-lg-4 col-md-4 col-sm-6 mt--10 mt-md--0 ">
-									<div class="sorting-selection">
-										<span>Sort By:</span>
-										<select class="form-control nice-select sort-select mr-0">
-											<option value="" selected="selected">Default Sorting</option>
-											<option value="">Sort
-												By:Name (A - Z)</option>
-											<option value="">Sort
-												By:Name (Z - A)</option>
-											<option value="">Sort
-												By:Price (Low &gt; High)</option>
-											<option value="">Sort
-												By:Price (High &gt; Low)</option>
-											<option value="">Sort
-												By:Rating (Highest)</option>
-											<option value="">Sort
-												By:Rating (Lowest)</option>
-											<option value="">Sort
-												By:Model (A - Z)</option>
-											<option value="">Sort
-												By:Model (Z - A)</option>
-										</select>
-									</div>
-								</div> -->
 							</div>
 						</div>
 						<div class="shop-toolbar d-none">
@@ -532,7 +330,7 @@ session_start();
 													</a>
 													<div class="hover-btns">
 														<!-- cart button -->
-														<form class="form-submit" action="" method="post">
+														<form class="form-submit" action="" >
 															<input type="hidden" class="pid" value="<?= $row['p_id']?>">
 															<input type="hidden" class="p_name" value="<?= $row['p_name']?>">
 															<input type="hidden" class="p_price" value="<?= $row['p_price']?>">
@@ -540,7 +338,7 @@ session_start();
 															<input type="hidden" class="p_code" value="<?= $row['p_code']?>">
 															<button  class="single-btn addItemButton"><i class="fas fa-shopping-basket "></i></button>
 														</form>
-													
+
 														<!-- wishlist button -->
 														<!-- <a href="wishlist.php" class="single-btn">
 															<i class="fas fa-heart"></i>
@@ -768,72 +566,7 @@ session_start();
 					</div>
 					<div class="col-lg-3  mt--40 mt-lg--0">
 						<div class="inner-page-sidebar">
-							<!-- Accordion -->
 
-							<!-- <div class="single-block">
-								<h3 class="sidebar-title">Categories</h3>
-								<ul class="sidebar-menu--shop">
-									<li><a href="">Accessories (5)</a></li>
-									<li><a href="">Arts & Photography (10)</a></li>
-									<li><a href="">Biographies (16)</a></li>
-									<li><a href="">Business & Money (0)</a></li>
-									<li><a href="">Calendars (6)</a></li>
-									<li><a href="">Children's Books (9)</a></li>
-									<li><a href="">Comics (16)</a></li>
-									<li><a href="">Cookbooks (7)</a></li>
-									<li><a href="">Education (3)</a></li>
-									<li><a href="">House Plants (6)</a></li>
-									<li><a href="">Indoor Living (9)</a></li>
-									<li><a href="">Perfomance Filters (5)</a></li>
-									<li><a href="">Shop (16)</a>
-									</li>
-								</ul>
-							</div> -->
-							<!-- Price -->
-							<!-- <div class="single-block">
-								<h3 class="sidebar-title">Fillter By Price</h3>
-								<div class="range-slider pt--30">
-									<div class="sb-range-slider"></div>
-									<div class="slider-price">
-										<p>
-											<input type="text" id="amount" readonly="">
-										</p>
-									</div>
-								</div>
-							</div> -->
-							<!-- Size -->
-							<!-- <div class="single-block">
-								<h3 class="sidebar-title">Manufacturer</h3>
-								<ul class="sidebar-menu--shop menu-type-2">
-									<li><a href="">Christian Dior <span>(5)</span></a></li>
-									<li><a href="">Diesel <span>(8)</span></a></li>
-									<li><a href="">Ferragamo <span>(11)</span></a></li>
-									<li><a href="">Hermes <span>(14)</span></a></li>
-									<li><a href="">Louis Vuitton <span>(12)</span></a></li>
-									<li><a href="">Tommy Hilfiger <span>(0)</span></a></li>
-									<li><a href="">Versace <span>(0)</span></a></li>
-								</ul>
-							</div>
-							 Color
-							<div class="single-block">
-								<h3 class="sidebar-title">Select By Color</h3>
-								<ul class="sidebar-menu--shop menu-type-2">
-									<li><a href="">Black <span>(5)</span></a></li>
-									<li><a href="">Blue <span>(6)</span></a></li>
-									<li><a href="">Brown <span>(4)</span></a></li>
-									<li><a href="">Green <span>(7)</span></a></li>
-									<li><a href="">Pink <span>(6)</span></a></li>
-									<li><a href="">Red <span>(5)</span></a></li>
-									<li><a href="">White <span>(8)</span></a></li>
-									<li><a href="">Yellow <span>(11)</span> </a></li>
-								</ul>
-							</div>
-							 Promotion Block
-							<div class="single-block">
-								<a href="" class="promo-image sidebar">
-									<img src="image/others/home-side-promo.jpg" alt="">
-								</a>
-							</div> -->
 						</div>
 					</div>
 				</div>
@@ -936,6 +669,28 @@ session_start();
 	<script src="js/plugins.js"></script>
 	<script src="js/ajax-mail.js"></script>
 	<script src="js/custom.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(.addItemButton).click(function(e){
+				e.preventDefault();
+				var  $form = %(this).closest(".form-submit");
+				var pid = $form.find(".pid").val();
+				var p_name = $form.find(".p_name").val();
+				var p_price = $form.find(".p_price").val();
+				var p_image = $form.find(".p_image").val();
+				var p_code = $form.find(".p_code").val();
+				$.ajax({
+					url: 'action.php',
+					method: 'post',
+					data: {pid:pid,p_name:p_name,p_price:p_price,p_image:p_image,p_code:p_code},
+					success:function(response){
+						$("#message").html(response);
+					}
+				});
+			});
+		});
+	</script>
 </body>
 
 </html>
