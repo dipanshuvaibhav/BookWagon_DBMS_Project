@@ -402,11 +402,11 @@ session_start();
 							<!--Cart Start-->
 							<div class="card">
 								<div class="card-header">
-									<h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-1">Lorem ipsum dolor sit amet, consectetur adipisc ?</button></h5>
+									<h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-1">Why rent instead of buying?</button></h5>
 								</div>
 								<div id="gq-faq-1" class="collapse show" data-parent="#gq-faqs-1">
 									<div class="card-body">
-										<p>Proin libero tellus, interdum ac pellentesque ac, malesuada a velit. Nullam fermentum massa nec sem condimentum, fermentum commodo felis accumsan.</p>
+										<p>Renting is a better option that buying since it takes away the hassle of storing too many paperback, that way, you can never have "enough" books. Moreover, renting focuses and conpliments affordability as compared to paperbacks. Therefore, stop paying a fortune for your love of reading.</p>
 									</div>
 								</div>
 							</div><!--Cart End-->
@@ -414,11 +414,11 @@ session_start();
 							<!--Cart Start-->
 							<div class="card">
 								<div class="card-header">
-									<h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-2">Vivamus feugiat, eros pretium porta ?</button></h5>
+									<h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-2">How is BookWagon different?</button></h5>
 								</div>
 								<div id="gq-faq-2" class="collapse" data-parent="#gq-faqs-1">
 									<div class="card-body">
-										<p>Proin libero tellus, interdum ac pellentesque ac, malesuada a velit. Nullam fermentum massa nec sem condimentum, fermentum commodo felis accumsan.</p>
+										<p>Other than being an affordable and user friendly book rental site, BookWagon goes a step ahead by prioritising the formation of an intellectual community by creating a book review blog alongside. We understand the importance of bringing together bibliophiles and the convergence and exchange of opinion over books. We make sure to give you a space to go beyond your reads, therefore stepping ahead of other e-commerce sites.</p>
 									</div>
 								</div>
 							</div><!--Cart End-->
@@ -426,11 +426,11 @@ session_start();
 							<!--Cart Start-->
 							<div class="card">
 								<div class="card-header">
-									<h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-3">Donec molestie vitae turpis a efficitur ?</button></h5>
+									<h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-3">Why enroll as a member?</button></h5>
 								</div>
 								<div id="gq-faq-3" class="collapse" data-parent="#gq-faqs-1">
 									<div class="card-body">
-										<p>Proin libero tellus, interdum ac pellentesque ac, malesuada a velit. Nullam fermentum massa nec sem condimentum, fermentum commodo felis accumsan.</p>
+										<p>A guest member can only avail the renting of books whereas a member can contribute books and earn, be a part of our intellectual community, we often open up various oppurtunities and sales exclusively for our members.</p>
 									</div>
 								</div>
 							</div><!--Cart End-->
@@ -438,11 +438,11 @@ session_start();
 							<!--Cart Start-->
 							<div class="card">
 								<div class="card-header">
-									<h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-4">Nullam dignissim lectus diam, vitae elementum ?</button></h5>
+									<h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-4">How is the pricing transparent?</button></h5>
 								</div>
 								<div id="gq-faq-4" class="collapse" data-parent="#gq-faqs-1">
 									<div class="card-body">
-										<p>Proin libero tellus, interdum ac pellentesque ac, malesuada a velit. Nullam fermentum massa nec sem condimentum, fermentum commodo felis accumsan.</p>
+										<p>We don't just rent books at a subsidised price but we also keep our cutomers on loop with the pricing process making them aware of the original price and the division of our rental rates. Our pricing takes essential factors into consideration such as the delivery associate fees, transportation fees and the base rental amount. But we make sure that these factor do not make us compromise with our very objective of putting your convenience first.</p>
 									</div>
 								</div>
 							</div><!--Cart End-->
@@ -457,11 +457,11 @@ session_start();
 							<!--Cart Start-->
 							<div class="card">
 								<div class="card-header">
-									<h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-5">Lorem ipsum dolor sit amet, consectetur adipisc ?</button></h5>
+									<h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-5">How is the BookWagon blog different?</button></h5>
 								</div>
 								<div id="gq-faq-5" class="collapse show" data-parent="#gq-faqs-2">
 									<div class="card-body">
-										<p>Proin libero tellus, interdum ac pellentesque ac, malesuada a velit. Nullam fermentum massa nec sem condimentum, fermentum commodo felis accumsan.</p>
+										<p>The BookWagon blog is more than just a blog, it is an exclusive community which is made keeping in the mind the fact that reading is more than an activity or a hobby, it is an experience worth sharing. Therefore, the4 BookWagon blog is like a bibliophile's haven where ideas and imagination converge to make our reader's experience worthwhile. BookWagon is less about a commercial site and more about a sense of community.</p>
 									</div>
 								</div>
 							</div><!--Cart End-->
@@ -469,35 +469,11 @@ session_start();
 							<!--Cart Start-->
 							<div class="card">
 								<div class="card-header">
-									<h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-6">Vivamus feugiat, eros pretium porta ?</button></h5>
+									<h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-6">Why choose books over e-books at all?</button></h5>
 								</div>
 								<div id="gq-faq-6" class="collapse" data-parent="#gq-faqs-2">
 									<div class="card-body">
-										<p>Proin libero tellus, interdum ac pellentesque ac, malesuada a velit. Nullam fermentum massa nec sem condimentum, fermentum commodo felis accumsan.</p>
-									</div>
-								</div>
-							</div><!--Cart End-->
-
-							<!--Cart Start-->
-							<div class="card">
-								<div class="card-header">
-									<h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-7">Donec molestie vitae turpis a efficitur ?</button></h5>
-								</div>
-								<div id="gq-faq-7" class="collapse" data-parent="#gq-faqs-2">
-									<div class="card-body">
-										<p>Proin libero tellus, interdum ac pellentesque ac, malesuada a velit. Nullam fermentum massa nec sem condimentum, fermentum commodo felis accumsan.</p>
-									</div>
-								</div>
-							</div><!--Cart End-->
-
-							<!--Cart Start-->
-							<div class="card">
-								<div class="card-header">
-									<h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-8">Nullam dignissim lectus diam, vitae elementum ?</button></h5>
-								</div>
-								<div id="gq-faq-8" class="collapse" data-parent="#gq-faqs-2">
-									<div class="card-body">
-										<p>Proin libero tellus, interdum ac pellentesque ac, malesuada a velit. Nullam fermentum massa nec sem condimentum, fermentum commodo felis accumsan.</p>
+										<p>As we've always stressed on the fact that reading is an experience, the market certainly bears witness too the fact that e-books can't beat paperbacks when it comes to creating that experience. With the advent of technology it has been well proved that the world is in a stage where it wants to unwind and strive towards having rich offline experiences. Bringing these points together is what brought BookWagon to existence.</p>
 									</div>
 								</div>
 							</div><!--Cart End-->
