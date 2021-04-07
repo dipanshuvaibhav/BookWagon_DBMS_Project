@@ -50,7 +50,7 @@ session_start();
 																<div class="cart-block">
 																		<div class="cart-total">
 																				<span class="text-number" id="cart-item">
-																						1
+
 																				</span>
 																				<span class="text-item">
 																						Shopping Cart
@@ -686,9 +686,24 @@ session_start();
 					data: {pid:pid,p_name:p_name,p_price:p_price,p_image:p_image,p_code:p_code},
 					success:function(response){
 						$("#message").html(response);
+
+						load_cart_item_number();
 					}
 				});
 			});
+
+			load_cart_item_number();
+
+			function load_cart_item_number(){
+				$.ajax({
+					url :'action.php',
+					method:'get',
+					data: {cartItem:"cart-item"},
+					success:function(response){
+						$("#cart-item").html(response);
+					}
+				});
+			}
 		});
 	</script>
 </body>

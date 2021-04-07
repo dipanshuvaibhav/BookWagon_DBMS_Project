@@ -32,4 +32,13 @@
           </div>';
    }
  }
+
+ if(isset($_GET['cartItem']) && isset($_GET['cartItem'])=='cart-item'){
+   $stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.cart ");
+   $stmt->execute();
+   $stmt->store_result();
+   $rows = $stmt->num_rows;
+
+   echo $rows;
+ }
 ?>
