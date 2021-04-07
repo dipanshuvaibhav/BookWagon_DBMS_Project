@@ -532,9 +532,15 @@ session_start();
 													</a>
 													<div class="hover-btns">
 														<!-- cart button -->
-														<a href="action.php?id=<?= $row['p_id']?>" class="single-btn">
-															<i class="fas fa-shopping-basket"></i>
-														</a>
+														<form class="form-submit" action="" method="post">
+															<input type="hidden" class="pid" value="<?= $row['p_id']?>">
+															<input type="hidden" class="p_name" value="<?= $row['p_name']?>">
+															<input type="hidden" class="p_price" value="<?= $row['p_price']?>">
+															<input type="hidden" class="p_image" value="<?= $row['p_image']?>">
+															<input type="hidden" class="p_code" value="<?= $row['p_code']?>">
+															<button  class="single-btn addItemButton"><i class="fas fa-shopping-basket "></i></button>
+														</form>
+													
 														<!-- wishlist button -->
 														<!-- <a href="wishlist.php" class="single-btn">
 															<i class="fas fa-heart"></i>
