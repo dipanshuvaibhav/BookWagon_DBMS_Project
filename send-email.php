@@ -7,7 +7,7 @@
  $table = "email_list";  
    
 
-$from= 'dipanshu.vaibhav@science.christuniversity.in';//specify here the address that you want email to be sent from 
+$from= 'dipanshu.vaibhav@science.christuniversity.in';
  
 $subject= $_POST['subject']; 
 $body= $_POST['body']; 
