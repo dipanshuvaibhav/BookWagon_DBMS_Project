@@ -497,7 +497,7 @@ session_start();
 				var qty =$el.find('.itemQty').val();
 
 				$.ajax({
-					url:action.php,
+					url:'action.php',
 					method:'post',
 					cache: false,
 					data:{qty:qty,pid:pid,pprice:pprice},
