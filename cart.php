@@ -325,7 +325,8 @@ session_start();
 											$stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.cart; ");
 											$stmt->execute();
 											$result = $stmt->get_result();
-											$grand_total = 0;
+											$sub_total = 0;
+											$grand_total=50;
 											while ($row = $result->fetch_assoc()):
 											?>
 											<tr>
@@ -337,6 +338,9 @@ session_start();
 												<td class="pro-quantity"><input type="number" class="form-control itemQty" value="<?= $row['c_qty']; ?>" style="width:75px;">	</td>
 												<td class="pro-subtotal">₹<?= $row['tot_price']; ?></td>
 											</tr>
+											<?php $sub_total+=$row['tot_price'];
+														$grand_total=$grand_total+$sub_total;
+											 ?>
 										<?php endwhile; ?>
 
 											<!-- Discount Row  -->
@@ -366,9 +370,9 @@ session_start();
 							<div class="cart-summary">
 								<div class="cart-summary-wrap">
 									<h4><span>Cart Summary</span></h4>
-									<p>Sub Total <span class="text-primary">$1250.00</span></p>
-									<p>Shipping Cost <span class="text-primary">$00.00</span></p>
-									<h2>Grand Total <span class="text-primary">$1250.00</span></h2>
+									<p>Sub Total <span class="text-primary">₹<?php $sub_total ?></span></p>
+									<p>Shipping Cost <span class="text-primary">₹50.00</span></p>
+									<h2>Grand Total <span class="text-primary">₹<?php $grand_total  ?></span></h2>
 								</div>
 								<div class="cart-summary-button">
 									<a href="checkout.php" class="checkout-btn c-btn btn--primary">Checkout</a>
