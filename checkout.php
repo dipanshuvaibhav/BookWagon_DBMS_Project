@@ -328,7 +328,7 @@ session_start();
 												</div>
 												<div class="form-group">
 													<div class="d-flex align-items-center flex-wrap">
-														<button type="submit" class="btn btn-outlined">Login</button>
+														<button type="submit" class="btn btn-outlined">Login &npsb;&npsb;</button>
 														<div class="d-inline-flex align-items-center">
 															<input type="checkbox" id="accept_terms" class="mb-0 mr-1" required>
 															<label for="accept_terms" class="mb-0">I’ve read and accept
