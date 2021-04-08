@@ -495,7 +495,7 @@ session_start();
 				var pid =$el.find('.pid').val();
 				var pprice =$el.find('.pprice').val();
 				var qty =$el.find('.itemQty').val();
-
+				location.reload(true);
 				$.ajax({
 					url:'action.php',
 					method:'post',
