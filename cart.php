@@ -329,7 +329,7 @@ session_start();
 											while ($row = $result->fetch_assoc()):
 											?>
 											<tr>
-												<td class="pro-remove"><a href="action.php?remove=<?= $row['c_id']?>" onclick="return confirm("Are you sure you want to remove this item?");"><i class="far fa-trash-alt"></i></a>
+												<td class="pro-remove"><a href="action.php?remove=<?= $row['c_id']?>" onclick="return confirm('Are you sure you want to remove this item?');"><i class="far fa-trash-alt"></i></a>
 												</td>
 												<td class="pro-thumbnail"><img src="<?= $row['p_image']; ?>" alt="Product"></td>
 												<td class="pro-title"><?= $row['p_name']; ?></td>
