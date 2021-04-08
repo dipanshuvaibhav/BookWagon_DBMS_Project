@@ -1,5 +1,5 @@
-<form action="send-email.php" method="post"> 
-<label>Subject of email:</label><br><input type="text" name="subject" id="subject"/><br> 
-<label>Body of email:</label><br><textarea cols="35" rows="10" name="Comments">
-<button type="submit" name="submit">Send</button>
-</form> 
+<form action="" method="post"> 
+<label>Subject of email:</label><br><input type="text" name="subject" id="subject"><br> 
+<label>Body of email:</label><br><textarea cols="35" rows="8" name="Comments"></textarea><br> 
+<input type="submit" name="submit" value="Send"> 
+</form>
