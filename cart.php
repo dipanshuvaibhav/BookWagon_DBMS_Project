@@ -334,8 +334,8 @@ session_start();
 												<td class="pro-thumbnail"><img src="<?= $row['p_image']; ?>" alt="Product"></td>
 												<td class="pro-title"><?= $row['p_name']; ?></td>
 												<td class="pro-price"><span>₹<?= $row['p_price']; ?></span></td>
-												<td class="pro-quantity"><input type="number" class="form-control itemQty" value="<?= $row =['c_qty']; ?>" style="width:75px;">	</td>
-												<td class="pro-subtotal"><span>₹<?= $row['tot_price']; ?></span></td>
+												<td class="pro-quantity"><input type="number" class="form-control itemQty" value="<?= $row['c_qty']; ?>" style="width:75px;">	</td>
+												<td class="pro-subtotal">₹<?= $row['tot_price']; ?></td>
 											</tr>
 										<?php endwhile; ?>
 
