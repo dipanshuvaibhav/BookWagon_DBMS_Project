@@ -3,7 +3,7 @@ $user = "b2270625c60d18";
 $password = "74d05350";  
 $host = "us-cdbr-east-03.cleardb.com";  
 $dbase = "heroku_adaaf59afa8e08a";  
-$table = "email_list";  
+$table = "newsletter_list";  
   
 $email= $_POST['email']; 
   
