@@ -326,7 +326,7 @@ session_start();
 											$stmt->execute();
 											$result = $stmt->get_result();
 											$sub_total = 0;
-											$grand_total=50;
+											$grand_total=0;
 											while ($row = $result->fetch_assoc()):
 											?>
 											<tr>
@@ -339,7 +339,7 @@ session_start();
 												<td class="pro-subtotal">₹<?= $row['tot_price']; ?></td>
 											</tr>
 											<?php $sub_total+=$row['tot_price'];
-														$grand_total=$grand_total+$sub_total;
+														$grand_total=50+$sub_total;
 											 ?>
 										<?php endwhile; ?>
 
