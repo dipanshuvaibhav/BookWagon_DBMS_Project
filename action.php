@@ -50,6 +50,6 @@ session_start();
 
    $_SESSION['showAlert']='block';
    $_SESSION['message']='Item removed from the cart!';
-   header('location:cart.php');
+   echo "<script>window.location='cart.php';</script>"
  }
 ?>
