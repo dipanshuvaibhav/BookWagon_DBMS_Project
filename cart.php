@@ -358,23 +358,11 @@ session_start();
 											<!-- Discount Row  -->
 											<tr>
 												<td colspan="6" class="actions">
-													<div class="coupon-block">
-														<div class="coupon-text">
-															<label for="coupon_code">Coupon:</label>
-															<input type="text" name="coupon_code" class="input-text"
-																id="coupon_code" value="" placeholder="Coupon code">
-														</div>
-														<div class="coupon-btn">
-															<input type="submit" class="btn btn-outlined"
-																name="apply_coupon" value="Apply coupon">
-														</div>
-													</div>
+													<!-- update cart block  -->
 													<div class="update-block text-right">
 														<input type="submit" class="btn btn-outlined" name="update_cart"
 															value="Update cart">
-														<input type="hidden" id="_wpnonce" name="_wpnonce"
-															value="05741b501f"><input type="hidden"
-															name="_wp_http_referer" value="/petmark/cart/">
+
 													</div>
 												</td>
 											</tr>
