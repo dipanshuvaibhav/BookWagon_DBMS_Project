@@ -220,105 +220,7 @@ session_start();
 				</div>
 			</div>
 		</section>
-<section class="hero-area hero-slider-4 ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-9 offset-lg-3">
-                        <div class="sb-slick-slider" data-slick-setting='{
-                                                                    "autoplay": true,
-                                                                    "autoplaySpeed": 8000,
-                                                                    "slidesToShow": 1,
-                                                                    "dots":true
-                                                                    }'>
-                            <div class="single-slide bg-image bg-overlay--white"
-                                data-bg="image/bg-images/home-4-slider-1.jpg">
-                                <div class="home-content text-left pl--30">
-                                    <div class="row">
-                                        <div class="col-lg-5">
-                                            <span class="title-small">Yaha kuch daalenge</span>
-                                            <h1>Yaha kuch add karo</h1>
-                                            <p>Ab dekhte hai</p>
-                                            <a href="shop-grid-left-sidebar.php" class="btn btn-outlined--pink">
-                                                Shop Now
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-slide bg-image bg-overlay--dark"
-                                data-bg="image/bg-images/home-4-slider-2.jpg">
-                                <div class="home-content text-center">
-                                    <div class="row justify-content-end">
-                                        <div class="col-lg-8">
-                                            <h1 class="v2">I Love This Idea!</h1>
-                                            <h2>Cover up front of book and
-                                                leave summary</h2>
-                                            <a href="shop-grid-left-sidebar.php" class="btn btn--yellow">
-                                                Shop Now
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--=================================
-        Home Features Section
-    ===================================== -->
-        <section class="mb--30">
-            <h2 class="sr-only">Feature Section</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-md-6 mt--30">
-                        <div class="feature-box h-100">
-                            <div class="icon">
-                                <i class="fas fa-shipping-fast"></i>
-                            </div>
-                            <div class="text">
-                                <h5>Free Shipping Item</h5>
-                                <p> Orders over $500</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 mt--30">
-                        <div class="feature-box h-100">
-                            <div class="icon">
-                                <i class="fas fa-redo-alt"></i>
-                            </div>
-                            <div class="text">
-                                <h5>Money Back Guarantee</h5>
-                                <p>100% money back</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 mt--30">
-                        <div class="feature-box h-100">
-                            <div class="icon">
-                                <i class="fas fa-piggy-bank"></i>
-                            </div>
-                            <div class="text">
-                                <h5>Cash On Delivery</h5>
-                                <p>Lorem ipsum dolor amet</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 mt--30">
-                        <div class="feature-box h-100">
-                            <div class="icon">
-                                <i class="fas fa-life-ring"></i>
-                            </div>
-                            <div class="text">
-                                <h5>Help & Support</h5>
-                                <p>Call us : + 0123.4567.89</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
 		<main class="inner-page-sec-padding-bottom">
 			<!-- adding success bar if item added to cart -->
 			<div id="message">
@@ -368,11 +270,39 @@ session_start();
 									</span> -->
 								</div>
 								<div class="col-lg-2 col-md-2 col-sm-6  mt--10 mt-md--0">
-									
+									<!-- <div class="sorting-selection">
+										<span>Show:</span>
+										<select class="form-control nice-select sort-select">
+											<option value="" selected="selected">3</option>
+											<option value="">9</option>
+											<option value="">5</option>
+											<option value="">10</option>
+											<option value="">12</option>
+										</select>
+									</div> -->
 								</div>
 								<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mt--10 mt-md--0 ">
 									<div class="sorting-selection">
-										
+										<!-- <span>Sort By:</span>
+										<select class="form-control nice-select sort-select mr-0">
+											<option value="" selected="selected">Default Sorting</option>
+											<option value="">Sort
+												By:Name (A - Z)</option>
+											<option value="">Sort
+												By:Name (Z - A)</option>
+											<option value="">Sort
+												By:Price (Low &gt; High)</option>
+											<option value="">Sort
+												By:Price (High &gt; Low)</option>
+											<option value="">Sort
+												By:Rating (Highest)</option>
+											<option value="">Sort
+												By:Rating (Lowest)</option>
+											<option value="">Sort
+												By:Model (A - Z)</option>
+											<option value="">Sort
+												By:Model (Z - A)</option>
+										</select> -->
 									</div>
 								</div>
 							</div>
@@ -407,6 +337,11 @@ session_start();
 															<input type="hidden" class="p_code" value="<?= $row['p_code']?>">
 															<button  class="single-btn addItemButton"><i class="fas fa-shopping-basket "></i></button>
 														</form>
+
+														<!-- wishlist button -->
+														<!-- <a href="wishlist.php" class="single-btn">
+															<i class="fas fa-heart"></i>
+														</a> -->
 													</div>
 												</div>
 												<div class="product-header">
@@ -423,7 +358,70 @@ session_start();
 											</div>
 										</div>
 									</div>
-									
+									<!-- <div class="product-list-content">
+										<div class="card-image">
+											<img src="image/products/product-3.jpg" alt="">
+										</div>
+										<div class="product-card--body">
+											<div class="product-header">
+												<a href="" class="author">
+													Gpple
+												</a>
+												<h3><a href="product-details.php" tabindex="0">Qpple cPad with Retina
+														Display MD510LL/A</a></h3>
+											</div>
+											<article>
+												<h2 class="sr-only">Card List Article</h2>
+												<p>More room to move. With 80GB or 160GB of storage and up to 40 hours
+													of battery life, the new iPod classic lets you enjoy
+													up to 40,000 songs or..</p>
+											</article>
+											<div class="price-block">
+												<span class="price">₹51.20</span>
+												<del class="price-old">₹51.20</del>
+												<span class="price-discount">20%</span>
+											</div>
+											<div class="rating-block">
+												<span class="fas fa-star star_on"></span>
+												<span class="fas fa-star star_on"></span>
+												<span class="fas fa-star star_on"></span>
+												<span class="fas fa-star star_on"></span>
+												<span class="fas fa-star "></span>
+											</div>
+											<div class="btn-block">
+												<a href="" class="btn btn-outlined">Add To Cart</a>
+												<a href="" class="card-link"><i class="fas fa-heart"></i> Add To
+													Wishlist</a>
+												<a href="" class="card-link"><i class="fas fa-random"></i> Add To
+													Cart</a>
+											</div>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						<?php endwhile;?>
+						</div>
+						<!-- Pagination Block -->
+						<!-- <div class="row pt--30">
+							<div class="col-md-12">
+								<div class="pagination-block">
+									<ul class="pagination-btns flex-center">
+										<li><a href="" class="single-btn prev-btn ">|<i
+													class="zmdi zmdi-chevron-left"></i> </a></li>
+										<li><a href="" class="single-btn prev-btn "><i
+													class="zmdi zmdi-chevron-left"></i> </a></li>
+										<li class="active"><a href="" class="single-btn">1</a></li>
+										<li><a href="" class="single-btn">2</a></li>
+										<li><a href="" class="single-btn">3</a></li>
+										<li><a href="" class="single-btn">4</a></li>
+										<li><a href="" class="single-btn next-btn"><i
+													class="zmdi zmdi-chevron-right"></i></a></li>
+										<li><a href="" class="single-btn next-btn"><i
+													class="zmdi zmdi-chevron-right"></i>|</a></li>
+									</ul>
+								</div>
+							</div>
+						</div> -->
 						<!-- Modal -->
 						<div class="modal fade modal-quick-view" id="quickModal" tabindex="-1" role="dialog"
 							aria-labelledby="quickModal" aria-hidden="true">
@@ -710,4 +708,3 @@ session_start();
 </body>
 
 </html>
-
