@@ -52,4 +52,16 @@ session_start();
    $_SESSION['message']='Item removed from the cart!';
    echo "<script type='text/javascript'>window.location='cart.php';</script>";
  }
+ if(isset($_POST['qty'])){
+    $qty = $_POST['qty'];
+    $pid = $_POST['pid'];
+    $pprice = $_POST['pprice'];
+
+    $tprice = $qty*$pprice;
+
+    $stmt = $conn->prepare("UPDATE heroku_adaaf59afa8e08a.cart SET c_qty=? ,tot_price=?  WHERE c_id=? ");
+    $stmt->bind_param("isi",$qty,$tprice,$pid);
+    $stmt->execute();
+
+ }
 ?>

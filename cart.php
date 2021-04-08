@@ -324,6 +324,7 @@ session_start();
 										</thead>
 										<tbody>
 											<!-- Product Row -->
+											<!-- code for cart table  -->
 											<?php
 											require 'config.php';
 											$stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.cart; ");
@@ -336,9 +337,14 @@ session_start();
 											<tr>
 												<td class="pro-remove"><a href="action.php?remove=<?= $row['c_id']?>" onclick="return confirm('Are you sure you want to remove this item?');"><i class="far fa-trash-alt"></i></a>
 												</td>
+												<!-- storing id in hidden input -->
+												<input type="hidden" class="pid" value="<?= $row['c_id']?>">
 												<td class="pro-thumbnail"><img src="<?= $row['p_image']; ?>" alt="Product"></td>
 												<td class="pro-title"><?= $row['p_name']; ?></td>
 												<td class="pro-price"><span>₹<?= $row['p_price']; ?></span></td>
+												<!-- storing prod price in hidden input -->
+												<input type="hidden" class="pprice" value="<?= $row['p_price']?>">
+
 												<td class="pro-quantity"><input type="number" class="form-control itemQty" value="<?= $row['c_qty']; ?>" style="width:75px;">	</td>
 												<td class="pro-subtotal">₹<?= $row['tot_price']; ?></td>
 											</tr>
@@ -484,7 +490,23 @@ session_start();
 	<script src="js/custom.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
+			$(".itemQty").on('change',function(){
+				var $el = $(this).closest('tr');
+				var pid =$el.find('.pid').val();
+				var pprice =$el.find('.pprice').val();
+				var qty =$el.find('.itemQty').val();
 
+				$.ajax({
+					url:action.php,
+					method:'post',
+					cache: false,
+					data:{qty:qty,pid:pid,pprice:pprice},
+
+					success: function(response){
+						console.log(response);
+					}
+				});
+			});
 			load_cart_item_number();
 
 			function load_cart_item_number(){
