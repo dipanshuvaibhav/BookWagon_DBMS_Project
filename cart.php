@@ -320,41 +320,25 @@ session_start();
 										</thead>
 										<tbody>
 											<!-- Product Row -->
+											<?php
+											require 'config.php';
+											$stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.cart; ");
+											$stmt->execute();
+											$result = $stmt->get_result();
+											$grand_total = 0;
+											while ($row = $result->fetch_assoc()):
+											?>
 											<tr>
-												<td class="pro-remove"><a href="#"><i class="far fa-trash-alt"></i></a>
+												<td class="pro-remove"><a href="action.php?remove=<?= $row['c_id']?>" onclick="return confirm("Are you sure you want to remove this item?");"><i class="far fa-trash-alt"></i></a>
 												</td>
-												<td class="pro-thumbnail"><a href="#"><img
-															src="image/products/product-1.jpg" alt="Product"></a></td>
-												<td class="pro-title"><a href="#">Rinosin Glasses</a></td>
-												<td class="pro-price"><span>$395.00</span></td>
-												<td class="pro-quantity">
-													<div class="pro-qty">
-														<div class="count-input-block">
-															<input type="number" class="form-control text-center"
-																value="1">
-														</div>
-													</div>
-												</td>
-												<td class="pro-subtotal"><span>$395.00</span></td>
+												<td class="pro-thumbnail"><img src="<?= $row['p_image']; ?>" alt="Product"></td>
+												<td class="pro-title"><?= $row['p_name']; ?></td>
+												<td class="pro-price"><span>₹<?= $row['p_price']; ?></span></td>
+												<td class="pro-quantity"><input type="number" class="form-control itemQty" value="<?= $row =['c_qty']; ?>">	</td>
+												<td class="pro-subtotal"><span>₹<?= $row['tot_price']; ?></span></td>
 											</tr>
-											<!-- Product Row -->
-											<tr>
-												<td class="pro-remove"><a href="#"><i class="far fa-trash-alt"></i></a>
-												</td>
-												<td class="pro-thumbnail"><a href="#"><img
-															src="image/products/product-2.jpg" alt="Product"></a></td>
-												<td class="pro-title"><a href="#">Rinosin Glasses</a></td>
-												<td class="pro-price"><span>$395.00</span></td>
-												<td class="pro-quantity">
-													<div class="pro-qty">
-														<div class="count-input-block">
-															<input type="number" class="form-control text-center"
-																value="1">
-														</div>
-													</div>
-												</td>
-												<td class="pro-subtotal"><span>$395.00</span></td>
-											</tr>
+										<?php endwhile; ?>
+
 											<!-- Discount Row  -->
 											<tr>
 												<td colspan="6" class="actions">
