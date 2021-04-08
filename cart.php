@@ -339,9 +339,11 @@ session_start();
 												<td class="pro-subtotal">₹<?= $row['tot_price']; ?></td>
 											</tr>
 											<?php $sub_total+=$row['tot_price'];
-														$grand_total=50+$sub_total;
 											 ?>
 										<?php endwhile; ?>
+										<?php
+												$grand_total=50+$sub_total;
+										 ?>
 
 											<!-- Discount Row  -->
 											<tr>
