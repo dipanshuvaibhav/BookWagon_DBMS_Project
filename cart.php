@@ -370,9 +370,9 @@ session_start();
 							<div class="cart-summary">
 								<div class="cart-summary-wrap">
 									<h4><span>Cart Summary</span></h4>
-									<p>Sub Total <span class="text-primary">₹<?php $sub_total; ?></span></p>
+									<p>Sub Total <span class="text-primary">₹<?php number_format($sub_total); ?></span></p>
 									<p>Shipping Cost <span class="text-primary">₹50.00</span></p>
-									<h2>Grand Total <span class="text-primary">₹<?php $grand_total;  ?></span></h2>
+									<h2>Grand Total <span class="text-primary">₹<?php number_format($grand_total);  ?></span></h2>
 								</div>
 								<div class="cart-summary-button">
 									<a href="checkout.php" class="checkout-btn c-btn btn--primary">Checkout</a>
