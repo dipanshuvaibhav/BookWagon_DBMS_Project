@@ -298,6 +298,10 @@ session_start();
 		<main class="cart-page-main-block inner-page-sec-padding-bottom">
 			<div class="cart_area cart-area-padding  ">
 				<div class="container">
+					<div style="display:<?php if(isset($_SESSION['showAlert'])){echo $_SESSION['showAlert'];}else{echo 'none';} unset($_SESSION['showAlert']); ?>"  class="alert alert-success alert-dismissible">
+					  <button type="button" class="close" data-dismiss="alert">&times;</button>
+					  <strong><?php if(isset($_SESSION['message'])){echo $_SESSION['message'];} unset($_SESSION['showAlert']); ?></strong>
+					</div>
 					<div class="page-section-title">
 						<h1>Shopping Cart</h1>
 					</div>

@@ -1,4 +1,5 @@
 <?php
+session_start();
  require 'config.php';
 
  if(isset($_POST['pid'])){
@@ -40,5 +41,15 @@
    $rows = $stmt->num_rows;
 
    echo $rows;
+ }
+ if(isset($_GET['remove'])){
+   $id = $_GET['remove'];
+   $stmt= $conn->prepare("DELETE * FROM heroku_adaaf59afa8e08a.cart WHERE c_id=?;");
+   $stmt->bind_param("i",$id);
+   $stmt->execute();
+
+   $_SESSION['showAlert']='block';
+   $_SESSION['message']='Item removed from the cart!';
+   header('location:cart.php');
  }
 ?>
