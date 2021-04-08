@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -14,318 +17,146 @@
 
 <body>
 	<div class="site-wrapper" id="top">
-		<div class="site-header d-none d-lg-block">
-			<div class="header-middle pt--10 pb--10">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-3 ">
-							<a href="index.php" class="site-brand">
-								<img src="image/Logo1.png" alt="">
-							</a>
-						</div>
-						<div class="col-lg-3">
-							<div class="header-phone ">
-								<div class="icon">
-									<i class="fas fa-headphones-alt"></i>
-								</div>
-								<div class="text">
-									<p>Free Support 24/7</p>
-									<p class="font-weight-bold number">+01-202-555-0181</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="main-navigation flex-lg-right">
-								<ul class="main-menu menu-right ">
-									<li class="menu-item has-children">
-										<!-- <a href="javascript:void(0)">Home <i
-												class="fas fa-chevron-down dropdown-arrow"></i></a> -->
-												<a href="index.php">Home</a>
-										<!-- <ul class="sub-menu">
-											<li> <a href="index.php">Home One</a></li>
-											<li> <a href="index-2.php">Home Two</a></li>
-											<li> <a href="index-3.php">Home Three</a></li>
-											<li> <a href="index-4.php">Home Four</a></li>
-										</ul> -->
-									</li>
-									<!-- Shop -->
-									<li class="menu-item  mega-menu">
-                                        <a href="shop-grid-left-sidebar.php">shop </a>
-                                        <!-- <ul class="sub-menu four-column">
-                                            <li class="cus-col-25">
-                                                <h3 class="menu-title"><a href="javascript:void(0)">Shop</a></h3>
-                                                <ul class="mega-single-block">
-                                                    <li><a href="shop-grid.php">Fullwidth</a></li>
-                                                    <li><a href="shop-grid-left-sidebar.php">Shop</a></li>
-                                                    <li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li>
-                                                </ul> -->
-                                            </li>
-                                            <!-- <li class="cus-col-25">
-                                                <h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
-                                                <ul class="mega-single-block">
-                                                    <li><a href="shop-list.php">Fullwidth</a></li>
-                                                    <li><a href="shop-list-left-sidebar.php">List</a></li>
-                                                	<li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
-                                                </ul>
-                                            </li>-->
-                                            <!-- <li class="cus-col-25">
-                                                <h3 class="menu-title"> <a href="javascript:void(0)">Product Details
-                                                        </a></h3>
-                                                <ul class="mega-single-block">
-                                                    <li><a href="product-details.php">Product Details Page</a></li>
-                                                    <li><a href="product-details-affiliate.php">Product Details
-                                                            Affiliate</a></li>
-                                                    <li><a href="product-details-group.php">Product Details Group</a>
-                                                    </li>
-                                                    <li><a href="product-details-variable.php">Product Details
-                                                            Variables</a></li>
-                                                </ul>
-                                            </li> -->
-                                            <!-- <li class="cus-col-25">
-                                                <h3 class="menu-title"><a href="javascript:void(0)">Product Details
-                                                        2</a></h3>
-                                                <ul class="mega-single-block">
-                                                    <li><a href="product-details-left-thumbnail.php">Thumbnail</a>
-                                                    </li> -->
-                                                    <!-- <li><a href="product-details-right-thumbnail.php">Right Thumbnail</a></li> -->
-                                                    <!-- <li><a href="product-details-left-gallery.php">Gallery</a>
-                                                    </li> -->
-                                                    <!-- <li><a href="product-details-right-gallery.php">Right Gallery</a>
-                                                    </li> -->
-                                                <!-- </ul>
-                                            </li> -->
-                                        
-                                    </li>
-                                    <!-- Pages -->
-                                    <li class="menu-item has-children">
-                                        <a href="javascript:void(0)">Pages <i
-                                                class="fas fa-chevron-down dropdown-arrow"></i></a>
-                                        <ul class="sub-menu">
-                                            <li><a href="cart.php">Cart</a></li>
-                                            <li><a href="checkout.php">Checkout</a></li>
-                                            <!-- <li><a href="compare.php">Compare</a></li> -->
-                                            <li><a href="wishlist.php">Wishlist</a></li>
-                                            <li><a href="login-register.php">Login Register</a></li>
-                                            <li><a href="my-account.php">My Account</a></li>
-                                            <li><a href="order-complete.php">Order Complete</a></li>
-                                            <li><a href="faq.php">Faq</a></li>
-                                            <!-- made a change here -->
-                                            <li><a href="contact.php">contact</a></li>
-                                        </ul>
-                                    </li>
-                                    <!-- Blog -->
-                                    <li class="menu-item has-children mega-menu">
-                                        <a href="javascript:void(0)">Blog <i
-                                                class="fas fa-chevron-down dropdown-arrow"></i></a>
-                                        <ul class="sub-menu three-column">
-                                            <li class="cus-col-33">
-                                                <h3 class="menu-title"><a href="javascript:void(0)">Blog Grid</a></h3>
-                                                <ul class="mega-single-block">
-                                                    <!-- <li><a href="blog.php">Full Widh (Default)</a></li> -->
-                                                    <li><a href="blog-left-sidebar.php">left Sidebar</a></li>
-                                                    <!-- <li><a href="blog-right-sidebar.php">Right Sidebar</a></li> -->
-                                                </ul>
-                                            </li>
-                                            <li class="cus-col-33">
-                                                <h3 class="menu-title"><a href="javascript:void(0)">Blog List </a></h3>
-                                                <ul class="mega-single-block">
-                                                    <!-- <li><a href="blog-list.php">Full Widh (Default)</a></li> -->
-                                                    <li><a href="blog-list-left-sidebar.php">left Sidebar</a></li>
-                                                    <!-- <li><a href="blog-list-right-sidebar.php">Right Sidebar</a></li> -->
-                                                </ul>
-                                            </li>
-                                            <li class="cus-col-33">
-                                                <h3 class="menu-title"><a href="javascript:void(0)">Blog Details</a>
-                                                </h3>
-                                                <ul class="mega-single-block">
-                                                    <!-- <li><a href="blog-details.php">Image Format (Default)</a></li> -->
-                                                    <li><a href="blog-details-gallery.php">Gallery</a></li>
-                                                    <!-- <li><a href="blog-details-audio.php">Audio Format</a></li>
-                                                    <li><a href="blog-details-video.php">Video Format</a></li> -->
-                                                    <li><a href="blog-details-left-sidebar.php">Blog</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="contact.php">Contact</a>
-                                    </li>
-                                </ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="header-bottom pb--10">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-3">
-							<nav class="category-nav   ">
-								<div>
-                                    <a href="javascript:void(0)" class="category-trigger"><i
-                                            class="fa fa-bars"></i>Browse
-                                        categories</a>
-                                    <ul class="category-menu">
-                                        <li class="cat-item has-children">
-                                            <a href="#">Arts & Photography</a>
-                                            <!-- <ul class="sub-menu">
-                                                <li><a href="#">Bags & Cases</a></li>
-                                                <li><a href="#">Binoculars & Scopes</a></li>
-                                                <li><a href="#">Digital Cameras</a></li>
-                                                <li><a href="#">Film Photography</a></li>
-                                                <li><a href="#">Lighting & Studio</a></li>
-                                            </ul> -->
-                                        </li>
-                                        <li class="cat-item has-children mega-menu"><a href="#">Biographies</a>
-                                            <!-- <ul class="sub-menu">
-                                                <li class="single-block">
-                                                    <h3 class="title">WHEEL SIMULATORS</h3>
-                                                    <ul>
-                                                        <li><a href="#">Bags & Cases</a></li>
-                                                        <li><a href="#">Binoculars & Scopes</a></li>
-                                                        <li><a href="#">Digital Cameras</a></li>
-                                                        <li><a href="#">Film Photography</a></li>
-                                                        <li><a href="#">Lighting & Studio</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="single-block">
-                                                    <h3 class="title">WHEEL SIMULATORS</h3>
-                                                    <ul>
-                                                        <li><a href="#">Bags & Cases</a></li>
-                                                        <li><a href="#">Binoculars & Scopes</a></li>
-                                                        <li><a href="#">Digital Cameras</a></li>
-                                                        <li><a href="#">Film Photography</a></li>
-                                                        <li><a href="#">Lighting & Studio</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="single-block">
-                                                    <h3 class="title">WHEEL SIMULATORS</h3>
-                                                    <ul>
-                                                        <li><a href="#">Bags & Cases</a></li>
-                                                        <li><a href="#">Binoculars & Scopes</a></li>
-                                                        <li><a href="#">Digital Cameras</a></li>
-                                                        <li><a href="#">Film Photography</a></li>
-                                                        <li><a href="#">Lighting & Studio</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="single-block">
-                                                    <h3 class="title">WHEEL SIMULATORS</h3>
-                                                    <ul>
-                                                        <li><a href="#">Bags & Cases</a></li>
-                                                        <li><a href="#">Binoculars & Scopes</a></li>
-                                                        <li><a href="#">Digital Cameras</a></li>
-                                                        <li><a href="#">Film Photography</a></li>
-                                                        <li><a href="#">Lighting & Studio</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul> -->
-                                        </li>
-                                        <li class="cat-item has-children"><a href="#">Business & Money</a>
-                                            <!-- <ul class="sub-menu">
-                                                <li><a href="">Brake Tools</a></li>
-                                                <li><a href="">Driveshafts</a></li>
-                                                <li><a href="">Emergency Brake</a></li>
-                                                <li><a href="">Spools</a></li>
-                                            </ul> -->
-                                        </li>
-                                        <li class="cat-item has-children"><a href="#">Calendars</a>
-                                            <!-- <ul class="sub-menu">
-                                                <li><a href="">Brake Tools</a></li>
-                                                <li><a href="">Driveshafts</a></li>
-                                                <li><a href="">Emergency Brake</a></li>
-                                                <li><a href="">Spools</a></li>
-                                            </ul> -->
-                                        </li>
-                                        <li class="cat-item has-children"><a href="#">Children's Books</a>
-                                            <!-- <ul class="sub-menu">
-                                                <li><a href="">Brake Tools</a></li>
-                                                <li><a href="">Driveshafts</a></li>
-                                                <li><a href="">Emergency Brake</a></li>
-                                                <li><a href="">Spools</a></li>
-                                            </ul> -->
-                                        </li>
-                                        <li class="cat-item has-children"><a href="#">Comics</a>
-                                            <!-- <ul class="sub-menu">
-                                                <li><a href="">Brake Tools</a></li>
-                                                <li><a href="">Driveshafts</a></li>
-                                                <li><a href="">Emergency Brake</a></li>
-                                                <li><a href="">Spools</a></li>
-                                            </ul> -->
-                                        </li>
-                                        <!-- <li class="cat-item"><a href="#">Perfomance Filters</a></li> -->
-                                        <li class="cat-item has-children"><a href="#">Cookbooks</a>
-                                            <!-- <ul class="sub-menu">
-                                                <li><a href="">Brake Tools</a></li>
-                                                <li><a href="">Driveshafts</a></li>
-                                                <li><a href="">Emergency Brake</a></li>
-                                                <li><a href="">Spools</a></li>
-                                            </ul> -->
-                                        </li>
-                                        <li class="cat-item hidden-menu-item"><a href="#">Accessories</a></li>
-                                        <li class="cat-item hidden-menu-item"><a href="#">Education</a></li>
-                                        <li class="cat-item hidden-menu-item"><a href="#">Indoor Living</a></li>
-                                        <li class="cat-item"><a href="#" class="js-expand-hidden-menu">More
-                                                Categories</a></li>
-                                    </ul>
-                                </div>
-							</nav>
-						</div>
-						<div class="col-lg-5">
-							<div class="header-search-block">
-								<input type="text" placeholder="Search entire store here">
-								<button>Search</button>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="main-navigation flex-lg-right">
-								<div class="cart-widget">
-									<div class="login-block">
-										<a href="login-register.php" class="font-weight-bold">Login</a> <br>
-										<span>or</span><a href="login-register.php">Register</a>
-									</div>
-									<div class="cart-block">
-										<div class="cart-total">
-											<span class="text-number">
-												1
-											</span>
-											<span class="text-item">
-												Shopping Cart
-											</span>
-											<span class="price">
-												£0.00
-												<i class="fas fa-chevron-down"></i>
-											</span>
+		<div class="site-header header-4 mb--20 d-none d-lg-block">
+				<div class="header-middle pt--10 pb--10">
+						<div class="container">
+								<div class="row align-items-center">
+										<div class="col-lg-3">
+												<a href="index.php" class="site-brand">
+														<img src="image/Logo1.png" alt="">
+												</a>
 										</div>
-										<div class="cart-dropdown-block">
-											<div class=" single-cart-block ">
-												<div class="cart-product">
-													<a href="product-details.php" class="image">
-														<img src="image/products/cart-product-1.jpg" alt="">
-													</a>
-													<div class="content">
-														<h3 class="title"><a href="product-details.php">Kodak PIXPRO
-																Astro Zoom AZ421 16 MP</a></h3>
-														<p class="price"><span class="qty">1 ×</span> £87.34</p>
-														<button class="cross-btn"><i class="fas fa-times"></i></button>
-													</div>
+										<div class="col-lg-5">
+												<div class="header-search-block">
+														<input type="text" placeholder="Search entire store here">
+														<button>Search</button>
 												</div>
-											</div>
-											<div class=" single-cart-block ">
-												<div class="btn-block">
-													<a href="cart.php" class="btn">View Cart <i
-															class="fas fa-chevron-right"></i></a>
-													<a href="checkout.php" class="btn btn--primary">Check Out <i
-															class="fas fa-chevron-right"></i></a>
+										</div>
+										<div class="col-lg-4">
+												<div class="main-navigation flex-lg-right">
+														<div class="cart-widget">
+															<!-- login block -->
+																<div class="login-block">
+																	<?php
+																		if(isset($_SESSION['id'])){
+																		echo  "<p class='font-weight-bold'>Welcome,".$_SESSION['name']."</p>";
+																		} else {
+																		echo '<a href="login-register.php" class="font-weight-bold">Login</a> <br>
+																		<span>or</span><a href="login-register.php">Register</a>';
+																		}
+																		?>
+																</div>
+																<!-- shopping cart logo  -->
+																<div class="cart-block">
+																		<div class="cart-total">
+																				<span class="text-number" id="cart-item">
+																				</span>
+																				<span class="text-item">
+																						Shopping Cart
+																				</span>
+																				<span class="price" >
+																						₹0.00
+																						<i class="fas fa-chevron-down"></i>
+																				</span>
+																		</div>
+																		<div class="cart-dropdown-block">
+																				<!-- <div class=" single-cart-block ">
+																						<div class="cart-product">
+																								<a href="product-details.php" class="image">
+																										<img src="image/products/cart-product-1.jpg" alt="">
+																								</a>
+																								<div class="content">
+																										<h3 class="title"><a href="product-details.php">Kodak PIXPRO
+																														Astro Zoom AZ421 16 MP</a>
+																										</h3>
+																										<p class="price"><span class="qty">1 ×</span> ₹87.34</p>
+																										<button class="cross-btn"><i class="fas fa-times"></i></button>
+																								</div>
+																						</div>
+																				</div> -->
+																				<div class=" single-cart-block ">
+																						<div class="btn-block">
+																								<a href="cart.php" class="btn">View Cart <i
+																												class="fas fa-chevron-right"></i></a>
+																								<a href="checkout.php" class="btn btn--primary">Check Out <i
+																												class="fas fa-chevron-right"></i></a>
+																						</div>
+																				</div>
+																		</div>
+																</div>
+														</div>
 												</div>
+										</div>
+
+								</div>
+						</div>
+				</div>
+				<div class="header-bottom">
+						<div class="container">
+								<div class="row align-items-center">
+										<div class="col-lg-3">
+												<div class="header-phone ">
+														<div class="icon">
+																<i class="fas fa-headphones-alt"></i>
+														</div>
+														<div class="text">
+																<p>Free Support 24/7</p>
+																<p class="font-weight-bold number">+01-202-555-0181</p>
+														</div>
+												</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="main-navigation flex-lg-right">
+													<ul class="main-menu menu-right li-last-0">
+															<li class="menu-item ">
+																					<a href="index.php">Home</a>
+															</li>
+															<!-- Shop -->
+															<li class="menu-item  mega-menu">
+																								<a href="shop-grid-left-sidebar.php">shop </a>
+																										</li>
+																						</li>
+															<!-- Pages -->
+															<li class="menu-item has-children">
+																	<a href="javascript:void(0)">Pages <i
+																					class="fas fa-chevron-down dropdown-arrow"></i></a>
+																	<ul class="sub-menu">
+																			<li><a href="cart.php">Cart</a></li>
+																			<li><a href="checkout.php">Checkout</a></li>
+																			<!-- <li><a href="compare.php">Compare</a></li> -->
+																			<li><a href="wishlist.php">Wishlist</a></li>
+																			<li><a href="login-register.php">Login Register</a></li>
+																			<li><a href="my-account.php">My Account</a></li>
+																			<li><a href="order-complete.php">Order Complete</a></li>
+																			<li><a href="faq.php">Faq</a></li>
+																			<!-- made a change here -->
+																			<li><a href="contact.php">contact</a></li>
+																	</ul>
+															</li>
+															<!-- Blog -->
+															<li class="menu-item mega-menu">
+																	<a href="blog-list.php">Blog </a>
+															</li>
+															<li class="menu-item">
+																	<a href="contact.php">Contact</a>
+															</li>
+													</ul>
 											</div>
 										</div>
-									</div>
+										<!-- logout button -->
+										<div class="login-block">
+											<?php
+											if(isset($_SESSION['id'])){
+											echo  '<a href="logout.php" class="btn btn--primary font-weight-bold">Logout</a>';
+											} else {
+											echo '<button type="button" action="" name="button" class="btn btn--primary" style="display:none;">Logout</button>';
+											}
+											?>
+
+										</div>
 								</div>
-							</div>
 						</div>
-					</div>
 				</div>
-			</div>
 		</div>
 
 		<div class="sticky-init fixed-header common-sticky">
@@ -337,123 +168,41 @@
                         </a>
                     </div>
                     <div class="col-lg-8">
-                        <div class="main-navigation flex-lg-right">
-                            <ul class="main-menu menu-right ">
-                                <li class="menu-item has-children">
-                                    <a href="index.php">Home</a>
-                                    <!-- <a href="javascript:void(0)">Home <i
-                                            class="fas fa-chevron-down dropdown-arrow"></i></a>
-                                    <ul class="sub-menu">
-                                        <li> <a href="index.php">Home One</a></li>
-                                        <li> <a href="index-2.php">Home Two</a></li>
-                                        <li> <a href="index-3.php">Home Three</a></li>
-                                        <li> <a href="index.php">Home Four</a></li>
-                                        <li> <a href="index-5.php">Home Five</a></li>
-                                    </ul> -->
-                                </li>
-                                <!-- Shop -->
-                                <li class="menu-item has-children mega-menu">
-                                    <a href="javascript:void(0)">shop <i
-                                            class="fas fa-chevron-down dropdown-arrow"></i></a>
-                                    <ul class="sub-menu four-column">
-                                        <li class="cus-col-25">
-                                            <h3 class="menu-title"><a href="javascript:void(0)">Shop</a></h3>
-                                            <ul class="mega-single-block">
-                                                <!-- <li><a href="shop-grid.php">Fullwidth</a></li> -->
-                                                <li><a href="shop-grid-left-sidebar.php">Shop</a></li>
-                                                <!-- <li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li> -->
-                                            </ul>
-                                        </li>
-                                        <!-- <li class="cus-col-25">
-                                            <h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
-                                            <ul class="mega-single-block">
-                                                <li><a href="shop-list.php">Fullwidth</a></li>
-                                                <li><a href="shop-list-left-sidebar.php">left Sidebar</a></li>
-                                                <li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
-                                            </ul>
-                                        </li> -->
-                                        <li class="cus-col-25">
-                                            <h3 class="menu-title"> <a href="javascript:void(0)">Product Details
-                                                    </a></h3>
-                                            <ul class="mega-single-block">
-                                                <li><a href="product-details.php">Product Details Page</a></li>
-                                                <!-- <li><a href="product-details-affiliate.php">Product Details
-                                                        Affiliate</a></li>
-                                                <li><a href="product-details-group.php">Product Details Group</a>
-                                                </li>
-                                                <li><a href="product-details-variable.php">Product Details
-                                                        Variables</a></li> -->
-                                            </ul>
-                                        </li>
-                                        <!-- <li class="cus-col-25">
-                                            <h3 class="menu-title"><a href="javascript:void(0)">Product Details
-                                                    2</a></h3>
-                                            <ul class="mega-single-block">
-                                                <li><a href="product-details-left-thumbnail.php">Thumbnail</a>
-                                                </li> -->
-                                                <!-- <li><a href="product-details-right-thumbnail.php">Right Thumbnail</a></li> -->
-                                                <!-- <li><a href="product-details-left-gallery.php">Gallery</a>
-                                                </li> -->
-                                                <!-- <li><a href="product-details-right-gallery.php">Right Gallery</a>
-                                                </li> -->
-                                            <!-- </ul>
-                                        </li> -->
-                                    </ul>
-                                </li>
-                                <!-- Pages -->
-                                <li class="menu-item has-children">
-                                    <a href="javascript:void(0)">Pages <i
-                                            class="fas fa-chevron-down dropdown-arrow"></i></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="cart.php">Cart</a></li>
-                                        <li><a href="checkout.php">Checkout</a></li>
-                                        <!-- <li><a href="compare.php">Compare</a></li> -->
-                                        <li><a href="wishlist.php">Wishlist</a></li>
-                                        <li><a href="login-register.php">Login Register</a></li>
-                                        <li><a href="my-account.php">My Account</a></li>
-                                        <li><a href="order-complete.php">Order Complete</a></li>
-                                        <li><a href="faq.php">Faq</a></li>
-                                        <li><a href="contact.php">contact</a></li>
-                                    </ul>
-                                </li>
-                                <!-- Blog -->
-                                <li class="menu-item has-children mega-menu">
-                                    <a href="javascript:void(0)">Blog <i
-                                            class="fas fa-chevron-down dropdown-arrow"></i></a>
-                                    <ul class="sub-menu three-column">
-                                        <li class="cus-col-33">
-                                            <h3 class="menu-title"><a href="javascript:void(0)">Blog Grid</a></h3>
-                                            <ul class="mega-single-block">
-                                                <!-- <li><a href="blog.php">Full Widh (Default)</a></li> -->
-                                                <li><a href="blog-left-sidebar.php">left Sidebar</a></li>
-                                                <!-- <li><a href="blog-right-sidebar.php">Right Sidebar</a></li> -->
-                                            </ul>
-                                        </li>
-                                        <li class="cus-col-33">
-                                            <h3 class="menu-title"><a href="javascript:void(0)">Blog List </a></h3>
-                                            <ul class="mega-single-block">
-                                                <!-- <li><a href="blog-list.php">Full Widh (Default)</a></li> -->
-                                                <li><a href="blog-list-left-sidebar.php">left Sidebar</a></li>
-                                                <!-- <li><a href="blog-list-right-sidebar.php">Right Sidebar</a></li> -->
-                                            </ul>
-                                        </li>
-                                        <li class="cus-col-33">
-                                            <h3 class="menu-title"><a href="javascript:void(0)">Blog Details</a></h3>
-                                            <ul class="mega-single-block">
-                                                <!-- <li><a href="blog-details.php">Image Format (Default)</a></li> -->
-                                                <li><a href="blog-details-gallery.php">Gallery Format</a></li>
-                                                <!-- <li><a href="blog-details-audio.php">Audio Format</a></li> -->
-                                                <!-- <li><a href="blog-details-video.php">Video Format</a></li> -->
-                                                <li><a href="blog-details-left-sidebar.php">left Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="contact.php">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
+											<div class="main-navigation flex-lg-right">
+													<ul class="main-menu menu-right li-last-0">
+															<li class="menu-item ">
+																					<a href="index.php">Home</a>
+															</li>
+															<!-- Shop -->
+															<li class="menu-item  mega-menu">
+																								<a href="shop-grid-left-sidebar.php">shop </a>
+																							</li>
+																						</li>
+															<!-- Pages -->
+															<li class="menu-item has-children">
+																	<a href="javascript:void(0)">Pages <i
+																					class="fas fa-chevron-down dropdown-arrow"></i></a>
+																	<ul class="sub-menu">
+																			<li><a href="cart.php">Cart</a></li>
+																			<li><a href="checkout.php">Checkout</a></li>
+																			<li><a href="wishlist.php">Wishlist</a></li>
+																			<li><a href="login-register.php">Login Register</a></li>
+																			<li><a href="my-account.php">My Account</a></li>
+																			<li><a href="order-complete.php">Order Complete</a></li>
+																			<li><a href="faq.php">Faq</a></li>
+																			<!-- made a change here -->
+																			<li><a href="contact.php">contact</a></li>
+																	</ul>
+															</li>
+															<!-- Blog -->
+															<li class="menu-item mega-menu">
+																	<a href="blog-list.php">Blog </a>
+															</li>
+															<li class="menu-item">
+																	<a href="contact.php">Contact</a>
+															</li>
+													</ul>
+											</div>
                     </div>
                 </div>
             </div>
@@ -471,7 +220,109 @@
 				</div>
 			</div>
 		</section>
+<section class="hero-area hero-slider-4 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 offset-lg-3">
+                        <div class="sb-slick-slider" data-slick-setting='{
+                                                                    "autoplay": true,
+                                                                    "autoplaySpeed": 8000,
+                                                                    "slidesToShow": 1,
+                                                                    "dots":true
+                                                                    }'>
+                            <div class="single-slide bg-image bg-overlay--white"
+                                data-bg="image/bg-images/home-4-slider-1.jpg">
+                                <div class="home-content text-left pl--30">
+                                    <div class="row">
+                                        <div class="col-lg-5">
+                                            <span class="title-small">Yaha kuch daalenge</span>
+                                            <h1>Yaha kuch add karo</h1>
+                                            <p>Ab dekhte hai</p>
+                                            <a href="shop-grid-left-sidebar.php" class="btn btn-outlined--pink">
+                                                Shop Now
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-slide bg-image bg-overlay--dark"
+                                data-bg="image/bg-images/home-4-slider-2.jpg">
+                                <div class="home-content text-center">
+                                    <div class="row justify-content-end">
+                                        <div class="col-lg-8">
+                                            <h1 class="v2">I Love This Idea!</h1>
+                                            <h2>Cover up front of book and
+                                                leave summary</h2>
+                                            <a href="shop-grid-left-sidebar.php" class="btn btn--yellow">
+                                                Shop Now
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=================================
+        Home Features Section
+    ===================================== -->
+        <section class="mb--30">
+            <h2 class="sr-only">Feature Section</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 mt--30">
+                        <div class="feature-box h-100">
+                            <div class="icon">
+                                <i class="fas fa-shipping-fast"></i>
+                            </div>
+                            <div class="text">
+                                <h5>Free Shipping Item</h5>
+                                <p> Orders over $500</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 mt--30">
+                        <div class="feature-box h-100">
+                            <div class="icon">
+                                <i class="fas fa-redo-alt"></i>
+                            </div>
+                            <div class="text">
+                                <h5>Money Back Guarantee</h5>
+                                <p>100% money back</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 mt--30">
+                        <div class="feature-box h-100">
+                            <div class="icon">
+                                <i class="fas fa-piggy-bank"></i>
+                            </div>
+                            <div class="text">
+                                <h5>Cash On Delivery</h5>
+                                <p>Lorem ipsum dolor amet</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 mt--30">
+                        <div class="feature-box h-100">
+                            <div class="icon">
+                                <i class="fas fa-life-ring"></i>
+                            </div>
+                            <div class="text">
+                                <h5>Help & Support</h5>
+                                <p>Call us : + 0123.4567.89</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 		<main class="inner-page-sec-padding-bottom">
+			<!-- adding success bar if item added to cart -->
+			<div id="message">
+			</div>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-9 order-lg-2">
@@ -487,50 +338,11 @@
 												<i class="fas fa-grip-vertical"></i><i class="fas fa-grip-vertical"></i>
 											</span>
 										</a>
-										<a href="#" class="sorting-btn" data-target="list "><i
-												class="fas fa-list"></i></a>
 									</div>
 								</div>
 								<div class="col-xl-4 col-md-4 col-sm-6  mt--10 mt-sm--0">
-									<span class="toolbar-status">
-										Showing 1 to 9 of 14 (2 Pages)
-									</span>
 								</div>
 								<div class="col-lg-2 col-md-2 col-sm-6  mt--10 mt-md--0">
-									<div class="sorting-selection">
-										<span>Show:</span>
-										<select class="form-control nice-select sort-select">
-											<option value="" selected="selected">3</option>
-											<option value="">9</option>
-											<option value="">5</option>
-											<option value="">10</option>
-											<option value="">12</option>
-										</select>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-4 col-sm-6 mt--10 mt-md--0 ">
-									<div class="sorting-selection">
-										<span>Sort By:</span>
-										<select class="form-control nice-select sort-select mr-0">
-											<option value="" selected="selected">Default Sorting</option>
-											<option value="">Sort
-												By:Name (A - Z)</option>
-											<option value="">Sort
-												By:Name (Z - A)</option>
-											<option value="">Sort
-												By:Price (Low &gt; High)</option>
-											<option value="">Sort
-												By:Price (High &gt; Low)</option>
-											<option value="">Sort
-												By:Rating (Highest)</option>
-											<option value="">Sort
-												By:Rating (Lowest)</option>
-											<option value="">Sort
-												By:Model (A - Z)</option>
-											<option value="">Sort
-												By:Model (Z - A)</option>
-										</select>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -546,725 +358,76 @@
 												<i class="fas fa-grip-vertical"></i><i class="fas fa-grip-vertical"></i>
 											</span>
 										</a>
-										<a href="#" class="sorting-btn" data-target="list "><i
-												class="fas fa-list"></i></a>
+										<!-- <a href="#" class="sorting-btn" data-target="list "><i
+												class="fas fa-list"></i></a> -->
 									</div>
 								</div>
 								<div class="col-xl-5 col-md-4 col-sm-6  mt--10 mt-sm--0">
-									<span class="toolbar-status">
+									<!-- <span class="toolbar-status">
 										Showing 1 to 9 of 14 (2 Pages)
-									</span>
+									</span> -->
 								</div>
 								<div class="col-lg-2 col-md-2 col-sm-6  mt--10 mt-md--0">
-									<div class="sorting-selection">
-										<span>Show:</span>
-										<select class="form-control nice-select sort-select">
-											<option value="" selected="selected">3</option>
-											<option value="">9</option>
-											<option value="">5</option>
-											<option value="">10</option>
-											<option value="">12</option>
-										</select>
-									</div>
+									
 								</div>
 								<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mt--10 mt-md--0 ">
 									<div class="sorting-selection">
-										<span>Sort By:</span>
-										<select class="form-control nice-select sort-select mr-0">
-											<option value="" selected="selected">Default Sorting</option>
-											<option value="">Sort
-												By:Name (A - Z)</option>
-											<option value="">Sort
-												By:Name (Z - A)</option>
-											<option value="">Sort
-												By:Price (Low &gt; High)</option>
-											<option value="">Sort
-												By:Price (High &gt; Low)</option>
-											<option value="">Sort
-												By:Rating (Highest)</option>
-											<option value="">Sort
-												By:Rating (Lowest)</option>
-											<option value="">Sort
-												By:Model (A - Z)</option>
-											<option value="">Sort
-												By:Model (Z - A)</option>
-										</select>
+										
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="shop-product-wrap grid with-pagination row space-db--30 shop-border">
+							<?php
+								include 'config.php';
+
+								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.product;');
+								$stmt->execute();
+								$result = $stmt->get_result();
+								while($row = $result->fetch_assoc()):
+							?>
 							<div class="col-lg-4 col-sm-6">
 								<div class="product-card">
 									<div class="product-grid-content">
-										<div class="product-header">
-											<a href="" class="author">
-												Epple
-											</a>
-											<h3><a href="product-details.php">Here Is A Quick Cure For Book</a></h3>
-										</div>
 										<div class="product-card--body">
 											<div class="card-image">
-												<img src="image/products/product-2.jpg" alt="">
+												<!-- taking image from database -->
+												<img src="<?= $row['p_image'] ?>" alt="">
 												<div class="hover-contents">
 													<a href="product-details.php" class="hover-image">
-														<img src="image/products/product-1.jpg" alt="">
+														<img src="<?= $row['p_image'] ?>" alt="">
 													</a>
 													<div class="hover-btns">
-														<a href="cart.php" class="single-btn">
-															<i class="fas fa-shopping-basket"></i>
-														</a>
-														<a href="wishlist.php" class="single-btn">
-															<i class="fas fa-heart"></i>
-														</a>
-														<a href="compare.php" class="single-btn">
-															<i class="fas fa-random"></i>
-														</a>
-														<a href="#" data-toggle="modal" data-target="#quickModal"
-															class="single-btn">
-															<i class="fas fa-eye"></i>
-														</a>
+														<!-- cart button -->
+														<form class="form-submit" action="" >
+															<input type="hidden" class="pid" value="<?= $row['p_id']?>">
+															<input type="hidden" class="p_name" value="<?= $row['p_name']?>">
+															<input type="hidden" class="p_price" value="<?= $row['p_price']?>">
+															<input type="hidden" class="p_image" value="<?= $row['p_image']?>">
+															<input type="hidden" class="p_code" value="<?= $row['p_code']?>">
+															<button  class="single-btn addItemButton"><i class="fas fa-shopping-basket "></i></button>
+														</form>
 													</div>
+												</div>
+												<div class="product-header">
+													<a href="" class="author">
+														<!-- Deep -->
+													</a>
+													<h3><a href="product-details.php"><?= $row['p_name']?></a></h3>
 												</div>
 											</div>
 											<div class="price-block">
-												<span class="price">£51.20</span>
-												<del class="price-old">£51.20</del>
-												<span class="price-discount">20%</span>
+												<span class="price">₹<?= $row['p_price']?></span>
+												<del class="price-old">₹151.20</del>
+												<span class="price-discount">-₹51.20</span>
 											</div>
 										</div>
 									</div>
-									<div class="product-list-content">
-										<div class="card-image">
-											<img src="image/products/product-3.jpg" alt="">
-										</div>
-										<div class="product-card--body">
-											<div class="product-header">
-												<a href="" class="author">
-													Gpple
-												</a>
-												<h3><a href="product-details.php" tabindex="0">Qpple cPad with Retina
-														Display MD510LL/A</a></h3>
-											</div>
-											<article>
-												<h2 class="sr-only">Card List Article</h2>
-												<p>More room to move. With 80GB or 160GB of storage and up to 40 hours
-													of battery life, the new iPod classic lets you enjoy
-													up to 40,000 songs or..</p>
-											</article>
-											<div class="price-block">
-												<span class="price">£51.20</span>
-												<del class="price-old">£51.20</del>
-												<span class="price-discount">20%</span>
-											</div>
-											<div class="rating-block">
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star "></span>
-											</div>
-											<div class="btn-block">
-												<a href="" class="btn btn-outlined">Add To Cart</a>
-												<a href="" class="card-link"><i class="fas fa-heart"></i> Add To
-													Wishlist</a>
-												<a href="" class="card-link"><i class="fas fa-random"></i> Add To
-													Cart</a>
-											</div>
-										</div>
 									</div>
-								</div>
 							</div>
-							<div class="col-lg-4 col-sm-6">
-								<div class="product-card">
-									<div class="product-grid-content">
-										<div class="product-header">
-											<a href="" class="author">
-												Lpple
-											</a>
-											<h3><a href="product-details.php">Simple Things You To Save BOOK</a></h3>
-										</div>
-										<div class="product-card--body">
-											<div class="card-image">
-												<img src="image/products/product-4.jpg" alt="">
-												<div class="hover-contents">
-													<a href="product-details.php" class="hover-image">
-														<img src="image/products/product-5.jpg" alt="">
-													</a>
-													<div class="hover-btns">
-														<a href="cart.php" class="single-btn">
-															<i class="fas fa-shopping-basket"></i>
-														</a>
-														<a href="wishlist.php" class="single-btn">
-															<i class="fas fa-heart"></i>
-														</a>
-														<a href="compare.php" class="single-btn">
-															<i class="fas fa-random"></i>
-														</a>
-														<a href="#" data-toggle="modal" data-target="#quickModal"
-															class="single-btn">
-															<i class="fas fa-eye"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-											<div class="price-block">
-												<span class="price">£51.20</span>
-												<del class="price-old">£51.20</del>
-												<span class="price-discount">20%</span>
-											</div>
-										</div>
-									</div>
-									<div class="product-list-content">
-										<div class="card-image">
-											<img src="image/products/product-6.jpg" alt="">
-										</div>
-										<div class="product-card--body">
-											<div class="product-header">
-												<a href="" class="author">
-													Bpple
-												</a>
-												<h3><a href="product-details.php" tabindex="0">What You Can Learn From
-														Bill Gates</a></h3>
-											</div>
-											<article>
-												<h2 class="sr-only">Card List Article</h2>
-												<p>More room to move. With 80GB or 160GB of storage and up to 40 hours
-													of battery life, the new iPod classic lets you enjoy
-													up to 40,000 songs or..</p>
-											</article>
-											<div class="price-block">
-												<span class="price">£51.20</span>
-												<del class="price-old">£51.20</del>
-												<span class="price-discount">20%</span>
-											</div>
-											<div class="rating-block">
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star "></span>
-											</div>
-											<div class="btn-block">
-												<a href="" class="btn btn-outlined">Add To Cart</a>
-												<a href="" class="card-link"><i class="fas fa-heart"></i> Add To
-													Wishlist</a>
-												<a href="" class="card-link"><i class="fas fa-random"></i> Add To
-													Cart</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-sm-6">
-								<div class="product-card">
-									<div class="product-grid-content">
-										<div class="product-header">
-											<a href="" class="author">
-												Cpple
-											</a>
-											<h3><a href="product-details.php">3 Ways Create Better BOOK With</a></h3>
-										</div>
-										<div class="product-card--body">
-											<div class="card-image">
-												<img src="image/products/product-7.jpg" alt="">
-												<div class="hover-contents">
-													<a href="product-details.php" class="hover-image">
-														<img src="image/products/product-8.jpg" alt="">
-													</a>
-													<div class="hover-btns">
-														<a href="cart.php" class="single-btn">
-															<i class="fas fa-shopping-basket"></i>
-														</a>
-														<a href="wishlist.php" class="single-btn">
-															<i class="fas fa-heart"></i>
-														</a>
-														<a href="compare.php" class="single-btn">
-															<i class="fas fa-random"></i>
-														</a>
-														<a href="#" data-toggle="modal" data-target="#quickModal"
-															class="single-btn">
-															<i class="fas fa-eye"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-											<div class="price-block">
-												<span class="price">£51.20</span>
-												<del class="price-old">£51.20</del>
-												<span class="price-discount">20%</span>
-											</div>
-										</div>
-									</div>
-									<div class="product-list-content">
-										<div class="card-image">
-											<img src="image/products/product-7.jpg" alt="">
-										</div>
-										<div class="product-card--body">
-											<div class="product-header">
-												<a href="" class="author">
-													Happle
-												</a>
-												<h3><a href="product-details.php" tabindex="0">What You Can Learn From
-														Bill Gates</a></h3>
-											</div>
-											<article>
-												<h2 class="sr-only">Card List Article</h2>
-												<p>More room to move. With 80GB or 160GB of storage and up to 40 hours
-													of battery life, the new iPod classic lets you enjoy
-													up to 40,000 songs or..</p>
-											</article>
-											<div class="price-block">
-												<span class="price">£51.20</span>
-												<del class="price-old">£51.20</del>
-												<span class="price-discount">20%</span>
-											</div>
-											<div class="rating-block">
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star "></span>
-											</div>
-											<div class="btn-block">
-												<a href="" class="btn btn-outlined">Add To Cart</a>
-												<a href="" class="card-link"><i class="fas fa-heart"></i> Add To
-													Wishlist</a>
-												<a href="" class="card-link"><i class="fas fa-random"></i> Add To
-													Cart</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-sm-6">
-								<div class="product-card">
-									<div class="product-grid-content">
-										<div class="product-header">
-											<a href="" class="author">
-												Rpple
-											</a>
-											<h3><a href="product-details.php">Simple Things You To Save BOOK</a></h3>
-										</div>
-										<div class="product-card--body">
-											<div class="card-image">
-												<img src="image/products/product-8.jpg" alt="">
-												<div class="hover-contents">
-													<a href="product-details.php" class="hover-image">
-														<img src="image/products/product-7.jpg" alt="">
-													</a>
-													<div class="hover-btns">
-														<a href="cart.php" class="single-btn">
-															<i class="fas fa-shopping-basket"></i>
-														</a>
-														<a href="wishlist.php" class="single-btn">
-															<i class="fas fa-heart"></i>
-														</a>
-														<a href="compare.php" class="single-btn">
-															<i class="fas fa-random"></i>
-														</a>
-														<a href="#" data-toggle="modal" data-target="#quickModal"
-															class="single-btn">
-															<i class="fas fa-eye"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-											<div class="price-block">
-												<span class="price">£51.20</span>
-												<del class="price-old">£51.20</del>
-												<span class="price-discount">20%</span>
-											</div>
-										</div>
-									</div>
-									<div class="product-list-content">
-										<div class="card-image">
-											<img src="image/products/product-8.jpg" alt="">
-										</div>
-										<div class="product-card--body">
-											<div class="product-header">
-												<a href="" class="author">
-													Epple
-												</a>
-												<h3><a href="product-details.php" tabindex="0">Never Changing BOOK Will
-														Eventually Destroy You</a></h3>
-											</div>
-											<article>
-												<h2 class="sr-only">Card List Article</h2>
-												<p>More room to move. With 80GB or 160GB of storage and up to 40 hours
-													of battery life, the new iPod classic lets you enjoy
-													up to 40,000 songs or..</p>
-											</article>
-											<div class="price-block">
-												<span class="price">£51.20</span>
-												<del class="price-old">£51.20</del>
-												<span class="price-discount">20%</span>
-											</div>
-											<div class="rating-block">
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star "></span>
-											</div>
-											<div class="btn-block">
-												<a href="" class="btn btn-outlined">Add To Cart</a>
-												<a href="" class="card-link"><i class="fas fa-heart"></i> Add To
-													Wishlist</a>
-												<a href="" class="card-link"><i class="fas fa-random"></i> Add To
-													Cart</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-sm-6">
-								<div class="product-card">
-									<div class="product-grid-content">
-										<div class="product-header">
-											<a href="" class="author">
-												Gpple
-											</a>
-											<h3><a href="product-details.php">How Deal With Very Bad BOOK</a></h3>
-										</div>
-										<div class="product-card--body">
-											<div class="card-image">
-												<img src="image/products/product-9.jpg" alt="">
-												<div class="hover-contents">
-													<a href="product-details.php" class="hover-image">
-														<img src="image/products/product-10.jpg" alt="">
-													</a>
-													<div class="hover-btns">
-														<a href="cart.php" class="single-btn">
-															<i class="fas fa-shopping-basket"></i>
-														</a>
-														<a href="wishlist.php" class="single-btn">
-															<i class="fas fa-heart"></i>
-														</a>
-														<a href="compare.php" class="single-btn">
-															<i class="fas fa-random"></i>
-														</a>
-														<a href="#" data-toggle="modal" data-target="#quickModal"
-															class="single-btn">
-															<i class="fas fa-eye"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-											<div class="price-block">
-												<span class="price">£51.20</span>
-												<del class="price-old">£51.20</del>
-												<span class="price-discount">20%</span>
-											</div>
-										</div>
-									</div>
-									<div class="product-list-content">
-										<div class="card-image">
-											<img src="image/products/product-9.jpg" alt="">
-										</div>
-										<div class="product-card--body">
-											<div class="product-header">
-												<a href="" class="author">
-													Tapple
-												</a>
-												<h3><a href="product-details.php" tabindex="0">OMG! The Best BOOK
-														Ever!</a></h3>
-											</div>
-											<article>
-												<h2 class="sr-only">Card List Article</h2>
-												<p>More room to move. With 80GB or 160GB of storage and up to 40 hours
-													of battery life, the new iPod classic lets you enjoy
-													up to 40,000 songs or..</p>
-											</article>
-											<div class="price-block">
-												<span class="price">£51.20</span>
-												<del class="price-old">£51.20</del>
-												<span class="price-discount">20%</span>
-											</div>
-											<div class="rating-block">
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star "></span>
-											</div>
-											<div class="btn-block">
-												<a href="" class="btn btn-outlined">Add To Cart</a>
-												<a href="" class="card-link"><i class="fas fa-heart"></i> Add To
-													Wishlist</a>
-												<a href="" class="card-link"><i class="fas fa-random"></i> Add To
-													Cart</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-sm-6">
-								<div class="product-card">
-									<div class="product-grid-content">
-										<div class="product-header">
-											<a href="" class="author">
-												Rtpple
-											</a>
-											<h3><a href="product-details.php">The Hidden Mystery Behind</a></h3>
-										</div>
-										<div class="product-card--body">
-											<div class="card-image">
-												<img src="image/products/product-10.jpg" alt="">
-												<div class="hover-contents">
-													<a href="product-details.php" class="hover-image">
-														<img src="image/products/product-9.jpg" alt="">
-													</a>
-													<div class="hover-btns">
-														<a href="cart.php" class="single-btn">
-															<i class="fas fa-shopping-basket"></i>
-														</a>
-														<a href="wishlist.php" class="single-btn">
-															<i class="fas fa-heart"></i>
-														</a>
-														<a href="compare.php" class="single-btn">
-															<i class="fas fa-random"></i>
-														</a>
-														<a href="#" data-toggle="modal" data-target="#quickModal"
-															class="single-btn">
-															<i class="fas fa-eye"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-											<div class="price-block">
-												<span class="price">£51.20</span>
-												<del class="price-old">£51.20</del>
-												<span class="price-discount">20%</span>
-											</div>
-										</div>
-									</div>
-									<div class="product-list-content">
-										<div class="card-image">
-											<img src="image/products/product-10.jpg" alt="">
-										</div>
-										<div class="product-card--body">
-											<div class="product-header">
-												<a href="" class="author">
-													Ypple
-												</a>
-												<h3><a href="product-details.php" tabindex="0">BOOK: Do You Really Need
-														It? This Will Help Y</a></h3>
-											</div>
-											<article>
-												<h2 class="sr-only">Card List Article</h2>
-												<p>More room to move. With 80GB or 160GB of storage and up to 40 hours
-													of battery life, the new iPod classic lets you enjoy
-													up to 40,000 songs or..</p>
-											</article>
-											<div class="price-block">
-												<span class="price">£51.20</span>
-												<del class="price-old">£51.20</del>
-												<span class="price-discount">20%</span>
-											</div>
-											<div class="rating-block">
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star "></span>
-											</div>
-											<div class="btn-block">
-												<a href="" class="btn btn-outlined">Add To Cart</a>
-												<a href="" class="card-link"><i class="fas fa-heart"></i> Add To
-													Wishlist</a>
-												<a href="" class="card-link"><i class="fas fa-random"></i> Add To
-													Cart</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-sm-6">
-								<div class="product-card">
-									<div class="product-grid-content">
-										<div class="product-header">
-											<a href="" class="author">
-												Upple
-											</a>
-											<h3><a href="product-details.php">Little Known Ways To Rid Yourself</a>
-											</h3>
-										</div>
-										<div class="product-card--body">
-											<div class="card-image">
-												<img src="image/products/product-11.jpg" alt="">
-												<div class="hover-contents">
-													<a href="product-details.php" class="hover-image">
-														<img src="image/products/product-12.jpg" alt="">
-													</a>
-													<div class="hover-btns">
-														<a href="cart.php" class="single-btn">
-															<i class="fas fa-shopping-basket"></i>
-														</a>
-														<a href="wishlist.php" class="single-btn">
-															<i class="fas fa-heart"></i>
-														</a>
-														<a href="compare.php" class="single-btn">
-															<i class="fas fa-random"></i>
-														</a>
-														<a href="#" data-toggle="modal" data-target="#quickModal"
-															class="single-btn">
-															<i class="fas fa-eye"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-											<div class="price-block">
-												<span class="price">£51.20</span>
-												<del class="price-old">£51.20</del>
-												<span class="price-discount">20%</span>
-											</div>
-										</div>
-									</div>
-									<div class="product-list-content">
-										<div class="card-image">
-											<img src="image/products/product-11.jpg" alt="">
-										</div>
-										<div class="product-card--body">
-											<div class="product-header">
-												<a href="" class="author">
-													Apple
-												</a>
-												<h3><a href="product-details.php" tabindex="0">Revolutionize Your BOOK
-														With These Easy-peasy Tips</a></h3>
-											</div>
-											<article>
-												<h2 class="sr-only">Card List Article</h2>
-												<p>More room to move. With 80GB or 160GB of storage and up to 40 hours
-													of battery life, the new iPod classic lets you enjoy
-													up to 40,000 songs or..</p>
-											</article>
-											<div class="price-block">
-												<span class="price">£51.20</span>
-												<del class="price-old">£51.20</del>
-												<span class="price-discount">20%</span>
-											</div>
-											<div class="rating-block">
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star "></span>
-											</div>
-											<div class="btn-block">
-												<a href="" class="btn btn-outlined">Add To Cart</a>
-												<a href="" class="card-link"><i class="fas fa-heart"></i> Add To
-													Wishlist</a>
-												<a href="" class="card-link"><i class="fas fa-random"></i> Add To
-													Cart</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-sm-6">
-								<div class="product-card">
-									<div class="product-grid-content">
-										<div class="product-header">
-											<a href="" class="author">
-												Bpple
-											</a>
-											<h3><a href="product-details.php">Qple GPad with Retina Sisplay</a></h3>
-										</div>
-										<div class="product-card--body">
-											<div class="card-image">
-												<img src="image/products/product-2.jpg" alt="">
-												<div class="hover-contents">
-													<a href="product-details.php" class="hover-image">
-														<img src="image/products/product-1.jpg" alt="">
-													</a>
-													<div class="hover-btns">
-														<a href="cart.php" class="single-btn">
-															<i class="fas fa-shopping-basket"></i>
-														</a>
-														<a href="wishlist.php" class="single-btn">
-															<i class="fas fa-heart"></i>
-														</a>
-														<a href="compare.php" class="single-btn">
-															<i class="fas fa-random"></i>
-														</a>
-														<a href="#" data-toggle="modal" data-target="#quickModal"
-															class="single-btn">
-															<i class="fas fa-eye"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-											<div class="price-block">
-												<span class="price">£51.20</span>
-												<del class="price-old">£51.20</del>
-												<span class="price-discount">20%</span>
-											</div>
-										</div>
-									</div>
-									<div class="product-list-content">
-										<div class="card-image">
-											<img src="image/products/product-2.jpg" alt="">
-										</div>
-										<div class="product-card--body">
-											<div class="product-header">
-												<a href="" class="author">
-													Zpple
-												</a>
-												<h3><a href="product-details.php" tabindex="0">Here Is A Quick Cure For
-														Book</a></h3>
-											</div>
-											<article>
-												<h2 class="sr-only">Card List Article</h2>
-												<p>More room to move. With 80GB or 160GB of storage and up to 40 hours
-													of battery life, the new iPod classic lets you enjoy
-													up to 40,000 songs or..</p>
-											</article>
-											<div class="price-block">
-												<span class="price">£51.20</span>
-												<del class="price-old">£51.20</del>
-												<span class="price-discount">20%</span>
-											</div>
-											<div class="rating-block">
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star star_on"></span>
-												<span class="fas fa-star "></span>
-											</div>
-											<div class="btn-block">
-												<a href="" class="btn btn-outlined">Add To Cart</a>
-												<a href="" class="card-link"><i class="fas fa-heart"></i> Add To
-													Wishlist</a>
-												<a href="" class="card-link"><i class="fas fa-random"></i> Add To
-													Cart</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+						<?php endwhile;?>
 						</div>
-						<!-- Pagination Block -->
-						<div class="row pt--30">
-							<div class="col-md-12">
-								<div class="pagination-block">
-									<ul class="pagination-btns flex-center">
-										<li><a href="" class="single-btn prev-btn ">|<i
-													class="zmdi zmdi-chevron-left"></i> </a></li>
-										<li><a href="" class="single-btn prev-btn "><i
-													class="zmdi zmdi-chevron-left"></i> </a></li>
-										<li class="active"><a href="" class="single-btn">1</a></li>
-										<li><a href="" class="single-btn">2</a></li>
-										<li><a href="" class="single-btn">3</a></li>
-										<li><a href="" class="single-btn">4</a></li>
-										<li><a href="" class="single-btn next-btn"><i
-													class="zmdi zmdi-chevron-right"></i></a></li>
-										<li><a href="" class="single-btn next-btn"><i
-													class="zmdi zmdi-chevron-right"></i>|</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
+									
 						<!-- Modal -->
 						<div class="modal fade modal-quick-view" id="quickModal" tabindex="-1" role="dialog"
 							aria-labelledby="quickModal" aria-hidden="true">
@@ -1339,7 +502,7 @@
 															href="#">Omega</a></p>
 													<h3 class="product-title">Beats EP Wired On-Ear Headphone-Black</h3>
 													<ul class="list-unstyled">
-														<li>Ex Tax: <span class="list-value"> £60.24</span></li>
+														<li>Ex Tax: <span class="list-value"> ₹60.24</span></li>
 														<li>Brands: <a href="#" class="list-value font-weight-bold">
 																Canon</a></li>
 														<li>Product Code: <span class="list-value"> model1</span></li>
@@ -1347,8 +510,8 @@
 														<li>Availability: <span class="list-value"> In Stock</span></li>
 													</ul>
 													<div class="price-block">
-														<span class="price-new">£73.79</span>
-														<del class="price-old">£91.86</del>
+														<span class="price-new">₹73.79</span>
+														<del class="price-old">₹91.86</del>
 													</div>
 													<div class="rating-widget">
 														<div class="rating-block">
@@ -1408,72 +571,7 @@
 					</div>
 					<div class="col-lg-3  mt--40 mt-lg--0">
 						<div class="inner-page-sidebar">
-							<!-- Accordion -->
-							
-							<!-- <div class="single-block">
-								<h3 class="sidebar-title">Categories</h3>
-								<ul class="sidebar-menu--shop">
-									<li><a href="">Accessories (5)</a></li>
-									<li><a href="">Arts & Photography (10)</a></li>
-									<li><a href="">Biographies (16)</a></li>
-									<li><a href="">Business & Money (0)</a></li>
-									<li><a href="">Calendars (6)</a></li>
-									<li><a href="">Children's Books (9)</a></li>
-									<li><a href="">Comics (16)</a></li>
-									<li><a href="">Cookbooks (7)</a></li>
-									<li><a href="">Education (3)</a></li>
-									<li><a href="">House Plants (6)</a></li>
-									<li><a href="">Indoor Living (9)</a></li>
-									<li><a href="">Perfomance Filters (5)</a></li>
-									<li><a href="">Shop (16)</a>
-									</li>
-								</ul>
-							</div> -->
-							<!-- Price -->
-							<!-- <div class="single-block">
-								<h3 class="sidebar-title">Fillter By Price</h3>
-								<div class="range-slider pt--30">
-									<div class="sb-range-slider"></div>
-									<div class="slider-price">
-										<p>
-											<input type="text" id="amount" readonly="">
-										</p>
-									</div>
-								</div>
-							</div> -->
-							<!-- Size -->
-							<!-- <div class="single-block">
-								<h3 class="sidebar-title">Manufacturer</h3>
-								<ul class="sidebar-menu--shop menu-type-2">
-									<li><a href="">Christian Dior <span>(5)</span></a></li>
-									<li><a href="">Diesel <span>(8)</span></a></li>
-									<li><a href="">Ferragamo <span>(11)</span></a></li>
-									<li><a href="">Hermes <span>(14)</span></a></li>
-									<li><a href="">Louis Vuitton <span>(12)</span></a></li>
-									<li><a href="">Tommy Hilfiger <span>(0)</span></a></li>
-									<li><a href="">Versace <span>(0)</span></a></li>
-								</ul>
-							</div>
-							 Color
-							<div class="single-block">
-								<h3 class="sidebar-title">Select By Color</h3>
-								<ul class="sidebar-menu--shop menu-type-2">
-									<li><a href="">Black <span>(5)</span></a></li>
-									<li><a href="">Blue <span>(6)</span></a></li>
-									<li><a href="">Brown <span>(4)</span></a></li>
-									<li><a href="">Green <span>(7)</span></a></li>
-									<li><a href="">Pink <span>(6)</span></a></li>
-									<li><a href="">Red <span>(5)</span></a></li>
-									<li><a href="">White <span>(8)</span></a></li>
-									<li><a href="">Yellow <span>(11)</span> </a></li>
-								</ul>
-							</div>
-							 Promotion Block
-							<div class="single-block">
-								<a href="" class="promo-image sidebar">
-									<img src="image/others/home-side-promo.jpg" alt="">
-								</a>
-							</div> -->
+
 						</div>
 					</div>
 				</div>
@@ -1565,9 +663,55 @@
 		</div>
 	</footer>
 	<!-- Use Minified Plugins Version For Fast Page Load -->
-	<script src="js/plugins.js"></script>
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!-- <script src="js/plugins.js"></script>
 	<script src="js/ajax-mail.js"></script>
-	<script src="js/custom.js"></script>
+	<script src="js/custom.js"></script> -->
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".addItemButton").click(function(e){
+				e.preventDefault();
+				var  $form = $(this).closest(".form-submit");
+				var pid = $form.find(".pid").val();
+				var p_name = $form.find(".p_name").val();
+				var p_price = $form.find(".p_price").val();
+				var p_image = $form.find(".p_image").val();
+				var p_code = $form.find(".p_code").val();
+				$.ajax({
+					url: 'action.php',
+					method: 'post',
+					data: {pid:pid,p_name:p_name,p_price:p_price,p_image:p_image,p_code:p_code},
+					success:function(response){
+						$("#message").html(response);
+
+						load_cart_item_number();
+					}
+				});
+			});
+
+			load_cart_item_number();
+
+			function load_cart_item_number(){
+				$.ajax({
+					url :'action.php',
+					method:'get',
+					data: {cartItem:"cart_item"},
+					success:function(response){
+						$("#cart-item").html(response);
+					}
+				});
+			}
+		});
+	</script>
 </body>
 
 </html>
+
