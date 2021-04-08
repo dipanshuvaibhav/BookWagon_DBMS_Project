@@ -44,12 +44,12 @@ session_start();
  }
  if(isset($_GET['remove'])){
    $id = $_GET['remove'];
-   $stmt= $conn->prepare("DELETE * FROM heroku_adaaf59afa8e08a.cart WHERE c_id=?;");
+   $stmt= $conn->prepare("DELETE  FROM heroku_adaaf59afa8e08a.cart WHERE c_id=?");
    $stmt->bind_param("i",$id);
    $stmt->execute();
 
    $_SESSION['showAlert']='block';
    $_SESSION['message']='Item removed from the cart!';
-   echo "<script>window.location='cart.php';</script>";
+   echo "<script type='text/javascript'>window.location='cart.php';</script>";
  }
 ?>
