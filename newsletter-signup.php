@@ -13,7 +13,7 @@ $dbc= mysqli_connect($host,$user,$password, $dbase)
 or die("Unable to select database"); 
  
  
-$query= "INSERT INTO $table  ". "VALUES ('$email')"; 
+$query= "INSERT INTO heroku_adaaf59afa8e08a.email_list (EMAIL) VALUES ('$email')"; 
  
 mysqli_query ($dbc, $query) 
 or die ("Error querying database"); 

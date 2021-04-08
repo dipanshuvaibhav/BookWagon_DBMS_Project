@@ -1859,9 +1859,9 @@ session_start();
                         <h3>Newsletter Subscribe</h3>
                     </div>
                     <div class="newsletter-form mb--30">
-                        <form action="newsletter-signup.php">
-                            <input type="email" class="form-control" placeholder="Enter Your Email Address Here...">
-                            <button type="submit" class="btn btn--primary w-100">Subscribe</button>
+                        <form action="newsletter-signup.php" method="post">
+                            <input type="email" name="email" class="form-control" placeholder="Enter Your Email Address Here...">
+                            <button type="submit" name="submit" class="btn btn--primary w-100">Subscribe</button>
                         </form>
                     </div>
                     <div class="social-block">
