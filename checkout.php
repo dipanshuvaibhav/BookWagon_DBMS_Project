@@ -1,6 +1,23 @@
 <?php
 session_start();
 ?>
+<?php
+require 'config.php';
+
+$grand_total =0;
+$allItems='';
+$items = array();
+
+$sql = "SELECT CONCAT(p_name, '(',c_qty,')') AS ItemQty , tot_price FROM heroku_adaaf59afa8e08a.cart";
+$stmt = $conn->prepare($sql);
+$stmt->execute();
+$result= $stmt->get_result();
+while($row = $result->fetch_assoc()){
+  $grand_total +=$row['tot_price'];
+  $items[]=$row['ItemQty'];
+}
+$allItems = implode(", ",$items);
+?>
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -605,6 +622,23 @@ session_start();
 	<script src="js/plugins.js"></script>
 	<script src="js/ajax-mail.js"></script>
 	<script src="js/custom.js"></script>
+  <script type="text/javascript">
+		$(document).ready(function(){
+
+			load_cart_item_number();
+
+			function load_cart_item_number(){
+				$.ajax({
+					url :'action.php',
+					method:'get',
+					data: {cartItem:"cart_item"},
+					success:function(response){
+						$("#cart-item").html(response);
+					}
+				});
+			}
+		});
+    </script>
 </body>
 
 </html>
