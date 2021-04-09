@@ -12,7 +12,7 @@ $conn = mysqli_connect($servername,$dbUsername,$dbpwd,$dbName);
 
 mysqli_select_db($con,'heroku_adaaf59afa8e08a');
 
-$password = $_POST['login-password'];
+// $password = $_POST['login-password'];
 $email = $_POST['email1'];
 $password = $_POST['password'];
 
