@@ -94,37 +94,26 @@ session_start();
 				<div class="header-bottom">
 						<div class="container">
 								<div class="row align-items-center">
-										<div class="col-lg-3">
-												<div class="header-phone ">
-														<div class="icon">
-																<i class="fas fa-headphones-alt"></i>
-														</div>
-														<div class="text">
-																<p>Free Support 24/7</p>
-																<p class="font-weight-bold number">+01-202-555-0181</p>
-														</div>
-												</div>
-										</div>
 										<div class="col-lg-6">
 											<div class="main-navigation flex-lg-right">
 													<ul class="main-menu menu-right li-last-0">
 															<li class="menu-item ">
-																					<a href="index.php">Home</a>
+																<a href="index.php">Home</a>
 															</li>
 															<!-- Shop -->
 															<li class="menu-item  mega-menu">
-																								<a href="shop-grid-left-sidebar.php">shop </a>
-																										</li>
+																<a href="shop-grid-left-sidebar.php">shop </a>
+															</li>
 															<!-- Pages -->
 															<li class="menu-item has-children">
-																	<a href="faq.php">FAQ </a>
+																<a href="faq.php">FAQ </a>
 															</li>
 															<!-- Blog -->
 															<li class="menu-item mega-menu">
-																	<a href="blog-list.php">Blog </a>
+																<a href="blog-list.php">Blog </a>
 															</li>
 															<li class="menu-item">
-																	<a href="contact.php">Contact</a>
+																<a href="contact.php">Contact</a>
 															</li>
 													</ul>
 											</div>
@@ -156,24 +145,22 @@ session_start();
 									<div class="main-navigation flex-lg-right">
 											<ul class="main-menu menu-right li-last-0">
 													<li class="menu-item ">
-															
-																			<a href="index.php">Home</a>
+														<a href="index.php">Home</a>
 													</li>
 													<!-- Shop -->
 													<li class="menu-item  mega-menu">
-																						<a href="shop-grid-left-sidebar.php">shop </a>	
-																				</li>
+														<a href="shop-grid-left-sidebar.php">shop </a>	
+													</li>
 													<!-- Pages -->
 													<li class="menu-item has-children">
-															<a href="faq.php">FAQ</a>
+														<a href="faq.php">FAQ</a>
 													</li>
 													<!-- Blog -->
 													<li class="menu-item mega-menu">
-															<a href="blog-list.php">Blog </a>
-															
+														<a href="blog-list.php">Blog </a>		
 													</li>
 													<li class="menu-item">
-															<a href="contact.php">Contact</a>
+														<a href="contact.php">Contact</a>
 													</li>
 											</ul>
 									</div>
@@ -210,7 +197,6 @@ session_start();
 					<div class="col-lg-6 col-12">
 						<!--FAQ (Accordion) Start-->
 						<div class="accordion" id="gq-faqs-1">
-
 							<!--Cart Start-->
 							<div class="card">
 								<div class="card-header">
@@ -314,8 +300,7 @@ session_start();
 												<img src="image/Logo1.png" alt="">
 										</div>
 										<div class="footer-contact">
-												<p><span class="label">Address:</span><span class="text">Sg Palya ,Hosur Road,karnataka,Bangalore
-																 India</span></p>
+												<p><span class="label">Address:</span><span class="text">Sg Palya ,Hosur Road,karnataka,Bangalore, India</span></p>
 												<p><span class="label">Phone:</span><span class="text">9887456215</span></p>
 												<p><span class="label">Email:</span><span class="text">suport@bookswagon.com</span></p>
 										</div>
@@ -327,7 +312,7 @@ session_start();
 												<h3>Information</h3>
 										</div>
 										<ul class="footer-list normal-list">
-												<li><a href="">Contact us</a></li>
+												<li><a href="contact.php">Contact us</a></li>
 												<li><a href="">Sitemap</a></li>
 										</ul>
 								</div>
@@ -385,5 +370,4 @@ session_start();
 	<script src="js/ajax-mail.js"></script>
 	<script src="js/custom.js"></script>
 </body>
-
 </html>
