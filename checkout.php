@@ -183,61 +183,13 @@ $allItems = implode(", ",$items);
                               <!-- <a href="javascript:void(0)">Home <i
                                       class="fas fa-chevron-down dropdown-arrow"></i></a> -->
                                       <a href="index.php">Home</a><!--changes have been made here-->
-                              <!-- <ul class="sub-menu">
-                                  <li> <a href="index.php">Home One</a></li>
-                                  <li> <a href="index-2.php">Home Two</a></li>
-                                  <li> <a href="index-3.php">Home Three</a></li>
-                                  <li> <a href="index.php">Home Four</a></li>
-                                  <li> <a href="index-5.php">Home Five</a></li>
-                              </ul> -->
+
                           </li>
                           <!-- Shop -->
                           <li class="menu-item  mega-menu">
                                             <a href="shop-grid-left-sidebar.php">shop </a>
-                                            <!-- <ul class="sub-menu four-column">
-                                                <li class="cus-col-25">
-                                                    <h3 class="menu-title"><a href="javascript:void(0)">Shop</a></h3>
-                                                    <ul class="mega-single-block">
-                                                        <li><a href="shop-grid.php">Fullwidth</a></li>
-                                                        <li><a href="shop-grid-left-sidebar.php">Shop</a></li>
-                                                        <li><a href="shop-grid-right-sidebar.php">Right Sidebar</a></li>
-                                                    </ul> -->
-                                                </li>
-                                                <!-- <li class="cus-col-25">
-                                                    <h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
-                                                    <ul class="mega-single-block">
-                                                        <li><a href="shop-list.php">Fullwidth</a></li>
-                                                        <li><a href="shop-list-left-sidebar.php">List</a></li>
-                                                      <li><a href="shop-list-right-sidebar.php">Right Sidebar</a></li>
-                                                    </ul>
-                                                </li>-->
-                                                <!-- <li class="cus-col-25">
-                                                    <h3 class="menu-title"> <a href="javascript:void(0)">Product Details
-                                                            </a></h3>
-                                                    <ul class="mega-single-block">
-                                                        <li><a href="product-details.php">Product Details Page</a></li>
-                                                        <li><a href="product-details-affiliate.php">Product Details
-                                                                Affiliate</a></li>
-                                                        <li><a href="product-details-group.php">Product Details Group</a>
-                                                        </li>
-                                                        <li><a href="product-details-variable.php">Product Details
-                                                                Variables</a></li>
-                                                    </ul>
-                                                </li> -->
-                                                <!-- <li class="cus-col-25">
-                                                    <h3 class="menu-title"><a href="javascript:void(0)">Product Details
-                                                            2</a></h3>
-                                                    <ul class="mega-single-block">
-                                                        <li><a href="product-details-left-thumbnail.php">Thumbnail</a>
-                                                        </li> -->
-                                                        <!-- <li><a href="product-details-right-thumbnail.php">Right Thumbnail</a></li> -->
-                                                        <!-- <li><a href="product-details-left-gallery.php">Gallery</a>
-                                                        </li> -->
-                                                        <!-- <li><a href="product-details-right-gallery.php">Right Gallery</a>
-                                                        </li> -->
-                                                    <!-- </ul>
-                                                </li> -->
 
+                                                </li>
                                         </li>
                           <!-- Pages -->
                           <li class="menu-item has-children">
@@ -259,35 +211,6 @@ $allItems = implode(", ",$items);
                           <!-- Blog -->
                           <li class="menu-item mega-menu">
                               <a href="blog-list.php">Blog </a>
-                              <!-- <ul class="sub-menu three-column">
-                                  <li class="cus-col-33">
-                                      <h3 class="menu-title"><a href="javascript:void(0)">Blog Grid</a></h3>
-                                      <ul class="mega-single-block">
-                                          <li><a href="blog.php">Full Widh (Default)</a></li>
-                                          <li><a href="blog-left-sidebar.php">left Sidebar</a></li>
-                                          <li><a href="blog-right-sidebar.php">Right Sidebar</a></li>
-                                      </ul>
-                                  </li>
-                                  <li class="cus-col-33">
-                                      <h3 class="menu-title"><a href="javascript:void(0)">Blog List </a></h3>
-                                      <ul class="mega-single-block">
-                                          <li><a href="blog-list.php">Full Widh (Default)</a></li>
-                                          <li><a href="blog-list-left-sidebar.php">left Sidebar</a></li>
-                                          <li><a href="blog-list-right-sidebar.php">Right Sidebar</a></li>
-                                      </ul>
-                                  </li>
-                                  <li class="cus-col-33">
-                                      <h3 class="menu-title"><a href="javascript:void(0)">Blog Details</a>
-                                      </h3>
-                                      <ul class="mega-single-block">
-                                          <li><a href="blog-details.php">Image Format (Default)</a></li>
-                                          <li><a href="blog-details-gallery.php">Gallery</a></li>
-                                          <li><a href="blog-details-audio.php">Audio Format</a></li>
-                                          <li><a href="blog-details-video.php">Video Format</a></li>
-                                          <li><a href="blog-details-left-sidebar.php">Blog</a></li>
-                                      </ul>
-                                  </li>
-                              </ul> -->
                           </li>
                           <li class="menu-item">
                               <a href="contact.php">Contact</a>
@@ -427,9 +350,11 @@ $allItems = implode(", ",$items);
 									</div>
 									<!-- Shipping Address -->
 									<div id="shipping-form" class="mb--40">
+
 										<h4 class="checkout-title">Shipping Address</h4>
 										<div class="row">
-											<div class="col-md-6 col-12 mb--20">
+                      <form class="" action="" method="post" id="placeOrder">
+                      <div class="col-md-6 col-12 mb--20">
 												<label>First Name*</label>
 												<input type="text" placeholder="First Name">
 											</div>
@@ -446,13 +371,8 @@ $allItems = implode(", ",$items);
 												<input type="text" placeholder="Phone number">
 											</div>
 											<div class="col-12 mb--20">
-												<label>Company Name</label>
-												<input type="text" placeholder="Company Name">
-											</div>
-											<div class="col-12 mb--20">
 												<label>Address*</label>
 												<input type="text" placeholder="Address line 1">
-												<input type="text" placeholder="Address line 2">
 											</div>
 											<div class="col-md-6 col-12 mb--20">
 												<label>Country*</label>
@@ -476,12 +396,8 @@ $allItems = implode(", ",$items);
 												<label>Zip Code*</label>
 												<input type="text" placeholder="Zip Code">
 											</div>
+                      </form>
 										</div>
-									</div>
-									<div class="order-note-block mt--30">
-										<label for="order-note">Order notes</label>
-										<textarea id="order-note" cols="30" rows="10" class="order-note"
-											placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
 									</div>
 								</div>
 								<div class="col-lg-5">
