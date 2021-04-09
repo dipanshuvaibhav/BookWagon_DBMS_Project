@@ -34,7 +34,7 @@ if($num==1){
   while($row = mysqli_fetch_assoc($result)){
   $_SESSION['id']=$row['customerID'];
   $_SESSION['name'] = $row['cust_name'];
-  $_SESSION['email'] = $row['cust_mail'];
+  $_SESSION['email'] = $row['cust_email'];
 }
 
 }else{
