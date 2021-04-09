@@ -281,6 +281,8 @@ $allItems = implode(", ",$items);
 											</div>
 										</form>
 									</div>
+<!-- added an extra div -->
+                  <div>
                   <div class="col-lg-5">
                    <div class="row">
                      <!-- Cart Total -->
@@ -329,6 +331,7 @@ $allItems = implode(", ",$items);
 
 
 								</div>
+              </div>
 
 							</div>
 						</div>
@@ -430,6 +433,17 @@ $allItems = implode(", ",$items);
 	<script src="js/custom.js"></script>
   <script type="text/javascript">
 		$(document).ready(function(){
+      $("#placeOrder").submit(function(e){
+        e.preventDefault();
+        $.ajax({
+          url:'action.php',
+          method:'post',
+          data: $('form').serialize()+"&action=order",
+          success:function(response){
+            $("#order").html(response);
+          }
+        });
+      });
 
 			load_cart_item_number();
 
