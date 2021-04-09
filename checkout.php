@@ -282,7 +282,7 @@ $allItems = implode(", ",$items);
 										</form>
 									</div>
 <!-- added an extra div -->
-                  <div>
+                  <div id="order">
                   <div class="col-lg-5">
                    <div class="row">
                      <!-- Cart Total -->
@@ -324,7 +324,7 @@ $allItems = implode(", ",$items);
 												<label>Address*</label>
 												<textarea class="form-control " name="address" rows="3" cols="10" required></textarea>
 											</div>
-                      <input class="btn btn--primary" type="submit" name="submit" value="Place Order">
+                      <input class="btn btn--primary w-100" type="submit" name="submit" value="Place Order">
                       </form>
 										</div>
 									</div>
