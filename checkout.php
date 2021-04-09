@@ -322,7 +322,7 @@ $allItems = implode(", ",$items);
 												<label>Address*</label>
 												<textarea class="form-control " name="address" rows="3" cols="10" required></textarea>
 											</div>
-                      <input type="submit" name="submit" value="Place Order">
+                      <input class="btn btn--primary" type="submit" name="submit" value="Place Order">
                       </form>
 										</div>
 									</div>
