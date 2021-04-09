@@ -287,10 +287,10 @@ $allItems = implode(", ",$items);
                      <div class="col-12">
                        <div class="checkout-cart-total">
                          <h2 class="checkout-title">YOUR ORDER</h2>
-                         <h4>Product <span><?= $allItems; ?></span></h4>
+                         <h4>Product(s):<span><?= $allItems; ?></span></h4>
 
 
-                         <h4>Grand Total <span><?= $gr; ?></span></h4>
+                         <h4>Grand Total <span><?= $grand_total; ?></span></h4>
 
 
                        </div>
