@@ -1,5 +1,5 @@
 <?php
-require('includes/db.php');
+require('includes/dbconnect.php');
 if(isset($_GET['page'])){
   $page=$_GET['page'];
 }
