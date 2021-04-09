@@ -281,9 +281,6 @@ $allItems = implode(", ",$items);
 											</div>
 										</form>
 									</div>
-									<!-- coupon code -->
-								<div class="col-lg-7 mb--20">
-									<!-- Billing Address -->
                   <div class="col-lg-5">
                    <div class="row">
                      <!-- Cart Total -->
@@ -293,14 +290,17 @@ $allItems = implode(", ",$items);
                          <h4>Product <span><?= $allItems; ?></span></h4>
 
 
-                         <h4>Grand Total <span><?= $grand_total; ?></span></h4>
+                         <h4>Grand Total <span><?= $gr; ?></span></h4>
 
 
-                           </div>
-                         </div>
                        </div>
                      </div>
-									<div  class="mb-40">
+                   </div>
+                 </div>
+									<!-- coupon code -->
+								<div class="col-lg-7 mb--20">
+									<!-- Billing Address -->
+									<div id="billing-form" class="mb-40">
 										<h4 class="checkout-title">Billing Address</h4>
 										<div class="row">
                       <form  action="" method="post" id="placeOrder">
@@ -322,8 +322,7 @@ $allItems = implode(", ",$items);
 												<label>Address*</label>
 												<textarea class="form-control " name="address" rows="3" cols="10" required></textarea>
 											</div>
-
-                         <input class="btn btn--primary" type="submit" name="submit" value="Place Order">
+                      <input type="submit" name="submit" value="Place Order">
                       </form>
 										</div>
 									</div>
