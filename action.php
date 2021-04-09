@@ -64,4 +64,30 @@ session_start();
     $stmt->execute();
 
  }
+ if(isset($_POST['action']) && isset($_POST['action']) == 'order'){
+   $name = $_POST['name'];
+   $email = $_POST['email'];
+   $phone = $_POST['phone'];
+   $products = $_POST['products'];
+   $grand_total = $_POST['$grand_total'];
+   $address = $_POST['address'];
+   $pmode = 'Online payment';
+
+   $data = '';
+   $stmt = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.order (o_name,o_email,o_phone,o_address,o_pmode,o_products,o_amt_paid) VALUES (?,?,?,?,?,?,?) ");
+   $stmt->bind_param(sssssss,$name,$email,$phone,$address,$pmode,$products,$grand_total);
+   $stmt->execute();
+   $data .='<div class="text-center">
+              <h1 class="display-4 mt-2 ">Thank you!</h1>
+              <h2 class="text-success">Your Order has been placed successfully!</h2>
+              <h4>Items purchased : '.$products.'</h4>
+              <h4>Your name : '.$name.'</h4>
+              <h4>Your Phone : '.$phone.'</h4>
+              <h4>Total amount Paid : '.number_format($grand_total,0).'</h4>
+              <h4>Payment Mode : '.$pmode.'</h4>
+            </div>';
+
+  echo $data;
+
+ }
 ?>
