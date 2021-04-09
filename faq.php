@@ -93,7 +93,7 @@ session_start();
 				</div>
 				<div class="header-bottom">
 						<div class="container">
-								<div class="row align-items-center">
+								<div class="row align-items-left">
 										<div class="col-lg-6">
 											<div class="main-navigation flex-lg-right">
 													<ul class="main-menu menu-right li-last-0">
