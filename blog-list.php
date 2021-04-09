@@ -1,6 +1,7 @@
 <?php
 session_start();
 ?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -390,6 +391,14 @@ session_start();
 		<section class="inner-page-sec-padding-bottom">
 			<div class="container">
 				<div class="blog-list-cards">
+				<?php
+								include 'config.php';
+
+								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.posts;');
+								$stmt->execute();
+								$result = $stmt->get_result();
+								while($row = $result->fetch_assoc()):
+				?>
 					<div class="blog-card card-style-list">
 						<div class="row">
 							<div class="col-md-5">
@@ -399,85 +408,20 @@ session_start();
 							</div>
 							<div class="col-md-6">
 								<div class="card-content">
-									<h3 class="title"><a href="blog-details.php">Blog 1 title</a></h3>
-									<p class="post-meta"><span>13/08/2017 </span> | <a href="#">Hastech</a></p>
+									<h3 class="title"><a href="blog-details.php"><?= $row['title']; ?></a></h3>
+									<p class="post-meta"><span><?= $row['created_at'];?> </span> | <a href="#">Hastech</a></p>
 									<article>
 										<h2 class="sr-only">
 											Blog Article
 										</h2>
-										<p>Sample sample sample</p>
+										<p><?= $row['content']; ?></p>
 										<a href="blog-details.php" class="blog-link">Read More</a>
 									</article>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="blog-card card-style-list">
-						<div class="row">
-							<div class="col-md-5">
-								<a href="blog-details.php" class="image d-block">
-									<img src="image/others/blog-grid-4.jpg" alt="">
-								</a>
-							</div>
-							<div class="col-md-5">
-								<div class="card-content">
-									<h3 class="title"><a href="blog-details.php">Blog 2 title</a></h3>
-									<p class="post-meta"><span>28/10/2017 </span> | <a href="#">Hastech</a></p>
-									<article>
-										<h2 class="sr-only">
-											Blog Article
-										</h2>
-										<p>Sample sample sample</p>
-										<a href="blog-details.php" class="blog-link">Read More</a>
-									</article>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="blog-card card-style-list">
-						<div class="row">
-							<div class="col-md-5">
-								<a href="blog-details.php" class="image d-block">
-									<img src="image/others/blog-grid-1.jpg" alt="">
-								</a>
-							</div>
-							<div class="col-md-5">
-								<div class="card-content">
-									<h3 class="title"><a href="blog-details.php">Blog 3 title</a></h3>
-									<p class="post-meta"><span>30/10/2017 </span> | <a href="#">Hastech</a></p>
-									<article>
-										<h2 class="sr-only">
-											Blog Article
-										</h2>
-										<p>Sample sample sample</p>
-										<a href="blog-details.php" class="blog-link">Read More</a>
-									</article>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="blog-card card-style-list">
-						<div class="row">
-							<div class="col-md-5">
-								<a href="blog-details.php" class="image d-block">
-									<img src="image/others/blog-grid-2.jpg" alt="">
-								</a>
-							</div>
-							<div class="col-md-5">
-								<div class="card-content">
-									<h3 class="title"><a href="blog-details.php">Blog 4 title</a></h3>
-									<p class="post-meta"><span>22/01/2017 </span> | <a href="#">Hastech</a></p>
-									<article>
-										<h2 class="sr-only">
-											Blog Article
-										</h2>
-										<p>Sample sample sample</p>
-										<a href="blog-details.php" class="blog-link">Read More</a>
-									</article>
-								</div>
-							</div>
-						</div>
-					</div>
+					<?php endwhile;?>
 				</div>
 			</div>
 		</section>
