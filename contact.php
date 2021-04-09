@@ -323,9 +323,7 @@ session_start();
                         <h3>Extras</h3>
                     </div>
                     <ul class="footer-list normal-list">
-                        <!-- <li><a href="">Delivery</a></li> -->
                         <li><a href="">About Us</a></li>
-                        <!-- <li><a href="">Stores</a></li> -->
                         <li><a href="">Contact us</a></li>
                         <li><a href="">Sitemap</a></li>
                     </ul>
