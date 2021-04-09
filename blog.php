@@ -1,5 +1,6 @@
 <?php
 require 'dbconnect.php';
+require 'post.php';
 if(isset($_GET['page'])){
   $page=$_GET['page'];
 }
