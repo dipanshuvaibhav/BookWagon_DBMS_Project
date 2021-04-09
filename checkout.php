@@ -4,7 +4,7 @@ session_start();
 <?php
 require 'config.php';
 
-$grand_total =0;
+$grand_total = 50;
 $allItems='';
 $items = array();
 
@@ -354,14 +354,13 @@ $allItems = implode(", ",$items);
 										<h4 class="checkout-title">Shipping Address</h4>
 										<div class="row">
                       <form class="" action="" method="post" id="placeOrder">
+                        <input type="hidden" name="products" value="<?php $allItems; ?>">
+                        <input type="hidden" name="products" value="<?php $grand_total; ?>">
                       <div class="col-md-6 col-12 mb--20">
-												<label>First Name*</label>
+												<label>Name*</label>
 												<input type="text" placeholder="First Name">
 											</div>
-											<div class="col-md-6 col-12 mb--20">
-												<label>Last Name*</label>
-												<input type="text" placeholder="Last Name">
-											</div>
+
 											<div class="col-md-6 col-12 mb--20">
 												<label>Email Address*</label>
 												<input type="email" placeholder="Email Address">
@@ -372,30 +371,9 @@ $allItems = implode(", ",$items);
 											</div>
 											<div class="col-12 mb--20">
 												<label>Address*</label>
-												<input type="text" placeholder="Address line 1">
+												<textarea name="address" rows="3" cols="10" placeholder="Enter your address here..."></textarea>
 											</div>
-											<div class="col-md-6 col-12 mb--20">
-												<label>Country*</label>
-												<select class="nice-select">
-													<option>Bangladesh</option>
-													<option>China</option>
-													<option>country</option>
-													<option>India</option>
-													<option>Japan</option>
-												</select>
-											</div>
-											<div class="col-md-6 col-12 mb--20">
-												<label>Town/City*</label>
-												<input type="text" placeholder="Town/City">
-											</div>
-											<div class="col-md-6 col-12 mb--20">
-												<label>State*</label>
-												<input type="text" placeholder="State">
-											</div>
-											<div class="col-md-6 col-12 mb--20">
-												<label>Zip Code*</label>
-												<input type="text" placeholder="Zip Code">
-											</div>
+
                       </form>
 										</div>
 									</div>
