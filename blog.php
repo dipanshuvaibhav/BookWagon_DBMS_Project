@@ -1,5 +1,5 @@
 <?php
-require 'includes/dbconnect.php';
+require 'dbconnect.php';
 if(isset($_GET['page'])){
   $page=$_GET['page'];
 }
@@ -20,7 +20,7 @@ $result=($page-1)*$post_per_page;
     <title>Blog</title>
 </head>
 <body>
-    <?php include_once ('includes/navbar.php'); ?> 
+    <?php include_once ('navbar.php'); ?> 
 <div>
     <div class="container m-auto mt-3 row">
         <div class="col-8">
@@ -63,7 +63,7 @@ $result=($page-1)*$post_per_page;
 
         
     </div>
-    <?php include_once ('includes/sidebar.php');?>
+    <?php include_once ('sidebar.php');?>
     </div>
 <?php
 if(isset($_GET['search'])){
@@ -112,7 +112,7 @@ $total_pages=ceil($total_posts/$post_per_page);
       </nav>
       
       
-      <?php include_once ('includes/footer.php'); ?>
+      <?php include_once ('footer.php'); ?>
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>    
 </body>
