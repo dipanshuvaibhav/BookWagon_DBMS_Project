@@ -17,157 +17,142 @@ session_start();
 
 <body>
     <div class="site-wrapper" id="top">
-		<div class="site-header header-4 mb--20 d-none d-lg-block">
-				<div class="header-middle pt--10 pb--10">
-						<div class="container">
-								<div class="row align-items-center">
-										<div class="col-lg-3">
-												<a href="index.php" class="site-brand">
-														<img src="image/Logo1.png" alt="">
-												</a>
-										</div>
-										<div class="col-lg-5">
-												<div class="header-search-block">
-														<input type="text" placeholder="Search entire store here">
-														<button>Search</button>
-												</div>
-										</div>
-										<div class="col-lg-4">
-												<div class="main-navigation flex-lg-right">
-														<div class="cart-widget">
-															<!-- login block -->
-																<div class="login-block">
-																	<?php
-																		if(isset($_SESSION['id'])){
-																		echo  "<p class='font-weight-bold'>Welcome,".$_SESSION['name']."</p>";
-																		} else {
-																		echo '<a href="login-register.php" class="font-weight-bold">Login</a> <br>
-																		<span>or</span><a href="login-register.php">Register</a>';
-																		}
-																		?>
-																</div>
-																<div class="cart-block">
-																		<div class="cart-total">
-																				<span class="text-number">
-																						1
-																				</span>
-																				<span class="text-item">
-																						Shopping Cart
-																				</span>
-																				<span class="price">
-																						£0.00
-																						<i class="fas fa-chevron-down"></i>
-																				</span>
-																		</div>
-																		<div class="cart-dropdown-block">
-																				<div class=" single-cart-block ">
-																						<div class="cart-product">
-																								<a href="product-details.php" class="image">
-																										<img src="image/products/cart-product-1.jpg" alt="">
-																								</a>
-																								<div class="content">
-																										<h3 class="title"><a href="product-details.php">Kodak PIXPRO
-																														Astro Zoom AZ421 16 MP</a>
-																										</h3>
-																										<p class="price"><span class="qty">1 ×</span> £87.34</p>
-																										<button class="cross-btn"><i class="fas fa-times"></i></button>
-																								</div>
-																						</div>
-																				</div>
-																				<div class=" single-cart-block ">
-																						<div class="btn-block">
-																								<a href="cart.php" class="btn">View Cart <i
-																												class="fas fa-chevron-right"></i></a>
-																								<a href="checkout.php" class="btn btn--primary">Check Out <i
-																												class="fas fa-chevron-right"></i></a>
-																						</div>
-																				</div>
-																		</div>
-																</div>
-														</div>
-												</div>
-										</div>
+      <div class="site-header header-4 mb--20 d-none d-lg-block">
+  				<div class="header-middle pt--10 pb--10">
+  						<div class="container">
+  								<div class="row align-items-center">
+  										<div class="col-lg-3">
+  												<a href="index.php" class="site-brand">
+  														<img src="image/Logo1.png" alt="">
+  												</a>
+  										</div>
+  										<div class="col-lg-5">
+  												<div class="header-search-block">
+  														<input type="text" placeholder="Search entire store here">
+  														<button>Search</button>
+  												</div>
+  										</div>
+  										<div class="col-lg-4">
+  												<div class="main-navigation flex-lg-right">
+  														<div class="cart-widget">
+  															<!-- login block -->
+  																<div class="login-block">
+  																	<?php
+  																		if(isset($_SESSION['id'])){
+  																		echo  "<p class='font-weight-bold'>Welcome,".$_SESSION['name']."</p>";
+  																		} else {
+  																		echo '<a href="login-register.php" class="font-weight-bold">Login</a> <br>
+  																		<span>or</span><a href="login-register.php">Register</a>';
+  																		}
+  																		?>
+  																</div>
+  																<!-- shopping cart logo  -->
+  																<div class="cart-block">
+  																		<div class="cart-total">
+  																				<span class="text-number" id="cart-item">
+  																				</span>
+  																				<span class="text-item">
+  																						Shopping Cart
+  																				</span>
 
-								</div>
-						</div>
-				</div>
-				<div class="header-bottom">
-						<div class="container">
-								<div class="row align-items-right">
-										<div class="col-lg-6">
-											<div class="main-navigation flex-lg-right">
-													<ul class="main-menu menu-right li-last-0">
-															<li class="menu-item ">
-																<a href="index.php">Home</a>
-															</li>
-															<!-- Shop -->
-															<li class="menu-item  mega-menu">
-																<a href="shop-grid-left-sidebar.php">shop </a>
-															</li>
-															<!-- Pages -->
-															<li class="menu-item has-children">
-																<a href="faq.php">FAQ </a>
-															</li>
-															<!-- Blog -->
-															<li class="menu-item mega-menu">
-																<a href="blog-list.php">Blog </a>
-															</li>
-															<li class="menu-item">
-																<a href="contact.php">Contact</a>
-															</li>
-													</ul>
-											</div>
-										</div>
-										<!-- logout button -->
-										<div class="login-block">
-											<?php
-											if(isset($_SESSION['id'])){
-											echo  '<a href="logout.php" class="btn btn--primary font-weight-bold">Logout</a>';
-											} else {
-											echo '<button type="button" action="" name="button" class="btn btn--primary" style="display:none;">Logout</button>';
-											}
-											?>
+  																		</div>
+  																		<div class="cart-dropdown-block">
 
-										</div>
-								</div>
-						</div>
-				</div>
-		</div>
-		<div class="sticky-init fixed-header common-sticky">
-				<div class="container d-none d-lg-block">
-						<div class="row align-items-center">
-								<div class="col-lg-4">
-										<a href="index.php" class="site-brand">
-												<img src="image/Logo1.png" alt="">
-										</a>
-								</div>
-								<div class="col-lg-8">
-									<div class="main-navigation flex-lg-right">
-											<ul class="main-menu menu-right li-last-0">
-													<li class="menu-item ">
-														<a href="index.php">Home</a>
-													</li>
-													<!-- Shop -->
-													<li class="menu-item  mega-menu">
-														<a href="shop-grid-left-sidebar.php">shop </a>	
-													</li>
-													<!-- Pages -->
-													<li class="menu-item has-children">
-														<a href="faq.php">FAQ</a>
-													</li>
-													<!-- Blog -->
-													<li class="menu-item mega-menu">
-														<a href="blog-list.php">Blog </a>		
-													</li>
-													<li class="menu-item">
-														<a href="contact.php">Contact</a>
-													</li>
-											</ul>
-									</div>
-								</div>
-						</div>
-				</div>
-		</div>
+  																				<div class=" single-cart-block ">
+  																						<div class="btn-block">
+  																								<a href="cart.php" class="btn">View Cart <i
+  																												class="fas fa-chevron-right"></i></a>
+  																								<a href="checkout.php" class="btn btn--primary">Check Out <i
+  																												class="fas fa-chevron-right"></i></a>
+  																						</div>
+  																				</div>
+  																		</div>
+  																</div>
+  														</div>
+  												</div>
+  										</div>
+
+  								</div>
+  						</div>
+  				</div>
+          <div class="header-bottom">
+  						<div class="container">
+  								<div class="row align-items-right">
+  										<div class="col-lg-6">
+  											<div class="main-navigation flex-lg-right">
+  													<ul class="main-menu menu-right li-last-0">
+  															<li class="menu-item ">
+  																<a href="index.php">Home</a>
+  															</li>
+  															<!-- Shop -->
+  															<li class="menu-item  mega-menu">
+  																<a href="shop-grid-left-sidebar.php">shop </a>
+  															</li>
+  															<!-- Pages -->
+  															<li class="menu-item has-children">
+  																<a href="faq.php">FAQ </a>
+  															</li>
+  															<!-- Blog -->
+  															<li class="menu-item mega-menu">
+  																<a href="blog-list.php">Blog </a>
+  															</li>
+  															<li class="menu-item">
+  																<a href="contact.php">Contact</a>
+  															</li>
+  													</ul>
+  											</div>
+  										</div>
+  										<!-- logout button -->
+  										<div class="login-block">
+  											<?php
+  											if(isset($_SESSION['id'])){
+  											echo  '<a href="logout.php" class="btn btn--primary font-weight-bold">Logout</a>';
+  											} else {
+  											echo '<button type="button" action="" name="button" class="btn btn--primary" style="display:none;">Logout</button>';
+  											}
+  											?>
+
+  										</div>
+  								</div>
+  						</div>
+  				</div>
+  		</div>
+
+      <div class="sticky-init fixed-header common-sticky">
+  				<div class="container d-none d-lg-block">
+  						<div class="row align-items-center">
+  								<div class="col-lg-4">
+  										<a href="index.php" class="site-brand">
+  												<img src="image/Logo1.png" alt="">
+  										</a>
+  								</div>
+  								<div class="col-lg-8">
+  									<div class="main-navigation flex-lg-right">
+  											<ul class="main-menu menu-right li-last-0">
+  													<li class="menu-item ">
+  														<a href="index.php">Home</a>
+  													</li>
+  													<!-- Shop -->
+  													<li class="menu-item  mega-menu">
+  														<a href="shop-grid-left-sidebar.php">shop </a>
+  													</li>
+  													<!-- Pages -->
+  													<li class="menu-item has-children">
+  														<a href="faq.php">FAQ</a>
+  													</li>
+  													<!-- Blog -->
+  													<li class="menu-item mega-menu">
+  														<a href="blog-list.php">Blog </a>
+  													</li>
+  													<li class="menu-item">
+  														<a href="contact.php">Contact</a>
+  													</li>
+  											</ul>
+  									</div>
+  								</div>
+  						</div>
+  				</div>
+  		</div>
         <section class="breadcrumb-section">
             <h2 class="sr-only">Site Breadcrumb</h2>
             <div class="container">
@@ -386,6 +371,23 @@ session_start();
     <script src="js/ajax-mail.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2D8wrWMY3XZnuHO6C31uq90JiuaFzGws"></script>
     <script src="js/custom.js"></script>
+    <script type="text/javascript">
+  		$(document).ready(function(){
+
+  			load_cart_item_number();
+
+  			function load_cart_item_number(){
+  				$.ajax({
+  					url :'action.php',
+  					method:'get',
+  					data: {cartItem:"cart_item"},
+  					success:function(response){
+  						$("#cart-item").html(response);
+  					}
+  				});
+  			}
+  		});
+  	</script>
 </body>
 
 </html>

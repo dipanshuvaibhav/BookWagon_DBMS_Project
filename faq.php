@@ -46,34 +46,18 @@ session_start();
 																		}
 																		?>
 																</div>
+																<!-- shopping cart logo  -->
 																<div class="cart-block">
 																		<div class="cart-total">
-																				<span class="text-number">
-																						1
+																				<span class="text-number" id="cart-item">
 																				</span>
 																				<span class="text-item">
 																						Shopping Cart
 																				</span>
-																				<span class="price">
-																						£0.00
-																						<i class="fas fa-chevron-down"></i>
-																				</span>
+
 																		</div>
 																		<div class="cart-dropdown-block">
-																				<div class=" single-cart-block ">
-																						<div class="cart-product">
-																								<a href="product-details.php" class="image">
-																										<img src="image/products/cart-product-1.jpg" alt="">
-																								</a>
-																								<div class="content">
-																										<h3 class="title"><a href="product-details.php">Kodak PIXPRO
-																														Astro Zoom AZ421 16 MP</a>
-																										</h3>
-																										<p class="price"><span class="qty">1 ×</span> £87.34</p>
-																										<button class="cross-btn"><i class="fas fa-times"></i></button>
-																								</div>
-																						</div>
-																				</div>
+
 																				<div class=" single-cart-block ">
 																						<div class="btn-block">
 																								<a href="cart.php" class="btn">View Cart <i
@@ -91,7 +75,7 @@ session_start();
 								</div>
 						</div>
 				</div>
-				<div class="header-bottom">
+        <div class="header-bottom">
 						<div class="container">
 								<div class="row align-items-right">
 										<div class="col-lg-6">
@@ -133,7 +117,8 @@ session_start();
 						</div>
 				</div>
 		</div>
-		<div class="sticky-init fixed-header common-sticky">
+
+    <div class="sticky-init fixed-header common-sticky">
 				<div class="container d-none d-lg-block">
 						<div class="row align-items-center">
 								<div class="col-lg-4">
@@ -149,7 +134,7 @@ session_start();
 													</li>
 													<!-- Shop -->
 													<li class="menu-item  mega-menu">
-														<a href="shop-grid-left-sidebar.php">shop </a>	
+														<a href="shop-grid-left-sidebar.php">shop </a>
 													</li>
 													<!-- Pages -->
 													<li class="menu-item has-children">
@@ -157,7 +142,7 @@ session_start();
 													</li>
 													<!-- Blog -->
 													<li class="menu-item mega-menu">
-														<a href="blog-list.php">Blog </a>		
+														<a href="blog-list.php">Blog </a>
 													</li>
 													<li class="menu-item">
 														<a href="contact.php">Contact</a>
@@ -369,5 +354,23 @@ session_start();
 	<script src="js/plugins.js"></script>
 	<script src="js/ajax-mail.js"></script>
 	<script src="js/custom.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+
+			load_cart_item_number();
+
+			function load_cart_item_number(){
+				$.ajax({
+					url :'action.php',
+					method:'get',
+					data: {cartItem:"cart_item"},
+					success:function(response){
+						$("#cart-item").html(response);
+					}
+				});
+			}
+		});
+	</script>
 </body>
 </html>
