@@ -224,8 +224,7 @@ $allItems = implode(", ",$items);
 																the terms &amp; conditions</label>
 														</div>
 													</div>
-													<!-- <p><a href="javascript:" class="pass-lost mt-3">Lost your
-															password?</a></p> -->
+													
 												</div>
 											</div>
 										</form>
@@ -332,9 +331,9 @@ $allItems = implode(", ",$items);
                         <h3>Extras</h3>
                     </div>
                     <ul class="footer-list normal-list">
-                        <!-- <li><a href="">Delivery</a></li> -->
+                       
                         <li><a href="">About Us</a></li>
-                        <!-- <li><a href="">Stores</a></li> -->
+                        
                         <li><a href="contact.php">Contact us</a></li>
                         <li><a href="">Sitemap</a></li>
                     </ul>
@@ -376,10 +375,7 @@ $allItems = implode(", ",$items);
         </div>
     </div>
 </footer>
-	<!-- Use Minified Plugins Version For Fast Page Load -->
-	<!-- <script src="js/plugins.js"></script>
-	<script src="js/ajax-mail.js"></script>
-	<script src="js/custom.js"></script> -->
+	
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
