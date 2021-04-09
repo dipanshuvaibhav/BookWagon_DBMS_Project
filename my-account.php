@@ -214,46 +214,6 @@ session_start();
 									<div class="tab-pane fade" id="orders" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Orders</h3>
-											<div class="myaccount-table table-responsive text-center">
-												<table class="table table-bordered">
-													<thead class="thead-light">
-														<tr>
-															<th>No</th>
-															<th>Name</th>
-															<th>Date</th>
-															<th>Status</th>
-															<th>Total</th>
-															<th>Action</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td>1</td>
-															<td>Mostarizing Oil</td>
-															<td>Aug 22, 2018</td>
-															<td>Pending</td>
-															<td>$45</td>
-															<td><a href="cart.php" class="btn">View</a></td>
-														</tr>
-														<tr>
-															<td>2</td>
-															<td>Katopeno Altuni</td>
-															<td>July 22, 2018</td>
-															<td>Approved</td>
-															<td>$100</td>
-															<td><a href="cart.php" class="btn">View</a></td>
-														</tr>
-														<tr>
-															<td>3</td>
-															<td>Murikhete Paris</td>
-															<td>June 12, 2017</td>
-															<td>On Hold</td>
-															<td>$99</td>
-															<td><a href="cart.php" class="btn">View</a></td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
 										</div>
 									</div>
 									<!-- Single Tab Content End -->
@@ -261,32 +221,6 @@ session_start();
 									<div class="tab-pane fade" id="download" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Downloads</h3>
-											<div class="myaccount-table table-responsive text-center">
-												<table class="table table-bordered">
-													<thead class="thead-light">
-														<tr>
-															<th>Product</th>
-															<th>Date</th>
-															<th>Expire</th>
-															<th>Download</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td>Mostarizing Oil</td>
-															<td>Aug 22, 2018</td>
-															<td>Yes</td>
-															<td><a href="#" class="btn">Download File</a></td>
-														</tr>
-														<tr>
-															<td>Katopeno Altuni</td>
-															<td>Sep 12, 2018</td>
-															<td>Never</td>
-															<td><a href="#" class="btn">Download File</a></td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
 										</div>
 									</div>
 									<!-- Single Tab Content End -->
@@ -294,20 +228,13 @@ session_start();
 									<div class="tab-pane fade" id="payment-method" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Payment Method</h3>
-											<p class="saved-message">You Can't Saved Your Payment Method yet.</p>
-										</div>
+											</div>
 									</div>
 									<!-- Single Tab Content End -->
 									<!-- Single Tab Content Start -->
 									<div class="tab-pane fade" id="address-edit" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Billing Address</h3>
-											<address>
-												<p><strong>Alex Tuntuni</strong></p>
-												<p>1355 Market St, Suite 900 <br>
-													San Francisco, CA 94103</p>
-												<p>Mobile: (123) 456-7890</p>
-											</address>
 											<a href="#" class="btn btn--primary"><i class="fa fa-edit"></i>Edit
 												Address</a>
 										</div>
@@ -406,9 +333,7 @@ session_start();
 						<h3>Extras</h3>
 					</div>
 					<ul class="footer-list normal-list">
-						<!-- <li><a href="">Delivery</a></li> -->
 						<li><a href="">About Us</a></li>
-						<!-- <li><a href="">Stores</a></li> -->
 						<li><a href="">Contact us</a></li>
 						<li><a href="">Sitemap</a></li>
 					</ul>
