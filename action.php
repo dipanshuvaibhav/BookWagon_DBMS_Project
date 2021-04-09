@@ -74,10 +74,10 @@ session_start();
    $pmode = 'Online payment';
 
    $data = '';
-   $stmt = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.order (o_name,o_email,o_phone,o_address,o_pmode,o_products,o_amt_paid) VALUES (?,?,?,?,?,?,?) ");
+   $stmt = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.order(o_name,o_email,o_phone,o_address,o_pmode,o_products,o_amt_paid) VALUES (?,?,?,?,?,?,?)");
    $stmt->bind_param(sssssss,$name,$email,$phone,$address,$pmode,$products,$grand_total);
    $stmt->execute();
-   $data .='<div class="text-center">
+   $data .= '<div class="text-center">
               <h1 class="display-4 mt-2 ">Thank you!</h1>
               <h2 class="text-success">Your Order has been placed successfully!</h2>
               <h4>Items purchased : '.$products.'</h4>
