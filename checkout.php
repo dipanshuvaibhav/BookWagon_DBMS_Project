@@ -302,21 +302,21 @@ $allItems = implode(", ",$items);
 									<!-- coupon code -->
 								<div class="col-lg-7 mb--20">
 									<!-- Billing Address -->
-									<div id="billing-form" class="mb-40">
-										<h4 class="checkout-title">Billing Address</h4>
+									<div  class="mb-40">
+										<h4 class="checkout-title">Shipping Address</h4>
 										<div class="row">
                       <form  action="" method="post" id="placeOrder">
                         <input type="hidden" name="products" value="<?= $allItems; ?>">
                         <input type="hidden" name="$grand_total" value="<?= $grand_total; ?>">
-											<div class="col-md-6 col-12 mb--20">
+											<div class="col-12 mb--20">
 												<label>Name*</label>
 												<input type="text" name="name" placeholder="Name" required>
 											</div>
-											<div class="col-md-6 col-12 mb--20">
+											<div class="col-12 mb--20">
 												<label>Email Address*</label>
 												<input type="email" name="email" placeholder="Email Address" required>
 											</div>
-											<div class="col-md-6 col-12 mb--20">
+											<div class="col-12 mb--20">
 												<label>Phone no*</label>
 												<input type="text" name="phone" placeholder="Phone number" required>
 											</div>
