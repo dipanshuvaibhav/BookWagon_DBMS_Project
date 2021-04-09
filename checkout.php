@@ -490,7 +490,7 @@ $allItems = implode(", ",$items);
 										<div class="col-12">
 											<div class="checkout-cart-total">
 												<h2 class="checkout-title">YOUR ORDER</h2>
-												<h4>Product <span>Total</span></h4>
+												<h4>Product <span><?= $allItems; ?></span></h4>
 												<ul>
 													<li><span class="left">Cillum dolore tortor nisl X 01</span> <span
 															class="right">$25.00</span></li>
@@ -507,11 +507,7 @@ $allItems = implode(", ",$items);
 												<div class="method-notice mt--25">
 													<article>
 														<h3 class="d-none sr-only">blog-article</h3>
-														Sorry, it seems that there are no available payment methods for
-														your state. Please contact us if you
-														require
-														assistance
-														or wish to make alternate arrangements.
+
 													</article>
 												</div>
 												<div class="term-block">
