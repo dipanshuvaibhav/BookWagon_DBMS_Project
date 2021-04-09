@@ -292,89 +292,44 @@ $allItems = implode(", ",$items);
                         <input type="hidden" name="$grand_total" value="<?= $grand_total; ?>">
 											<div class="col-md-6 col-12 mb--20">
 												<label>Name*</label>
-												<input type="text" placeholder="Name">
+												<input type="text" name="name" placeholder="Name" required>
 											</div>
 											<div class="col-md-6 col-12 mb--20">
 												<label>Email Address*</label>
-												<input type="email" placeholder="Email Address">
+												<input type="email" name="email" placeholder="Email Address" required>
 											</div>
 											<div class="col-md-6 col-12 mb--20">
 												<label>Phone no*</label>
-												<input type="text" placeholder="Phone number">
+												<input type="text" name="phone" placeholder="Phone number" required>
 											</div>
 											<div class="col-12 mb--20">
 												<label>Address*</label>
-												<textarea name="name" rows="3" cols="10"></textarea>
+												<textarea class="form-control " name="address" rows="3" cols="10" required></textarea>
 											</div>
+                      <div class="col-lg-5">
+                       <div class="row">
+                         <!-- Cart Total -->
+                         <div class="col-12">
+                           <div class="checkout-cart-total">
+                             <h2 class="checkout-title">YOUR ORDER</h2>
+                             <h4>Product <span><?= $allItems; ?></span></h4>
+
+
+                             <h4>Grand Total <span><?= $grand_total; ?></span></h4>
+
+
+                               </div>
+                             </div>
+                           </div>
+                         </div>
+                         <input class="btn btn--primary" type="submit" name="submit" value="Place Order">
                       </form>
 										</div>
 									</div>
-									<!-- Shipping Address -->
-									<div id="shipping-form" class="mb--40">
 
-										<h4 class="checkout-title">Shipping Address</h4>
-										<div class="row">
-                      <form class="" action="" method="post" id="placeOrder">
-                        <input type="hidden" name="products" value="<?php $allItems; ?>">
-                        <input type="hidden" name="products" value="<?php $grand_total; ?>">
-                      <div class="col-md-6 col-12 mb--20">
-												<label>Name*</label>
-												<input type="text" placeholder="First Name">
-											</div>
 
-											<div class="col-md-6 col-12 mb--20">
-												<label>Email Address*</label>
-												<input type="email" placeholder="Email Address">
-											</div>
-											<div class="col-md-6 col-12 mb--20">
-												<label>Phone no*</label>
-												<input type="text" placeholder="Phone number">
-											</div>
-											<div class="col-12 mb--20">
-												<label>Address*</label>
-												<textarea name="address" rows="3" cols="10" placeholder="Enter your address here..."></textarea>
-											</div>
-
-                      </form>
-										</div>
-									</div>
 								</div>
-								<div class="col-lg-5">
-									<div class="row">
-										<!-- Cart Total -->
-										<div class="col-12">
-											<div class="checkout-cart-total">
-												<h2 class="checkout-title">YOUR ORDER</h2>
-												<h4>Product <span><?= $allItems; ?></span></h4>
-												<ul>
-													<li><span class="left">Cillum dolore tortor nisl X 01</span> <span
-															class="right">$25.00</span></li>
-													<li><span class="left">Auctor gravida pellentesque X 02 </span><span
-															class="right">$50.00</span></li>
-													<li><span class="left">Condimentum posuere consectetur X 01</span>
-														<span class="right">$29.00</span></li>
-													<li><span class="left">Habitasse dictumst elementum X 01</span>
-														<span class="right">$10.00</span></li>
-												</ul>
-												<p>Sub Total <span>$104.00</span></p>
-												<p>Shipping Fee <span>$00.00</span></p>
-												<h4>Grand Total <span>$104.00</span></h4>
-												<div class="method-notice mt--25">
-													<article>
-														<h3 class="d-none sr-only">blog-article</h3>
 
-													</article>
-												</div>
-												<div class="term-block">
-													<input type="checkbox" id="accept_terms2">
-													<label for="accept_terms2">I’ve read and accept the terms &
-														conditions</label>
-												</div>
-												<a href="paymentGateway.php" class="btn btn--primary">PLACE ORDER</a>
-											</div>
-										</div>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
