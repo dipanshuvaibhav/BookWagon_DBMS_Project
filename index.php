@@ -206,7 +206,7 @@ session_start();
                                 <div class="home-content text-left pl--30">
                                     <div class="row">
                                         <div class="col-lg-5">
-                                            <span class="title-small">Magazine Cover</span>
+                                            <span class="title-small">Cover</span>
                                             <h1>Mockup.</h1>
                                             <p>Cover up front of book and
                                                 <br>leave summary</p>
@@ -222,9 +222,8 @@ session_start();
                                 <div class="home-content text-center">
                                     <div class="row justify-content-end">
                                         <div class="col-lg-8">
-                                            <h1 class="v2">I Love This Idea!</h1>
-                                            <h2>Cover up front of book and
-                                                leave summary</h2>
+                                            <h1 class="v2">Cover</h1>
+                                            <h2></h2>
                                             <a href="shop-grid-left-sidebar.php" class="btn btn--yellow">
                                                 Shop Now
                                             </a>
@@ -249,10 +248,7 @@ session_start();
                             <div class="icon">
                                 <i class="fas fa-shipping-fast"></i>
                             </div>
-                            <div class="text">
-                                <h5>Free Shipping Item</h5>
-                                <p> Orders over $500</p>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6 mt--30">
@@ -291,7 +287,7 @@ session_start();
                 </div>
             </div>
         </section>
-       
+
         <!--=================================
         Home Two Column Section
     ===================================== -->
