@@ -232,30 +232,22 @@ session_start();
 													</a>
 													<div class="hover-btns">
 														<!-- cart button -->
-														<?php
-														if(isset($_SESSION['id'])){
-														echo  '<form class="form-submit" action="" >
+
+														<form class="form-submit" action="" >
 															<input type="hidden" class="pid" value="<?= $row['p_id']?>">
 															<input type="hidden" class="usr_id"  value="<?=$_SESSION['id']?>">
 															<input type="hidden" class="p_name" value="<?= $row['p_name']?>">
 															<input type="hidden" class="p_price" value="<?= $row['p_price']?>">
 															<input type="hidden" class="p_image" value="<?= $row['p_image']?>">
 															<input type="hidden" class="p_code" value="<?= $row['p_code']?>">
-															<button  class="single-btn addItemButton"><i class="fas fa-shopping-basket "></i></button>
-														</form>';
-														} else {
-														echo '<p>Please login to add to cart.</p>';
-														}
-														?>
-														<!-- <form class="form-submit" action="" >
-															<input type="hidden" class="pid" value="<?=# $row['p_id']?>">
-															<input type="hidden" class="usr_id"  value="<?=#$_SESSION['id']?>">
-															<input type="hidden" class="p_name" value="<?= #$row['p_name']?>">
-															<input type="hidden" class="p_price" value="<?= #$row['p_price']?>">
-															<input type="hidden" class="p_image" value="<?= #$row['p_image']?>">
-															<input type="hidden" class="p_code" value="<?= #$row['p_code']?>">
-															<button  class="single-btn addItemButton"><i class="fas fa-shopping-basket "></i></button>
-														</form> -->
+															<?php
+															if(isset($_SESSION['id'])){
+															echo  '<button  class="single-btn addItemButton"><i class="fas fa-shopping-basket "></i></button>';
+															} else {
+															echo '<p>Please login to add to cart.</p>';
+															}
+															?>
+														</form>
 
 														<!-- wishlist button -->
 														<!-- <a href="wishlist.php" class="single-btn">
