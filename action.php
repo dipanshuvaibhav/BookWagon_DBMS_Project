@@ -19,7 +19,7 @@ session_start();
    $code = $r['p_code'];
 
    if(!$code){
-     $query = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.cart (cust_id,p_name,p_price,p_image,c_qty,tot_price,p_code) VALUES (?,?,?,?,?,?)");
+     $query = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.cart (cust_id,p_name,p_price,p_image,c_qty,tot_price,p_code) VALUES (?,?,?,?,?,?,?)");
      $query->bind_param("isssiss",$user_id,$p_name,$p_price,$p_image,$p_qty,$p_price,$p_code);
      $query->execute();
 
