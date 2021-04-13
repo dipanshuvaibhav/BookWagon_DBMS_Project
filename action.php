@@ -36,8 +36,8 @@ session_start();
  }
 
  if(isset($_GET['cartItem']) && isset($_GET['cartItem'])=='cart-item'){
-   $stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.cart WHERE cust_id=?");
-   $stmt->bind_param("i",$user_id);
+   $stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.cart WHERE c_id=? && cust_id=?");
+   $stmt->bind_param("ii",$pid,$user_id);
    $stmt->execute();
    $stmt->store_result();
    $rows = $stmt->num_rows;
@@ -46,8 +46,8 @@ session_start();
  }
  if(isset($_GET['remove'])){
    $id = $_GET['remove'];
-   $stmt= $conn->prepare("DELETE  FROM heroku_adaaf59afa8e08a.cart WHERE c_id=?");
-   $stmt->bind_param("i",$id);
+   $stmt= $conn->prepare("DELETE  FROM heroku_adaaf59afa8e08a.cart WHERE c_id=? && cust_id=?");
+   $stmt->bind_param("ii",$id,$user_id);
    $stmt->execute();
 
    $_SESSION['showAlert']='block';
@@ -61,8 +61,8 @@ session_start();
 
     $tprice = $qty*$pprice;
 
-    $stmt = $conn->prepare("UPDATE heroku_adaaf59afa8e08a.cart SET c_qty=? ,tot_price=?  WHERE c_id=? ");
-    $stmt->bind_param("isi",$qty,$tprice,$pid);
+    $stmt = $conn->prepare("UPDATE heroku_adaaf59afa8e08a.cart SET c_qty=? ,tot_price=?  WHERE c_id=? && cust_id=? ");
+    $stmt->bind_param("isii",$qty,$tprice,$pid,$user_id);
     $stmt->execute();
 
  }
