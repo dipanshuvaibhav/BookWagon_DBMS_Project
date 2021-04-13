@@ -36,6 +36,7 @@ session_start();
  }
 
  if(isset($_GET['cartItem']) && isset($_GET['cartItem'])=='cart-item'){
+   $user_id = $_SESSION['id'];
    $stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.cart WHERE   cust_id=?");
    $stmt->bind_param("i",$user_id);
    $stmt->execute();
@@ -45,6 +46,7 @@ session_start();
    echo $rows;
  }
  if(isset($_GET['remove'])){
+   $user_id = $_SESSION['id'];
    $id = $_GET['remove'];
    $stmt= $conn->prepare("DELETE  FROM heroku_adaaf59afa8e08a.cart WHERE c_id=? && cust_id=?");
    $stmt->bind_param("ii",$id,$user_id);
@@ -58,6 +60,7 @@ session_start();
     $qty = $_POST['qty'];
     $pid = $_POST['pid'];
     $pprice = $_POST['pprice'];
+    $user_id = $_SESSION['id'];
 
     $tprice = $qty*$pprice;
 
