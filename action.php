@@ -36,8 +36,8 @@ session_start();
  }
 
  if(isset($_GET['cartItem']) && isset($_GET['cartItem'])=='cart-item'){
-   $stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.cart WHERE c_id=? && cust_id=?");
-   $stmt->bind_param("ii",$pid,$user_id);
+   $stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.cart WHERE   cust_id=?");
+   $stmt->bind_param("i",$user_id);
    $stmt->execute();
    $stmt->store_result();
    $rows = $stmt->num_rows;
