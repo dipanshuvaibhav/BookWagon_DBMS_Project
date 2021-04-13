@@ -205,7 +205,8 @@ session_start();
 											<!-- code for cart table  -->
 											<?php
 											require 'config.php';
-											$stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.cart; ");
+											$stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.cart WHERE cust_id=?; ");
+											$stmt->bind_param("i",$_SESSION['id']);
 											$stmt->execute();
 											$result = $stmt->get_result();
 											$sub_total = 0;
