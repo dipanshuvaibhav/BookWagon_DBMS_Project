@@ -194,6 +194,7 @@ session_start();
 								</div>
 							</div>
 						</div>
+					</div>
 						<div class="shop-toolbar d-none">
 							<div class="row align-items-center">
 								<div class="col-lg-2 col-md-2 col-sm-6">
@@ -274,6 +275,10 @@ session_start();
 							</div>
 						<?php endwhile;?>
 						</div>
+					</div>
+				</div>
+					</main>
+					</div>
 						<!-- Pagination Block -->
 
 						<!-- Modal -->
