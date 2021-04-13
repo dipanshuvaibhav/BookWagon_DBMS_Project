@@ -4,22 +4,23 @@ session_start();
 
  if(isset($_POST['pid'])){
    $pid = $_POST['pid'];
+   $user_id = $_POST['usr_id'];
    $p_name = $_POST['p_name'];
    $p_price = $_POST['p_price'];
    $p_image = $_POST['p_image'];
    $p_code = $_POST['p_code'];
    $p_qty = 1;
 
-   $stmt = $conn->prepare("SELECT p_code FROM heroku_adaaf59afa8e08a.cart WHERE p_code=?");
-   $stmt->bind_param("s",$p_code);
+   $stmt = $conn->prepare("SELECT p_code FROM heroku_adaaf59afa8e08a.cart WHERE p_code=? && cust_id=?");
+   $stmt->bind_param("si",$p_code,$user_id);
    $stmt->execute();
    $res = $stmt->get_result();
    $r = $res->fetch_assoc();
    $code = $r['p_code'];
 
    if(!$code){
-     $query = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.cart (p_name,p_price,p_image,c_qty,tot_price,p_code) VALUES (?,?,?,?,?,?)");
-     $query->bind_param("sssiss",$p_name,$p_price,$p_image,$p_qty,$p_price,$p_code);
+     $query = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.cart (cust_id,p_name,p_price,p_image,c_qty,tot_price,p_code) VALUES (?,?,?,?,?,?)");
+     $query->bind_param("isssiss",$user_id,$p_name,$p_price,$p_image,$p_qty,$p_price,$p_code);
      $query->execute();
 
      echo '<div class="alert alert-success alert-dismissible">
@@ -35,7 +36,7 @@ session_start();
  }
 
  if(isset($_GET['cartItem']) && isset($_GET['cartItem'])=='cart-item'){
-   $stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.cart ");
+   $stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.cart WHERE cust_id=$user_id");
    $stmt->execute();
    $stmt->store_result();
    $rows = $stmt->num_rows;
