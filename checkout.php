@@ -7,9 +7,11 @@ require 'config.php';
 $grand_total = 50;
 $allItems='';
 $items = array();
+$usr_id= $_SESSION['id'];
 
-$sql = "SELECT CONCAT(p_name, '(',c_qty,')') AS ItemQty , tot_price FROM heroku_adaaf59afa8e08a.cart";
+$sql = "SELECT CONCAT(p_name, '(',c_qty,')') AS ItemQty , tot_price FROM heroku_adaaf59afa8e08a.cart WHERE cust_id=? ";
 $stmt = $conn->prepare($sql);
+$stmt->bind_param("i",$usr_id);
 $stmt->execute();
 $result= $stmt->get_result();
 while($row = $result->fetch_assoc()){
@@ -224,7 +226,7 @@ $allItems = implode(", ",$items);
 																the terms &amp; conditions</label>
 														</div>
 													</div>
-													
+
 												</div>
 											</div>
 										</form>
@@ -331,9 +333,9 @@ $allItems = implode(", ",$items);
                         <h3>Extras</h3>
                     </div>
                     <ul class="footer-list normal-list">
-                       
+
                         <li><a href="">About Us</a></li>
-                        
+
                         <li><a href="contact.php">Contact us</a></li>
                         <li><a href="">Sitemap</a></li>
                     </ul>
@@ -375,7 +377,7 @@ $allItems = implode(", ",$items);
         </div>
     </div>
 </footer>
-	
+
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
