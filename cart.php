@@ -231,7 +231,7 @@ session_start();
 											 ?>
 										<?php endwhile; ?>
 										<?php
-												$grand_total=50+$sub_total;
+												$grand_total=$sub_total;
 										 ?>
 
 											<!-- Discount Row  -->
@@ -262,7 +262,7 @@ session_start();
 								<div class="cart-summary-wrap">
 									<h4><span>Cart Summary</span></h4>
 									<p>Sub Total <span class="text-primary">₹<?= number_format($sub_total,0); ?></span></p>
-									<p>Shipping Cost <span class="text-primary">₹50.00</span></p>
+									<p>Shipping Cost <span class="text-primary">₹0.00</span></p>
 									<h2>Grand Total <span class="text-primary">₹<?= number_format($grand_total,0);  ?></span></h2>
 								</div>
 								<div class="cart-summary-button">

@@ -4,7 +4,7 @@ session_start();
 <?php
 require 'config.php';
 
-$grand_total = 50;
+$grand_total = 0;
 $allItems='';
 $items = array();
 $usr_id= $_SESSION['id'];
@@ -18,6 +18,7 @@ while($row = $result->fetch_assoc()){
   $grand_total +=$row['tot_price'];
   $items[]=$row['ItemQty'];
 }
+
 $allItems = implode(", ",$items);
 ?>
 <!DOCTYPE html>
