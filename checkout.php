@@ -186,7 +186,7 @@ $allItems = implode(", ",$items);
 				</div>
 			</div>
 		</section>
-		<main id="content" class="page-section inner-page-sec-padding-bottom space-db--20">
+		<main  class="page-section inner-page-sec-padding-bottom space-db--20">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
