@@ -196,92 +196,57 @@ $allItems = implode(", ",$items);
 								<div class="col-12">
 									<h1 class="quick-title">Checkout</h1>
 									<!-- Slide Down Trigger  -->
-									<div class="checkout-quick-box">
-										<p><i class="far fa-sticky-note"></i>Returning customer? <a href="javascript:"
-												class="slide-trigger" data-target="#quick-login">Click
-												here to login</a></p>
-									</div>
-									<!-- Slide Down Blox ==> Login Box  -->
-									<div class="checkout-slidedown-box" id="quick-login">
-										<form action="login.php" method="post">
-											<div class="quick-login-form">
-												<p>If you have shopped with us before, please enter your details in the
-													boxes below. If you are a new
-													customer
-													please
-													proceed to the Billing & Shipping section.</p>
-												<div class="form-group">
-													<label for="email1">Email *</label>
-													<input  type="email" id="email1" name = "email1" placeholder="Enter you email address here..." required>
-												</div>
-												<div class="form-group">
-													<label for="password">Password *</label>
-													<input  type="password" id="password" name = "password" placeholder="Enter your password" required>
-												</div>
-												<div class="form-group">
-													<div class="d-flex align-items-center flex-wrap">
-														<button type="submit" class="btn btn-outlined">Login</button>
-														<div class="d-inline-flex align-items-center">
-															<input type="checkbox" id="accept_terms" class="mb-0 mr-1" required>
-															<label for="accept_terms" class="mb-0">I’ve read and accept
-																the terms &amp; conditions</label>
-														</div>
-													</div>
 
-												</div>
-											</div>
-										</form>
-									</div>
 <!-- added an extra div -->
                   <div id="order">
-                  <div class="col-lg-5">
-                   <div class="row">
-                     <!-- Cart Total -->
-                     <div class="col-12">
-                       <div class="checkout-cart-total">
-                         <h2 class="checkout-title">YOUR ORDER</h2>
-                         <h4>Product(s):<span><?= $allItems; ?></span></h4>
+                        <div class="col-lg-5">
+                         <div class="row">
+                           <!-- Cart Total -->
+                           <div class="col-12">
+                             <div class="checkout-cart-total">
+                               <h2 class="checkout-title">YOUR ORDER</h2>
+                               <h4>Product(s):<span><?= $allItems; ?></span></h4>
 
 
-                         <h4>Grand Total <span><?= $grand_total; ?></span></h4>
+                               <h4>Grand Total <span><?= $grand_total; ?></span></h4>
 
 
+                             </div>
+                           </div>
+                         </div>
                        </div>
-                     </div>
-                   </div>
-                 </div>
-									<!-- coupon code -->
-								<div class="col-lg-7 mb--20">
-									<!-- Billing Address -->
-									<div  class="mb-40">
-										<h4 class="checkout-title">Shipping Address</h4>
-										<div class="row">
-                      <form  action="" method="post" id="placeOrder">
-                        <input type="hidden" name="products" value="<?= $allItems; ?>">
-                        <input type="hidden" name="$grand_total" value="<?= $grand_total; ?>">
-											<div class="col-12 mb--20">
-												<label>Name*</label>
-												<input type="text" name="name" placeholder="Name" required>
-											</div>
-											<div class="col-12 mb--20">
-												<label>Email Address*</label>
-												<input type="email" name="email" placeholder="Email Address" required>
-											</div>
-											<div class="col-12 mb--20">
-												<label>Phone no*</label>
-												<input type="text" name="phone" placeholder="Phone number" required>
-											</div>
-											<div class="col-12 mb--20">
-												<label>Address*</label>
-												<textarea class="form-control " name="address" rows="3" cols="10" required></textarea>
-											</div>
-                      <input class="btn btn--primary w-100" type="submit" name="submit" value="Place Order">
-                      </form>
-										</div>
-									</div>
+      									<!-- coupon code -->
+      								<div class="col-lg-7 mb--20">
+      									<!-- Billing Address -->
+      									<div  class="mb-40">
+      										<h4 class="checkout-title">Shipping Address</h4>
+      										<div class="row">
+                            <form  action="" method="post" id="placeOrder">
+                              <input type="hidden" name="products" value="<?= $allItems; ?>">
+                              <input type="hidden" name="$grand_total" value="<?= $grand_total; ?>">
+      											<div class="col-12 mb--20">
+      												<label>Name*</label>
+      												<input type="text" name="name" placeholder="Name" required>
+      											</div>
+      											<div class="col-12 mb--20">
+      												<label>Email Address*</label>
+      												<input type="email" name="email" placeholder="Email Address" required>
+      											</div>
+      											<div class="col-12 mb--20">
+      												<label>Phone no*</label>
+      												<input type="text" name="phone" placeholder="Phone number" required>
+      											</div>
+      											<div class="col-12 mb--20">
+      												<label>Address*</label>
+      												<textarea class="form-control " name="address" rows="3" cols="10" required></textarea>
+      											</div>
+                            <input class="btn btn--primary w-100" type="submit" name="submit" value="Place Order">
+                            </form>
+      										</div>
+      									</div>
 
 
-								</div>
+      								</div>
               </div>
 
 							</div>
