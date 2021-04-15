@@ -181,7 +181,7 @@ session_start();
 									<a href="#orders" data-toggle="tab"><i class="fa fa-cart-arrow-down"></i> Orders</a>
 									<a href="#account-info" data-toggle="tab"><i class="fa fa-user"></i> Account
 										Details</a>
-									<a href="login-register.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
+									<a href="logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
 								</div>
 							</div>
 							<!-- My Account Tab Menu End -->
