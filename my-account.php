@@ -179,12 +179,6 @@ session_start();
 											class="fas fa-tachometer-alt"></i>
 										Dashboard</a>
 									<a href="#orders" data-toggle="tab"><i class="fa fa-cart-arrow-down"></i> Orders</a>
-									<a href="#download" data-toggle="tab"><i class="fas fa-download"></i> Download</a>
-									<a href="#payment-method" data-toggle="tab"><i class="fa fa-credit-card"></i>
-										Payment
-										Method</a>
-									<a href="#address-edit" data-toggle="tab"><i class="fa fa-map-marker"></i>
-										address</a>
 									<a href="#account-info" data-toggle="tab"><i class="fa fa-user"></i> Account
 										Details</a>
 									<a href="login-register.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
@@ -218,27 +212,19 @@ session_start();
 									</div>
 									<!-- Single Tab Content End -->
 									<!-- Single Tab Content Start -->
-									<div class="tab-pane fade" id="download" role="tabpanel">
-										<div class="myaccount-content">
-											<h3>Downloads</h3>
-										</div>
-									</div>
+
 									<!-- Single Tab Content End -->
 									<!-- Single Tab Content Start -->
-									<div class="tab-pane fade" id="payment-method" role="tabpanel">
-										<div class="myaccount-content">
-											<h3>Payment Method</h3>
-											</div>
-									</div>
+
 									<!-- Single Tab Content End -->
 									<!-- Single Tab Content Start -->
-									<div class="tab-pane fade" id="address-edit" role="tabpanel">
+									<!-- <div class="tab-pane fade" id="address-edit" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Billing Address</h3>
 											<a href="#" class="btn btn--primary"><i class="fa fa-edit"></i>Edit
 												Address</a>
 										</div>
-									</div>
+									</div> -->
 									<!-- Single Tab Content End -->
 									<!-- Single Tab Content Start -->
 									<div class="tab-pane fade" id="account-info" role="tabpanel">
@@ -247,16 +233,6 @@ session_start();
 											<div class="account-details-form">
 												<form action="#">
 													<div class="row">
-														<div class="col-lg-6 col-12  mb--30">
-															<input id="first-name" placeholder="First Name" type="text">
-														</div>
-														<div class="col-lg-6 col-12  mb--30">
-															<input id="last-name" placeholder="Last Name" type="text">
-														</div>
-														<div class="col-12  mb--30">
-															<input id="display-name" placeholder="Display Name"
-																type="text">
-														</div>
 														<div class="col-12  mb--30">
 															<input id="email" placeholder="Email Address" type="email">
 														</div>
