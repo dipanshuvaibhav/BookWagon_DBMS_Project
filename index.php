@@ -39,7 +39,7 @@ session_start();
   																<div class="login-block">
   																	<?php
   																		if(isset($_SESSION['id'])){
-  																		echo  "<p class='font-weight-bold'>Welcome,".$_SESSION['name']."</p>";
+  																		echo  "<a href='my-account.php' class='font-weight-bold'>Welcome,".$_SESSION['name']."</a>";
   																		} else {
   																		echo '<a href="login-register.php" class="font-weight-bold">Login</a> <br>
   																		<span>or</span><a href="login-register.php">Register</a>';
@@ -248,7 +248,7 @@ session_start();
                             <div class="icon">
                                 <i class="fas fa-shipping-fast"></i>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6 mt--30">

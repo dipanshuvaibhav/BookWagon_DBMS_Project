@@ -14,131 +14,105 @@
 
 <body>
 	<div class="site-wrapper" id="top">
-		<div class="site-header d-none d-lg-block">
-			<div class="header-middle pt--10 pb--10">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-3 ">
-							<a href="index.php" class="site-brand">
-								<img src="image/Logo1.png" alt="">
-							</a>
-						</div>
-						<div class="col-lg-3">
-							<div class="header-phone ">
-								<div class="icon">
-									<i class="fas fa-headphones-alt"></i>
+		<div class="site-header header-4 mb--20 d-none d-lg-block">
+				<div class="header-middle pt--10 pb--10">
+						<div class="container">
+								<div class="row align-items-center">
+										<div class="col-lg-3">
+												<a href="index.php" class="site-brand">
+														<img src="image/Logo1.png" alt="">
+												</a>
+										</div>
+										<div class="col-lg-5">
+												<div class="header-search-block">
+														<input type="text" placeholder="Search entire store here">
+														<button>Search</button>
+												</div>
+										</div>
+										<div class="col-lg-4">
+												<div class="main-navigation flex-lg-right">
+														<div class="cart-widget">
+															<!-- login block -->
+																<div class="login-block">
+																	<?php
+																		if(isset($_SESSION['id'])){
+																		echo  "<a href='my-account.php' class='font-weight-bold'>Welcome,".$_SESSION['name']."</a>";
+																		} else {
+																		echo '<a href="login-register.php" class="font-weight-bold">Login</a> <br>
+																		<span>or</span><a href="login-register.php">Register</a>';
+																		}
+																		?>
+																</div>
+																<!-- shopping cart logo  -->
+																<div class="cart-block">
+																		<div class="cart-total">
+																				<span class="text-number" id="cart-item">
+																				</span>
+																				<span class="text-item">
+																						Shopping Cart
+																				</span>
+
+																		</div>
+																		<div class="cart-dropdown-block">
+
+																				<div class=" single-cart-block ">
+																						<div class="btn-block">
+																								<a href="cart.php" class="btn">View Cart <i
+																												class="fas fa-chevron-right"></i></a>
+																								<a href="checkout.php" class="btn btn--primary">Check Out <i
+																												class="fas fa-chevron-right"></i></a>
+																						</div>
+																				</div>
+																		</div>
+																</div>
+														</div>
+												</div>
+										</div>
+
 								</div>
-								<div class="text">
-									<p>Free Support 24/7</p>
-									<p class="font-weight-bold number">+01-202-555-0181</p>
-								</div>
-							</div>
 						</div>
-						<div class="col-lg-6">
-							<div class="main-navigation flex-lg-right">
-									<ul class="main-menu menu-right li-last-0">
-											<li class="menu-item ">
-													<!-- <a href="javascript:void(0)">Home <i
-																	class="fas fa-chevron-down dropdown-arrow"></i></a> -->
-																	<a href="index.php">Home</a><!--changes have been made here-->
-
-											</li>
-											<!-- Shop -->
-											<li class="menu-item  mega-menu">
-																				<a href="shop-grid-left-sidebar.php">shop </a>
-																						</li>
-
-
-																		</li>
-											<!-- Pages -->
-											<li class="menu-item has-children">
-													<a href="javascript:void(0)">Pages <i
-																	class="fas fa-chevron-down dropdown-arrow"></i></a>
-													<ul class="sub-menu">
-															<li><a href="cart.php">Cart</a></li>
-															<li><a href="checkout.php">Checkout</a></li>
-															<!-- <li><a href="compare.php">Compare</a></li> -->
-															<li><a href="wishlist.php">Wishlist</a></li>
-															<li><a href="login-register.php">Login Register</a></li>
-															<li><a href="my-account.php">My Account</a></li>
-															<li><a href="order-complete.php">Order Complete</a></li>
-															<li><a href="faq.php">Faq</a></li>
-															<!-- made a change here -->
-															<li><a href="contact.php">contact</a></li>
+				</div>
+        <div class="header-bottom">
+						<div class="container">
+								<div class="row align-items-right">
+										<div class="col-lg-6">
+											<div class="main-navigation flex-lg-right">
+													<ul class="main-menu menu-right li-last-0">
+															<li class="menu-item ">
+																<a href="index.php">Home</a>
+															</li>
+															<!-- Shop -->
+															<li class="menu-item  mega-menu">
+																<a href="shop-grid-left-sidebar.php">shop </a>
+															</li>
+															<!-- Pages -->
+															<li class="menu-item has-children">
+																<a href="faq.php">FAQ </a>
+															</li>
+															<!-- Blog -->
+															<li class="menu-item mega-menu">
+																<a href="blog-list.php">Blog </a>
+															</li>
+															<li class="menu-item">
+																<a href="contact.php">Contact</a>
+															</li>
 													</ul>
-											</li>
-											<!-- Blog -->
-											<li class="menu-item mega-menu">
-													<a href="blog-list.php">Blog </a>
-											</li>
-											<li class="menu-item">
-													<a href="contact.php">Contact</a>
-											</li>
-									</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="header-bottom pb--10">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-5">
-							<div class="header-search-block">
-								<input type="text" placeholder="Search entire store here">
-								<button>Search</button>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="main-navigation flex-lg-right">
-								<div class="cart-widget">
-									<div class="login-block">
-										<a href="login-register.php" class="font-weight-bold">Login</a> <br>
-										<span>or</span><a href="login-register.php">Register</a>
-									</div>
-									<!--<div class="cart-block">
-										<div class="cart-total">
-											<span class="text-number">
-												1
-											</span>
-											<span class="text-item">
-												Shopping Cart
-											</span>
-											<span class="price">
-												£0.00
-												<i class="fas fa-chevron-down"></i>
-											</span>
-										</div>
-										<div class="cart-dropdown-block">
-											<div class=" single-cart-block ">
-												<div class="cart-product">
-													<a href="product-details.php" class="image">
-														<img src="image/products/cart-product-1.jpg" alt="">
-													</a>
-													<div class="content">
-														<h3 class="title"><a href="product-details.php">Kodak PIXPRO
-																Astro Zoom AZ421 16 MP</a></h3>
-														<p class="price"><span class="qty">1 ×</span> £87.34</p>
-														<button class="cross-btn"><i class="fas fa-times"></i></button>
-													</div>
-												</div>
-											</div>
-											<div class=" single-cart-block ">
-												<div class="btn-block">
-													<a href="cart.php" class="btn">View Cart <i
-															class="fas fa-chevron-right"></i></a>
-													<a href="checkout.php" class="btn btn--primary">Check Out <i
-															class="fas fa-chevron-right"></i></a>
-												</div>
 											</div>
 										</div>
-									</div>-->
+										<!-- logout button -->
+										<div class="login-block">
+											<?php
+											if(isset($_SESSION['id'])){
+											echo  '<a href="logout.php" class="btn btn--primary font-weight-bold">Logout</a>';
+											} else {
+											echo '<button type="button" action="" name="button" class="btn btn--primary" style="display:none;">Logout</button>';
+											}
+											?>
+
+										</div>
 								</div>
-							</div>
 						</div>
-					</div>
 				</div>
-			</div>
 		</div>
 
 		<div class="sticky-init fixed-header common-sticky">
