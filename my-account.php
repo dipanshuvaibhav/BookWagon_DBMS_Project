@@ -208,7 +208,7 @@ session_start();
 									<div class="tab-pane fade" id="orders" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Orders</h3>
-                      <div class="col-12">
+                      <div class="mb-20">
                               <table class="table">
                                   <thead>
                                       <tr>
