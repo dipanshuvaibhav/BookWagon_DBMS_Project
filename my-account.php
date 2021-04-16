@@ -208,6 +208,35 @@ session_start();
 									<div class="tab-pane fade" id="orders" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Orders</h3>
+                      <div class="col-12">
+                              <table class="table">
+                                  <thead>
+                                      <tr>
+                                          <th class="pro-title">Customer name</th>
+                                          <th class="pro-title">email</th>
+                                          <th class="pro-title">phone</th>
+                                          <th class="pro-title">Address</th>
+                                          <th class="pro-title">Mode of payment</th>
+                                          <th class="pro-title">products</th>
+                                          <th class="pro-title">amount paid</th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                      <tr>
+                                          <td class="pro-title">Deep</td>
+                                          <td class="pro-title">deepp3021@gmail.com</td>
+                                          <td class="pro-title">9662830514</td>
+                                          <td class="pro-title">Bangalore,Karnataks</td>
+                                          <td class="pro-title">Online</td>
+                                          <td class="pro-title">'Pitch Perfect(1), Batman(1), Fantastic Comics(1), The Beloved Wild(1)'</td>
+                                          <td class="pro-title">400</td>
+
+                                      </tr>
+                                  </tbody>
+                              </table>
+                          </div>
+
+                      </div>
 										</div>
 									</div>
 									<!-- Single Tab Content End -->
