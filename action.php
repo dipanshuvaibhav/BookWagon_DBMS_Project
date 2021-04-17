@@ -81,7 +81,7 @@ session_start();
    $date=date('Y-m-d H:i:s');
    $data = '';
    $stmt = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.order(customer_id,o_name,o_email,o_phone,o_address,o_pmode,o_products,o_amt_paid,o_date) VALUES (?,?,?,?,?,?,?,?,?)");
-   $stmt->bind_param("issssssss",$cust_id,$name,$email,$phone,$address,$pmode,$products,$grand_total);
+   $stmt->bind_param("issssssss",$cust_id,$name,$email,$phone,$address,$pmode,$products,$grand_total,$date);
    $stmt->execute();
    $data .= '"<div class="text-center">
               <h1 class="display-4 mt-2 ">Thank you!</h1>
