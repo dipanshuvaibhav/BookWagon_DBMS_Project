@@ -19,7 +19,7 @@ mysqli_query ($dbc, $query)
 or die ("Error querying database");
 
 echo "<script type='text/javascript'>alert('Your email has been added to the newsletter!');
-window.location.reload();
+window.location='index.php';
 </script>";
 
 mysqli_close($dbc);
