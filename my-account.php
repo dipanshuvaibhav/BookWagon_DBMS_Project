@@ -327,23 +327,12 @@ session_start();
 						<h3>Information</h3>
 					</div>
 					<ul class="footer-list normal-list">
-						<li><a href="">Contact us</a></li>
-						<li><a href="">Sitemap</a></li>
+						<li><a href="contact.php">Contact us</a></li>
+
 					</ul>
 				</div>
 			</div>
-			<div class=" col-xl-3 col-lg-2 col-sm-6">
-				<div class="single-footer pb--40">
-					<div class="footer-title">
-						<h3>Extras</h3>
-					</div>
-					<ul class="footer-list normal-list">
-						<li><a href="">About Us</a></li>
-						<li><a href="">Contact us</a></li>
-						<li><a href="">Sitemap</a></li>
-					</ul>
-				</div>
-			</div>
+
 			<div class=" col-xl-3 col-lg-4 col-sm-6">
 				<div class="footer-title">
 					<h3>Newsletter Subscribe</h3>
