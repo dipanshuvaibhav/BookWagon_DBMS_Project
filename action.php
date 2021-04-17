@@ -92,6 +92,10 @@ session_start();
               <h4>Total amount Paid : '.number_format($grand_total,0).'</h4>
               <h4>Payment Mode : '.$pmode.'</h4>
             </div>"';
+            // deleting the cart after order has been placed
+  $dell= $conn->prepare("DELETE  FROM heroku_adaaf59afa8e08a.cart WHERE  cust_id=?");
+  $dell->bind_param("i",$cust_id);
+  $dell->execute();
 
   echo $data;
 
