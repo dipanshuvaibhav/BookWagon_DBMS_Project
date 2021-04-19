@@ -240,7 +240,7 @@ session_start();
 															<input type="hidden" class="p_name" value="<?= $row['p_name']?>">
 															<input type="hidden" class="p_price" value="<?= $row['p_price']?>">
 															<input type="hidden" class="p_image" value="<?= $row['p_image']?>">
-															<input type="hidden" class="p_code" value="<?= $row['p_code']?>">
+															<input type="hidden" class="producer_id" value="<?= $row['producer_id']?>">
 															<?php
 															if(isset($_SESSION['id'])){
 															echo  '<button  class="single-btn addItemButton"><i class="fas fa-shopping-basket "></i></button>';
@@ -390,11 +390,11 @@ session_start();
 				var p_name = $form.find(".p_name").val();
 				var p_price = $form.find(".p_price").val();
 				var p_image = $form.find(".p_image").val();
-				var p_code = $form.find(".p_code").val();
+				var producer_id = $form.find(".producer_id").val();
 				$.ajax({
 					url: 'action.php',
 					method: 'post',
-					data: {pid:pid,usr_id:usr_id,p_name:p_name,p_price:p_price,p_image:p_image,p_code:p_code},
+					data: {pid:pid,usr_id:usr_id,p_name:p_name,p_price:p_price,p_image:p_image,producer_id:producer_id},
 					success:function(response){
 						$("#message").html(response);
 
