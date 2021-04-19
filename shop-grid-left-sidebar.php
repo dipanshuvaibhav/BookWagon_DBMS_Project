@@ -228,7 +228,7 @@ session_start();
 												<!-- taking image from database -->
 												<img src="<?= $row['p_image'] ?>" alt="">
 												<div class="hover-contents">
-													<a href="product-details.php" class="hover-image">
+													<a href="" class="hover-image">
 														<img src="<?= $row['p_image'] ?>" alt="">
 													</a>
 													<div class="hover-btns">
@@ -260,7 +260,7 @@ session_start();
 													<a href="" class="author">
 														<!-- Deep -->
 													</a>
-													<h3><a href="product-details.php"><?= $row['p_name']?></a></h3>
+													<h3><a href=""><?= $row['p_name']?></a></h3>
 												</div>
 											</div>
 											<div class="price-block">
