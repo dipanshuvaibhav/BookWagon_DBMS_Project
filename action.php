@@ -11,12 +11,12 @@ session_start();
    $producer_id = $_POST['producer_id'];
    $p_qty = 1;
 
-   $stmt = $conn->prepare("SELECT cust_id FROM heroku_adaaf59afa8e08a.cart WHERE  cust_id=?");
-   $stmt->bind_param("i",$user_id);
+   $stmt = $conn->prepare("SELECT c_id FROM heroku_adaaf59afa8e08a.cart WHERE p_name=? && cust_id=?");
+   $stmt->bind_param("si",$p_name,$user_id);
    $stmt->execute();
    $res = $stmt->get_result();
    $r = $res->fetch_assoc();
-   $code = $r['cust_id'];
+   $code = $r['c_id'];
 
    if(!$code){
      $query = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.cart (cust_id,p_name,p_price,p_image,c_qty,tot_price) VALUES (?,?,?,?,?,?)");
