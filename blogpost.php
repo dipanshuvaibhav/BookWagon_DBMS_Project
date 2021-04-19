@@ -321,16 +321,16 @@ firebase.initializeApp(firebaseConfig);
 
 
   //Getting File
-  var filebutton = document.getElementById('image');
+  var fileButton = document.getElementById('image');
 
   // listen for file selection
-  filebutton.addEventListener('change', function(e){
+  fileButton.addEventListener('change', function(e){
     // Get File
     var file = e.target.files[0];
    // Create a storage ref
-  var storageref =  firebase.storage().ref('image/blog_images/'+ file.name);
+  var storageRef =  firebase.storage().ref('image/blog_images/'+ file.name);
   // Upload file
-  storageref.put(file);
+   storageRef.put(file);
 
   });
 </script>
