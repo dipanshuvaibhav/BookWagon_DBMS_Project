@@ -169,7 +169,7 @@ session_start();
 			<div class="flex-lg-right container">
 			<?php
 				if(isset($_SESSION['id'])){
-					echo  "<a href='blogpost.php' class='btn btn--primary>Add Blog</a>";
+					echo  '<a href="blogpost.php" class="btn btn--primary">Add Blog</a>';
 				} else {
 				 	echo '<a href="login-register.php" class="btn btn--primary">Login to add a blog</a>';
 					}
