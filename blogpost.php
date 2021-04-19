@@ -200,7 +200,7 @@ session_start();
 									<!-- image -->
 									<div class="col-12 mb--20">
 										<label for="image">Upload image:</label>
-										<input type="file" name="image">
+										<input type="file" id="image" name="image">
 									</div>
 
 									<div class="col-md-12">
