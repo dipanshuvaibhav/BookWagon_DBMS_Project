@@ -166,7 +166,7 @@ session_start();
 				</div>
 			</div>
 			<div class="flex-lg-right container">
-				<a href="#" class="btn btn--primary">Add Blog</a>
+				<a href="blogpost.php" class="btn btn--primary">Add Blog</a>
 
 			</div>
 		</section>
