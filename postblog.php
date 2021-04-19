@@ -16,7 +16,7 @@ session_start();
     if($error === 0){
         if($image_size> 1500000){
             $em =  "File too large";
-
+            echo "$em";
         }else{
            $img_ex =    pathinfo($image_name,PATHINFO_EXTENSION);
            $img_ex_lc = strtolower($img_ex);
@@ -29,7 +29,7 @@ session_start();
                     move_uploaded_file($tmp_name,$img_upload_path);
 
                     //Uploading to database
-                    $sql = conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.posts(author,title,content,post_img) VALUES(?,?,?,?)");
+                    $sql = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.posts(author,title,content,post_img) VALUES(?,?,?,?)");
                     $sql->bind_param("ssss",$name,$title,$content,$new_img_id);
                     $sql->execute();
 
