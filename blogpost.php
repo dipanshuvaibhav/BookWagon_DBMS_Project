@@ -173,7 +173,7 @@ session_start();
 		<main class="page-section inner-page-sec-padding-bottom">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12 col-md-12 col-xs-12 col-lg-6 mb--30 mb-lg--0">
+					<div class="col-sm-12 col-md-12 col-xs-12  mb--30 mb-lg--0">
 						<!-- Login Form s-->
 						<form action="registration.php" method="post">
 							<div class="login-form">
