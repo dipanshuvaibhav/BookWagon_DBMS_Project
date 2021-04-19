@@ -175,7 +175,7 @@ session_start();
 				<div class="row">
 					<div class="col-sm-12 col-md-12 col-xs-12  mb--30 mb-lg--0">
 						<!-- Login Form s-->
-						<form action="postblog.php" method="post">
+						<form action="postblog.php" method="post" enctype="multipart/form-data">
 							<div class="login-form">
 								<h4 class="login-title">Add New Blog</h4>
 								<p><span class="font-weight-bold">Write here to express your feelings to the world</span></p>
