@@ -35,20 +35,20 @@ session_start();
 
             echo "<script type='text/javascript'>alert('Blog Updated successfully!');
           window.location='blogpost.php';
-          </script>"
+          </script>";
 
 
 
             }else{
               echo "<script type='text/javascript'>alert('Blog could not be uploaded!');
             window.location='blogpost.php';
-            </script>"
+            </script>";
             }
         }
       }else{
         $em= "Some error occurred";
         echo "<script type='text/javascript'>alert('An error occured!');
       window.location='blogpost.php';
-      </script>"
+      </script>";
     }
  ?>
