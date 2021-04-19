@@ -30,7 +30,7 @@ session_start();
 
                     //Uploading to database
                     $sql = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.posts(author,title,content,post_img) VALUES(?,?,?,?)");
-                    $sql->bind_param("ssss",$name,$title,$content,$new_img_id);
+                    $sql->bind_param("ssss",$name,$title,$content,$img_upload_path);
                     $sql->execute();
 
             echo "<script type='text/javascript'>alert('Blog Updated successfully!');
