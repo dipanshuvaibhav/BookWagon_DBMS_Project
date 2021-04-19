@@ -301,28 +301,25 @@ session_start();
 </footer>
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-firestore.js"></script>
-<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-messaging.js"></script>
-<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-storage.js"></script>
 
 <!-- : Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-storage.js"></script>
 
 <script>
-// Your web app's Firebase configuration
-var firebaseConfig = {
-  apiKey: "AIzaSyBoOYTPzpTLpB2nnhPOR7OO91fjtb7LYYM",
-  authDomain: "bookwagondb-cdc14.firebaseapp.com",
-  projectId: "bookwagondb-cdc14",
-  storageBucket: "bookwagondb-cdc14.appspot.com",
-  messagingSenderId: "621596754563",
-  appId: "1:621596754563:web:ed995a212d23aeb00e51b6"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-
-
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBrhZur6_whcp3JM6DRQC9Zytu2NgTCuUQ",
+    authDomain: "bookwagon-6afb8.firebaseapp.com",
+    projectId: "bookwagon-6afb8",
+    storageBucket: "bookwagon-6afb8.appspot.com",
+    messagingSenderId: "643972165142",
+    appId: "1:643972165142:web:afd46bda82f60751a04f37",
+    measurementId: "G-4YG0SD2T0B"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
   //Getting File
   var fileButton = document.getElementById('image');
 
