@@ -195,7 +195,7 @@ session_start();
 									<!-- content -->
 									<div class="col-12 mb--20">
 										<label for="content"></label>
-										<textarea class="form-control" id="content" name="content" rows="3" coll="5"></textarea>
+										<textarea class="form-control" id="content" name="content" rows="3" coll="5" placeholder="Write Blog....."></textarea>
 									</div>
 									<!-- image -->
 									<div class="col-12 mb--20">
