@@ -3,7 +3,7 @@ session_start();
 
  require 'config.php';
 
- $name = $_POST['name'];
+ $name = $_POST['name1'];
  $title = $_POST['heading'];
  $content = $_POST['content'];
 

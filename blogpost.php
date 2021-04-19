@@ -183,7 +183,7 @@ session_start();
 								<!-- author name -->
 									<div class="col-md-12 col-12 mb--15">
 										<label for="email">Full Name</label>
-										<input class="mb-0 form-control" type="text" id="name" name="name"
+										<input class="mb-0 form-control" type="text" id="name" name="name1"
 											placeholder="Enter your full name" required>
 									</div>
 									<!-- heading -->
