@@ -161,7 +161,7 @@ session_start();
 					<nav aria-label="breadcrumb">
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item"><a href="index.php">Home</a></li>
-							<li class="breadcrumb-item active">Login</li>
+							<li class="breadcrumb-item active">Blog Post</li>
 						</ol>
 					</nav>
 				</div>
@@ -175,31 +175,37 @@ session_start();
 				<div class="row">
 					<div class="col-sm-12 col-md-12 col-xs-12  mb--30 mb-lg--0">
 						<!-- Login Form s-->
-						<form action="registration.php" method="post">
+						<form action="#" method="post">
 							<div class="login-form">
-								<h4 class="login-title">New Customer</h4>
-								<p><span class="font-weight-bold">I am a new customer</span></p>
+								<h4 class="login-title">Add New Blog</h4>
+								<p><span class="font-weight-bold">Write here to express your feelings to the world</span></p>
 								<div class="row">
+								<!-- author name -->
 									<div class="col-md-12 col-12 mb--15">
 										<label for="email">Full Name</label>
 										<input class="mb-0 form-control" type="text" id="name" name="name"
 											placeholder="Enter your full name" required>
 									</div>
+									<!-- heading -->
+									<div class="col-md-12 col-12 mb--15">
+										<label for="heading">Heading</label>
+										<input class="mb-0 form-control" type="text" id="heading" name="heading"
+											placeholder="Enter heading" required>
+									</div>
+									<!-- content -->
 									<div class="col-12 mb--20">
-										<label for="email">Email</label>
-										<input class="mb-0 form-control" type="email" id="email" name="email" placeholder="Enter Your Email Address Here.." required>
+										<label for="content"></label>
+										<textarea class="form-control" id="content" name="content" rows="3" coll="5"></textarea>
 									</div>
-									<div class="col-lg-6 mb--20">
-										<label for="password">Password</label>
-										<input class="mb-0 form-control" type="password" id="password" name="password" placeholder="Enter your password" required>
+									<!-- image -->
+									<div class="col-12 mb--20">
+										<label for="image">Upload image:</label>
+										<input type="file" name="image">
 									</div>
-									<div class="col-lg-6 mb--20">
-										<label for="password">Repeat Password</label>
-										<input class="mb-0 form-control" type="password" id="repeat-password" name="repeat-password" placeholder="Repeat your password" required>
-									</div>
+
 									<div class="col-md-12">
 										<!-- <a href="#" class="btn btn-outlined">Register</a> -->
-                    <button type="submit" name = "registerbtn" class="btn btn-outlined">Register</button>
+                    				<button type="submit" name = "upload" class="btn btn-outlined">Upload</button>
 									</div>
 								</div>
 							</div>
