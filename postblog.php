@@ -6,7 +6,7 @@ session_start();
  $name = $_POST['name'];
  $title = $_POST['heading'];
  $content = $_POST['content'];
- $image = $_FILES['image'];
+
 
  $image_name = $_FILES['image']['name'];
  $image_size = $_FILES['image']['size'];
@@ -30,7 +30,7 @@ session_start();
 
                     //Uploading to database
                     $sql = conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.posts(author,title,content,post_img) VALUES(?,?,?,?)");
-                    $sql->bind_param("s,s,s,s",$name,$title,$content,$new_img_id);
+                    $sql->bind_param("ssss",$name,$title,$content,$new_img_id);
                     $sql->execute();
 
             echo "<script type='text/javascript'>alert('Blog Updated successfully!');
