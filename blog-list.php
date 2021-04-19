@@ -171,11 +171,10 @@ session_start();
 				if(isset($_SESSION['id'])){
 					echo  "<a href='blogpost.php' class='btn btn--primary>Add Blog</a>";
 				} else {
-				 	echo '<a href="login-register.php" class="font-weight-bold">Login to add a blog</a>';
+				 	echo '<a href="login-register.php" class="btn btn--primary">Login to add a blog</a>';
 					}
 				?>
-				<a href="blogpost.php" class="btn btn--primary">Add Blog</a>
-
+				
 			</div>
 		</section>
 		<section class="inner-page-sec-padding-bottom">
