@@ -45,4 +45,10 @@ session_start();
             </script>"
             }
         }
+      }else{
+        $em= "Some error occurred";
+        echo "<script type='text/javascript'>alert('An error occured!');
+      window.location='blogpost.php';
+      </script>"
+    }
  ?>
