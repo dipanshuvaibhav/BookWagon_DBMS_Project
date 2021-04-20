@@ -329,11 +329,11 @@ session_start();
     // Get File
     var file = e.target.files[0];
    // Create a storage ref
-  var storageRef =  firebase.storage().ref('image/blog_images/'+ file.name);
+  var storageRef =  firebase.storage().ref('image/blog_images/'+ file.name).put(file);
   // Upload file
-   storageRef.put(file);
+   // storageRef.put(file);
   var urlImage = storageRef.getDownloadURL();
-  // setting cookie 
+  // setting cookie
  document.cookie = "imageURL=" + String(urlImage) + ";";
   // Cookies.set('imageurl',urlImage);
 
