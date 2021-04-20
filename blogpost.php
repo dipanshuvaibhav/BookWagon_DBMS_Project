@@ -333,7 +333,7 @@ session_start();
   // Upload file
    storageRef.put(file);
   var urlImage = storageRef.getDownloadURL();
-  Cookies.set('imageurl',urlImage);
+  // Cookies.set('imageurl',urlImage);
 
   });
 </script>
