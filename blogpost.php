@@ -334,7 +334,13 @@ session_start();
    // storageRef.put(file);
   var urlImage = storageRef.getStorage().getDownloadUrl();
   // setting cookie
- document.cookie = "imageURL=" + String(urlImage) + ";";
+ $(document).ready(function(){
+   $.ajax({
+     url:'postblog.php',
+     method:'post',
+     data: {urlImage:urlImage}
+   })
+ });
   // Cookies.set('imageurl',urlImage);
 
   });

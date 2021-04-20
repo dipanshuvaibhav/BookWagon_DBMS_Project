@@ -6,7 +6,7 @@ session_start();
  $name = $_POST['name1'];
  $title = $_POST['heading'];
  $content = $_POST['content'];
-
+$pic = $_POST['urlImage'];
 
  $image_name = $_FILES['image']['name'];
  $image_size = $_FILES['image']['size'];
