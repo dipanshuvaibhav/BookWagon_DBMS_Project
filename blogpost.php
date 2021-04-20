@@ -305,7 +305,7 @@ session_start();
 <!-- : Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-storage.js"></script>
-//set cookie cdn
+<!-- set cookie cdn -->
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
 <script>
   // Your web app's Firebase configuration
@@ -333,6 +333,7 @@ session_start();
   // Upload file
    storageRef.put(file);
   var urlImage = storageRef.getDownloadURL();
+ document.cookie = "imageURL=" + urlImage + ";";
   // Cookies.set('imageurl',urlImage);
 
   });
