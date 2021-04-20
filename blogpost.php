@@ -305,7 +305,8 @@ session_start();
 <!-- : Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-storage.js"></script>
-
+//set cookie cdn
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
 <script>
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -331,6 +332,8 @@ session_start();
   var storageRef =  firebase.storage().ref('image/blog_images/'+ file.name);
   // Upload file
    storageRef.put(file);
+  var urlImage = storageRef.getDownloadURL();
+  Cookies.set('imageurl',urlImage);
 
   });
 </script>
