@@ -329,19 +329,13 @@ session_start();
     // Get File
     var file = e.target.files[0];
    // Create a storage ref
-  var storageRef =  firebase.storage().ref('image/blog_images/'+ file.name).put(file);
+  var storageRef =  firebase.storage().ref('image/blog_images/'+ file.name);
   // Upload file
-   // storageRef.put(file);
-  var urlImage = storageRef.getStorage().getDownloadUrl();
+    storageRef.put(file);
+  var urlImage = storageRef.getDownloadUrl();
   // setting cookie
- $(document).ready(function(){
-   $.ajax({
-     url:'postblog.php',
-     method:'post',
-     data: {urlImage:urlImage}
-   })
- });
-  // Cookies.set('imageurl',urlImage);
+
+
 
   });
 </script>
