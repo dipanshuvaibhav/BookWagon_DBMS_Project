@@ -9,7 +9,7 @@ session_start();
  $image_url = $_COOKIE['ImageURL'];
 
  $sql = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.posts(author,title,content,post_img) VALUES(?,?,?,?)");
- $sql->bind_param("ssss",$name,$title,$content,$img_upload_path);
+ $sql->bind_param("ssss",$name,$title,$content,$image_url);
  $sql->execute();
 
 echo "<script type='text/javascript'>alert('Blog Updated successfully!');
