@@ -6,49 +6,57 @@ session_start();
  $name = $_POST['name1'];
  $title = $_POST['heading'];
  $content = $_POST['content'];
-$pic = $_POST['urlImage'];
+ $image_url = $_COOKIE['ImageURL'];
 
- $image_name = $_FILES['image']['name'];
- $image_size = $_FILES['image']['size'];
- $tmp_name = $_FILES['image']['tmp_name'];
- $error = $_FILES['image']['error'];
+ $sql = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.posts(author,title,content,post_img) VALUES(?,?,?,?)");
+ $sql->bind_param("ssss",$name,$title,$content,$img_upload_path);
+ $sql->execute();
 
-    if($error === 0){
-        if($image_size> 1500000){
-            $em =  "File too large";
-            echo "$em";
-        }else{
-           $img_ex =    pathinfo($image_name,PATHINFO_EXTENSION);
-           $img_ex_lc = strtolower($img_ex);
+echo "<script type='text/javascript'>alert('Blog Updated successfully!');
+window.location='blogpost.php';
+</script>";
 
-           $allowed_exs = array("jpg","png","jpeg");
+ // $image_name = $_FILES['image']['name'];
+ // $image_size = $_FILES['image']['size'];
+ // $tmp_name = $_FILES['image']['tmp_name'];
+ // $error = $_FILES['image']['error'];
 
-            if(in_array($img_ex_lc,$allowed_exs)){
-                    $new_img_id = uniqid("IMG-",true).'.'.$img_ex_lc;
-                    $img_upload_path= 'image/postimages/'.$new_img_id;
-                    move_uploaded_file($tmp_name,$img_upload_path);
-
-                    //Uploading to database
-                    $sql = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.posts(author,title,content,post_img) VALUES(?,?,?,?)");
-                    $sql->bind_param("ssss",$name,$title,$content,$img_upload_path);
-                    $sql->execute();
-
-            echo "<script type='text/javascript'>alert('Blog Updated successfully!');
-          window.location='blogpost.php';
-          </script>";
-
-
-
-            }else{
-              echo "<script type='text/javascript'>alert('Blog could not be uploaded!');
-            window.location='blogpost.php';
-            </script>";
-            }
-        }
-      }else{
-        $em= "Some error occurred";
-        echo "<script type='text/javascript'>alert('An error occured!');
-      window.location='blogpost.php';
-      </script>";
-    }
+    // if($error === 0){
+    //     if($image_size> 1500000){
+    //         $em =  "File too large";
+    //         echo "$em";
+    //     }else{
+    //        $img_ex =    pathinfo($image_name,PATHINFO_EXTENSION);
+    //        $img_ex_lc = strtolower($img_ex);
+    //
+    //        $allowed_exs = array("jpg","png","jpeg");
+    //
+    //         if(in_array($img_ex_lc,$allowed_exs)){
+    //                 $new_img_id = uniqid("IMG-",true).'.'.$img_ex_lc;
+    //                 $img_upload_path= 'image/postimages/'.$new_img_id;
+    //                 move_uploaded_file($tmp_name,$img_upload_path);
+    //
+    //                 //Uploading to database
+    //                 $sql = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.posts(author,title,content,post_img) VALUES(?,?,?,?)");
+    //                 $sql->bind_param("ssss",$name,$title,$content,$img_upload_path);
+    //                 $sql->execute();
+    //
+    //         echo "<script type='text/javascript'>alert('Blog Updated successfully!');
+    //       window.location='blogpost.php';
+    //       </script>";
+    //
+    //
+    //
+    //         }else{
+    //           echo "<script type='text/javascript'>alert('Blog could not be uploaded!');
+    //         window.location='blogpost.php';
+    //         </script>";
+    //         }
+    //     }
+    //   }else{
+    //     $em= "Some error occurred";
+    //     echo "<script type='text/javascript'>alert('An error occured!');
+    //   window.location='blogpost.php';
+    //   </script>";
+    // }
  ?>
