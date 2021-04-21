@@ -326,7 +326,7 @@ session_start();
 
   // listen for file selection
   fileButton.addEventListener('change', function(e){
-    document.cookie = "ImageURL=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    // document.cookie = "ImageURL=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
     // Get File
     var file = e.target.files[0];
    // Create a storage ref
