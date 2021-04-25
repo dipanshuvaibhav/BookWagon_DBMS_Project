@@ -368,7 +368,8 @@ function checkCookie(name)
 
     if(checkCookie(name)==0){
     	storageRef.getDownloadURL().then((url)=>{
-    			createCookie(name,url,1);
+          var imageLink = url;
+          createCookie(name,imageLink,1);
 
     });
     }
