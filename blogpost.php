@@ -333,15 +333,28 @@ session_start();
   var storageRef =  firebase.storage().ref('image/blog_images/'+ file.name);
   // Upload file
   storageRef.put(file);
-   storageRef.getDownloadURL().then((url)=>{
-    document.cookie = "ImageURL=" + url + ";";
+  var name = "ImageUrl";
+    if(checkCookie(name)==1){
+  	   eraseCookie(name);
+    }
+
+    if(checkCookie(name)==0){
+    	storageRef.getDownloadURL().then((url)=>{
+    			createCookie(name,url,1);
+
+    });
+    }
+
   });
-  // setting cookie
-
-
-
-
-  });
+  //  storageRef.getDownloadURL().then((url)=>{
+  //   document.cookie = "ImageURL=" + url + ";";
+  // });
+  // // setting cookie
+  //
+  //
+  //
+  //
+  // });
 </script>
 
 	<!-- Use Minified Plugins Version For Fast Page Load -->
