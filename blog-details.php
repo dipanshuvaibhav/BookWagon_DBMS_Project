@@ -208,6 +208,7 @@ session_start();
                         </article>
 
                     </div>
+										<<?php endwhile; ?>
                 </div>
                 <!-- <div class="share-block mb--50">
                     <h3>Share Now</h3>
