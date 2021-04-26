@@ -362,20 +362,17 @@ function checkCookie(name)
   var storageRef =  firebase.storage().ref('image/blog_images/'+ file.name);
   // Upload file
   storageRef.put(file);
-  var name = "ImageUrl";
-    if(checkCookie(name)==1){
-  	   eraseCookie(name);
-    }
 
-    if(checkCookie(name)==0){
+
+
     	storageRef.getDownloadURL().then((url)=>{
           var imageLink = url;
-          createCookie(name,imageLink,1);
+
           document.getElementById("imageUrl").value = imageLink;
           console.log(imageLink);
 
     });
-    }
+
 
   });
   //  storageRef.getDownloadURL().then((url)=>{
