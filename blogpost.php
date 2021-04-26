@@ -336,25 +336,41 @@ session_start();
   var storageRef =  firebase.storage().ref('image/blog_images/'+ file.name);
   // Upload file
   var task = storageRef.put(file);
-  task.on('state_changed',
-    function progress(snapshot){
-      var percentage = (snapshot.bytesTransferred / snapshot.totalBytes)*100;
-      uploader.value = percentage;
-    },
-    function error(err){
-
-    },
-    function complete(){
-
-    }
-  );
-  storageRef.getDownloadURL().then((url)=>{
+  // task.on('state_changed',
+  //   function progress(snapshot){
+  //     var percentage = (snapshot.bytesTransferred / snapshot.totalBytes)*100;
+  //     uploader.value = percentage;
+  //   },
+  //   function error(err){
+  //
+  //   },
+  //   function complete(){
+  //
+  //   }
+  // );
+  setTimeout(() => {
+	  storageRef.getDownloadURL().then((url)=>{
           var imageLink = url;
 
           document.getElementById("imageUrl").value = imageLink;
           console.log(imageLink);
 
+		  var  prog ;
+		  for(i=0;i<imageLink.length;i++){
+			var percentage = i*10;
+   		   uploader.value = percentage;
+		  }
+		  alert("Image uploaded successfully!");
+
     });
+}, 10000);
+  // storageRef.getDownloadURL().then((url)=>{
+  //         var imageLink = url;
+  //
+  //         document.getElementById("imageUrl").value = imageLink;
+  //         console.log(imageLink);
+  //
+  //   });
 
 
   });
