@@ -177,6 +177,9 @@ session_start();
 
 			</div>
 		</section>
+		<div style="padding: 39px;">
+
+		</div>
 		<section class="inner-page-sec-padding-bottom">
 			<div class="container">
 				<div class="blog-list-cards">
