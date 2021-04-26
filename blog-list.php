@@ -198,7 +198,7 @@ session_start();
 							<div class="col-md-6">
 								<div class="card-content">
 									<h3 class="title"><a href="blog-details.php"><?= $row['title']; ?></a></h3>
-									<p class="post-meta"><span><?= $row['created_at'];?> </span> | <a href="#">Hastech</a></p>
+									<p class="post-meta"><span><?= $row['created_at'];?> </span> | By <?= $row['author']; ?> </p>
 									<article>
 										<h2 class="sr-only">
 											Blog Article
