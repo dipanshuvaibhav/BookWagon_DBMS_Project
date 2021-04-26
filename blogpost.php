@@ -201,6 +201,7 @@ session_start();
 									<div class="col-12 mb--20">
 										<label for="image">Upload image:</label>
 										<input type="file" id="image" name="image">
+                    <progress value="0" max="100" id="uploader" >0%</progress>
                     <input type="hidden" id="imageUrl" name="imageUrl" >
 									</div>
 
@@ -334,7 +335,19 @@ session_start();
    // Create a storage ref
   var storageRef =  firebase.storage().ref('image/blog_images/'+ file.name);
   // Upload file
-  storageRef.put(file);
+  var task = storageRef.put(file);
+  task.on('state_changed',
+    function progress(snapshot){
+      var percentage = (snapshot.bytesTransferred / snapshot.totalBytes)*100;
+      uploader.value = percentage;
+    },
+    function error(err){
+
+    },
+    function complete(){
+
+    }
+  );
   storageRef.getDownloadURL().then((url)=>{
           var imageLink = url;
 
