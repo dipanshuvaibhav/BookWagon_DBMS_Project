@@ -192,7 +192,7 @@ session_start();
 						<div class="row">
 							<div class="col-md-5">
 
-									<img src="<?= $row['post_img']?>" alt="">
+									<img src="<?= $row['post_img']?>" alt="" style="max-width: 250px;max-height: 233px;min-width: 250px;min-height: 250px;">
 
 							</div>
 							<div class="col-md-6">
