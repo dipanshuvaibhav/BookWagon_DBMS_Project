@@ -191,13 +191,13 @@ session_start();
 					<div class="blog-card card-style-list">
 						<div class="row">
 							<div class="col-md-5">
-								<a href="blog-details.php" class="image d-block">
+
 									<img src="<?= $row['post_img']?>" alt="">
-								</a>
+
 							</div>
 							<div class="col-md-6">
 								<div class="card-content">
-									<h3 class="title"><a href="blog-details.php"><?= $row['title']; ?></a></h3>
+									<h3 class="title"><?= $row['title']; ?></h3>
 									<p class="post-meta"><span><?= $row['created_at'];?> </span> | By <?= $row['author']; ?> </p>
 									<article>
 										<h2 class="sr-only">
@@ -206,7 +206,7 @@ session_start();
 										<p><?= $row['content']; ?></p>
 										<form class="" action="blog-details.php" method="post">
 											<input type="hidden" name="postId" value="<?= $row['post_id'];?>">
-											<button action="submit" class="blog-link">Read More</button>
+											<button action="submit" class="btn btn--primary blog-link">Read More</button>
 
 										</form>
 
