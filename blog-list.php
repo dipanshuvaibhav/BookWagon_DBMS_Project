@@ -192,7 +192,7 @@ session_start();
 						<div class="row">
 							<div class="col-md-5">
 								<a href="blog-details.php" class="image d-block">
-									<img src="<?= $row['post_img'];?>" alt="">
+									<img src="<?= $row['post_img']?>" alt="">
 								</a>
 							</div>
 							<div class="col-md-6">
