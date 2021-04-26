@@ -174,8 +174,8 @@ session_start();
             <div class="container">
                 <div class="blog-post post-details mb--50">
 									<<?php
-									require 'config.php';
-									$post_id = $_POST['post_id'];
+									include 'config.php';
+									$post_id = $_POST['postId'];
 									$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.posts where post_id=?;');
 									$stmt->bind_param("i",$post_id);
 									$stmt->execute();
