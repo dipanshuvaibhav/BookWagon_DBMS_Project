@@ -6,7 +6,7 @@ session_start();
  $name = $_POST['name1'];
  $title = $_POST['heading'];
  $content = $_POST['content'];
- $image_url = $_COOKIE['ImageUrl'];
+ $image_url = $_POST['imageUrl'];
 
  $sql = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.posts(author,title,content,post_img) VALUES(?,?,?,?)");
  $sql->bind_param("ssss",$name,$title,$content,$image_url);

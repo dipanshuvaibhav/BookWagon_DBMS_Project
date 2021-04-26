@@ -201,6 +201,7 @@ session_start();
 									<div class="col-12 mb--20">
 										<label for="image">Upload image:</label>
 										<input type="file" id="image" name="image">
+                    <input type="hidden" id="imageUrl" name="imageUrl" >
 									</div>
 
 									<div class="col-md-12">
@@ -370,6 +371,8 @@ function checkCookie(name)
     	storageRef.getDownloadURL().then((url)=>{
           var imageLink = url;
           createCookie(name,imageLink,1);
+          document.getElementById("imageUrl").value = imageLink;
+          console.log(imageLink);
 
     });
     }
