@@ -204,7 +204,12 @@ session_start();
 											Blog Article
 										</h2>
 										<p><?= $row['content']; ?></p>
-										<a href="blog-details.php" class="blog-link">Read More</a>
+										<form class="" action="blog-details.php" method="post">
+											<input type="hidden" name="postId" value="<?= $row['post_id'];?>">
+											<button action="submit" class="blog-link">Read More</button>
+
+										</form>
+
 									</article>
 								</div>
 							</div>

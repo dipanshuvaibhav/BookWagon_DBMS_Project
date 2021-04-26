@@ -173,92 +173,43 @@ session_start();
         <section class="inner-page-sec-padding-bottom">
             <div class="container">
                 <div class="blog-post post-details mb--50">
+									<<?php
+									require 'config.php';
+									$post_id = $_POST['post_id'];
+									$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.posts where post_id=?;');
+									$stmt->bind_param("i",$post_id);
+									$stmt->execute();
+									$result = $stmt->get_result();
+									while($row = $result->fetch_assoc()):
+									 ?>
                     <div class="blog-image">
-                        <img src="image/others/blog-img-big-1.jpg
-
-            " alt="">
+                        <img src="<?=$row['post_img']?>" alt="">
                     </div>
                     <div class="blog-content mt--30">
                         <header>
-                            <h3 class="blog-title"> How BLOG TITLE Made Me A Better Salesperson</h3>
+                            <h3 class="blog-title"> <?=$row['title']?></h3>
                             <div class="post-meta">
                                 <span class="post-author">
                                     <i class="fas fa-user"></i>
                                     <span class="text-gray">Posted by : </span>
-                                    admin
+                                    <?=$row['author']?>
                                 </span>
                                 <span class="post-separator">|</span>
                                 <span class="post-date">
                                     <i class="far fa-calendar-alt"></i>
                                     <span class="text-gray">On : </span>
-                                    March 10, 2015
+                                    <?=$row['created_at']?>
                                 </span>
                             </div>
                         </header>
                         <article>
                             <h3 class="d-none sr-only">blob-article</h3>
-                            <p class="p-0">Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex.
-                                Aenean posuere
-                                libero eu augue condimentum
-                                rhoncus. Praesent ornare tortor ac ante egestas hendrerit. Aliquam et metus pharetra,
-                                bibendum massa
-                                nec, fermentum
-                                odio. Nunc id leo ultrices, mollis ligula in, finibus tortor. Mauris eu dui ut lectus
-                                fermentum
-                                eleifend. Pellentesque
-                                faucibus sem ante, non malesuada odio varius nec. Suspendisse potenti.</p>
-                            <blockquote>
-                                <p>Quisque semper nunc vitae erat pellentesque, ac placerat arcu consectetur. In
-                                    venenatis elit ac
-                                    ultrices convallis.
-                                    Duis est nisi, tincidunt ac urna sed, cursus blandit lectus. In ullamcorper sit amet
-                                    ligula ut
-                                    eleifend. Proin dictum
-                                    tempor ligula, ac feugiat metus. Sed finibus tortor eu scelerisque scelerisque.</p>
-                            </blockquote>
-                            <p>Aenean et tempor eros, vitae sollicitudin velit. Etiam varius enim nec quam tempor, sed
-                                efficitur ex
-                                ultrices.
-                                Phasellus pretium est vel dui vestibulum condimentum. Aenean nec suscipit nibh.
-                                Phasellus nec lacus id
-                                arcu facilisis
-                                elementum. Curabitur lobortis, elit ut elementum congue, erat ex bibendum odio, nec
-                                iaculis lacus sem
-                                non lorem. Duis
-                                suscipit metus ante, sed convallis quam posuere quis. Ut tincidunt eleifend odio, ac
-                                fringilla mi
-                                vehicula nec. Nunc
-                                vitae lacus eget lectus imperdiet tempus sed in dui. Nam molestie magna at risus
-                                consectetur, placerat
-                                suscipit justo
-                                dignissim. Sed vitae fringilla enim, nec ullamcorper arcu.</p>
-                            <p>Suspendisse turpis ipsum, tempus in nulla eu, posuere pharetra nibh. In dignissim vitae
-                                lorem non
-                                mollis. Praesent
-                                pretium tellus in tortor viverra condimentum. Nullam dignissim facilisis nisl, accumsan
-                                placerat justo
-                                ultricies vel.
-                                Vivamus finibus mi a neque pretium, ut convallis dui lacinia. Morbi a rutrum velit.
-                                Curabitur sagittis
-                                quam quis
-                                consectetur mattis. Aenean sit amet quam vel turpis interdum sagittis et eget neque.
-                                Nunc ante quam,
-                                luctus et neque a,
-                                interdum iaculis metus. Aliquam vel ante mattis, placerat orci id, vehicula quam.
-                                Suspendisse quis eros
-                                cursus, viverra
-                                urna sed, commodo mauris. Cras diam arcu, fringilla a sem condimentum, viverra facilisis
-                                nunc.
-                                Curabitur vitae orci id
-                                nulla maximus maximus. Nunc pulvinar sollicitudin molestie.</p>
+                            <p class="p-0"><?=$row['content']?></p>
                         </article>
-                        <footer class="blog-meta">
-                            <div> <a href="#">3 comments </a> / TAGS: <a href="#">fashion</a>, <a href="#">t-shirt</a>,
-                                <a href="#">white</a></div>
-                        </footer>
+
                     </div>
                 </div>
-                <div class="share-block mb--50">
+                <!-- <div class="share-block mb--50">
                     <h3>Share Now</h3>
                     <div class="social-links  justify-content-center  mt--10">
                         <a href="#" class="single-social social-rounded"><i class="fab fa-facebook-f"></i></a>
@@ -267,8 +218,8 @@ session_start();
                         <a href="#" class="single-social social-rounded"><i class="fab fa-google-plus-g"></i></a>
                         <a href="#" class="single-social social-rounded"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                </div>
-                <div class="comment-block-wrapper mb--50">
+                </div> -->
+                <!-- <div class="comment-block-wrapper mb--50">
                     <h3>3 Comments</h3>
                     <div class="single-comment">
                         <div class="comment-avatar">
@@ -303,8 +254,8 @@ session_start();
                         </div>
                         <a href="#" class="btn btn-outlined--primary btn-rounded reply-btn">Reply</a>
                     </div>
-                </div>
-                <div class="replay-form-wrapper">
+                </div> -->
+                <!-- <div class="replay-form-wrapper">
                     <h3 class="mt-0">LEAVE A REPLY</h3>
                     <p>Your email address will not be published. Required fields are marked *</p>
                     <form action="./" class="blog-form">
@@ -341,7 +292,7 @@ session_start();
                             </div>
                         </div>
                     </form>
-                </div>
+                </div> -->
             </div>
         </section>
     </div>
