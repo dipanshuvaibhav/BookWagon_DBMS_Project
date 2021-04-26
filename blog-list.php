@@ -206,7 +206,7 @@ session_start();
 										<p><?= $row['content']; ?></p>
 										<form class="" action="blog-details.php" method="post">
 											<input type="hidden" name="postId" value="<?= $row['post_id'];?>">
-											<button action="submit" class="btn btn--primary blog-link">Read More</button>
+											<button action="submit" class=" btn--primary ">Read More</button>
 
 										</form>
 
