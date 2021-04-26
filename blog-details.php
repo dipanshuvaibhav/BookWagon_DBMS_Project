@@ -173,7 +173,7 @@ session_start();
         <section class="inner-page-sec-padding-bottom">
             <div class="container">
                 <div class="blog-post post-details mb--50">
-									<<?php
+									<?php
 									include 'config.php';
 									$post_id = $_POST['postId'];
 									$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.posts where post_id=?;');
@@ -208,7 +208,7 @@ session_start();
                         </article>
 
                     </div>
-										<<?php endwhile; ?>
+										<?php endwhile; ?>
                 </div>
                 <!-- <div class="share-block mb--50">
                     <h3>Share Now</h3>
