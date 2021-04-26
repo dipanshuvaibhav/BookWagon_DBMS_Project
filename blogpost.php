@@ -309,34 +309,7 @@ session_start();
 <!-- set cookie cdn -->
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
 <script>
-function createCookie(name,value,days) {
-	if (days) {
-		var date = new Date();
-		date.setTime(date.getTime()+(days*24*60*60*1000));
-		var expires = "; expires="+date.toGMTString();
-	}
-	else var expires = "";
-	document.cookie = name+"="+value+expires+"; path=/";
-}
 
-function readCookie(name) {
-	var nameEQ = name + "=";
-	var ca = document.cookie.split(';');
-	for(var i=0;i < ca.length;i++) {
-		var c = ca[i];
-		while (c.charAt(0)==' ') c = c.substring(1,c.length);
-		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-	}
-	return null;
-}
-
-function eraseCookie(name) {
-	createCookie(name,"",-1);
-}
-function checkCookie(name)
-{
-    return readCookie(name) != null;
-}
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
@@ -362,10 +335,7 @@ function checkCookie(name)
   var storageRef =  firebase.storage().ref('image/blog_images/'+ file.name);
   // Upload file
   storageRef.put(file);
-
-
-
-    	storageRef.getDownloadURL().then((url)=>{
+  storageRef.getDownloadURL().then((url)=>{
           var imageLink = url;
 
           document.getElementById("imageUrl").value = imageLink;
@@ -375,15 +345,7 @@ function checkCookie(name)
 
 
   });
-  //  storageRef.getDownloadURL().then((url)=>{
-  //   document.cookie = "ImageURL=" + url + ";";
-  // });
-  // // setting cookie
-  //
-  //
-  //
-  //
-  // });
+
 </script>
 
 	<!-- Use Minified Plugins Version For Fast Page Load -->
