@@ -144,9 +144,7 @@ session_start();
 														<!-- Blog -->
 														<li class="menu-item mega-menu">
 															<a href="blog-list.php">Blog </a>
-														<li class="menu-item mega-menu">
-																	<a href="my-account.php">Account</a>
-																</li>
+														
 														</li>
 														<li class="menu-item">
 															<a href="contact.php">Contact</a>
