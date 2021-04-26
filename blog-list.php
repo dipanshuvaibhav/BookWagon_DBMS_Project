@@ -203,7 +203,7 @@ session_start();
 										<h2 class="sr-only">
 											Blog Article
 										</h2>
-										<p><?= $row['content']; ?></p>
+										<p style="overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 4;-webkit-box-orient: vertical;"><?= $row['content']; ?></p>
 										<form class="" action="blog-details.php" method="post">
 											<input type="hidden" name="postId" value="<?= $row['post_id'];?>">
 											<button action="submit" class=" btn--primary ">Read More</button>
