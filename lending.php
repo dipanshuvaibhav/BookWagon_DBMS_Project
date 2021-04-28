@@ -3,7 +3,7 @@ session_start();
 
  require 'config.php';
 
- $name = $_POST['BookName1'];
+ $name = $_POST['bookName1'];
  $price = $_POST['price'];
  $image_url = $_POST['imageUrl'];
  $user = $_POST['user_id'];

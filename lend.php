@@ -297,7 +297,7 @@ session_start();
     // Get File
     var file = e.target.files[0];
    // Create a storage ref
-  var storageRef =  firebase.storage().ref('image/blog_images/'+ file.name);
+  var storageRef =  firebase.storage().ref('image/product_images/'+ file.name);
   // Upload file
   var task = storageRef.put(file);
   // task.on('state_changed',
