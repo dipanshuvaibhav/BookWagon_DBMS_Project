@@ -82,43 +82,6 @@ session_start();
                                             }
                                         ?>
 					                </div>
-									<!--<div class="cart-block">
-										<div class="cart-total">
-											<span class="text-number">
-												1
-											</span>
-											<span class="text-item">
-												Shopping Cart
-											</span>
-											<span class="price">
-												₹0.00
-												<i class="fas fa-chevron-down"></i>
-											</span>
-										</div>
-										<div class="cart-dropdown-block">
-											<div class=" single-cart-block ">
-												<div class="cart-product">
-													<a href="product-details.php" class="image">
-														<img src="image/products/cart-product-1.jpg" alt="">
-													</a>
-													<div class="content">
-														<h3 class="title"><a href="product-details.php">Kodak PIXPRO
-																Astro Zoom AZ421 16 MP</a></h3>
-														<p class="price"><span class="qty">1 ×</span> ₹87.34</p>
-														<button class="cross-btn"><i class="fas fa-times"></i></button>
-													</div>
-												</div>
-											</div>
-											<div class=" single-cart-block ">
-												<div class="btn-block">
-													<a href="cart.php" class="btn">View Cart <i
-															class="fas fa-chevron-right"></i></a>
-													<a href="checkout.php" class="btn btn--primary">Check Out <i
-															class="fas fa-chevron-right"></i></a>
-												</div>
-											</div>
-										</div>-->
-									</div>
 								</div>
 							</div>
 						</div>
@@ -180,27 +143,34 @@ session_start();
 		<main class="page-section inner-page-sec-padding-bottom">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12 col-md-12 col-xs-12 col-lg-6 mb--30 mb-lg--0">
-						<form action="bookadded.php" method="post">
-							<div class="book-form">
-								<h4 class="login-title">Lend a book</h4>
-								<p><span class="font-weight-bold">Enter the details about the book you want to lend</span></p>
+					<div class="col-sm-12 col-md-12 col-xs-12  mb--30 mb-lg--0">
+						<form action="lending.php" method="post" enctype="multipart/form-data">
+							<div class="login-form">
+								<h4 class="login-title">Register Book for lending</h4>
+								<p><span class="font-weight-bold">Fill in the following data to put up your book for lending.</span></p>
 								<div class="row">
+									<!-- book name -->
 									<div class="col-md-12 col-12 mb--15">
-										<label for="name">Book Title</label>
-										<input class="mb-0 form-control" type="text" id="name" name="name"
-											placeholder="Enter book title" required>
+										<label for="bookName">Book Title</label>
+										<input class="mb-0 form-control" type="text" id="bookName" name="bookName1"
+											placeholder="Enter your book's title" required>
 									</div>
-									<div class="col-12 mb--20">
+									<!-- price -->
+									<div class="col-md-12 col-12 mb--15">
 										<label for="price">Price</label>
-										<input class="mb-0 form-control" type="text" id="price" name="price" placeholder="Enter book price here.." required>
+										<input class="mb-0 form-control" type="text" id="price" name="price"
+											placeholder="Enter your book's price " required>
 									</div>
-									<div class="col-lg-6 mb--20">
-										<label for="image">Upload Book image</label>
-										<input class="mb-0 form-control" type="file" name="fileToUpload" id="fileToUpload" required>
+									<!-- image -->
+									<div class="col-12 mb--20">
+										<label for="image">Upload image:</label>
+										<input type="file" id="image" name="image">
+                   								<progress value="0" max="100" id="uploader" >0%</progress>
+                    								<input type="hidden" id="imageUrl" name="imageUrl" >
 									</div>
-									<div class="col-md-12">
-                    					<button type="submit" name = "registerbtn" class="btn btn-outlined">REgister book</button>
+
+									<div class="col-md-12">		
+                				    				<button type="submit" name = "upload" class="btn btn-outlined">Register book</button>
 									</div>
 								</div>
 							</div>
@@ -240,7 +210,21 @@ session_start();
 										</div>
 										<ul class="footer-list normal-list">
 												<li><a href="contact.php">Contact us</a></li>
-												<li><a href="faq.php">About Us</a></li>
+												<li><a href="">Sitemap</a></li>
+										</ul>
+								</div>
+						</div>
+						<div class=" col-xl-3 col-lg-2 col-sm-6">
+								<div class="single-footer pb--40">
+										<div class="footer-title">
+												<h3>Extras</h3>
+										</div>
+										<ul class="footer-list normal-list">
+												<!-- <li><a href="">Delivery</a></li> -->
+												<li><a href="about-us.php">About Us</a></li>
+												<!-- <li><a href="">Stores</a></li> -->
+												<li><a href="contact.php">Contact us</a></li>
+												<li><a href="">Sitemap</a></li>
 										</ul>
 								</div>
 						</div>
@@ -280,10 +264,104 @@ session_start();
 				</div>
 		</div>
 </footer>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+
+<!-- : Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-storage.js"></script>
+<!-- set cookie cdn -->
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+<script>
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBrhZur6_whcp3JM6DRQC9Zytu2NgTCuUQ",
+    authDomain: "bookwagon-6afb8.firebaseapp.com",
+    projectId: "bookwagon-6afb8",
+    storageBucket: "bookwagon-6afb8.appspot.com",
+    messagingSenderId: "643972165142",
+    appId: "1:643972165142:web:afd46bda82f60751a04f37",
+    measurementId: "G-4YG0SD2T0B"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  //Getting File
+  var fileButton = document.getElementById('image');
+
+  // listen for file selection
+  fileButton.addEventListener('change', function(e){
+    // document.cookie = "ImageURL=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    // Get File
+    var file = e.target.files[0];
+   // Create a storage ref
+  var storageRef =  firebase.storage().ref('image/blog_images/'+ file.name);
+  // Upload file
+  var task = storageRef.put(file);
+  // task.on('state_changed',
+  //   function progress(snapshot){
+  //     var percentage = (snapshot.bytesTransferred / snapshot.totalBytes)*100;
+  //     uploader.value = percentage;
+  //   },
+  //   function error(err){
+  //
+  //   },
+  //   function complete(){
+  //
+  //   }
+  // );
+  setTimeout(() => {
+	  storageRef.getDownloadURL().then((url)=>{
+          var imageLink = url;
+
+          document.getElementById("imageUrl").value = imageLink;
+          console.log(imageLink);
+
+		  var  prog ;
+		  for(i=0;i<imageLink.length;i++){
+			var percentage = i*10;
+   		   uploader.value = percentage;
+		  }
+		  alert("Image uploaded successfully!");
+
+    });
+}, 10000);
+  // storageRef.getDownloadURL().then((url)=>{
+  //         var imageLink = url;
+  //
+  //         document.getElementById("imageUrl").value = imageLink;
+  //         console.log(imageLink);
+  //
+  //   });
+
+
+  });
+
+</script>
+
 	<!-- Use Minified Plugins Version For Fast Page Load -->
 	<script src="js/plugins.js"></script>
 	<script src="js/ajax-mail.js"></script>
 	<script src="js/custom.js"></script>
+  <script type="text/javascript">
+		$(document).ready(function(){
+
+
+			load_cart_item_number();
+
+			function load_cart_item_number(){
+				$.ajax({
+					url :'action.php',
+					method:'get',
+					data: {cartItem:"cart_item"},
+					success:function(response){
+						$("#cart-item").html(response);
+					}
+				});
+			}
+		});
+	</script>
 </body>
 
 </html>
