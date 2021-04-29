@@ -215,7 +215,7 @@ session_start();
 							<?php
 								include 'config.php';
 
-								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.product WHERE p_name LIKE 'A%';');
+								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.product;');
 								$stmt->execute();
 								$result = $stmt->get_result();
 								while($row = $result->fetch_assoc()):
