@@ -167,53 +167,15 @@ session_start();
 			</div>
 		</section>
 
-		<main class="inner-page-sec-padding-bottom">
-			<!-- adding success bar if item added to cart -->
+		<!--<main class="inner-page-sec-padding-bottom">
+			
 			<div id="message">
 			</div>
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-9 order-lg-2">
-						<div class="shop-toolbar with-sidebar mb--30">
-							<!--<div class="row align-items-center">
-								<!--<div class="col-lg-2 col-md-2 col-sm-6">
-									
-									<div class="product-view-mode">
-										<a href="#" class="sorting-btn active" data-target="grid"><i
-												class="fas fa-th"></i></a>
-										<a href="#" class="sorting-btn" data-target="grid-four">
-											<span class="grid-four-icon">
-												<i class="fas fa-grip-vertical"></i><i class="fas fa-grip-vertical"></i>
-											</span>
-										</a>
-									</div>
-								</div>
-								<div class="col-xl-4 col-md-4 col-sm-6  mt--10 mt-sm--0">
-								</div>
-								<div class="col-lg-2 col-md-2 col-sm-6  mt--10 mt-md--0">
-								</div>
-							</div>-->
-						</div>
-					</div>
-						<!--<div class="shop-toolbar d-none">
-							<div class="row align-items-center">
-								<div class="col-lg-2 col-md-2 col-sm-6">
-									
-									<div class="product-view-mode">
-										<a href="#" class="sorting-btn active" data-target="grid"><i
-												class="fas fa-th"></i></a>
-										<a href="#" class="sorting-btn" data-target="grid-four">
-											<span class="grid-four-icon">
-												<i class="fas fa-grip-vertical"></i><i class="fas fa-grip-vertical"></i>
-											</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>-->
 						<div class="shop-product-wrap grid with-pagination row space-db--30 shop-border">
-							<?php
-								include 'config.php';
+							<//?php
+								/*include 'config.php';
 
 								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.product;');
 								$stmt->execute();
@@ -225,23 +187,23 @@ session_start();
 									<div class="product-grid-content">
 										<div class="product-card--body">
 											<div class="card-image">
-												<!-- taking image from database -->
-												<img src="<?= $row['p_image'] ?>" alt="">
+												
+												<img src="<//?= $row['p_image'] ?>" alt="">
 												<div class="hover-contents">
 													<a href="" class="hover-image">
-														<img src="<?= $row['p_image'] ?>" alt="">
+														<img src="<//?= $row['p_image'] ?>" alt="">
 													</a>
 													<div class="hover-btns">
-														<!-- cart button -->
+														
 
 														<form class="form-submit" action="" >
-															<input type="hidden" class="pid" value="<?= $row['p_id']?>">
-															<input type="hidden" class="usr_id"  value="<?=$_SESSION['id']?>">
-															<input type="hidden" class="p_name" value="<?= $row['p_name']?>">
-															<input type="hidden" class="p_price" value="<?= $row['p_price']?>">
-															<input type="hidden" class="p_image" value="<?= $row['p_image']?>">
-															<input type="hidden" class="producer_id" value="<?= $row['producer_id']?>">
-															<?php
+															<input type="hidden" class="pid" value="<//?= $row['p_id']?>">
+															<input type="hidden" class="usr_id"  value="<//?=$_SESSION['id']?>">
+															<input type="hidden" class="p_name" value="<//?= $row['p_name']?>">
+															<input type="hidden" class="p_price" value="<//?= $row['p_price']?>">
+															<input type="hidden" class="p_image" value="<//?= $row['p_image']?>">
+															<input type="hidden" class="producer_id" value="<//?= $row['producer_id']?>">
+															</*?php
 															if(isset($_SESSION['id'])){
 															echo  '<button  class="single-btn addItemButton"><i class="fas fa-shopping-basket "></i></button>';
 															} else {
@@ -250,21 +212,18 @@ session_start();
 															?>
 														</form>
 
-														<!-- wishlist button -->
-														<!-- <a href="wishlist.php" class="single-btn">
-															<i class="fas fa-heart"></i>
-														</a> -->
+														
 													</div>
 												</div>
 												<div class="product-header">
 													<a href="" class="author">
-														<!-- Deep -->
+														
 													</a>
-													<h3><a href=""><?= $row['p_name']?></a></h3>
+													<h3><a href=""><//?= $row['p_name']?></a></h3>
 												</div>
 											</div>
 											<div class="price-block">
-												<span class="price">₹<?= $row['p_price']?></span>
+												<span class="price">₹<//?= $row['p_price']?></span>
 												<del class="price-old">₹151.20</del>
 												<span class="price-discount">-₹51.20</span>
 											</div>
@@ -273,11 +232,12 @@ session_start();
 
 								</div>
 							</div>
-						<?php endwhile;?>
+						<//?php endwhile;?>
 						</div>
 					</div>
-				</div>
-					</main>
+				</div>		
+			</div>
+        </main>	-->	
 					</div>
 						<!-- Pagination Block -->
 
