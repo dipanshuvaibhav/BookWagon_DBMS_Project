@@ -213,7 +213,7 @@ session_start();
                         <?php
                           include 'config.php';
 
-                          $stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.order where customer_id='$_SESSION['id']';");
+                          $stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.order where customer_id='$_SESSION['id'];';");
                           $stmt->execute();
                           $result = $stmt->get_result();
                           while($row = $result->fetch_assoc()):
