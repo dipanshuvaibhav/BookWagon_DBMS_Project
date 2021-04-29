@@ -8,8 +8,8 @@ $pass1 = $_POST['pass'];
 $pass2 = $_POST['passC'];
 
 if($pass1 == $pass2){
-  $sql = $conn->prepare("UPDATE heroku_adaaf59afa8e08a.customer_table SET cust_pass = ? WHERE (customerID = ?);");
-  $sql->bind_param("si",$pass1,$user);
+  $sql = $conn->prepare("UPDATE heroku_adaaf59afa8e08a.customer_table SET cust_pass=? WHERE customerID =?");
+  $sql->bind_param("si",$pass2,$user);
   $sql->execute();
 
   echo "<script type='text/javascript'>alert('Password has been changed!');
