@@ -187,8 +187,7 @@ session_start();
                                 {
                                     echo "No data found";
                                 }
-                                else
-                                {
+                                
 								while($row = $result->fetch_assoc()):
 							?>
 							<div class="col-lg-4 col-sm-6">
@@ -244,7 +243,7 @@ session_start();
 
 								</div>
 							</div>
-						<?php endwhile;?>}
+						<?php endwhile;?>
 						</div>
 					</div>
 				</div>
