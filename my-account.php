@@ -182,7 +182,7 @@ session_start();
 									<a href="#lending" data-toggle="tab"><i class="fa fa-cart-arrow-down"></i>Lending details</a>
 									<a href="#account-info" data-toggle="tab"><i class="fa fa-user"></i> Account
 										Details</a>
-									
+
 								</div>
 							</div>
 							<!-- My Account Tab Menu End -->
@@ -190,7 +190,7 @@ session_start();
 							<div class="col-lg-9 col-12 mt--30 mt-lg--0">
 								<div class="tab-content" id="myaccountContent">
 									<!-- Single Tab Content Start -->
-									<div class="tab-pane fade " id="dashboad" role="tabpanel">
+									<div class="tab-pane fade show active" id="dashboad" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Dashboard</h3>
 											<!-- <div class="welcome mb-20">
@@ -253,7 +253,7 @@ session_start();
 
                       </div>
 										</div>
-									</div>
+
 									<!-- Single Tab Content End -->
 									<!-- Single Tab Content Start -->
 
@@ -311,6 +311,7 @@ session_start();
 										</div>
 									</div>
 								</div>
+              </div>
 									<!-- Single Tab Content End -->
 								</div>
 							</div>
