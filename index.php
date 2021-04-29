@@ -218,7 +218,7 @@ session_start();
                                 <div class="home-content text-left pl--30">
                                     <div class="row">
                                         <div class="col-lg-5">
-                                            <a href="blogpost.php" class="btn btn--pink">
+                                            <a href="blogpost.php" class="btn btn-outlined--pink">
                                                 Write Now
                                             </a>
                                         </div>
