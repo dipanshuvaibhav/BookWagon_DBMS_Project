@@ -271,16 +271,18 @@ session_start();
 									</div> -->
 									<!-- Single Tab Content End -->
 									<!-- Single Tab Content Start -->
-								<div class="mb-20">
-									<div class="tab-pane fade " id="lending" role="tabpanel">
+                <div class="tab-pane fade " id="lending" role="tabpanel">
+                <div class="mb-20">
+
 										<div class="myaccount-content">
 											<h3>Lending Details</h3>
                                            <a class="btn btn--primary" href="lend.php">Lend a book</a>
 										</div>
 									</div>
 								</div>
-								<div class="mb-20">
-									<div class="tab-pane fade show active" id="account-info" role="tabpanel">
+
+                <div class="tab-pane fade show active" id="account-info" role="tabpanel">
+                <div class="mb-20">
 										<div class="myaccount-content">
 											<h3>Account Details</h3>
 											<div class="account-details-form">
@@ -321,7 +323,7 @@ session_start();
 				</div>
 			</div>
 		</div>
-	</div>
+
 	<!--=================================
   Brands Slider
 ===================================== -->
