@@ -184,10 +184,7 @@ session_start();
 								$stmt->execute();
 								$result = $stmt->get_result();
 								
-                              					if(mysqli_num_rows($result)==0)
-                                				{
-                                   					 echo "<script type='text/javascript'>alert('No data found!');
-                                				}
+                              					
                                 
 								while($row = $result->fetch_assoc()):
 							?>
