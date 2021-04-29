@@ -274,7 +274,7 @@ session_start();
 										<div class="myaccount-content">
 											<h3>Account Details</h3>
 											<div class="account-details-form">
-												<form action="passChange.php">
+												<form action="passChange.php" method="post">
 													<div class="row">
 														<div class="col-12  mb--30">
 															<input id="email" placeholder="Email Address" value="<?=$_SESSION['email'];?>"type="email" >
