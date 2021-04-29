@@ -176,8 +176,8 @@ session_start();
 					<div class="col-lg-9 order-lg-2">
 						<div class="shop-toolbar with-sidebar mb--30">
 							<div class="row align-items-center">
-								<div class="col-lg-2 col-md-2 col-sm-6">
-									<!-- Product View Mode -->
+								<!--<div class="col-lg-2 col-md-2 col-sm-6">
+									
 									<div class="product-view-mode">
 										<a href="#" class="sorting-btn active" data-target="grid"><i
 												class="fas fa-th"></i></a>
@@ -187,7 +187,7 @@ session_start();
 											</span>
 										</a>
 									</div>
-								</div>
+								</div>-->
 								<div class="col-xl-4 col-md-4 col-sm-6  mt--10 mt-sm--0">
 								</div>
 								<div class="col-lg-2 col-md-2 col-sm-6  mt--10 mt-md--0">
@@ -195,10 +195,10 @@ session_start();
 							</div>
 						</div>
 					</div>
-						<div class="shop-toolbar d-none">
+						<!--<div class="shop-toolbar d-none">
 							<div class="row align-items-center">
 								<div class="col-lg-2 col-md-2 col-sm-6">
-									<!-- Product View Mode -->
+									
 									<div class="product-view-mode">
 										<a href="#" class="sorting-btn active" data-target="grid"><i
 												class="fas fa-th"></i></a>
@@ -210,7 +210,7 @@ session_start();
 									</div>
 								</div>
 							</div>
-						</div>
+						</div>-->
 						<div class="shop-product-wrap grid with-pagination row space-db--30 shop-border">
 							<?php
 								include 'config.php';
