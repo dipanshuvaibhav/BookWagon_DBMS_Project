@@ -210,14 +210,7 @@ session_start();
 											<h3>Orders</h3>
 
                       <div class="mb-20">
-                        <?php
-          								include 'config.php';
 
-          								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.order;');
-          								$stmt->execute();
-          								$result = $stmt->get_result();
-          								while($row = $result->fetch_assoc()):
-          							?>
                               <table class="table">
                                   <thead>
                                       <tr>
@@ -233,6 +226,14 @@ session_start();
                                   </thead>
                                   <tbody>
                                       <tr>
+                                        <?php
+                          								include 'config.php';
+
+                          								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.order;');
+                          								$stmt->execute();
+                          								$result = $stmt->get_result();
+                          								while($row = $result->fetch_assoc()):
+                          							?>
                                           <td class="pro-title"><?=$row['o_name']?></td>
                                           <td class="pro-title"><?=$row['o_phone']?></td>
                                           <td class="pro-title"><?=$row['o_address']?></td>
@@ -241,10 +242,11 @@ session_start();
                                           <td class="pro-title"><?=$row['o_date']?></td>
                                           <!-- <td class="pro-title">'Pitch Perfect(1), Batman(1), Fantastic Comics(1), The Beloved Wild(1)'</td>
                                           <td class="pro-title">400</td> -->
-
+                                          <?php endwhile; ?>
                                       </tr>
                                   </tbody>
                               </table>
+
                           </div>
 
                       </div>
