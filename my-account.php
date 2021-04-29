@@ -179,8 +179,8 @@ session_start();
 											class="fas fa-tachometer-alt"></i>
 										Dashboard</a>
 									<a href="#orders" data-toggle="tab"><i class="fa fa-cart-arrow-down"></i> Orders</a>
-									<a href="#account-info" data-toggle="tab"><i class="fa fa-user"></i> Account
-										Details</a>
+                                    <a href="#lending" data-toggle="tab"><i class="fa fa-cart-arrow-down"></i> Lend a book</a>
+									<a href="#account-info" data-toggle="tab"><i class="fa fa-user"></i> Account Details</a>
 									<a href="logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
 								</div>
 							</div>
@@ -208,92 +208,82 @@ session_start();
 									<div class="tab-pane fade" id="orders" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Orders</h3>
-
-                      <div class="mb-20">
-                        <?php
-                          include 'config.php';
-                          $user = $_SESSION['id'];
-                          $stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.order where customer_id=?");
-                          $stmt->bind_param("i",$user);
-                          $stmt->execute();
-                          $result = $stmt->get_result();
-                          while($row = $result->fetch_assoc()):
-                        ?>
-                              <table class="table">
-                                  <thead>
-                                      <tr>
-                                          <th class="pro-title">Customer name</th>
-                                          <!-- <th class="pro-title"></th> -->
-                                          <th class="pro-title">phone</th>
-                                          <th class="pro-title">Address</th>
-                                          <!-- <th class="pro-title">Mode of payment</th> -->
-                                          <th class="pro-title">products</th>
-                                          <th class="pro-title">amount paid</th>
-                                          <th class="pro-title">Date of Purchase</th>
-                                      </tr>
-                                  </thead>
-                                  <tbody>
-                                      <tr>
-
-                                          <td class="pro-title"><?=$row['o_name']?></td>
-                                          <td class="pro-title"><?=$row['o_phone']?></td>
-                                          <td class="pro-title"><?=$row['o_address']?></td>
-                                          <td class="pro-title"><?=$row['o_products']?></td>
-                                          <td class="pro-title"><?=$row['o_amt_paid']?></td>
-                                          <td class="pro-title"><?=$row['o_date']?></td>
-                                          <!-- <td class="pro-title">'Pitch Perfect(1), Batman(1), Fantastic Comics(1), The Beloved Wild(1)'</td>
-                                          <td class="pro-title">400</td> -->
-
-                                      </tr>
-                                  </tbody>
-                              </table>
-                                  <?php endwhile; ?>
-                          </div>
-
-                      </div>
+                                                <div class="mb-20">
+                                                    <?php
+                                                        include 'config.php';
+                                                        $user = $_SESSION['id'];
+                                                        $stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.order where customer_id=?");
+                                                        $stmt->bind_param("i",$user);
+                                                        $stmt->execute();
+                                                        $result = $stmt->get_result();
+                                                        while($row = $result->fetch_assoc()):
+                                                    ?>
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="pro-title">Customer name</th>
+                                                                <!-- <th class="pro-title"></th> -->
+                                                                <th class="pro-title">phone</th>
+                                                                <th class="pro-title">Address</th>
+                                                                <!-- <th class="pro-title">Mode of payment</th> -->
+                                                                <th class="pro-title">products</th>
+                                                                <th class="pro-title">amount paid</th>
+                                                                <th class="pro-title">Date of Purchase</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="pro-title"><?=$row['o_name']?></td>
+                                                                <td class="pro-title"><?=$row['o_phone']?></td>
+                                                                <td class="pro-title"><?=$row['o_address']?></td>
+                                                                <td class="pro-title"><?=$row['o_products']?></td>
+                                                                <td class="pro-title"><?=$row['o_amt_paid']?></td>
+                                                                <td class="pro-title"><?=$row['o_date']?></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <?php endwhile; ?>
+                                                </div>
+										    </div>
+									    </div>
+                                    <div class="tab-pane fade show active" role="tabpanel">
+										<div class="myaccount-content">
+											<h3>Lending Details</h3>
+                                                <?php
+											        if(isset($_SESSION['id'])){
+											            echo  '<a href="lending.php" class="btn btn--primary font-weight-bold">Logout</a>';
+											        } else {
+											            echo '<button type="button" action="" name="button" class="btn btn--primary" style="display:none;">Logout</button>';
+											        }
+											    ?>
 										</div>
 									</div>
-									<!-- Single Tab Content End -->
-									<!-- Single Tab Content Start -->
-
-									<!-- Single Tab Content End -->
-									<!-- Single Tab Content Start -->
-
-									<!-- Single Tab Content End -->
-									<!-- Single Tab Content Start -->
-									<!-- <div class="tab-pane fade" id="address-edit" role="tabpanel">
-										<div class="myaccount-content">
-											<h3>Billing Address</h3>
-											<a href="#" class="btn btn--primary"><i class="fa fa-edit"></i>Edit
-												Address</a>
-										</div>
-									</div> -->
-									<!-- Single Tab Content End -->
-									<!-- Single Tab Content Start -->
 									<div class="tab-pane fade" id="account-info" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Account Details</h3>
 											<div class="account-details-form">
-												<form action="passChange.php" method="post">
+												<form action="#">
 													<div class="row">
 														<div class="col-12  mb--30">
-															<input id="email" placeholder="Email Address" value="<?=$_SESSION['email'];?>"type="email" >
+															<input id="email" placeholder="Email Address" type="email">
 														</div>
 														<div class="col-12  mb--30">
 															<h4>Password change</h4>
 														</div>
-														<!-- <div class="col-12  mb--30">
+														<div class="col-12  mb--30">
 															<input id="current-pwd" placeholder="Current Password"
-																type="password" >
-														</div> -->
-														<div class="col-lg-6 col-12  mb--30">
-															<input id="new-pwd" placeholder="New Password" type="password" name="pass" required>
+																type="password">
 														</div>
 														<div class="col-lg-6 col-12  mb--30">
-															<input id="confirm-pwd" placeholder="Confirm Password" type="password" name="passC" required>
+															<input id="new-pwd" placeholder="New Password"
+																type="password">
+														</div>
+														<div class="col-lg-6 col-12  mb--30">
+															<input id="confirm-pwd" placeholder="Confirm Password"
+																type="password">
 														</div>
 														<div class="col-12">
-															<button action="submit" class="btn btn--primary">Save Changes</button>
+															<button class="btn btn--primary">Save Changes</button>
 														</div>
 													</div>
 												</form>
