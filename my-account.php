@@ -190,7 +190,7 @@ session_start();
 							<div class="col-lg-9 col-12 mt--30 mt-lg--0">
 								<div class="tab-content" id="myaccountContent">
 									<!-- Single Tab Content Start -->
-									<div class="tab-pane fade show active" id="dashboad" role="tabpanel">
+									<div class="tab-pane fade " id="dashboad" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Dashboard</h3>
 											<!-- <div class="welcome mb-20">
@@ -206,7 +206,7 @@ session_start();
 									</div>
 									<!-- Single Tab Content End -->
 									<!-- Single Tab Content Start -->
-									<div class="tab-pane fade show active" id="orders" role="tabpanel">
+									<div class="tab-pane fade" id="orders" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Orders</h3>
 
@@ -271,13 +271,15 @@ session_start();
 									</div> -->
 									<!-- Single Tab Content End -->
 									<!-- Single Tab Content Start -->
-								
-									<div class="tab-pane fade show active" id="lending" role="tabpanel">
+								<div class="mb-20">
+									<div class="tab-pane fade " id="lending" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Lending Details</h3>
                                            <a class="btn btn--primary" href="lend.php">Lend a book</a>
 										</div>
 									</div>
+								</div>
+								<div class="mb-20">
 									<div class="tab-pane fade show active" id="account-info" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Account Details</h3>
@@ -308,6 +310,7 @@ session_start();
 											</div>
 										</div>
 									</div>
+								</div>
 									<!-- Single Tab Content End -->
 								</div>
 							</div>
