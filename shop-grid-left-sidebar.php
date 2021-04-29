@@ -173,9 +173,9 @@ session_start();
 			</div>
 			<div class="container">
 				<div class="row">
-					<!--<div class="col-lg-9 order-lg-2">
+					<div class="col-lg-9 order-lg-2">
 						<div class="shop-toolbar with-sidebar mb--30">
-							<div class="row align-items-center">
+							<!--<div class="row align-items-center">
 								<!--<div class="col-lg-2 col-md-2 col-sm-6">
 									
 									<div class="product-view-mode">
@@ -192,9 +192,9 @@ session_start();
 								</div>
 								<div class="col-lg-2 col-md-2 col-sm-6  mt--10 mt-md--0">
 								</div>
-							</div>
+							</div>-->
 						</div>
-					</div>-->
+					</div>
 						<!--<div class="shop-toolbar d-none">
 							<div class="row align-items-center">
 								<div class="col-lg-2 col-md-2 col-sm-6">
