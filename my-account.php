@@ -208,28 +208,39 @@ session_start();
 									<div class="tab-pane fade" id="orders" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Orders</h3>
+
                       <div class="mb-20">
+                        <?php
+          								include 'config.php';
+
+          								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.order;');
+          								$stmt->execute();
+          								$result = $stmt->get_result();
+          								while($row = $result->fetch_assoc()):
+          							?>
                               <table class="table">
                                   <thead>
                                       <tr>
                                           <th class="pro-title">Customer name</th>
-                                          <th class="pro-title">email</th>
+                                          <!-- <th class="pro-title"></th> -->
                                           <th class="pro-title">phone</th>
                                           <th class="pro-title">Address</th>
-                                          <th class="pro-title">Mode of payment</th>
+                                          <!-- <th class="pro-title">Mode of payment</th> -->
                                           <th class="pro-title">products</th>
                                           <th class="pro-title">amount paid</th>
+                                          <th class="pro-title">Date of Purchase</th>
                                       </tr>
                                   </thead>
                                   <tbody>
                                       <tr>
-                                          <td class="pro-title">Deep</td>
-                                          <td class="pro-title">deepp3021@gmail.com</td>
-                                          <td class="pro-title">9662830514</td>
-                                          <td class="pro-title">Bangalore,Karnataks</td>
-                                          <td class="pro-title">Online</td>
-                                          <td class="pro-title">'Pitch Perfect(1), Batman(1), Fantastic Comics(1), The Beloved Wild(1)'</td>
-                                          <td class="pro-title">400</td>
+                                          <td class="pro-title"><?=$row['o_name']?></td>
+                                          <td class="pro-title"><?=$row['o_phone']?></td>
+                                          <td class="pro-title"><?=$row['o_address']?></td>
+                                          <td class="pro-title"><?=$row['o_products']?></td>
+                                          <td class="pro-title"><?=$row['o_amt_paid']?></td>
+                                          <td class="pro-title"><?=$row['o_date']?></td>
+                                          <!-- <td class="pro-title">'Pitch Perfect(1), Batman(1), Fantastic Comics(1), The Beloved Wild(1)'</td>
+                                          <td class="pro-title">400</td> -->
 
                                       </tr>
                                   </tbody>
