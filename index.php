@@ -291,7 +291,7 @@ session_start();
         <!--=================================
         Home Two Column Section
     ===================================== -->
-        <section class="section-margin">
+        <!--<section class="section-margin">
             <h1 class="sr-only">Promotion Section</h1>
             <div class="container">
                 <div class="row">
@@ -1179,7 +1179,7 @@ session_start();
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!-- Modal -->
 
         <!--=================================
