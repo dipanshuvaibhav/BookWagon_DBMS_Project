@@ -183,7 +183,8 @@ session_start();
 								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.product where p_name like %$str%;');
 								$stmt->execute();
 								$result = $stmt->get_result();
-                                if(mysqli_num_rows($result)==0)
+								echo "yes";
+                               /*if(mysqli_num_rows($result)==0)
                                 {
                                     echo "No data found";
                                 }
@@ -248,7 +249,7 @@ session_start();
 					</div>
 				</div>
 					</main>
-					</div>
+					</div>*/
 						<!-- Pagination Block -->
 
 						<!-- Modal -->
