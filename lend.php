@@ -26,13 +26,6 @@ session_start();
 								<img src="image/Logo1.png" alt="">
 							</a>
 						</div>
-						<div class="col-lg-3">
-							<div class="header-phone ">
-								<div class="icon">
-									<i class="fas fa-headphones-alt"></i>
-								</div>
-							</div>
-						</div>
 						<div class="col-lg-6">
 							<div class="main-navigation flex-lg-right">
 									<ul class="main-menu menu-right li-last-0">
