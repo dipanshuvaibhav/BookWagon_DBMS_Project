@@ -15785,7 +15785,8 @@ input[type="number"] {
 /*>>>>>>>> Sliders <<<<<<<<<*/
 /*===== Brand Slider ======*/
 .sb-slick-slider {
-  position: relative; }
+  position: relative;
+  left: 200px;}
   .sb-slick-slider .slick-dots {
     display: -webkit-box;
     display: -ms-flexbox;
