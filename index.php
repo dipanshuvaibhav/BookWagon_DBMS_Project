@@ -202,30 +202,36 @@ session_start();
                                                                     "dots":true
                                                                     }'>
                             <div class="single-slide bg-image bg-overlay--white"
-                                data-bg="image/bg-images/home-4-slider-1.jpg">
+                                data-bg="image/bg-images/3.png">
                                 <div class="home-content text-left pl--30">
                                     <div class="row">
                                         <div class="col-lg-5">
-                                            <span class="title-small">Cover</span>
-                                            <h1>Mockup.</h1>
-                                            <p>Cover up front of book and
-                                                <br>leave summary</p>
                                             <a href="shop-grid-left-sidebar.php" class="btn btn-outlined--pink">
-                                                Shop Now
+                                                Rent Now
                                             </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="single-slide bg-image bg-overlay--dark"
-                                data-bg="image/bg-images/home-4-slider-2.jpg">
+                                data-bg="image/bg-images/1.png">
                                 <div class="home-content text-center">
                                     <div class="row justify-content-end">
                                         <div class="col-lg-8">
-                                            <h1 class="v2">Cover</h1>
-                                            <h2></h2>
-                                            <a href="shop-grid-left-sidebar.php" class="btn btn--yellow">
-                                                Shop Now
+                                            <a href="blogpost.php" class="btn btn--yellow">
+                                                Write Now
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+				 <div class="single-slide bg-image bg-overlay--white"
+                                data-bg="image/bg-images/2.png">
+                                <div class="home-content text-left pl--30">
+                                    <div class="row">
+                                        <div class="col-lg-5">
+                                            <a href="lend.php" class="btn btn-outlined--pink">
+                                                Lend Now
                                             </a>
                                         </div>
                                     </div>
@@ -248,7 +254,9 @@ session_start();
                             <div class="icon">
                                 <i class="fas fa-shipping-fast"></i>
                             </div>
-
+				<div class="text">
+					<h5>Doorstep Delivery</h5>
+                            </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6 mt--30">
@@ -258,7 +266,6 @@ session_start();
                             </div>
                             <div class="text">
                                 <h5>Money Back Guarantee</h5>
-                                <p>100% money back</p>
                             </div>
                         </div>
                     </div>
@@ -269,7 +276,7 @@ session_start();
                             </div>
                             <div class="text">
                                 <h5>Cash On Delivery</h5>
-                                <p>Lorem ipsum dolor amet</p>
+                               
                             </div>
                         </div>
                     </div>
@@ -279,8 +286,7 @@ session_start();
                                 <i class="fas fa-life-ring"></i>
                             </div>
                             <div class="text">
-                                <h5>Help & Support</h5>
-                                <p>Call us : + 0123.4567.89</p>
+                                <h5>24x7 Support</h5>
                             </div>
                         </div>
                     </div>
