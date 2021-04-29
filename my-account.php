@@ -182,7 +182,7 @@ session_start();
 									<a href="#lending" data-toggle="tab"><i class="fa fa-cart-arrow-down"></i>Lending details</a>
 									<a href="#account-info" data-toggle="tab"><i class="fa fa-user"></i> Account
 										Details</a>
-									<a href="logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
+									
 								</div>
 							</div>
 							<!-- My Account Tab Menu End -->
@@ -206,7 +206,7 @@ session_start();
 									</div>
 									<!-- Single Tab Content End -->
 									<!-- Single Tab Content Start -->
-									<div class="tab-pane fade" id="orders" role="tabpanel">
+									<div class="tab-pane fade show active" id="orders" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Orders</h3>
 
@@ -272,13 +272,13 @@ session_start();
 									<!-- Single Tab Content End -->
 									<!-- Single Tab Content Start -->
 								
-									<div class="tab-pane fade" id="lending" role="tabpanel">
+									<div class="tab-pane fade show active" id="lending" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Lending Details</h3>
                                            <a class="btn btn--primary" href="lend.php">Lend a book</a>
 										</div>
 									</div>
-									<div class="tab-pane fade" id="account-info" role="tabpanel">
+									<div class="tab-pane fade show active" id="account-info" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Account Details</h3>
 											<div class="account-details-form">
