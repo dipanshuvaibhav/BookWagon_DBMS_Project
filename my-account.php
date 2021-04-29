@@ -270,6 +270,12 @@ session_start();
 									</div> -->
 									<!-- Single Tab Content End -->
 									<!-- Single Tab Content Start -->
+								<div class="tab-pane fade show active" role="tabpanel">
+										<div class="myaccount-content">
+											<h3>Lending Details</h3>
+                                            <h2><a href="lend.php">Lending a book</a></h3>
+										</div>
+									</div>
 									<div class="tab-pane fade" id="account-info" role="tabpanel">
 										<div class="myaccount-content">
 											<h3>Account Details</h3>
