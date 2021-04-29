@@ -180,10 +180,9 @@ session_start();
 							<?php
 								include 'config.php';
 								
-                                				$str= $_POST['search'];
-								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.product where p_name like '%$str%';');
-								$stmt->execute();
-								$result = $stmt->get_result();
+                                				$str= mysqli_real_escape_string($con,$_POST['search']);
+								$sql = "SELECT * FROM heroku_adaaf59afa8e08a.product where p_name like '%$str%'";
+								$result = mysqli_query($con,$sql);
 								
                               					
                                 
