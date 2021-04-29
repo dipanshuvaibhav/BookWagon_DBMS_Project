@@ -187,7 +187,7 @@ session_start();
                               					
                                 
 								while($row = $result->fetch_assoc()):
-							?>
+							
 							<div class="col-lg-4 col-sm-6">
 								<div class="product-card">
 									<div class="product-grid-content">
