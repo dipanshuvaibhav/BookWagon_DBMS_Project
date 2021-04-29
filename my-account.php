@@ -274,28 +274,26 @@ session_start();
 										<div class="myaccount-content">
 											<h3>Account Details</h3>
 											<div class="account-details-form">
-												<form action="#">
+												<form action="passChange.php">
 													<div class="row">
 														<div class="col-12  mb--30">
-															<input id="email" placeholder="Email Address" type="email">
+															<input id="email" placeholder="Email Address" value="<?=$_SESSION['email'];?>"type="email" >
 														</div>
 														<div class="col-12  mb--30">
 															<h4>Password change</h4>
 														</div>
-														<div class="col-12  mb--30">
+														<!-- <div class="col-12  mb--30">
 															<input id="current-pwd" placeholder="Current Password"
-																type="password">
+																type="password" >
+														</div> -->
+														<div class="col-lg-6 col-12  mb--30">
+															<input id="new-pwd" placeholder="New Password" type="password" name="pass" required>
 														</div>
 														<div class="col-lg-6 col-12  mb--30">
-															<input id="new-pwd" placeholder="New Password"
-																type="password">
-														</div>
-														<div class="col-lg-6 col-12  mb--30">
-															<input id="confirm-pwd" placeholder="Confirm Password"
-																type="password">
+															<input id="confirm-pwd" placeholder="Confirm Password" type="password" name="passC" required>
 														</div>
 														<div class="col-12">
-															<button class="btn btn--primary">Save Changes</button>
+															<button action="submit" class="btn btn--primary">Save Changes</button>
 														</div>
 													</div>
 												</form>
