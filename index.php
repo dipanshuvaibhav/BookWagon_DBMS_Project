@@ -215,10 +215,10 @@ session_start();
                             </div>
                             <div class="single-slide bg-image bg-overlay--dark"
                                 data-bg="image/bg-images/1.png">
-                                <div class="home-content text-center">
-                                    <div class="row justify-content-end">
-                                        <div class="col-lg-8">
-                                            <a href="blogpost.php" class="btn btn-outlined--pink">
+                                <div class="home-content text-left pl--30">
+                                    <div class="row">
+                                        <div class="col-lg-5">
+                                            <a href="blogpost.php" class="btn btn--pink">
                                                 Write Now
                                             </a>
                                         </div>
