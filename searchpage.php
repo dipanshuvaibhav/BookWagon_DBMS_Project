@@ -180,14 +180,14 @@ session_start();
 							<?php
 								include 'config.php';
                                 $str= $_POST['search'];
-								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.product where p_name like %$str%;');
+								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.product where p_name like '%$str%;'');
 								$stmt->execute();
 								$result = $stmt->get_result();
 								
                               					
                                 
 								while($row = $result->fetch_assoc()):
-							
+							?>
 							<div class="col-lg-4 col-sm-6">
 								<div class="product-card">
 									<div class="product-grid-content">
