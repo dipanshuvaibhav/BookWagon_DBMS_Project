@@ -281,7 +281,7 @@ session_start();
 									</div>
 								</div>
 
-                <div class="tab-pane fade show active" id="account-info" role="tabpanel">
+                <div class="tab-pane fade " id="account-info" role="tabpanel">
                 <div class="mb-20">
 										<div class="myaccount-content">
 											<h3>Account Details</h3>
