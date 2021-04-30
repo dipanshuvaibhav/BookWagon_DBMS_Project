@@ -24,10 +24,10 @@
 												</a>
 										</div>
 										<div class="col-lg-5">
-												<div class="header-search-block">
-														<input type="text" placeholder="Search entire store here">
-														<button>Search</button>
-												</div>
+												<form action="searchpage.php" method= "post">
+														<input type="text" name="search" placeholder="Search entire store here">
+														<button type="submit" name = "search1" class="btn btn-outlined">Search</button>
+                                                    								</form>
 										</div>
 										<div class="col-lg-4">
 												<div class="main-navigation flex-lg-right">
