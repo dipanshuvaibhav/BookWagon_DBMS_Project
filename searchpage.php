@@ -219,7 +219,7 @@ session_start();
 							<?php
 								include 'config.php';
                                 $str= $_POST['search'];
-								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.product where p_name like '%$str%';');
+								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.product;');
 								$stmt->execute();
 								$result = $stmt->get_result();
 								
