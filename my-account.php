@@ -349,28 +349,6 @@ session_start();
 					</div>
 				</div>
 			</div>
-			<div class=" col-xl-3 col-lg-2 col-sm-6">
-				<div class="single-footer pb--40">
-					<div class="footer-title">
-						<h3>Information</h3>
-					</div>
-					<ul class="footer-list normal-list">
-						<li><a href="contact.php">Contact us</a></li>
-
-					</ul>
-				</div>
-			</div>
-
-			<div class=" col-xl-3 col-lg-4 col-sm-6">
-				<div class="footer-title">
-					<h3>Newsletter Subscribe</h3>
-				</div>
-				<div class="newsletter-form mb--30">
-					<form action="./php/mail.php">
-						<input type="email" class="form-control" placeholder="Enter Your Email Address Here...">
-						<button class="btn btn--primary w-100">Subscribe</button>
-					</form>
-				</div>
 				<div class="social-block">
 					<h3 class="title">STAY CONNECTED</h3>
 					<ul class="social-list list-inline">
