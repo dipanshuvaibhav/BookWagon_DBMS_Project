@@ -15410,7 +15410,7 @@ input[type="number"] {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
       -ms-flex-direction: row;
-      flex-direction: row; } }
+       } }
   .blog-card .image {
     -webkit-box-flex: 50%;
     -ms-flex: 50%;
