@@ -28,10 +28,12 @@ session_start();
 												</a>
 										</div>
 										<div class="col-lg-5">
-												<form action="searchpage.php" method= "post">
+												<div class="header-search-block">
+  														<form action="searchpage.php" method= "post">
 														<input type="text" name="search" placeholder="Search entire store here">
 														<button type="submit" name = "search1" class="btn btn-outlined">Search</button>
                                                     								</form>
+  												</div>
 										</div>
 										<div class="col-lg-4">
 												<div class="main-navigation flex-lg-right">
