@@ -28,12 +28,7 @@ session_start();
 												</a>
 										</div>
 										<div class="col-lg-5">
-												<div class="header-search-block">
-                                                    <form action="searchpage.php" method= "post">
-														<input type="text" name='search' placeholder="Search entire store here">
-														<button type="submit" name = "search1" class="btn btn-outlined">Searchx</button>
-                                                    </form>
-												</div>
+												
 										</div>
 										<div class="col-lg-4">
 												<div class="main-navigation flex-lg-right">
@@ -219,7 +214,7 @@ session_start();
 							<?php
 								include 'config.php';
                                 $str= $_POST['search'];
-								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.product;');
+								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.product WHERE p_name LIKE '%$str%';');
 								$stmt->execute();
 								$result = $stmt->get_result();
 								
