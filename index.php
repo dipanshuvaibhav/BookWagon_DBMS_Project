@@ -30,7 +30,7 @@ session_start();
   												<div class="header-search-block">
   														<form action="searchpage.php" method= "post">
 														<input type="text" name="search" placeholder="Search entire store here">
-														<button type="submit" name = "search1" class="btn btn-outlined">Searchx</button>
+														<button type="submit" name = "search1" class="btn btn-outlined">Search</button>
                                                     								</form>
   												</div>
   										</div>
