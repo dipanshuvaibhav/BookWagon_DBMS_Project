@@ -57,10 +57,12 @@ session_start();
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-lg-5">
-							<form action="searchpage.php" method= "post">
-														<input type="text" name="search" placeholder="Search entire store here">
-														<button type="submit" name = "search1" class="btn btn-outlined">Search</button>
-                                                    								</form>
+							<div class="header-search-block">
+  							<form action="searchpage.php" method= "post">
+							<input type="text" name="search" placeholder="Search entire store here">
+							<button type="submit" name = "search1" class="btn btn-outlined">Search</button>
+                                                    	</form>
+  							</div>
 						</div>
 						<div class="col-lg-4">
 							<div class="main-navigation flex-lg-right">
@@ -68,7 +70,7 @@ session_start();
                                     <div class="login-block">
                                         <?php
                                             if(isset($_SESSION['id'])){
-                                                echo  '<a href="my-account.php" class="font-weight-bold">Welcome,".$_SESSION['name']."</a>';
+                                                echo  "<a href='my-account.php' class='font-weight-bold'>Welcome,".$_SESSION['name']."</a>";
                                             } else {
                                                 echo '<a href="login-register.php" class="font-weight-bold">Login</a> <br>
                                                 <span>or</span><a href="login-register.php">Register</a>';
