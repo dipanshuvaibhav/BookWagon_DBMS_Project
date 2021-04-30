@@ -220,21 +220,35 @@ session_start();
                                 <div class="home-content text-left pl--30">
                                     <div class="row">
                                         <div class="col-lg-5">
-                                            <a href="blogpost.php" class="btn btn-outlined--pink">
+                                          <?php
+            															if(isset($_SESSION['id'])){
+            															echo  '<a href="blogpost.php" class="btn btn-outlined--pink">Write Now</a>';
+            															} else {
+            															echo '<a href="login-register.php" class="btn btn-outlined--pink">Write Now</a>';
+            															}
+            															?>
+                                            <!-- <a href="blogpost.php" class="btn btn-outlined--pink">
                                                 Write Now
-                                            </a>
+                                            </a> -->
                                         </div>
                                     </div>
                                 </div>
                             </div>
-				 <div class="single-slide bg-image bg-overlay--white"
+				                     <div class="single-slide bg-image bg-overlay--white"
                                 data-bg="image/bg-images/2.png">
                                 <div class="home-content text-left pl--30">
                                     <div class="row">
                                         <div class="col-lg-5">
-                                            <a href="lend.php" class="btn btn-outlined--pink">
+                                          <?php
+            															if(isset($_SESSION['id'])){
+            															echo  '<a href="blogpost.php" class="btn btn-outlined--pink">Lend Now</a>';
+            															} else {
+            															echo '<a href="login-register.php" class="btn btn-outlined--pink">Lend Now</a>';
+            															}
+            															?>
+                                            <!-- <a href="lend.php" class="btn btn-outlined--pink">
                                                 Lend Now
-                                            </a>
+                                            </a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -278,7 +292,7 @@ session_start();
                             </div>
                             <div class="text">
                                 <h5>Cash On Delivery</h5>
-                               
+
                             </div>
                         </div>
                     </div>
