@@ -195,7 +195,7 @@ session_start();
 				?>
 					<div class="blog-card card-style-list">
 						<div class="row">
-							<div class="col-md-5">
+							<div class="col-md-4">
 
 									<img src="<?= $row['post_img']?>" alt="" style="max-width: 250px;max-height: 233px;">
 
