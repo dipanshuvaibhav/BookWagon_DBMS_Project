@@ -196,7 +196,7 @@ session_start();
         <section class="hero-area hero-slider-4 ">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-9 offset-lg-3">
+                    <div class="col">
                         <div class="sb-slick-slider" data-slick-setting='{
                                                                     "autoplay": true,
                                                                     "autoplaySpeed": 8000,
