@@ -184,9 +184,9 @@ session_start();
 								<div class="row">
 								<!-- author name -->
 									<div class="col-md-12 col-12 mb--15">
-										<label for="email">Name of book</label>
+										<label for="email">Full Name</label>
 										<input class="mb-0 form-control" type="text" id="name" name="name1"
-											placeholder="Enter the book title" required>
+											placeholder="Enter your full name" required>
 									</div>
 									<!-- heading -->
 									<div class="col-md-12 col-12 mb--15">
@@ -205,7 +205,6 @@ session_start();
 										<input type="file" id="image" name="image">
                     <progress value="0" max="100" id="uploader" >0%</progress>
                     <input type="hidden" id="imageUrl" name="imageUrl" >
-                    <input type="hidden" id="user_name" name="user_name" value="<?=$_SESSION['name'];?>">
                     <input type="hidden"  name="user" value="<?=$_SESSION['id'];?>" >
 									</div>
 
