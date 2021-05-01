@@ -187,7 +187,7 @@ session_start();
 				<div class="blog-list-cards">
 				<?php
 								include 'config.php';
-
+                                
 								$stmt = $conn->prepare('SELECT * FROM heroku_adaaf59afa8e08a.posts;');
 								$stmt->execute();
 								$result = $stmt->get_result();
@@ -203,7 +203,14 @@ session_start();
 							<div class="col-md-6">
 								<div class="card-content">
 									<h3 class="title"><?= $row['title']; ?></h3>
-									<p class="post-meta"><span><?= $row['created_at'];?> </span> | By <?= $row['author']; ?> </p>
+                                    <? 
+                                    include 'config.php';
+                                
+                                    $stmt1 = $con->prepare("SELECT cust_name FROM heroku_adaaf59afa8e08a.customer_table WHERE customerID= '$row['user_id']';");
+                                    $stmt1->execute();
+                                    $result1 = $stmt1->get_result();
+                                     ?>
+									<p class="post-meta"><span><?= $row['created_at'];?> </span> | By <?= $result1; ?> </p>
 									<article>
 										<h2 class="sr-only">
 											Blog Article
