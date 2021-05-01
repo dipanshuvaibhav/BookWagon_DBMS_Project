@@ -215,10 +215,9 @@ session_start();
 															?>
 														</form>
 
-														<!-- wishlist button -->
-														<!-- <a href="wishlist.php" class="single-btn">
-															<i class="fas fa-heart"></i>
-														</a> -->
+														<a href="#" class="single-btn">
+															<i class="fas fa-random"></i>
+														</a>
 													</div>
 												</div>
 												<div class="product-header">
