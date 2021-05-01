@@ -3,13 +3,14 @@ session_start();
 
  require 'config.php';
  $user_id = $_POST['user'];
- $name = $_POST['name1'];
+ $name= $_POST['user_name'];
+ $book = $_POST['name1'];
  $title = $_POST['heading'];
  $content = $_POST['content'];
  $image_url = $_POST['imageUrl'];
 
- $sql = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.posts(user_id,author,title,content,post_img) VALUES(?,?,?,?,?)");
- $sql->bind_param("issss",$user_id,$name,$title,$content,$image_url);
+ $sql = $conn->prepare("INSERT INTO heroku_adaaf59afa8e08a.posts(user_id,author,title,content,post_img,Book_name) VALUES(?,?,?,?,?,?)");
+ $sql->bind_param("issss",$user_id,$name,$title,$content,$image_url,$book);
  $sql->execute();
 
 echo "<script type='text/javascript'>alert('Blog Updated successfully!');
