@@ -213,14 +213,12 @@ session_start();
 						<div class="shop-product-wrap grid with-pagination row space-db--30 shop-border">
 							<?php
 								include 'config.php';
-                                $str= $_POST['search'];
+                                				$str= $_POST['search'];
 								$stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.product WHERE p_name LIKE '%$str%';");
-								
 								$stmt->execute();
 								$result = $stmt->get_result();
-								
-                              					
-                                
+								if(msqli_num_rows($result)==0)
+									echo '<h3>No result matches your search</h3>';
 								while($row = $result->fetch_assoc()):
 							?>
 							<div class="col-lg-4 col-sm-6">
