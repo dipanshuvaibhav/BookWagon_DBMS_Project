@@ -217,7 +217,7 @@ session_start();
 								$stmt = $conn->prepare("SELECT * FROM heroku_adaaf59afa8e08a.product WHERE p_name LIKE '%$str%';");
 								$stmt->execute();
 								$result = $stmt->get_result();
-								if(msqli_num_rows($result)<1){
+								if(mysqli_num_rows($result)<1){
 									echo '<h3>No result matches your search</h3>';}
 								while($row = $result->fetch_assoc()):
 							?>
