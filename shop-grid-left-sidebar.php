@@ -214,10 +214,12 @@ session_start();
 															}
 															?>
 														</form>
-
-														<a href="#" class="single-btn">
-															<i class="fas fa-random"></i>
-														</a>
+														<form action="searchpage2.php" method="post" >
+															<input type="hidden" class="p_name" value="<?= $row['p_name']?>">
+															<button type="submit" name = "search2" class="single-btn" ><i class="fas fa-random "></i></button>';
+															<?php?>
+														</form>
+														
 													</div>
 												</div>
 												<div class="product-header">
