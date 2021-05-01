@@ -205,7 +205,7 @@ session_start();
 										<input type="file" id="image" name="image">
                     <progress value="0" max="100" id="uploader" >0%</progress>
                     <input type="hidden" id="imageUrl" name="imageUrl" >
-                    <input type="hidden"  name="user_name" value="<?=$_SESSION['name'];?>">
+                    <input type="hidden" id="user_name" name="user_name" value="<?=$_SESSION['name'];?>">
                     <input type="hidden"  name="user" value="<?=$_SESSION['id'];?>" >
 									</div>
 
