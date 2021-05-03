@@ -238,7 +238,7 @@ session_start();
 												<td colspan="6" class="actions">
 													<!-- update cart block  -->
 													<div class="update-block text-right">
-														<a href="shop-grid-left-sidebar.php" class="btn btn--primary font-weight-bold">Update</a>'
+														<a href="shop-grid-left-sidebar.php" class="btn btn--primary font-weight-bold">Update</a>
 													</div>
 												</td>
 											</tr>
@@ -264,8 +264,8 @@ session_start();
 								</div>
 								<div class="cart-summary-button">
 									<a href="checkout.php" class="checkout-btn c-btn btn--primary">Checkout</a>
-									
-									
+
+
 								</div>
 							</div>
 						</div>
@@ -300,7 +300,7 @@ session_start();
 										</div>
 								</div>
 						</div>
-						
+
 						<div class=" col-xl-3 col-lg-4 col-sm-6">
 								<div class="footer-title">
 										<h3>Newsletter Subscribe</h3>
