@@ -37,40 +37,41 @@ session_start();
 										</div>
 										<div class="col-lg-4">
 												<div class="main-navigation flex-lg-right">
-														<div class="cart-widget">
-															<!-- login block -->
-																<div class="login-block">
-																	<?php
-																		if(isset($_SESSION['id'])){
-																		echo  "<a href='my-account.php' class='font-weight-bold'>Welcome,".$_SESSION['name']."</a>";
-																		} else {
-																		echo '<a href="login-register.php" class="font-weight-bold">Login</a> <br>
-																		<span>or</span><a href="login-register.php">Register</a>';
-																		}
-																		?>
-																</div>
-																<!-- shopping cart logo  -->
-                                <div class="cart-block">
-                                    <div class="cart-total">
-                                        <span class="text-number" id="cart-item">
-                                        </span>
-                                        <span class="text-item">
-                                            Shopping Cart
-                                        </span>
+                          <div class="cart-widget">
+                            <!-- login block -->
+                              <div class="login-block">
+                                <?php
+                                  if(isset($_SESSION['id'])){
+                                  echo  "<a href='my-account.php' class='font-weight-bold'>Welcome,".$_SESSION['name']."</a>";
+                                  } else {
+                                  echo '<a href="login-register.php" class="font-weight-bold">Login</a> <br>
+                                  <span>or</span><a href="login-register.php">Register</a>';
+                                  }
+                                  ?>
+                              </div>
+                              <!-- shopping cart logo  -->
+                              <div class="cart-block">
+                                  <div class="cart-total">
+                                      <span class="text-number" id="cart-item">
+                                      </span>
+                                      <span class="text-item">
+                                          Shopping Cart
+                                      </span>
 
-                                    </div>
-                                    <div class="cart-dropdown-block">
+                                  </div>
+                                  <div class="cart-dropdown-block">
 
-                                        <div class=" single-cart-block ">
-                                            <div class="btn-block">
-                                                <a href="cart.php" class="btn">View Cart <i
-                                                        class="fas fa-chevron-right"></i></a>
-                                                <a href="checkout.php" class="btn btn--primary">Check Out <i
-                                                        class="fas fa-chevron-right"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                      <div class=" single-cart-block ">
+                                          <div class="btn-block">
+                                              <a href="cart.php" class="btn">View Cart <i
+                                                      class="fas fa-chevron-right"></i></a>
+                                              <a href="checkout.php" class="btn btn--primary">Check Out <i
+                                                      class="fas fa-chevron-right"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
 														</div>
 												</div>
 										</div>
