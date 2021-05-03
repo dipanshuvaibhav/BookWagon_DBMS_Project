@@ -241,7 +241,7 @@ session_start();
                                         <div class="col-lg-5">
                                           <?php
             															if(isset($_SESSION['id'])){
-            															echo  '<a href="blogpost.php" class="btn btn-outlined--pink">Lend Now</a>';
+            															echo  '<a href="lend.php" class="btn btn-outlined--pink">Lend Now</a>';
             															} else {
             															echo '<a href="login-register.php" class="btn btn-outlined--pink">Lend Now</a>';
             															}
