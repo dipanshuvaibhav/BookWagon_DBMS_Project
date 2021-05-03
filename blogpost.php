@@ -50,27 +50,27 @@ session_start();
 																		?>
 																</div>
 																<!-- shopping cart logo  -->
-																<div class="cart-block">
-																		<div class="cart-total">
-																				<span class="text-number" id="cart-item">
-																				</span>
-																				<span class="text-item">
-																						Shopping Cart
-																				</span>
+                                <div class="cart-block">
+                                    <div class="cart-total">
+                                        <span class="text-number" id="cart-item">
+                                        </span>
+                                        <span class="text-item">
+                                            Shopping Cart
+                                        </span>
 
-																		</div>
-																		<div class="cart-dropdown-block">
+                                    </div>
+                                    <div class="cart-dropdown-block">
 
-																				<div class=" single-cart-block ">
-																						<div class="btn-block">
-																								<a href="cart.php" class="btn">View Cart <i
-																												class="fas fa-chevron-right"></i></a>
-																								<a href="checkout.php" class="btn btn--primary">Check Out <i
-																												class="fas fa-chevron-right"></i></a>
-																						</div>
-																				</div>
-																		</div>
-																</div>
+                                        <div class=" single-cart-block ">
+                                            <div class="btn-block">
+                                                <a href="cart.php" class="btn">View Cart <i
+                                                        class="fas fa-chevron-right"></i></a>
+                                                <a href="checkout.php" class="btn btn--primary">Check Out <i
+                                                        class="fas fa-chevron-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 														</div>
 												</div>
 										</div>
@@ -243,7 +243,7 @@ session_start();
 										</div>
 								</div>
 						</div>
-						
+
 						<div class=" col-xl-3 col-lg-4 col-sm-6">
 								<div class="footer-title">
 										<h3>Newsletter Subscribe</h3>
