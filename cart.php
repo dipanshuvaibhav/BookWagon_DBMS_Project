@@ -238,9 +238,7 @@ session_start();
 												<td colspan="6" class="actions">
 													<!-- update cart block  -->
 													<div class="update-block text-right">
-														<a href=shop-grid-left-sidebar.php>
-														<input type="submit" class="btn btn-outlined" name="update_cart"
-														       value="Update cart"></a>
+														<a href="shop-grid-left-sidebar.php" class="btn btn--primary font-weight-bold">Update</a>'
 													</div>
 												</td>
 											</tr>
